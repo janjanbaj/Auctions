@@ -3,7 +3,7 @@ The following is a guide with the help of Gemini Pro to compile CATS 2.0 on a Ma
 - As per the README for CATS, remove all instances of -DLINUX flags so that we can compile it for UNIX. 
 - Use the MakeFile for CATS as per this repo. Note: I have not used the CPLEX LP Solver for this, rather we rely on the default solver _lp\_solver_ that CATS comes with.
 
-### First Step is Change the CATS/lp_solve/lpglob.h 
+### First: Change the CATS/lp_solve/lpglob.h 
 This error occurs because modern versions of Flex (used by macOS) define `yyleng` as `unsigned long` (specifically `yy_size_t`), whereas the legacy code in `lpglob.h` expects an `int`.
 
 To fix this, update `kevinlb1/cats/CATS-38cbf35f5c36796522cb76895fd6388f0dd63f5c/lp_solve_4.0/lpglob.h`:
