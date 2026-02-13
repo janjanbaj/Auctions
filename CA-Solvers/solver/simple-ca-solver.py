@@ -36,6 +36,7 @@ problem += (obj_function, "Max Profit")
 add_constraints(problem, non_overlaping_constraints)
 
 print(problem)
+print(f"Length of constraints: {len(non_overlaping_constraints)}")
 
 problem.solve()
 
@@ -45,20 +46,20 @@ for v in problem.variables():
 
 
 # Equivalent. Check if the LP file created by CATs is the same as the one our script did.
-from docplex.mp.model_reader import ModelReader
-
-
-m = ModelReader.read("../../CATS/0000.lp")
-m.export_as_mps("./0000.mps")
-
-variables, pulp_model = LpProblem.fromMPS("./0000.mps")
-
-# You can now work with the pulp_model object as usual
-print(f"Successfully read problem: {pulp_model.name}")
-
-pulp_model.solve()
-
-
-for v in pulp_model.variables():
-    if v.varValue == 1:
-        print(v.name, "=", v.varValue)
+#from docplex.mp.model_reader import ModelReader
+#
+#
+#m = ModelReader.read("../../CATS/0000.lp")
+#m.export_as_mps("./0000.mps")
+#
+#variables, pulp_model = LpProblem.fromMPS("./0000.mps")
+#
+## You can now work with the pulp_model object as usual
+#print(f"Successfully read problem: {pulp_model.name}")
+#
+#pulp_model.solve()
+#
+#
+#for v in pulp_model.variables():
+#    if v.varValue == 1:
+#        print(v.name, "=", v.varValue)
