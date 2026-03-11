@@ -1,0 +1,4405 @@
+    1  clear
+    2  ls
+    3  nvim 
+    4  nvim ~/.zsh
+    5  nvim ~/.zshrc
+    6  clear
+    7  ls
+    8  source ~/.zsh
+    9  source ~/.zshrc
+   10  clear
+   11  ls
+   12  mkdir Code
+   13  ls
+   14  clear
+   15  ls
+   16  cd Code
+   17  ls
+   18  nvim ./
+   19  celar
+   20  ls
+   21  sudo ufw status
+   22  clear
+   23  ls
+   24  clear
+   25  ls
+   26  sudo apt install fail2ban
+   27  clear
+   28  ls
+   29  fail2bam
+   30  fail2ban
+   31  clear
+   32  ls
+   33  celar
+   34  ls
+   35  clear
+   36  ls
+   37  sudo apt install tmux
+   38  clear
+   39  ls
+   40  cd ..
+   41  ls
+   42  clear
+   43  ls
+   44  cd Code
+   45  ls
+   46  2clear
+   47  ls
+   48  clear
+   49  ls
+   50  pyenv
+   51  clearls
+   52  clear
+   53  ls
+   54  pyenv install 3.7
+   55  ls
+   56  sudo apt install build-tools
+   57  clear
+   58  ls
+   59  pyenv install 3.7
+   60  sudo apt install gcc
+   61  clear
+   62  ls
+   63  pyenv install 3.7
+   64  sudo apt install make
+   65  pyenv install 3.7
+   66  sudo apt install build-essentials
+   67  sudo apt install build-essential
+   68  pyenv install 3.7
+   69  clear
+   70  ls
+   71  clear
+   72  ls
+   73  cd Code
+   74  ls
+   75  clear
+   76  ls
+   77  clear
+   78  ls
+   79  git clone github.com/MandR1215/EfficientPE
+   80  git clone https://github.com/MandR1215/EfficientPE
+   81  clear
+   82  ls
+   83  cd EfficientPE
+   84  ls
+   85  scurl -s "https://get.sdkman.io" | bash
+   86  clear
+   87  ls
+   88  curl -s "https://get.sdkman.io" | bash
+   89  cd
+   90  clear
+   91  ls
+   92  curl -s "https://get.sdkman.io" | bash
+   93  sudo apt install unzip
+   94  curl -s "https://get.sdkman.io" | bash
+   95  sudo apt install zip
+   96  curl -s "https://get.sdkman.io" | bash
+   97  sdk help
+   98  source "/home/janeet/.sdkman/bin/sdkman-init.sh"\n
+   99  sdk help
+  100  clear
+  101  lw
+  102  sdk hel
+  103  sdk list
+  104  sdk install java 8.0.
+  105  sdk list java
+  106  sdk install 8.0.482-tem
+  107  sdk install java 8.0.482-tem
+  108  ls
+  109  clear
+  110  ls
+  111  cd Code
+  112  ls
+  113  cd EfficientPE
+  114  ls
+  115  clear
+  116  ls
+  117  python --version
+  118  pyenv
+  119  clear
+  120  ls
+  121  nvim ~/.bashrc
+  122  clear
+  123  ls
+  124  source ~/.zshrc
+  125  clear
+  126  ls
+  127  pyenv
+  128  pyenv install 3.7
+  129  sudo apt update
+  130  sudo apt install build-essential
+  131  sudi apt install zlib
+  132  sudo apt install zlib
+  133  sudo apt install zlib1g-dev
+  134  sudo apt upgrade
+  135  clear
+  136  ls
+  137  pyenv install 3.7
+  138  sudo apt update\n\nsudo apt install -y \\n  build-essential \\n  make \\n  libssl-dev \\n  zlib1g-dev \\n  libbz2-dev \\n  libreadline-dev \\n  libsqlite3-dev \\n  wget \\n  curl \\n  llvm \\n  libncurses5-dev \\n  libncursesw5-dev \\n  xz-utils \\n  tk-dev \\n  libffi-dev \\n  liblzma-dev \\n  python3-openssl \\n  git\n
+  139  pyenv install --force 3.7.17\n
+  140  python --version
+  141  pyenv local 3.7.17
+  142  python
+  143  clear
+  144  ls
+  145  pip 
+  146  pip install -r requirements.txt
+  147  clear
+  148  ls
+  149  python simulation_mlca.py
+  150  nvim ./
+  151  clear
+  152  ls
+  153  nvim 
+  154  whereis nvim
+  155  nvim --help
+  156  nvim
+  157  nvim /home/janeet/.config/
+  158  nvim
+  159  nvim /home/janeet/.config/nvim/init.lua
+  160  clear
+  161  ls
+  162  touch -r /home/janeet/.config/nvim/init.lua
+  163  mkfile
+  164  mkdir -p /home/janeet/.config/nvim
+  165  touch -r /home/janeet/.config/nvim/init.lua
+  166  touch /home/janeet/.config/nvim/init.lua
+  167  nvim /home/janeet/.config/nvim/init.lua
+  168  clear
+  169  ls
+  170  nvim ./
+  171  nvim /home/janeet/.config/nvim/init.lua
+  172  nvim ./
+  173  nvim /home/janeet/.config/nvim/init.lua
+  174  clear
+  175  ls
+  176  nvim ~/.config/nvim/init.lua
+  177  celar
+  178  ls
+  179  sudo apt uninstall nvim
+  180  sudo apt remove nvim
+  181  sudo apt remove neovim
+  182  wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage\nchmod u+x nvim.appimage\n./nvim.appimage\n
+  183  ls
+  184  cd
+  185  clear
+  186  ls
+  187  wget https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
+  188  wget https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-linux-arm64.appimage
+  189  clear
+  190  ls
+  191  ./nvim-linux-arm64.appimage --appimage-extract
+  192  chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage
+  193  ls
+  194  rm nvim-linux-arm64.appimage
+  195  wget https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-linux-x86_64.appimage
+  196  chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage
+  197  ./nvim-linux-x86_64.appimage --appimage-extract
+  198  ls
+  199  ls squashfs-root
+  200  ls
+  201  sudo mv squashfs-root/usr/bin/nvim /usr/bin/
+  202  nvim
+  203  clear
+  204  ls
+  205  rm nvim-linux-x86_64.appimage
+  206  rm -rf squashfs-root
+  207  sudo rm /usr/bin/nvim
+  208  wget https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-x86_64.appimage
+  209  clear
+  210  ls
+  211  ./nvim-linux-x86_64.appimage --appimage-extract
+  212  chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage --appimage-extract
+  213  ls
+  214  sudo mv squashfs-root/usr/bin/nvim /usr/bin/
+  215  nvim 
+  216  nvim --version
+  217  nvim sudo rm -rf /usr/share/nvim
+  218  sudo rm -rf /usr/share/nvim
+  219  sudo rm -f /usr/bin/nvim
+  220  nvim 
+  221  sudo mv squashfs-root/usr/bin/nvim /usr/bin/
+  222  ls
+  223  rm squashfs-root
+  224  rm -rf squashfs-root
+  225  chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage --appimage-extract
+  226  sudo mv squashfs-root/usr/bin/nvim /usr/bin/
+  227  nvim 
+  228  nvim
+  229  ls /usr/share/nv
+  230  ls /usr/share/nvim
+  231  which nvim
+  232  nvim
+  233  echo $PATH
+  234  nvim 
+  235  nvim --clean
+  236  nvim
+  237  which nvim\nnvim --version\necho $VIMRUNTIME\n
+  238  curl -fsSL https://raw.githubusercontent.com/MordechaiHadad/bob/master/install.sh | bash\n
+  239  nvim 
+  240  ./nvim-linux-x86_64.appimage --version
+  241  nvim 
+  242  nvim
+  243  ls
+  244  ls squashfs-root
+  245  ls squashfs-root/usr/lib
+  246  ls squashfs-root/usr/lib/nvim
+  247  ls squashfs-root/usr/share
+  248  ls squashfs-root/usr/share/nvim/runtime
+  249  mv squashfs-root/usr/share/nvim /usr/share/
+  250  sudo mv squashfs-root/usr/share/nvim /usr/share/
+  251  nvim 
+  252  nvim ~/.config/nvim/init.lua
+  253  nvim 
+  254  ls /usr/share/nvim/runtime/ftplugin/lua.lua
+  255  nvim 
+  256  nvim
+  257  clear
+  258  ls
+  259  nvim 
+  260  clear
+  261  ls
+  262  cd Code
+  263  ls
+  264  cd EfficientPE
+  265  ls
+  266  nvim ./
+  267  p
+  268  python s
+  269  python simulation_mlca.py
+  270  nvim ./
+  271  python simulation_mlca.py
+  272  nvim ./
+  273  python simulation_mlca.py
+  274  nvim ./
+  275  python simulation_mlca.py
+  276  nvim ./
+  277  grep "*=}" ./
+  278  nvim ./
+  279  awk '\n  /f["'\'']/ {\n    while (match($0, /\{[^}]*=\}/)) {\n      printf "%s:%d: %s\n", FILENAME, FNR, $0\n      break\n    }\n  }\n' *.py\n
+  280  nvim analyze_result.py
+  281  grep -RIn --include="*.py" 'f["'\''][^"'\'']*\{[^}]*=\}' .\n
+  282  awk '\n  /f["'\'']/ {\n    while (match($0, /\{[^}]*=\}/)) {\n      printf "%s:%d: %s\n", FILENAME, FNR, $0\n      break\n    }\n  }\n' *.py\n
+  283  python simulation_mlca.py
+  284  nvim ./
+  285  if grep -RIn --include="*.py" 'f["'\''][^"'\'']*\{[^}]*=\}' .; then\n  echo "ERROR: f-strings ending with '=' detected"\n  exit 1\nfi\n
+  286  sed -Ei '\n/f["'\'']/ {\n  s/\{([^}]*?)=\}/\{\1\}/g\n}\n' *.py\n
+  287  find . -type f -name "*.py" -exec sed -Ei '\n/f["'\'']/ {\n  s/\{([^}]*?)=\}/\{\1\}/g\n}\n' {} +\n
+  288  python simulation_mlca.py
+  289  pip install docplex
+  290  pip install docplex==2.15.194
+  291  nvim re
+  292  nvim requirements.txt
+  293  python simulation_mlca.py
+  294  java --version
+  295  java -version
+  296  sdclear
+  297  clear
+  298  ls
+  299  rm log*
+  300  ls
+  301  clear
+  302  ls
+  303  sdkman list
+  304  sdk list java
+  305  sdk install 11.0.29-tem
+  306  sdk list java
+  307  sdk install 11.0.29-tem
+  308  sdk list java
+  309  sdk install 11.0.30-tem
+  310  nvim ./
+  311  sdk install 11.0.30-tem
+  312  sdk list java
+  313  sdk install java11.0.30-tem
+  314  sdk install java 11.0.30-tem
+  315  clear
+  316  ls
+  317  python simulation_mlca.py
+  318  ls
+  319  clear
+  320  ls
+  321  python simulation_mlca.py
+  322  clear
+  323  ls
+  324  nvim ~/.zsh
+  325  nvim ~/.zshrc
+  326  celar
+  327  ls
+  328  clear
+  329  ls
+  330  nvim ./
+  331  clear
+  332  ls
+  333  clear
+  334  ls
+  335  ls lib
+  336  python3 simulation_mlca.py
+  337  python simulation_mlca.py
+  338  curl --header 'Host: dl.boxcloud.com' --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0' --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' --header 'Accept-Language: en-US,en;q=0.9' --header 'Sec-Fetch-Storage-Access: none' --header 'Sec-GPC: 1' --header 'Alt-Used: dl.boxcloud.com' --referer 'https://ibm.ent.box.com/' --header 'Upgrade-Insecure-Requests: 1' --header 'Sec-Fetch-Dest: iframe' --header 'Sec-Fetch-Mode: navigate' --header 'Sec-Fetch-Site: cross-site' --header 'Sec-Fetch-User: ?1' 'https://dl.boxcloud.com/zip_download/zip_download?ProgressReportingKey=B0347AC0EF3173C5F5983112BFE7F196&d=298743794026&ZipFileName=Preview.zip&Timestamp=1770942811&SharedLink=https%3A%2F%2Fibm.box.com%2Fs%2F63kugldvex6sq9awjbxjz26qja9t1kxg&HMAC2=56d43ee7a61fb1e5cfabc77662615728df657e0ed9bc7e02189cc9f9e7840d9f' --output 'Preview.zip'
+  339  ls
+  340  rm Pre
+  341  rm Preview.zip
+  342  curl --header 'Host: dl.boxcloud.com' --user-agent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:147.0) Gecko/20100101 Firefox/147.0' --header 'Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' --header 'Accept-Language: en-US,en;q=0.9' --header 'Sec-Fetch-Storage-Access: none' --header 'Sec-GPC: 1' --header 'Alt-Used: dl.boxcloud.com' --referer 'https://ibm.ent.box.com/' --header 'Upgrade-Insecure-Requests: 1' --header 'Sec-Fetch-Dest: iframe' --header 'Sec-Fetch-Mode: navigate' --header 'Sec-Fetch-Site: cross-site' --header 'Sec-Fetch-User: ?1' 'https://dl.boxcloud.com/zip_download/zip_download?ProgressReportingKey=B0347AC0EF3173C5F5983112BFE7F196&d=298743794026&ZipFileName=Preview.zip&Timestamp=1770942811&SharedLink=https%3A%2F%2Fibm.box.com%2Fs%2F63kugldvex6sq9awjbxjz26qja9t1kxg&HMAC2=56d43ee7a61fb1e5cfabc77662615728df657e0ed9bc7e02189cc9f9e7840d9f' --output 'Preview.zip'
+  343  clear
+  344  ls
+  345  rm Preview.zip
+  346  wget https://public.boxcloud.com/d/1/b1\!znG8iVccQ9eM2S0v72oIZRgSdcb7nAU1T5zNQdSOiMdBWq1TEg4kNle2R3U7-3IOOy_8w6ZNlEQ9KB20RtzOVRP8XLn054wSnwiYYLm9lPmSZhD5cm1W7jaalBxMgkVb06sXzfHrzspD050IQzBJOll6KKPgtCG5Jzc5drRXebrQbhdSX2_55u_i_OQb628wjCiUhBcmSl2xVRsKH8MSoboJWb9BerYr7fUWhyNGOB7o-NYX3GkAATkSpgMlrtiuHaTnpdSuGOZl7valQyUXQ7LC_4lrWajr1dyIHaoUyIP_sDS9YKOkYJAKbtM1192KzpSJyyAGwzR975mJVRdDByY9bSw-bMpLdGczeloLXv_AHv-O3L14OranyEjIcKmFsgs-L1Yft7I336uAy5IqlJqNrWeevUlwGkRwf1wsoCktnWuxVM0xWKf8j3FGciamN9P3HjFZGp4KQEBxula2kiZRaIWZ85XziaiHhUQroAGiTVMaHbWnt0Id4uHuQREJtr80eX3CvMbKWBppu9MOSRKUOaAdUEvl8A8L9GSWAnFdsOzffocpbckqYHgqmTLi50kxP-PE0Qhsib63KCrHzo1BaBO_mM6jAEm9lvH1l82NKcQ-AZ5tSZhxm-2gLiuPE86omk3f3Vl-HCEYRTqeoEqs_95Mze3X0CGfostWbgittlwSO1IqmHgckpf4z4JN4CRm_Y94hdv8pS60UbIGcsWAolB1lsiuiFGMrRKiI_7s8AYEJXIqQ6HT59x5Qp8eIQP7_IvjCbZTb_tU-lyfFgvh31HDLpENxF7ENAV4Zjd-L73ir9nH1OiwomApe3OkJak-vE7xxjPH-vX6gQHLhBGo4dKBHiQrNwV9ASG5-Lo0noPFcYfUVcX5awzWSK8PcltCSmOtD7wOyEZA1h7ZLKm9q1AMe6Xf_otHVEnwKAacfVjpXBAxPBQWULUMs2WlnCBDEpWMtsPCiuRQvV7AbCDMWGYpFsl4a6TY0umc6Rua9CgkQVThETnyAGIuElZSWH38Gfs7ioOUz7VvWegq4pHMz_Oa9jBtn4d8MNLrBDxYPJ66F2iRjoSq0CwHoT3QzirktajZ72IHHWDSuAenkg_OdBh8Isv3MukzDumRVJniaztREIfTrxRR2BxGs9vg4i-wk64sxEprbD5CK7jPcYjRjfyMJ9duoyUyNEKAQE9p_C65v6L5sZUyK1fA9Eqa_OwcM7ysjx1a2UHuhrnZ6rqztLiG_oX4Dw8RWUlGEzvc28MduFYDvezD--LzI-vWDDVTLT9Q1X_GpFGdggJznYw9Rsi6oZmoEZaXAcpNIqzwDiNamk8hgxqultknLC95zTJ3teLF08LJr4fEPu8gWT3NdpvCjLmb0lOvCOEbxWFUqbXgqDRi7f8gJeGA26jFP1wNzllzmEZRM0hfEqZuATIr-QqZenxp_eiTvtzhjB8duA../download
+  347  clear
+  348  ls
+  349  mv download ~/
+  350  ls
+  351  clear
+  352  sl
+  353  cd 
+  354  clear
+  355  lsls
+  356  ls
+  357  mv download cplex.zip
+  358  mv cplex.zip cplex.bin
+  359  clear
+  360  ls
+  361  file cplex.bin
+  362  chmod +x cplex.bin
+  363  ./cplex.bin
+  364  sudo ./cplex.bin
+  365  clear
+  366  ls
+  367  rm nvim-linux-x86_64.appimage
+  368  clear
+  369  ls
+  370  cd Code
+  371  ls
+  372  cd EfficientPE
+  373  l
+  374  python simulation_mlca.py
+  375  r
+  376  python simulation_mlca.py
+  377  cclear
+  378  ls
+  379  clear
+  380  ls /opt/ibm
+  381  ls /opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux/\n
+  382  source /opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux/cplexenv.sh\n
+  383  ls /opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux/\n
+  384  echo $LD_LIBRARY_PATH | grep cplex\n
+  385  echo 'source /opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux/cplexenv.sh' >> ~/.bashrc\n
+  386  echo $LD_LIBRARY_PATH | grep cplex\n
+  387  nvim ~/.bashrc
+  388  echo $LD_LIBRARY_PATH \n
+  389  ls /opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux/\n
+  390  nvim ./
+  391  grep "cplex"
+  392  grep "cplex" .
+  393  python simulation_mlca.py
+  394  ls /opt/ibm/ILOG/\n
+  395  export LD_LIBRARY_PATH=/opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux:$LD_LIBRARY_PATH\n
+  396  echo $LD_LIBRARY_PATH | grep cplex\n
+  397  python simulation_mlca.py
+  398  ldd /opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux/libcplex.so\n
+  399  echo $LD_LIBRARY_PATH | grep cplex\n
+  400  ls /opt/ibm/ILOG/\n
+  401  export LD_LIBRARY_PATH=/opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux:$LD_LIBRARY_PATH\n
+  402  echo $LD_LIBRARY_PATH | grep cplex\n
+  403  ldd /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/libcplex2212.so
+  404  echo 'export LD_LIBRARY_PATH=/opt/ibm/ILOG/CPLEX_Studio*/cplex/bin/x86-64_linux:$LD_LIBRARY_PATH' >> ~/.bashrc\nsource ~/.bashrc\n
+  405  cl
+  406  source ~/.zshrc
+  407  clear
+  408  ls
+  409  cd /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex
+  410  ls
+  411  cd lib
+  412  l
+  413  ls
+  414  clear
+  415  ls
+  416  cd x86-64_linux
+  417  l
+  418  ls
+  419  cd ..
+  420  ls
+  421  ls bin
+  422  ls bin/x86-64_linux/
+  423  cd bin/x86-64_linux
+  424  ls
+  425  cp libcplex2212.so libcplex.so
+  426  sudo cp libcplex2212.so libcplex.so
+  427  cd
+  428  cd Ef
+  429  ls
+  430  cd Code
+  431  cd EfficientPE
+  432  l
+  433  python simulation_mlca.py
+  434  echo $LD_LIBRARY_PATH | grep cplex\n
+  435  export LD_LIBRARY_PATH=/opt/ibm/ILOG/CPLEX_Studio2211/cplex/bin/x86-64_linux:$LD_LIBRARY_PATH\n
+  436  echo $LD_LIBRARY_PATH\n
+  437  ls /opt/ibm/ILOG/CPLEX_Studio2211/cplex/bin/x86-64_linux | grep cplex\n
+  438  python simulation_mlca.py
+  439  ls
+  440  cd /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+  441  ls
+  442  sudo cp cplex cplex2211
+  443  cd
+  444  cd Code/EfficientPE
+  445  python simulation_mlca.py
+  446  ls /opt/ibm/ILOG/CPLEX_Studio2211/cplex/bin/x86-64_linux
+  447  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+  448  nvim ~/.bashrc
+  449  echo $LD_LIBRARY_PATH\n
+  450  python simulation_mlca.py
+  451  cd lib
+  452  ls
+  453  rm cplex.jar
+  454  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar ./
+  455  ls
+  456  clear
+  457  ls
+  458  cd ..
+  459  python simulation_mlca.py
+  460  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+  461  python simulation_mlca.py
+  462  cplex
+  463  source ~/.zsh
+  464  source ~/.zshrc
+  465  python simulation_mlca.py
+  466  ~/.pyenv/versions/3.7.17/bin/python \\n/opt/ibm/ILOG/CPLEX_Studio_Community2212/python/setup.py install\n
+  467  cd /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex
+  468  ls
+  469  celar
+  470  la
+  471  clear
+  472  ls
+  473  cd ..
+  474  ls
+  475  ls -al
+  476  clear
+  477  ls
+  478  ls cd
+  479  clear
+  480  cd
+  481  cd Code/EfficientPE/
+  482  pip install cplex
+  483  python simulation_mlca.py
+  484  nvim mlca_src/mlca_economies.py
+  485  python simulation_mlca.py
+  486  nvim ./
+  487  pip install -r requirements.txt
+  488  clear
+  489  ls
+  490  rm log_*
+  491  python simulation_mlca.py
+  492  pip install lightning
+  493  python simulation_mlca.py
+  494  clar
+  495  ls
+  496  cd ..
+  497  ls
+  498  celar
+  499  ls
+  500  git clone https://github.com/marketdesignresearch/MVNN
+  501  cd MVNN
+  502  ls
+  503  celar
+  504  ls
+  505  pip install -r requirements.txt
+  506  pyenv local 3.7
+  507  pip install -r requirements.txt
+  508  pip uninstall lightning
+  509  pip install -r requirements.txt
+  510  python all_bids_generator.py --domain=GSVM --number_of_instances=1
+  511  clear
+  512  ls
+  513  tmux
+  514  clear
+  515  ls
+  516  python all_bids_generator.py --domain=GSVM --number_of_instances=1
+  517  htop
+  518  clar
+  519  le
+  520  clear
+  521  ls
+  522  clear
+  523  ls
+  524  cd ..
+  525  ls
+  526  cd EfficientPE
+  527  nvim mlca_src/mlca_multitask.py
+  528  cd ..
+  529  cd EfficientPE
+  530  pyhton simulation_mlca.py
+  531  python simulation_mlca.py
+  532  nvim ./
+  533  pip install pytorch-lightning
+  534  nvim ./
+  535  q
+  536  python simulation_mlca.py
+  537  nvim ./
+  538  import
+  539  python
+  540  ls
+  541  clear
+  542  ls
+  543  nvim ./
+  544  python
+  545  clear
+  546  ls
+  547  nvim ./
+  548  python
+  549  clear
+  550  ls
+  551  python simulation_mlca.py
+  552  ls
+  553  ls mlca_src
+  554  nvm mlca_src
+  555  nvim ./
+  556  celar
+  557  ls
+  558  nvim ./
+  559  clear
+  560  cd ..
+  561  ls
+  562  cd EfficientPE
+  563  ls
+  564  clear
+  565  ls
+  566  nvim ./
+  567  python
+  568  pip -list
+  569  pip show pytorch-lightning
+  570  cd /home/janeet/.pyenv/versions/3.7.17/lib/python3.7/site-packages
+  571  ls
+  572  cd pytorch_lightning
+  573  ls
+  574  grep -r 'Combined*' .
+  575  nvim ./
+  576  python
+  577  l
+  578  ls
+  579  clear
+  580  ls
+  581  nvim utilities/fetching.py
+  582  python simulation_mlca.py
+  583  clear
+  584  ls
+  585  cekar
+  586  ks
+  587  clear
+  588  ls
+  589  rm log_2026-02-13_0
+  590  clear
+  591  ls
+  592  cd Code
+  593  ls
+  594  clear
+  595  ls
+  596  cd EfficientPE
+  597  ls
+  598  clear
+  599  ls
+  600  rm log*
+  601  ls
+  602  clear
+  603  ls
+  604  python simulation_mlca.py
+  605  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+  606  python simulation_mlca.py
+  607  nvim mlca_src/mlca_economies.py
+  608  clear
+  609  ls
+  610  rm log*
+  611  ls
+  612  clear
+  613  ls
+  614  cd ..
+  615  ls
+  616  cd MVNN
+  617  ls
+  618  clar
+  619  le
+  620  cd ..
+  621  ls
+  622  cd EfficientPE
+  623  ls
+  624  nvim ./
+  625  clear
+  626  ls
+  627  python simulation_mlca.py
+  628  clear
+  629  ls
+  630  nvim ..
+  631  clear
+  632  ls
+  633  clear
+  634  ls
+  635  clear
+  636  ls
+  637  clear
+  638  ls
+  639  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.7.17
+  640  clear
+  641  ls
+  642  cd Code
+  643  ls
+  644  cd EfficientPE
+  645  ls
+  646  clear
+  647  ls
+  648  python simulation_mlca.py
+  649  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+  650  clear
+  651  ls
+  652  python simulation_mlca.py
+  653  clear
+  654  ls
+  655  clear
+  656  ls
+  657  clear
+  658  ls
+  659  clear
+  660  ls
+  661  clear
+  662  ls
+  663  clear
+  664  ls
+  665  clear
+  666  ls
+  667  rm log*
+  668  ls
+  669  cd ..
+  670  ls
+  671  celar
+  672  ls
+  673  exit
+  674  clear
+  675  ls
+  676  cd Code
+  677  git clone pytorch_lightning.trainer.supporters
+  678  git clone https://github.com/kevinlb1/CATS
+  679  clear
+  680  ls
+  681  cd CATS
+  682  ls
+  683  nvim Makefile
+  684  make clean
+  685  make
+  686  ls
+  687  nvim ./
+  688  nvim Makefile
+  689  make
+  690  nvim ./
+  691  nvim make
+  692  nvim Ma
+  693  nvim Makefile
+  694  make all
+  695  clear
+  696  ls
+  697  clear
+  698  ls
+  699  nvim ./
+  700  make all
+  701  find . -type f \( -name "*.cpp" -o -name "*.cc" -o -name "*.cxx" -o -name "*.h" -o -name "*.hpp" \) \\n-exec sed -i '/^[[:space:]]*#define[[:space:]]\+max[[:space:]]*(/d' {} +\n
+  702  make all
+  703  clear
+  704  ls
+  705  nvim ./
+  706  make all
+  707  make clean
+  708  clear
+  709  make all
+  710  nvim ./
+  711  nvim Makefile
+  712  make
+  713  nvim ./
+  714  nvim Makefile
+  715  nvim obj
+  716  nvim Makefile
+  717  clear
+  718  ls
+  719  make clean
+  720  make all
+  721  make clean
+  722  make all
+  723  make
+  724  nvim ./
+  725  nvim Makefile
+  726  celar
+  727  sl
+  728  clear
+  729  ls
+  730  c d..
+  731  cd ..
+  732  rm -rf CAYS
+  733  rm -rf CATS
+  734  git clone https://github.com/kevinlb1/CATS
+  735  cd CATS
+  736  find . -type f \( -name "*.cpp" -o -name "*.cc" -o -name "*.cxx" -o -name "*.h" -o -name "*.hpp" \) \\n-exec sed -i '/^[[:space:]]*#define[[:space:]]\+max[[:space:]]*(/d' {} +\n
+  737  clear
+  738  ls
+  739  nvim ./
+  740  make all
+  741  nvim ./
+  742  make all
+  743  nvim ./
+  744  nvim Ma
+  745  nvim Makefile
+  746  make all
+  747  ls
+  748  clear
+  749  ls
+  750  cd lp_solve_4.0
+  751  make clean
+  752  make 
+  753  nvim ./
+  754  ls
+  755  make
+  756  make all
+  757  make clean
+  758  make
+  759  bison
+  760  sudo apt install bison
+  761  clear
+  762  ls
+  763  make clean
+  764  make
+  765  htop
+  766  sudo apt flex
+  767  sudo apt install flex
+  768  make
+  769  clkear
+  770  ls
+  771  cd ..
+  772  ls
+  773  celar
+  774  sl
+  775  make all
+  776  clear
+  777  ls
+  778  make clean
+  779  make 
+  780  nvim ./
+  781  nvim Makefile
+  782  make clean
+  783  make all
+  784  make
+  785  nvim ./
+  786  nvim Makefile
+  787  make
+  788  make all
+  789  make clean
+  790  make all
+  791  make
+  792  ,s
+  793  ls
+  794  ./cats
+  795  clear
+  796  ls
+  797  clear
+  798  ls
+  799  nvim ./
+  800  clear
+  801  ls
+  802  ./cats -d L3 -goods 1000 -bids 5000 -cplex
+  803  clear
+  804  ls
+  805  cd ..
+  806  ls
+  807  clear
+  808  ls
+  809  clear
+  810  s
+  811  git clone https://github.com/janjanbaj\?tab\=repositories
+  812  git clone https://github.com/janjanbaj/Auctions
+  813  clear
+  814  ls
+  815  cd Auctions
+  816  ls
+  817  clear
+  818  ls
+  819  cd CA-Solvers
+  820  ls
+  821  clear
+  822  sl
+  823  ls
+  824  clear
+  825  ls
+  826  nvim ./
+  827  clear
+  828  ls
+  829  cd
+  830  ls
+  831  python ca-solver.py
+  832  pyenv local 3.7
+  833  clearl
+  834  sl
+  835  python ca-solver.py
+  836  pip install pulp
+  837  clear
+  838  ls
+  839  python ca-solver.py
+  840  clear
+  841  ls
+  842  nvim ./
+  843  python ca-solver.py
+  844  pyenv install lts
+  845  pyenv install --list
+  846  pyenv install 3.12
+  847  clear
+  848  ls
+  849  cd CATS
+  850  ls
+  851  clear
+  852  ls
+  853  clear
+  854  ls
+  855  pyenv local 3.12
+  856  clear
+  857  ls
+  858  pip install pulp docplex
+  859  python ca-solver.py
+  860  clear
+  861  ls
+  862  cplex
+  863  /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/cplex
+  864  clear
+  865  ls
+  866  nvim ~/.zshrc
+  867  nvim ~/.bash
+  868  nvim ~/.bashrc
+  869  source ~/.bashrc
+  870  vi ~/.bashrc
+  871  source ~/.zshrc
+  872  clear
+  873  ls
+  874  cplex
+  875  nvim ~/.zshrc
+  876  source ~/.z
+  877  source ~/.zshrc
+  878  cplex
+  879  clear
+  880  ls
+  881  nvim ~/.zshrc
+  882  clear
+  883  Ls
+  884  nvim ca-solver.py
+  885  python
+  886  clear
+  887  ls
+  888  clear
+  889  ls
+  890  zed ca-solver.py
+  891  ./ca-solver.py
+  892  nvim ./
+  893  celar
+  894  sl
+  895  python ca-solver.py
+  896  nvim ca-solver.py
+  897  python ca-solver.py
+  898  ld
+  899  ls
+  900  cplex
+  901  clear
+  902  ls
+  903  ./cats -d L3 -goods 100 -bids 500 -cplex
+  904  cplex
+  905  clear
+  906  ls
+  907  cd ..
+  908  ls
+  909  celar
+  910  ls
+  911  clear
+  912  ls
+  913  cd EfficientPE
+  914  ls
+  915  clear
+  916  ls
+  917  python simulation_mlca.py
+  918  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+  919  clear
+  920  ls
+  921  python simulation_mlca.py
+  922  clear
+  923  ls
+  924  nvim ./
+  925  clear
+  926  ls
+  927  cd Code
+  928  ls
+  929  cleqar
+  930  ls
+  931  cd CATS
+  932  ls
+  933  celar
+  934  ls
+  935  python ca-solver.py
+  936  nvim ca-solver.py
+  937  clear
+  938  ls
+  939  python ca-solver.py
+  940  ./cats -d L3 -goods 500 -bids 750 -cplex
+  941  python ca-solver.py
+  942  nvim ca-solver.py
+  943  python ca-solver.py
+  944  clear
+  945  ls
+  946  clear
+  947  ls
+  948  clear
+  949  ls
+  950  clar
+  951  clear
+  952  ls
+  953  clear
+  954  ls
+  955  cd ..
+  956  ls
+  957  clear
+  958  htop
+  959  clear
+  960  ls
+  961  clear
+  962  la
+  963  clear
+  964  ls
+  965  clear
+  966  ls
+  967  ls -al
+  968  cd ..
+  969  ls
+  970  c d..
+  971  ls
+  972  cd ..
+  973  ls
+  974  cd CATS
+  975  celar
+  976  ls
+  977  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+  978  clear
+  979  ls
+  980  cd CAT
+  981  cd CATs
+  982  cd CATS
+  983  clear
+  984  ls
+  985  python ca-solver.py
+  986  clar
+  987  ls
+  988  clear
+  989  ls
+  990  clear
+  991  ls
+  992  ls /
+  993  ls /usr
+  994  ls /home
+  995  clear
+  996  ls
+  997  sudo apt update 
+  998  clear
+  999  ls
+ 1000  exit
+ 1001  clear
+ 1002  ls
+ 1003  clear
+ 1004  ls
+ 1005  cd Code
+ 1006  ls
+ 1007  clear
+ 1008  ls
+ 1009  nvim ./
+ 1010  clear
+ 1011  ls
+ 1012  cd EfficientPE
+ 1013  l
+ 1014  clear
+ 1015  ls
+ 1016  nvim log_2026-02-13_16-55-
+ 1017  nvim log_2026-02-13_16-55-42.log
+ 1018  clear
+ 1019  ls
+ 1020  clear
+ 1021  ls
+ 1022  clear
+ 1023  ls
+ 1024  python3 -m http-server serve
+ 1025  python3 -m pip instakk http-server
+ 1026  python3 -m pip install http-server
+ 1027  python3 -m http.server serve
+ 1028  python3 -m http.server serve 8090
+ 1029  python3 -m http.server 8090
+ 1030  clear
+ 1031  ls
+ 1032  exit
+ 1033  clear
+ 1034  ls
+ 1035  sudo apt update
+ 1036  clear
+ 1037  ls
+ 1038  sudo apt upgrade
+ 1039  celar
+ 1040  ls
+ 1041  sudo apt remove
+ 1042  sudo apt autoremove
+ 1043  clear
+ 1044  ls
+ 1045  nvim ./
+ 1046  clear
+ 1047  ls
+ 1048  cd Code
+ 1049  ls
+ 1050  clear
+ 1051  ls
+ 1052  cd Auctions
+ 1053  ls
+ 1054  cd CA
+ 1055  ls
+ 1056  cd ..
+ 1057  ls
+ 1058  cd CATS
+ 1059  ls
+ 1060  celar
+ 1061  ls
+ 1062  python ca-solver.py
+ 1063  clear
+ 1064  ls
+ 1065  cd ..
+ 1066  ls
+ 1067  celar
+ 1068  ls
+ 1069  clear
+ 1070  ls
+ 1071  cd EfficientPE
+ 1072  ls
+ 1073  python simulation_mlca.py
+ 1074  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 1075  python simulation_mlca.py
+ 1076  clar
+ 1077  ls
+ 1078  rm log_2026-02-1
+ 1079  rm log_2026-02-1*
+ 1080  clear
+ 1081  ls
+ 1082  rl
+ 1083  sclear
+ 1084  clear
+ 1085  ls
+ 1086  nvim ./
+ 1087  clear
+ 1088  sl
+ 1089  ls
+ 1090  pyenv local lts
+ 1091  pyenv list
+ 1092  pyenv
+ 1093  pyenv latest
+ 1094  pyenv install
+ 1095  clear
+ 1096  ls
+ 1097  r
+ 1098  ls
+ 1099  clear
+ 1100  ls
+ 1101  clear
+ 1102  ls
+ 1103  clear
+ 1104  ls
+ 1105  clear
+ 1106  ls
+ 1107  cd Code
+ 1108  ls
+ 1109  cd Auctions
+ 1110  ls
+ 1111  cd ..
+ 1112  ls
+ 1113  cd MVNN
+ 1114  ls
+ 1115  clear
+ 1116  ls
+ 1117  clear
+ 1118  ls
+ 1119  nvim ./
+ 1120  clear
+ 1121  ls
+ 1122  nvim .
+ 1123  clear
+ 1124  ls
+ 1125  nvim ./
+ 1126  exit
+ 1127  clear
+ 1128  ls
+ 1129  ./
+ 1130  open ./
+ 1131  exit
+ 1132  cklear
+ 1133  ls
+ 1134  cd MVNN
+ 1135  ls
+ 1136  celar
+ 1137  ls
+ 1138  clear
+ 1139  ls
+ 1140  cat README.md
+ 1141  jpython simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1142  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1143  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 1144  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1145  jvm
+ 1146  java --version
+ 1147  sudo find / -name libjvm.so\n
+ 1148  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/janeet/.sdkman/candidates/java/11.0.30-tem/lib/server/libjvm.so
+ 1149  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1150  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/janeet/.sdkman/candidates/java/11.0.30-tem/lib/server/libjvm.so
+ 1151  echo $JAVA_HOME
+ 1152  export LD_LIBRARY_PATH=/home/janeet/.sdkman/candidates/java/11.0.30-tem/lib/server/libjvm.so
+ 1153  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1154  export LD_LIBRARY_PATH=/home/janeet/.sdkman/candidates/java/11.0.30-tem/lib/server/
+ 1155  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1156  vi .env
+ 1157  clear
+ 1158  ls
+ 1159  javareconf -e
+ 1160  R
+ 1161  R CMD
+ 1162  ckear
+ 1163  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/janeet/.sdkman/candidates/java/11.0.30-tem/lib/server/libjvm.so
+ 1164  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1165  clear
+ 1166  l
+ 1167  echo $JAVA_HOME
+ 1168  echo $JAVA_HOME\nwhich java\njava -version\n
+ 1169  export JAVA_HOME=/home/janeet/.sdkman/candidates/java/current\n
+ 1170  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1171  pip uninstall pyjnius
+ 1172  pip install pyjnius --no-cache-dir
+ 1173  export JAVA_HOME=/home/janeet/.sdkman/candidates/java/current\n
+ 1174  pip install -r requirements.txt
+ 1175  python -c "from jnius import autoclass; print('JVM loaded successfully')"\n
+ 1176  pip install pyjnius --no-cache-dir
+ 1177  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1178  python -c "import jnius; print(jnius.__file__)"\n
+ 1179  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1180  env
+ 1181  env | grep -i java
+ 1182  env | grep -i jdk
+ 1183  ls /home/janeet/jdk
+ 1184  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1185  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 1186  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+ 1187  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 1188  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1189  clear
+ 1190  ls
+ 1191  clear
+ 1192  ls
+ 1193  history 
+ 1194  sudo find / -name libjvm.so\n
+ 1195  ls /opt/ibm/ILOG
+ 1196  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212
+ 1197  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212cplex
+ 1198  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex
+ 1199  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin
+ 1200  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+ 1201  pwd
+ 1202  clear
+ 1203  ls
+ 1204  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1205  env
+ 1206  nvim env
+ 1207  unset JAVA_TOOL_OPTIONS
+ 1208  nvim env
+ 1209  env
+ 1210  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1211  clear
+ 1212  ls
+ 1213  grep "cplex" .
+ 1214  grep -r "cplex.jar" ./
+ 1215  clear
+ 1216  ls
+ 1217  clear
+ 1218  ls
+ 1219  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib
+ 1220  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib
+ 1221  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar ./
+ 1222  ls
+ 1223  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar ./
+ 1224  clear
+ 1225  ls
+ 1226  mv cplex.jar lib
+ 1227  ls
+ 1228  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1229  clear
+ 1230  ls
+ 1231  cplex
+ 1232  clear
+ 1233  ls
+ 1234  du -sh /opt/ibm
+ 1235  clear
+ 1236  ls
+ 1237  clear
+ 1238  ls
+ 1239  curl -fsSL https://tailscale.com/install.sh | sh
+ 1240  sudo tailscale up
+ 1241  sudo systemctl start tailscaled
+ 1242  sudo tailscale up
+ 1243  sudo systemctl status tailscaled
+ 1244  ls
+ 1245  sudo tailscale up
+ 1246  sudo systemctl status tailscaled
+ 1247  ls
+ 1248  sudo ufw status
+ 1249  sudo systemctl status tailscaled
+ 1250  journalctl -fu tailscaled.service\n
+ 1251  sudo journalctl -fu tailscaled.service\n
+ 1252  sudo sudo apt purge tailscale\n
+ 1253  clear
+ 1254  s
+ 1255  ls
+ 1256  clear
+ 1257  ls
+ 1258  exit
+ 1259  clear
+ 1260  ls
+ 1261  quota
+ 1262  du -sh
+ 1263  clear
+ 1264  ls
+ 1265  df -
+ 1266  df -h
+ 1267  ls
+ 1268  clea
+ 1269  rls
+ 1270  tmux at
+ 1271  clear
+ 1272  ls
+ 1273  exit
+ 1274  clear
+ 1275  ls
+ 1276  clear
+ 1277  ls
+ 1278  exit
+ 1279  ls
+ 1280  clear
+ 1281  ls
+ 1282  htop
+ 1283  clear
+ 1284  ls
+ 1285  htop
+ 1286  exit
+ 1287  dufs
+ 1288  https://github.com/sigoden/dufs
+ 1289  cargo
+ 1290  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+ 1291  cargo
+ 1292  . "$HOME/.cargo/env"
+ 1293  cargo
+ 1294  cargo install dufs
+ 1295  dufs
+ 1296  clear
+ 1297  ls
+ 1298  cargo uninstall dufs
+ 1299  clear
+ 1300  ls
+ 1301  cargo clean
+ 1302  clera
+ 1303  la
+ 1304  clear
+ 1305  ls
+ 1306  exit
+ 1307  clear
+ 1308  ls
+ 1309  mkdir Gurobi
+ 1310  cd Gurobi
+ 1311  ls
+ 1312  wget https://packages.gurobi.com/13.0/gurobi13.0.1_linux64.tar.gz
+ 1313  tar xvfz gurobi13.0.1_linux64.tar.gz
+ 1314  clear
+ 1315  ls
+ 1316  cd gurobi1301
+ 1317  ls
+ 1318  cd linux64
+ 1319  ls
+ 1320  cd ..
+ 1321  ls
+ 1322  mv gurobi13 /opt/
+ 1323  mv gurobi1301 /opt/
+ 1324  sudo mv gurobi1301 /opt/
+ 1325  clear
+ 1326  ls
+ 1327  ls /opt
+ 1328  ls /opt/gurobi1301
+ 1329  ls /opt/gurobi1301/linux64
+ 1330  ls /opt/gurobi1301/linux64/bin
+ 1331  ls
+ 1332  c d..
+ 1333  cd /opt/gurobi1301
+ 1334  ls
+ 1335  vi ~/.zshrc
+ 1336  ls
+ 1337  clear
+ 1338  ls
+ 1339  vi ~/.zsh
+ 1340  ls
+ 1341  vi ~/.zshrc
+ 1342  nvim ~/.zshrc
+ 1343  source ~/.zshrc
+ 1344  clear
+ 1345  ls
+ 1346  gurobi_
+ 1347  gurobi_cl
+ 1348  clear
+ 1349  sl
+ 1350  grbgetkey 496e6667-8977-410a-b956-d9e8343ca67f
+ 1351  nvim ~/.zshrc
+ 1352  celar
+ 1353  sl
+ 1354  nvim ~/.zshrc
+ 1355  celar
+ 1356  ls
+ 1357  source ~/.zshrc
+ 1358  gurobi_cl
+ 1359  ckear
+ 1360  ks
+ 1361  clear
+ 1362  ls
+ 1363  clear
+ 1364  ls
+ 1365  cd ..
+ 1366  ls lear
+ 1367  scd 
+ 1368  cd
+ 1369  clear
+ 1370  ls
+ 1371  cd Code
+ 1372  ls
+ 1373  cd Auctions
+ 1374  ls
+ 1375  cd CATS
+ 1376  ls
+ 1377  cd ..
+ 1378  ls
+ 1379  cd CATS
+ 1380  ls
+ 1381  nvim ./
+ 1382  exit
+ 1383  clear
+ 1384  ls
+ 1385  cd CATS
+ 1386  ls
+ 1387  python ca-solver.py
+ 1388  gurobi_
+ 1389  pip install gurobipy
+ 1390  python ca-solver.py
+ 1391  ./cats -d L3 -goods 1000 -bids 2000 -cplex
+ 1392  python ca-solver.py
+ 1393  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 1394  clear
+ 1395  ls
+ 1396  htop
+ 1397  clear
+ 1398  ls
+ 1399  exit
+ 1400  clear
+ 1401  ls
+ 1402  clear
+ 1403  ls
+ 1404  cd MVNN
+ 1405  ls
+ 1406  python simulation_mlca.py
+ 1407  pip install gurobipy
+ 1408  python simulation_mlca.py
+ 1409  clear
+ 1410  ls
+ 1411  python simulation_mlca.py
+ 1412  clear
+ 1413  python simulation_mlca.py
+ 1414  clear
+ 1415  ls
+ 1416  python simulation_mlca.py
+ 1417  clear
+ 1418  ls
+ 1419  python simulation_mlca.py
+ 1420  clear
+ 1421  ls
+ 1422  clear
+ 1423  python simulation_mlca.py
+ 1424  clear
+ 1425  ls
+ 1426  clear
+ 1427  ls
+ 1428  clear
+ 1429  ls
+ 1430  clear
+ 1431  ls
+ 1432  clar
+ 1433  l
+ 1434  cear
+ 1435  s
+ 1436  c
+ 1437  clear
+ 1438  ls
+ 1439  python simulation_
+ 1440  python simulation_prediction_performance.py
+ 1441  python simulation_mlca.py
+ 1442  clear
+ 1443  ls
+ 1444  clear
+ 1445  python simulation_mlca.py
+ 1446  clear
+ 1447  ls
+ 1448  python simulation_mlca.py
+ 1449  ls
+ 1450  clear
+ 1451  ls
+ 1452  python simulation_mlca.py
+ 1453  clear
+ 1454  ls
+ 1455  p
+ 1456  python simulation_mlca.py
+ 1457  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 1458  clear
+ 1459  clar
+ 1460  ls
+ 1461  clear
+ 1462  ls
+ 1463  htop
+ 1464  clear
+ 1465  ls
+ 1466  cd MVNN
+ 1467  ls
+ 1468  clear
+ 1469  ls
+ 1470  python simulation_mlca.py --domain=GSVM --network_type=MVNN
+ 1471  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 1472  clear
+ 1473  ls
+ 1474  cd MVNN
+ 1475  clear
+ 1476  ls
+ 1477  sudo apt install gh
+ 1478  gh
+ 1479  gh auth
+ 1480  gh auth login
+ 1481  clear
+ 1482  ls
+ 1483  cd Code
+ 1484  ls
+ 1485  git clone https://github.com/simondlevy/jbajracharya
+ 1486  clear
+ 1487  ls
+ 1488  cd jbajracharya
+ 1489  ls
+ 1490  cd AI 
+ 1491  ls
+ 1492  cd assignment3
+ 1493  ls
+ 1494  python backprop.py
+ 1495  pyenv local 3.12.12
+ 1496  pip install numpy tqdm
+ 1497  python --version
+ 1498  python backprop.py
+ 1499  clear
+ 1500  ls
+ 1501  git pull
+ 1502  clear
+ 1503  s
+ 1504  python backprop.py
+ 1505  cd ..
+ 1506  ls
+ 1507  cd assignment2
+ 1508  ls
+ 1509  python perceptron.py
+ 1510  pyenv local 3.12.12
+ 1511  python perceptron.py
+ 1512  clear
+ 1513  ls
+ 1514  htop
+ 1515  clera
+ 1516  ls
+ 1517  exit
+ 1518  clear
+ 1519  ls
+ 1520  clear
+ 1521  ls
+ 1522  git clone https://github.com/marketdesignresearch/MLHCA
+ 1523  clear
+ 1524  ls
+ 1525  cd MLHCA
+ 1526  ls
+ 1527  pyenv local 3.8
+ 1528  pyenv install 3.8
+ 1529  ls
+ 1530  clea
+ 1531  rls
+ 1532  clear
+ 1533  ls
+ 1534  cd src
+ 1535  ls
+ 1536  clear
+ 1537  ls
+ 1538  nvim ./
+ 1539  ls
+ 1540  cd ..
+ 1541  ls
+ 1542  clear
+ 1543  ls
+ 1544  clear
+ 1545  ls
+ 1546  cd src
+ 1547  ls
+ 1548  cd ..
+ 1549  pip install -r requirements.txt
+ 1550  pyenv install 3.8
+ 1551  pyenv local 3.8
+ 1552  clear
+ 1553  ls
+ 1554  pip install -r requirements.txt
+ 1555  ls
+ 1556  clear
+ 1557  ls
+ 1558  cd src
+ 1559  ls
+ 1560  ls mvnns
+ 1561  clear
+ 1562  ls
+ 1563  zed
+ 1564  cd ..
+ 1565  ls
+ 1566  cd MVNN
+ 1567  ls
+ 1568  vi re
+ 1569  cat requirements.txt
+ 1570  ls
+ 1571  pip list
+ 1572  cd ..
+ 1573  cd MLHCA
+ 1574  vi re
+ 1575  vi requirements.txt
+ 1576  c,ear
+ 1577  s
+ 1578  clear
+ 1579  ls
+ 1580  pip install -r requirements.txt
+ 1581  ls
+ 1582  ls CATS
+ 1583  pip freeze > requirements-new.txt 
+ 1584  cat requirements-new.txt
+ 1585  clear
+ 1586  ls
+ 1587  cd srtc
+ 1588  cd src
+ 1589  clear
+ 1590  ls
+ 1591  clear
+ 1592  ls
+ 1593  python3 sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 1594  python sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 1595  r
+ 1596  python sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 1597  clear
+ 1598  ls
+ 1599  clear
+ 1600  ls
+ 1601  tmux
+ 1602  clear
+ 1603  ls
+ 1604  cd Code
+ 1605  ls
+ 1606  cd jbajracharya
+ 1607  ls
+ 1608  clear
+ 1609  ls
+ 1610  cd IA
+ 1611  cd AI
+ 1612  ls
+ 1613  cd assignment3
+ 1614  ls
+ 1615  clear
+ 1616  ls
+ 1617  git pull 
+ 1618  clear
+ 1619  ls
+ 1620  clear
+ 1621  ls
+ 1622  vi ./
+ 1623  vi backprop.py
+ 1624  clear
+ 1625  ls
+ 1626  pythoon backprop.py
+ 1627  python backprop.py
+ 1628  pip install matplotlib
+ 1629  python backprop.py
+ 1630  vi ./
+ 1631  pip install matplotlib
+ 1632  vi backprop.py
+ 1633  clear
+ 1634  ls
+ 1635  python backprop.py
+ 1636  ls
+ 1637  nvim ./
+ 1638  python backprop.py
+ 1639  rm digits.pkl
+ 1640  python backprop.py
+ 1641  clear
+ 1642  ls
+ 1643  nvim ./
+ 1644  nvim backprop.py
+ 1645  python backprop.py
+ 1646  clear
+ 1647  ls
+ 1648  nvim ./
+ 1649  clear
+ 1650  ls
+ 1651  nvim ./
+ 1652  rm *.pkl
+ 1653  clear
+ 1654  ls
+ 1655  exit
+ 1656  clear
+ 1657  ls
+ 1658  clear
+ 1659  ls
+ 1660  cd MLHCA
+ 1661  ls
+ 1662  celar
+ 1663  sl
+ 1664  clear
+ 1665  ls
+ 1666  pip install -r requirements.txt
+ 1667  ckear
+ 1668  ks
+ 1669  clear
+ 1670  ls
+ 1671  cd src
+ 1672  clar
+ 1673  ls
+ 1674  clear
+ 1675  ls
+ 1676  python sim_mlca_dq_hybrid.py
+ 1677  clear
+ 1678  sl
+ 1679  python sim_mlca_dq_hybrid.py sim_mlca_dq_hybrid.py
+ 1680  python sim_mlca_dq_hybrid.py
+ 1681  python sim_mlca_dq_hybrid.py --domain LVSM
+ 1682  pip install numpy==1.19.0
+ 1683  clear
+ 1684  ls
+ 1685  cd ..
+ 1686  ls
+ 1687  pyenv list
+ 1688  pyenv
+ 1689  clear
+ 1690  ls
+ 1691  clear
+ 1692  cd src
+ 1693  clear
+ 1694  ls
+ 1695  cd ..
+ 1696  ls
+ 1697  clear
+ 1698  ls
+ 1699  pyenv
+ 1700  pyenv version
+ 1701  python -m venv .venv
+ 1702  clear
+ 1703  ls
+ 1704  source .venv/bin/activate
+ 1705  clear
+ 1706  ls
+ 1707  pip freeze
+ 1708  clear
+ 1709  ls
+ 1710  pip install -r requirements.txt
+ 1711  clear
+ 1712  ls
+ 1713  cd Code
+ 1714  sl
+ 1715  ls
+ 1716  clear
+ 1717  ls
+ 1718  du -sh *
+ 1719  cd jbajracharya
+ 1720  ls
+ 1721  clear
+ 1722  ls
+ 1723  cd git pull 
+ 1724  git pull
+ 1725  git stash 
+ 1726  git pull
+ 1727  clear
+ 1728  ls
+ 1729  cd ..
+ 1730  clar
+ 1731  clear
+ 1732  ls
+ 1733  clear
+ 1734  ls
+ 1735  pip install -r requirements.txt
+ 1736  ls
+ 1737  clear
+ 1738  ls
+ 1739  cd ..
+ 1740  s
+ 1741  ls
+ 1742  du -sh (*
+ 1743  du -sh *
+ 1744  rm -rf Sims4
+ 1745  clear
+ 1746  ls
+ 1747  du -sh *
+ 1748  vi gurobi.lic
+ 1749  clear
+ 1750  ls
+ 1751  clear
+ 1752  ls
+ 1753  deactivate
+ 1754  clear
+ 1755  ls
+ 1756  cd src
+ 1757  python sim_mlca_dq_hybrid.py
+ 1758  pip install numpy==1.20.3
+ 1759  python sim_mlca_dq_hybrid.py
+ 1760  pip install gurobipy
+ 1761  clear
+ 1762  ls
+ 1763  pip install gurobipy
+ 1764  python sim_mlca_dq_hybrid.py
+ 1765  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 1766  python sim_mlca_dq_hybrid.py
+ 1767  \tclear
+ 1768  sl
+ 1769  ls
+ 1770  clear
+ 1771  ls
+ 1772  ls lib
+ 1773  ls lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar
+ 1774  clear
+ 1775  ls
+ 1776  clear
+ 1777  ls
+ 1778  clear
+ 1779  ls
+ 1780  clear
+ 1781  ls
+ 1782  cls
+ 1783  clear
+ 1784  ls
+ 1785  cd MLHCA
+ 1786  clear
+ 1787  ls
+ 1788  clear
+ 1789  ls
+ 1790  pip install -r requirements
+ 1791  pip install -r requirements.txt
+ 1792  clear
+ 1793  ls
+ 1794  dcd MLHCA
+ 1795  clear
+ 1796  ls
+ 1797  cd MLHCA
+ 1798  ls
+ 1799  cd src
+ 1800  clear
+ 1801  ls
+ 1802  cd lib
+ 1803  ls
+ 1804  clear
+ 1805  ls
+ 1806  cat readme.txt
+ 1807  clear
+ 1808  ls
+ 1809  cd ..
+ 1810  ls
+ 1811  nvim 
+ 1812  nvim ~/.zshrc
+ 1813  ls
+ 1814  mkdir ~/.zsh
+ 1815  cd ~/.zsh
+ 1816  git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git
+ 1817  clear
+ 1818  ls
+ 1819  cd zsh-autocomplete
+ 1820  ls
+ 1821  celar
+ 1822  ls
+ 1823  clear
+ 1824  ls
+ 1825  vi ~/.zshrc
+ 1826  clear
+ 1827  ls
+ 1828  source ~/.zshrc
+ 1829  clear
+ 1830  ls
+ 1831  clear
+ 1832  ls
+ 1833  clear
+ 1834  ls
+ 1835  nvim ./
+ 1836  vi ~/.zshrc
+ 1837  celar
+ 1838  ls
+ 1839  source ~/.zshrc
+ 1840  clear
+ 1841  ls
+ 1842  nvim ./
+ 1843  source ~/.zshrc
+ 1844  vi ~/.zshrc
+ 1845  celar
+ 1846  ls
+ 1847  cd ..
+ 1848  ls
+ 1849  rm -rf zsh-autocomplete
+ 1850  clear
+ 1851  ls
+ 1852  source ~/.zshrc
+ 1853  ls
+ 1854  exit
+ 1855  clear
+ 1856  ls
+ 1857  cd ~/.zsh
+ 1858  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+ 1859  source ~/.zshrc
+ 1860  clear
+ 1861  ls
+ 1862  cd ..
+ 1863  ls
+ 1864  clear
+ 1865  ls
+ 1866  cd Code/MLHCA
+ 1867  ls
+ 1868  clear
+ 1869  ls
+ 1870  clear
+ 1871  ls
+ 1872  cd src
+ 1873  clear
+ 1874  python sim_mlca_dq_hybrid.py
+ 1875  clear
+ 1876  ls
+ 1877  ls set
+ 1878  clear
+ 1879  ls
+ 1880  r
+ 1881  ls
+ 1882  l
+ 1883  clar
+ 1884  l
+ 1885  clear
+ 1886  ls
+ 1887  dls
+ 1888  ls
+ 1889  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex
+ 1890  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib
+ 1891  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/
+ 1892  cd /opt/ibm/ILOG/CPLEX_Studio_Community2212/
+ 1893  clear
+ 1894  ls
+ 1895  clear
+ 1896  ls
+ 1897  ls cplex
+ 1898  ls cplex/include
+ 1899  ls cplex/bin
+ 1900  ls cplex/bin/x86-64_linux/
+ 1901  ls cplex
+ 1902  ls cplex/lib
+ 1903  ls cplex/lib/x86-64_linux
+ 1904  ls cplex/lib/x86-64_linux/static_pic
+ 1905  clear
+ 1906  ls
+ 1907  find "python" ./
+ 1908  clear
+ 1909  ls
+ 1910  find . -type d "python"
+ 1911  find . -type d -name "python"
+ 1912  cd 
+ 1913  cd Code/MLHCA
+ 1914  cd src
+ 1915  ls
+ 1916  python sim_mlca_dq_hybrid.py --domain LVSM --seed 100
+ 1917  export PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar:/home/janeet/Code/MLHCA/src/lib/cplex.jar"
+ 1918  python sim_mlca_dq_hybrid.py --domain LVSM --seed 100
+ 1919  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1920  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 1921  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1922  java --version
+ 1923  ls
+ 1924  ls lib
+ 1925  ls
+ 1926  cd lib
+ 1927  ls
+ 1928  mv cplex.jar og-cplex.jar
+ 1929  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar ./
+ 1930  clear
+ 1931  ls
+ 1932  cd ..
+ 1933  ls
+ 1934  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1935  export PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib/*"\nexport CLASSPATH="/home/janeet/Code/MLHCA/src/lib/*"
+ 1936  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1937  export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/janeet/.sdkman/candidates/java/11.0.30-tem/lib/server/libjvm.so
+ 1938  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1939  export LD_LIBRARY_PATH="/opt/ibm/ILOG/CPLEX_Studio2211/cplex/bin/x86-64_linux"
+ 1940  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1941  java --version
+ 1942  cd /home/janeet/Code/MLHCA/src\nexport PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib/*"\nexport LD_LIBRARY_PATH="/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"\npython sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1943  clear
+ 1944  ls
+ 1945  l
+ 1946  clear
+ 1947  ls
+ 1948  cd /opt/ibm/ILOG/CPLEX_Studio_Community2212/opl
+ 1949  ls
+ 1950  cd ..
+ 1951  clear
+ 1952  ls
+ 1953  find . -type d -name "python"
+ 1954  cd cplex/examples/src
+ 1955  ls
+ 1956  clear
+ 1957  ls
+ 1958  cd python
+ 1959  l
+ 1960  nvim ./
+ 1961  vi ./
+ 1962  ls
+ 1963  vi transport.py
+ 1964  clear
+ 1965  ls
+ 1966  cd ..
+ 1967  ls
+ 1968  c d..
+ 1969  ls
+ 1970  clear
+ 1971  ls
+ 1972  cd /home/janeet/Code/MLHCA/src\nexport PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib/*"\nexport LD_LIBRARY_PATH="/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"\npython sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1973  pip install pyjnius==1.2.0
+ 1974  ls
+ 1975  clear
+ 1976  ls
+ 1977  ls lib
+ 1978  l
+ 1979  clear
+ 1980  ls
+ 1981  ls lib
+ 1982  cat lib/readme.txt
+ 1983  cd lib
+ 1984  jar 
+ 1985  jar tf sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar
+ 1986  export PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar:/home/janeet/Code/MLHCA/src/lib/cplex.jar"\nunset CLASSPATH
+ 1987  cd ..
+ 1988  ls
+ 1989  clear
+ 1990  ls
+ 1991  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1992  unset CLASSPATH
+ 1993  export PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar:/home/janeet/Code/MLHCA/src/lib/cplex.jar"\nunset CLASSPATH
+ 1994  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1995  ls 
+ 1996  jar tf lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar
+ 1997  jar tf lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar | grep "XOR"
+ 1998  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 1999  jar tf lib/sats-0.8.2-SNAPSHOT-jar-with-dependencies.jar | grep "BasedUniqueRandomXOR"
+ 2000  export PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib"\nexport CLASSPATH="/home/janeet/Code/MLHCA/src/lib"\npython sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2001  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2002  clear
+ 2003  exit
+ 2004  export PYJNIUS_CLASSPATH="/home/janeet/Code/MLHCA/src/lib"\nexport CLASSPATH="/home/janeet/Code/MLHCA/src/lib"\npython sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2005  unset CLASSPATH
+ 2006  clear
+ 2007  ls
+ 2008  clear
+ 2009  ls
+ 2010  exit
+ 2011  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2012  clear
+ 2013  ls
+ 2014  cd MLHCA
+ 2015  ls
+ 2016  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2017  cd src
+ 2018  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2019  clear
+ 2020  ls
+ 2021  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2022  ^K
+ 2023  r
+ 2024  ^K
+ 2025  ls
+ 2026  clerar
+ 2027  ls
+ 2028  clrear
+ 2029  clear
+ 2030  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2031  clear
+ 2032  ls
+ 2033  clear
+ 2034  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2035  clear
+ 2036  ls
+ 2037  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2038  clear
+ 2039  ls
+ 2040  clear
+ 2041  ls
+ 2042  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2043  nvim ./
+ 2044  clear
+ 2045  ls
+ 2046  clear
+ 2047  ls
+ 2048  clear
+ 2049  python sim_mlca_dq_hybrid.py --domain LSVM --seed 100
+ 2050  ls
+ 2051  cat hpo_configs_hybrid.json
+ 2052  ls
+ 2053  clear
+ 2054  ls
+ 2055  find . -type f -name "hpo"
+ 2056  find . -type f -name "hpo*"
+ 2057  python3 sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 2058  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2059  ls
+ 2060  clear
+ 2061  ls
+ 2062  nvim config
+ 2063  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2064  export LD_LIBRARY_PATH="/opt/ibm/ILOG/CPLEX_Studio2211/cplex/bin/x86-64_linux"
+ 2065  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2066  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 2067  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2068  pip install pyjnius==1.2.0
+ 2069  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2070  vi /home/janeet/.pyenv/versions/3.8.20/lib/python3.8/site-packages/pysats/simple_model.py
+ 2071  clear
+ 2072  ls
+ 2073  clear
+ 2074  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2075  vi /home/janeet/.pyenv/versions/3.8.20/lib/python3.8/site-packages/pysats/simple_model.py
+ 2076  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2077  vi /home/janeet/.pyenv/versions/3.8.20/lib/python3.8/site-packages/pysats/simple_model.py
+ 2078  nvim /home/janeet/.pyenv/versions/3.8.20/lib/python3.8/site-packages/pysats/simple_model.py
+ 2079  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2080  nvim /home/janeet/.pyenv/versions/3.8.20/lib/python3.8/site-packages/pysats/simple_model.py
+ 2081  celar
+ 2082  ls
+ 2083  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2084  pip install cplex
+ 2085  nvim /home/janeet/.pyenv/versions/3.8.20/lib/python3.8/site-packages/pysats/simple_model.py
+ 2086  clear
+ 2087  ls
+ 2088  rm -rf ~/.cache/nvim
+ 2089  rm -rf ~/.local/share/nvim
+ 2090  nvim
+ 2091  sudo apt remove neovim
+ 2092  clear
+ 2093  ls
+ 2094  clear
+ 2095  ls
+ 2096  clear
+ 2097  python3 sim_mlca_dq_hybrid.py --domain GSVM --seed 157
+ 2098  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2099  clear
+ 2100  htop
+ 2101  clear
+ 2102  ls
+ 2103  clear
+ 2104  ls
+ 2105  nvim 
+ 2106  nvim ~/.zshrc
+ 2107  exit
+ 2108  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2109  clear
+ 2110  htop
+ 2111  clear
+ 2112  ls
+ 2113  lspci
+ 2114  lspci |  grep "nvidia"
+ 2115  lspci |  grep "VGA"
+ 2116  cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+ 2117  htop
+ 2118  pgrep python
+ 2119  kill 301717
+ 2120  kill 301718
+ 2121  kill 301718 -f
+ 2122  kill -9 301717
+ 2123  kill -9 301718
+ 2124  kill -9 301720
+ 2125  htop
+ 2126  sudo reboot
+ 2127  clear
+ 2128  ls
+ 2129  cd MLHCA
+ 2130  clear
+ 2131  ls
+ 2132  cd src
+ 2133  clear
+ 2134  ls
+ 2135  clear
+ 2136  ls
+ 2137  python sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 2138  cd MLHCA
+ 2139  clear
+ 2140  ls
+ 2141  cd src
+ 2142  ls
+ 2143  python sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 2144  python sim_mlca_dq_hybrid.py --domain GSVM --init_method cca --seed 157 
+ 2145  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2146  clear
+ 2147  htop
+ 2148  clear
+ 2149  ls
+ 2150  htop
+ 2151  clear
+ 2152  ls
+ 2153  tmux
+ 2154  clear
+ 2155  ls
+ 2156  sudo reboot
+ 2157  clear
+ 2158  ls
+ 2159  cd code
+ 2160  cd Code
+ 2161  ls
+ 2162  clear
+ 2163  ls
+ 2164  tmux
+ 2165  clear
+ 2166  ls
+ 2167  cd MLHCA
+ 2168  ls
+ 2169  clear
+ 2170  ls
+ 2171  cd sar
+ 2172  cd src
+ 2173  ls
+ 2174  clear
+ 2175  ls
+ 2176  python sim_mlca_dq_hybrid.py --domain GSVM --init_method cca --seed 157 
+ 2177  clear
+ 2178  ls
+ 2179  clear
+ 2180  ls
+ 2181  htop
+ 2182  exit
+ 2183  clear
+ 2184  ls
+ 2185  exit
+ 2186  top
+ 2187  clear
+ 2188  lsa
+ 2189  tmux at
+ 2190  clear
+ 2191  htop
+ 2192  ks
+ 2193  ls
+ 2194  exit
+ 2195  htop
+ 2196  ls
+ 2197  clear
+ 2198  ls
+ 2199  htop
+ 2200  clear
+ 2201  ls
+ 2202  exit
+ 2203  clear
+ 2204  ls
+ 2205  htop
+ 2206  clear
+ 2207  ls
+ 2208  tmux at
+ 2209  cklear
+ 2210  clear
+ 2211  ls
+ 2212  exit
+ 2213  clewar
+ 2214  ls
+ 2215  tmux at
+ 2216  clear
+ 2217  l
+ 2218  ls
+ 2219  clear
+ 2220  ls
+ 2221  cd Code
+ 2222  ls
+ 2223  clear
+ 2224  ls
+ 2225  cd jbajracharya
+ 2226  ls
+ 2227  clear
+ 2228  l
+ 2229  git pull
+ 2230  clear
+ 2231  ls
+ 2232  c d..
+ 2233  ls
+ 2234  cd ..
+ 2235  ls
+ 2236  cd Auctions
+ 2237  ls
+ 2238  cd ..
+ 2239  ls
+ 2240  cle;ar
+ 2241  ls
+ 2242  cd Auctions
+ 2243  ls
+ 2244  cd CA-Solvers
+ 2245  ls
+ 2246  clear
+ 2247  ls
+ 2248  nvim .
+ 2249  clear
+ 2250  ls
+ 2251  rm -rf ~/.local/share/nvim
+ 2252  rm -rf ~/.cache/nvim
+ 2253  rm /usr/bin/nvim
+ 2254  sudo rm /usr/bin/nvim
+ 2255  clear
+ 2256  ls
+ 2257  sudo add-apt-repository ppa:neovim-ppa/stable
+ 2258  sudo apt update
+ 2259  clear
+ 2260  ls
+ 2261  nvim 
+ 2262  sudo add-apt-repository ppa:neovim-ppa/stable
+ 2263  sudo apt update
+ 2264  sudo apt install neovim
+ 2265  nvim --version
+ 2266  sudo apt remove neovim
+ 2267  rm /usr/bin/nvim
+ 2268  rm 
+ 2269  ear
+ 2270  ls
+ 2271  clear
+ 2272  ls
+ 2273  cd 
+ 2274  wget https://github.com/neovim/neovim/releases/download/v0.11.6/nvim-linux-x86_64.tar.gz
+ 2275  clear
+ 2276  ls
+ 2277  tar xzvf nvim-linux-x86_64.tar.gz
+ 2278  ls
+ 2279  cd nvim-linux-x86_64
+ 2280  clear
+ 2281  ls
+ 2282  cd bin
+ 2283  ls
+ 2284  ./nvim 
+ 2285  clear
+ 2286  ksl
+ 2287  clear
+ 2288  ls
+ 2289  sudo mv nvim /usr/bin/
+ 2290  ld
+ 2291  nvim 
+ 2292  clear
+ 2293  ls
+ 2294  nvim 
+ 2295  cd nvim-linux-x86_64
+ 2296  ls
+ 2297  ls lib
+ 2298  mv lib/nvim /usr/lib/
+ 2299  sudo mv lib/nvim /usr/lib/
+ 2300  clear
+ 2301  ls
+ 2302  nvim
+ 2303  clar
+ 2304  el
+ 2305  ls
+ 2306  cd bin
+ 2307  clear
+ 2308  ls
+ 2309  jmv `
+ 2310  ls
+ 2311  clear
+ 2312  ls
+ 2313  mv /usr/bin/nvim ./
+ 2314  sudo mv /usr/bin/nvim ./
+ 2315  lls
+ 2316  ls
+ 2317  cd ..
+ 2318  ls
+ 2319  cd lib
+ 2320  ls
+ 2321  mv /usr/lib/nvim ./
+ 2322  sudo mv /usr/lib/nvim ./
+ 2323  ls
+ 2324  cd ..
+ 2325  ls
+ 2326  cd bin
+ 2327  lsw
+ 2328  ls
+ 2329  ./nvim
+ 2330  ./nvim ~/.config/nvim/init.lua
+ 2331  clear
+ 2332  ls
+ 2333  cd 
+ 2334  clear
+ 2335  ls
+ 2336  git clone --filter=blob:none https://github.com/nvim-mini/MiniMax ./MiniMax
+ 2337  NVIM_APPNAME=nvim-minimax nvim -l ./MiniMax/setup.lua
+ 2338  vi 
+ 2339  vi ~/.zshrc
+ 2340  ls
+ 2341  vi ~/.zshrc
+ 2342  source ~/.zshrc
+ 2343  nvim 
+ 2344  cllear
+ 2345  ls
+ 2346  NVIM_APPNAME=nvim-minimax nvim -l ./MiniMax/setup.lua
+ 2347  NVIM_APPNAME=nvim-minimax nvim
+ 2348  nvim 
+ 2349  vi ~/.zshrc
+ 2350  source ~/.zshrc
+ 2351  nvi
+ 2352  nvi ./
+ 2353  clear
+ 2354  ls
+ 2355  htop
+ 2356  tmux at
+ 2357  clear
+ 2358  ls
+ 2359  cd Code
+ 2360  ls
+ 2361  clear
+ 2362  ls
+ 2363  cd MLHCA
+ 2364  du -sh *
+ 2365  cd stc
+ 2366  cd src
+ 2367  du -sh *
+ 2368  nvi ./
+ 2369  clear
+ 2370  ls
+ 2371  nvi test_dq_generation.py
+ 2372  clear
+ 2373  ls
+ 2374  htop
+ 2375  celar
+ 2376  clear
+ 2377  ls
+ 2378  nvim test_
+ 2379  clear
+ 2380  ls
+ 2381  htop
+ 2382  clear
+ 2383  ls
+ 2384  tmux at
+ 2385  clear
+ 2386  ls
+ 2387  cd ..
+ 2388  ls
+ 2389  cd src
+ 2390  vi hpo_configs_hybrid.json
+ 2391  cd 
+ 2392  rm nvim-linux-x86_64
+ 2393  rm -rf nvim-linux-x86_64
+ 2394  clear
+ 2395  ls
+ 2396  rm -rf MiniMax
+ 2397  rm -rf nvim-linux-x86_64.tar.gz
+ 2398  wget ://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-x86_64.appimage
+ 2399  wget https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-x86_64.appimage
+ 2400  lsw
+ 2401  wget https://github.com/neovim/neovim/releases/download/v0.11.0/nvim-linux-x86_64.appimage
+ 2402  clear
+ 2403  ls
+ 2404  chmod u+x nvim-linux-x86_64.appimage --appimage-extract
+ 2405  chmod u+x nvim-linux-x86_64.appimage && ./nvim-linux-x86_64.appimage --appimage-extract
+ 2406  ls
+ 2407  ./squashfs-root/usr/bin/nvim
+ 2408  clear
+ 2409  ls
+ 2410  nvim ~/.config/nvim/init.lua
+ 2411  vi ~/.config/nvim/init.lua
+ 2412  clear
+ 2413  sl
+ 2414  ls
+ 2415  ./squashfs-root/usr/bin/nvim
+ 2416  clear
+ 2417  ls
+ 2418  tmux atr
+ 2419  tmux at
+ 2420  ckear
+ 2421  ls
+ 2422  exit
+ 2423  ls
+ 2424  cd EfficientPE
+ 2425  ls
+ 2426  clear
+ 2427  ls
+ 2428  clear
+ 2429  sl
+ 2430  ls
+ 2431  python simulation_mlca.py --domain GSVM --init_method cca --seed 157 
+ 2432  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2433  cl;ear
+ 2434  ls
+ 2435  clear
+ 2436  ls
+ 2437  rm .venv
+ 2438  python -m venv .venv
+ 2439  source .venv/bin/activate
+ 2440  clear
+ 2441  ls
+ 2442  nvim re
+ 2443  vi requirements.txt
+ 2444  pip install -r requirements.txt
+ 2445  vi requirements.txt
+ 2446  pip install -r requirements.txt
+ 2447  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2448  clear
+ 2449  ls
+ 2450  htop
+ 2451  exit
+ 2452  clear
+ 2453  ls
+ 2454  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2455  vi requirements.txt
+ 2456  pip install -r requirements.txt
+ 2457  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2458  vi requirements.txt
+ 2459  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2460  pip install -r requirements.txt
+ 2461  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2462  clear
+ 2463  ls
+ 2464  clear
+ 2465  ls
+ 2466  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2467  clear
+ 2468  ls
+ 2469  clear
+ 2470  clearls
+ 2471  clear
+ 2472  tmux at
+ 2473  ls
+ 2474  clear
+ 2475  ls
+ 2476  clear
+ 2477  ls
+ 2478  clear
+ 2479  ls
+ 2480  exit
+ 2481  clear
+ 2482  ls
+ 2483  rm log*
+ 2484  clear
+ 2485  ls
+ 2486  clear
+ 2487  ls
+ 2488  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2489  leaqr
+ 2490  ls
+ 2491  tmux 
+ 2492  clear
+ 2493  ls
+ 2494  source .venv/bin/activate
+ 2495  clear
+ 2496  ls
+ 2497  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2498  clear
+ 2499  ls
+ 2500  clear
+ 2501  ls
+ 2502  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2503  vi requirements.txt
+ 2504  pip freeze
+ 2505  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 clear
+ 2506  clear
+ 2507  ls
+ 2508  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 2509  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2510  clear
+ 2511  ls
+ 2512  grep -r "cplex.jar" ./
+ 2513  grep "cplex" .
+ 2514  grep "cplex" ./
+ 2515  grep -r "cplex.jar" ./
+ 2516  grep -r 'Combined*' .
+ 2517  grep -r 'STOP' .
+ 2518  iclear
+ 2519  l
+ 2520  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2521  clear
+ 2522  ls
+ 2523  rm log*
+ 2524  clear
+ 2525  ls
+ 2526  ls lib
+ 2527  cd lib
+ 2528  mv cplex.jar og-cplex.jar
+ 2529  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar ./
+ 2530  cd ..
+ 2531  ls
+ 2532  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2533  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2534  clear
+ 2535  cd MVNN
+ 2536  s
+ 2537  ls
+ 2538  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2539  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 1
+ 2540  clear
+ 2541  ls
+ 2542  exit
+ 2543  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2544  clear
+ 2545  ls
+ 2546  cd EfficientPE
+ 2547  kls
+ 2548  ls
+ 2549  grep -r 'STOP' .
+ 2550  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2551  grep -r 'STOP' .
+ 2552  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2553  lear
+ 2554  ls
+ 2555  clear
+ 2556  ls
+ 2557  cd ..
+ 2558  ls
+ 2559  clear
+ 2560  ls
+ 2561  clear
+ 2562  ls
+ 2563  cd MVNN
+ 2564  ls
+ 2565  clear
+ 2566  ls
+ 2567  cat cplex
+ 2568  cat cplex.log 
+ 2569  cl;ear
+ 2570  ls
+ 2571  rm *.log
+ 2572  clear
+ 2573  ls
+ 2574  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 2575  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 1
+ 2576  deactivate
+ 2577  clearl
+ 2578  s
+ 2579  clear
+ 2580  ls
+ 2581  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 1
+ 2582  clear
+ 2583  ls
+ 2584  tmux at
+ 2585  clear
+ 2586  ls
+ 2587  clear
+ 2588  ls
+ 2589  l
+ 2590  clear
+ 2591  ls
+ 2592  cd ..
+ 2593  ls
+ 2594  clear
+ 2595  ls
+ 2596  cd CATS
+ 2597  ls
+ 2598  clear
+ 2599  ls
+ 2600  cd ..
+ 2601  l
+ 2602  clear
+ 2603  ls
+ 2604  cd MVNN
+ 2605  ls
+ 2606  clear
+ 2607  ls
+ 2608  nvim ./
+ 2609  vi .//
+ 2610  cclear
+ 2611  ls
+ 2612  htop
+ 2613  clear
+ 2614  ls
+ 2615  tmux ls
+ 2616  tmux at 0
+ 2617  tmux at
+ 2618  tmux 1
+ 2619  tmux a -t 1
+ 2620  tmux a -t 0
+ 2621  clear
+ 2622  ls
+ 2623  ar
+ 2624  ls
+ 2625  clear
+ 2626  ls
+ 2627  deactivate
+ 2628  clear
+ 2629  ls
+ 2630  tmux a -t 0
+ 2631  tmux a -t 1
+ 2632  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 
+ 2633  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 1
+ 2634  clear
+ 2635  ls
+ 2636  exit
+ 2637  clear
+ 2638  ls
+ 2639  htop
+ 2640  cleear
+ 2641  clear
+ 2642  ls
+ 2643  clear
+ 2644  ls
+ 2645  cat prediction_performance_hpo_results.json
+ 2646  ls
+ 2647  clear
+ 2648  ls
+ 2649  clear
+ 2650  ls
+ 2651  vi ./
+ 2652  tmux a -t 1
+ 2653  ;
+ 2654  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 1
+ 2655  clkear
+ 2656  lsa
+ 2657  clear
+ 2658  ls
+ 2659  clear
+ 2660  l
+ 2661  clear
+ 2662  ls
+ 2663  clear
+ 2664  tmux a -t 1
+ 2665  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2666  clear
+ 2667  tmux a -t 0
+ 2668  clear
+ 2669  ls
+ 2670  python all_bids_generator.py --domain=GSVM --number_of_instances=1
+ 2671  clear
+ 2672  ls
+ 2673  clearls
+ 2674  clear
+ 2675  ls
+ 2676  clear
+ 2677  ls
+ 2678  python all_bids_generator.py --domain=GSVM --number_of_instances=1
+ 2679  htop
+ 2680  clear
+ 2681  ls
+ 2682  tmux a -t 1
+ 2683  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2684  clear
+ 2685  ls
+ 2686  tmux
+ 2687  clear
+ 2688  l
+ 2689  cd MVNN
+ 2690  clawr
+ 2691  le
+ 2692  clear
+ 2693  ls
+ 2694  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 2695  clear
+ 2696  ls
+ 2697  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157 > 157.log
+ 2698  clear
+ 2699  ls
+ 2700  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 2701  clear
+ 2702  ls
+ 2703  clear
+ 2704  ls
+ 2705  clear
+ 2706  ls
+ 2707  tail 157.log 
+ 2708  clear
+ 2709  ls
+ 2710  htop
+ 2711  clear
+ 2712  ls
+ 2713  c d..
+ 2714  cd ..
+ 2715  clear
+ 2716  ls
+ 2717  exit
+ 2718  clear
+ 2719  ls
+ 2720  tmux a -t 1
+ 2721  tmux a -t 0
+ 2722  clear
+ 2723  ls
+ 2724  clear
+ 2725  ls
+ 2726  clear
+ 2727  ls
+ 2728  clear
+ 2729  ls
+ 2730  htop
+ 2731  clear
+ 2732  ls
+ 2733  tmux a -t 0
+ 2734  clear
+ 2735  ls
+ 2736  tmux a -t 2
+ 2737  clear
+ 2738  ls
+ 2739  clear
+ 2740  cd ..
+ 2741  ls
+ 2742  rm -rf jbajracharya
+ 2743  cd ..
+ 2744  ls
+ 2745  clear
+ 2746  ls
+ 2747  cd Gurobi
+ 2748  ls
+ 2749  clear
+ 2750  ls
+ 2751  clear
+ 2752  ls
+ 2753  htop
+ 2754  clear
+ 2755  ls
+ 2756  clear
+ 2757  ls
+ 2758  clear
+ 2759  lde
+ 2760  exit
+ 2761  clear
+ 2762  ls
+ 2763  htop
+ 2764  clear
+ 2765  ls
+ 2766  cd Code
+ 2767  ls
+ 2768  tmux a -t 0
+ 2769  clear
+ 2770  ls
+ 2771  tmux a -t 1
+ 2772  tmux a -t 2
+ 2773  ls
+ 2774  tail 157.log 
+ 2775  vi 157.log
+ 2776  clear
+ 2777  ls
+ 2778  ls sats_output
+ 2779  ls data
+ 2780  clear
+ 2781  ls
+ 2782  nvim simulation_prediction_performance.py
+ 2783  ls
+ 2784  python simulation_prediction_performance.py --domain GSVM --network_type MVNN --seed 157
+ 2785  clear
+ 2786  tmux a -t 0
+ 2787  tmux a -t 1
+ 2788  clear
+ 2789  ls
+ 2790  clear
+ 2791  ls
+ 2792  tmux a -t 0
+ 2793  clear
+ 2794  ls
+ 2795  exit
+ 2796  clear
+ 2797  ls
+ 2798  top
+ 2799  clear
+ 2800  ls
+ 2801  tmux a -t 0
+ 2802  tmux a -t 2
+ 2803  clear
+ 2804  exit
+ 2805  htop
+ 2806  tmux a -t 2
+ 2807  exit
+ 2808  tmux a -t 0
+ 2809  clear
+ 2810  ls
+ 2811  clear
+ 2812  ls
+ 2813  cd Code
+ 2814  ls
+ 2815  cd MVNN
+ 2816  ls
+ 2817  clear
+ 2818  ls
+ 2819  clear
+ 2820  ls
+ 2821  celar
+ 2822  ls
+ 2823  clear
+ 2824  ls
+ 2825  clear
+ 2826  ls
+ 2827  htopp
+ 2828  htop
+ 2829  clear
+ 2830  ls
+ 2831  htop
+ 2832  tmux a -t 0
+ 2833  cd ..
+ 2834  clear
+ 2835  ls
+ 2836  cd ..
+ 2837  ls
+ 2838  clear
+ 2839  ls
+ 2840  clear
+ 2841  ls
+ 2842  clear
+ 2843  ls
+ 2844  htop
+ 2845  clear
+ 2846  ls
+ 2847  clear
+ 2848  ls
+ 2849  cd MVNN
+ 2850  ls
+ 2851  clear
+ 2852  ls
+ 2853  vi ./
+ 2854  nvim ./
+ 2855  clear
+ 2856  ls
+ 2857  lear
+ 2858  ls
+ 2859  htop
+ 2860  clear
+ 2861  ls
+ 2862  ls -al 
+ 2863  cd Code
+ 2864  ls
+ 2865  celar
+ 2866  sl
+ 2867  ls
+ 2868  clear
+ 2869  ls
+ 2870  cd MVNN
+ 2871  ls
+ 2872  celar
+ 2873  ls
+ 2874  vi prediction_performance_hpo_results.json
+ 2875  clar
+ 2876  ls
+ 2877  clear
+ 2878  ls
+ 2879  git clone https://github.com/blubin/Adaptive-Price-CA/blob/31a7dedfe32e84680786a0872d944e6ff4cd5c5e/experiments/adaptiveCA/auctions.py\#L767
+ 2880  clear
+ 2881  r
+ 2882  clear
+ 2883  ls
+ 2884  clear
+ 2885  ls
+ 2886  git clone https://github.com/blubin/Adaptive-Price-CA/
+ 2887  clear
+ 2888  ls
+ 2889  cd A
+ 2890  cd Adaptive-Price-CA
+ 2891  ls
+ 2892  clear
+ 2893  ls
+ 2894  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2895  clear
+ 2896  clar
+ 2897  ls
+ 2898  cd Adaptive-Price-CA
+ 2899  ls
+ 2900  cd experiments
+ 2901  ls
+ 2902  clear
+ 2903  ls
+ 2904  pyenv list 
+ 2905  pyenv install 2.7
+ 2906  clear
+ 2907  pyenv local 2.7
+ 2908  clear
+ 2909  ls
+ 2910  pip install -r requirements.txt
+ 2911  clear
+ 2912  ls
+ 2913  ls cats
+ 2914  cp ../../CATS/cats ./cats
+ 2915  ls
+ 2916  ls cats
+ 2917  rm cats/CATS20*
+ 2918  ls
+ 2919  ls cats
+ 2920  clear
+ 2921  ls
+ 2922  ./experiment.sh
+ 2923  \n\n    python run_auction_instance.py --auction_name AdaptiveCuttingAuction --generator cats_reg_g30b150\n
+ 2924  python run_auction_instance.py --auction_name AdaptiveCuttingAuction --generator cats_reg_g30b150 --print_console=True\n
+ 2925  python run_auction_instance.py --auction_name iBundle --generator cats_reg_g30b150 --print_console=True\n
+ 2926  python run_auction_instance.py --auction_name IBundle --generator cats_reg_g30b150 --print_console=True\n
+ 2927  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=True\n
+ 2928  clear
+ 2929  ls
+ 2930  clear
+ 2931  l
+ 2932  python adaptiveCA/generate_script.py
+ 2933  cd adaptiveCA
+ 2934  ls
+ 2935  python adaptiveCA/generate_script.py
+ 2936  python generate_script.py
+ 2937  mv generate_script.py ..
+ 2938  cd ..
+ 2939  ls
+ 2940  python generate_script.py
+ 2941  ls
+ 2942  clear
+ 2943  ls
+ 2944  python generate_script.py
+ 2945  ls
+ 2946  ls data/cats_arbitrary_mine
+ 2947  cat  data/cats_arbitrary_mine/I1_0000.txt
+ 2948  clear
+ 2949  ls
+ 2950  python generate_script.py
+ 2951  clear
+ 2952  ls
+ 2953  python generate_script.py
+ 2954  rm data/cats_arbitrary_mine/I1_0000.txt
+ 2955  python generate_script.py
+ 2956  ls
+ 2957  clear
+ 2958  l
+ 2959  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=True\n
+ 2960  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2961  clear
+ 2962  htop
+ 2963  clear
+ 2964  ls
+ 2965  ls ../
+ 2966  pip install -r requirements.txt
+ 2967  clear
+ 2968  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=True\n
+ 2969  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 2970  gurobi_
+ 2971  gurobi_cl
+ 2972  clear
+ 2973  ls
+ 2974  rm gurobi.log
+ 2975  ls
+ 2976  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 2977  clear
+ 2978  ls
+ 2979  clear
+ 2980  ls
+ 2981  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 2982  ls
+ 2983  clear
+ 2984  ls
+ 2985  cd Adaptive-Price-CA
+ 2986  lsw
+ 2987  clear
+ 2988  ls
+ 2989  cd experiments
+ 2990  ;ls
+ 2991  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 2992  python
+ 2993  ls
+ 2994  clear
+ 2995  sl;
+ 2996  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 2997  "/home/janeet/.pyenv/bin/pyenv" shell - sh 3.12.12
+ 2998  clear
+ 2999  htop
+ 3000  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 3001  jkj
+ 3002  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 3003  top
+ 3004  ls
+ 3005  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 3006  clear
+ 3007  ls
+ 3008  clear
+ 3009  ls
+ 3010  python generate_script.py
+ 3011  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 3012  python generate_script.py
+ 3013  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 3014  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=True\n
+ 3015  clear
+ 3016  ls
+ 3017  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=True\n
+ 3018  ls
+ 3019  cd .....
+ 3020  ls
+ 3021  clear
+ 3022  ls
+ 3023  cd 
+ 3024  clear
+ 3025  ls
+ 3026  cd Code
+ 3027  ls
+ 3028  cd MVNN
+ 3029  clear
+ 3030  l
+ 3031  cd data/GSVM
+ 3032  ls
+ 3033  python
+ 3034  clear
+ 3035  ls
+ 3036  clear
+ 3037  ls
+ 3038  clear
+ 3039  ls
+ 3040  cd A
+ 3041  l;s
+ 3042  cd Adaptive-Price-CA
+ 3043  ls
+ 3044  clear
+ 3045  ls
+ 3046  cd experiments
+ 3047  ls
+ 3048  python generate_script.py
+ 3049  htop
+ 3050  clear
+ 3051  ls
+ 3052  python generate_script.py
+ 3053  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=True\n
+ 3054  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine --print_console=False\n
+ 3055  python run_auction_instance.py --auction_name IBundle --generator cats_arbitrary_mine\n
+ 3056  clear
+ 3057  ls
+ 3058  exit
+ 3059  clear
+ 3060  las
+ 3061  exit
+ 3062  "/home/janeet/.pyenv/bin/pyenv" shell - sh 2.7.18
+ 3063  clear
+ 3064  l
+ 3065  cd MVNN
+ 3066  ls
+ 3067  clear
+ 3068  ls
+ 3069  cat 157.log
+ 3070  nvim ./
+ 3071  ls
+ 3072  clear
+ 3073  ls
+ 3074  clear
+ 3075  ls
+ 3076  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 158123
+ 3077  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 123141
+ 3078  "/home/janeet/.pyenv/bin/pyenv" shell - sh 2.7.18
+ 3079  clear
+ 3080  top
+ 3081  htop
+ 3082  clear
+ 3083  ls
+ 3084  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 3085  cd EfficientPE
+ 3086  ls
+ 3087  clear
+ 3088  ls
+ 3089  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 3090  clear
+ 3091  ls
+ 3092  clear
+ 3093  la
+ 3094  clear
+ 3095  ls
+ 3096  mkdir Scripts
+ 3097  cd Scripts
+ 3098  ls
+ 3099  clear
+ 3100  ls
+ 3101  gh
+ 3102  clear
+ 3103  ls
+ 3104  cleaw
+ 3105  git clone https://github.com/janjanbaj/janjantypst
+ 3106  clear
+ 3107  ls
+ 3108  tmux 
+ 3109  clear
+ 3110  ls
+ 3111  tmux ls
+ 3112  clear
+ 3113  ls
+ 3114  exit
+ 3115  clear
+ 3116  ls
+ 3117  tmux at 
+ 3118  clear
+ 3119  ls
+ 3120  clear
+ 3121  ls
+ 3122  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 3123  clear
+ 3124  ls
+ 3125  clear
+ 3126  ls
+ 3127  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 157
+ 3128  clear
+ 3129  ls
+ 3130  python simulation_mlca.py --domain SRVM --network_type NN --seed 44400
+ 3131  ls
+ 3132  clear
+ 3133  ls
+ 3134  python simulation_mlca.py --domain LSVM --network_type NN --seed 44400
+ 3135  python simulation_mlca.py --domain GSVM --network_type MVNN --seed 44400
+ 3136  rustup target add wasm32-wasi
+ 3137  vi Cargo.toml
+ 3138  clear
+ 3139  ls
+ 3140  clear
+ 3141  ls
+ 3142  clear
+ 3143  el
+ 3144  ls
+ 3145  cd Scripts
+ 3146  ls
+ 3147  nvim data-takeout.py
+ 3148  vi data-takeout.py
+ 3149  celar
+ 3150  ls
+ 3151  python data-takeout.py
+ 3152  pyenv local 3.12.12
+ 3153  python data-takeout.py
+ 3154  pip install requests
+ 3155  clear
+ 3156  ls
+ 3157  python data-takeout.py
+ 3158  vi ./
+ 3159  vi data-takeout.py
+ 3160  git clone https://github.com/janjanbaj/janjantypst
+ 3161  python data-takeout.py
+ 3162  clear
+ 3163  ls
+ 3164  rm data-takeout.py
+ 3165  vi data-takeout.py
+ 3166  python data-takeout.py
+ 3167  cle,ar
+ 3168  ls
+ 3169  cd typst
+ 3170  clear
+ 3171  ls
+ 3172  touch backup-script.py
+ 3173  clear
+ 3174  ls
+ 3175  pyenv local 3.12.12
+ 3176  clear
+ 3177  ls
+ 3178  pip install requests
+ 3179  python backup-script.py
+ 3180  clear
+ 3181  ls
+ 3182  git clone https://github.com/janjanbaj/janjantypst
+ 3183  git clone https://github.com/janjanbaj/janjan_typst
+ 3184  clear
+ 3185  ls
+ 3186  rm typst_data_takeout_20260306_155519.zip
+ 3187  rm store.json
+ 3188  rm store.lock
+ 3189  python backup-script.py
+ 3190  rm typst_data_takeout_20260306_155519.zip
+ 3191  python backup-script.py
+ 3192  clear
+ 3193  ls
+ 3194  cd janjan_typst
+ 3195  ls
+ 3196  cd 'Personal Projects\nls
+ 3197  clear
+ 3198  ls
+ 3199  python backup-script.py
+ 3200  clear
+ 3201  ls
+ 3202  cd ..
+ 3203  ls
+ 3204  clear
+ 3205  ls
+ 3206  python backup-script.py
+ 3207  cd ...
+ 3208  crontab -e
+ 3209  time
+ 3210  date
+ 3211  crontab -e
+ 3212  clear
+ 3213  ls
+ 3214  crontab -e
+ 3215  ls
+ 3216  date
+ 3217  date && ls
+ 3218  clear && date && ls
+ 3219  cat script
+ 3220  cat script.log
+ 3221  crontab -e
+ 3222  journalctl -u cron --since "today"\n
+ 3223  journalctl -u cron -f\n
+ 3224  clear
+ 3225  ls
+ 3226  grep CRON /var/log/syslog\n
+ 3227  sudo grep CRON /var/log/syslog\n
+ 3228  clear
+ 3229  ls
+ 3230  crontab -e
+ 3231  cat script.log
+ 3232  q
+ 3233  clear
+ 3234  ls
+ 3235  cat script
+ 3236  cd ~/Code/typst && python backup-script.py
+ 3237  tail backup-script.py
+ 3238  clear
+ 3239  ls
+ 3240  cd ..
+ 3241  clear
+ 3242  ls
+ 3243  c d..
+ 3244  cd ..
+ 3245  ls
+ 3246  cat script
+ 3247  cat script.log
+ 3248  cd Code
+ 3249  cd typst
+ 3250  whereis python
+ 3251  python
+ 3252  cd ..
+ 3253  cd MVNN
+ 3254  s
+ 3255  whereis python
+ 3256  cd ..
+ 3257  date
+ 3258  cd ..
+ 3259  ls
+ 3260  cd Scripts
+ 3261  ls
+ 3262  rm *
+ 3263  clear
+ 3264  ls
+ 3265  vi typst.sh
+ 3266  chmod +x typst.sh
+ 3267  ./typst.sh `
+ 3268  ./typst.sh
+ 3269  crontab -e
+ 3270  clear
+ 3271  ls
+ 3272  vi typst.sh
+ 3273  crontab -e
+ 3274  clear
+ 3275  ls
+ 3276  cd .
+ 3277  ls
+ 3278  cd ..
+ 3279  ls
+ 3280  cat script
+ 3281  cat script.log
+ 3282  date
+ 3283  cat script.log
+ 3284  date
+ 3285  cat script.log
+ 3286  cat
+ 3287  clear
+ 3288  ls
+ 3289  vi Script
+ 3290  vi Scripts/typst.sh
+ 3291  clear
+ 3292  ls
+ 3293  vi Scripts/typst.sh
+ 3294  nano Scripts/typst.sh
+ 3295  clear
+ 3296  ls
+ 3297  /home/janeet/Scripts/typst.sh
+ 3298  clear
+ 3299  ls
+ 3300  crontab -e
+ 3301  date
+ 3302  cat script
+ 3303  cat script.log
+ 3304  crontab -e
+ 3305  celar
+ 3306  ls
+ 3307  clear
+ 3308  ls
+ 3309  date
+ 3310  clear
+ 3311  ls
+ 3312  crontab -e
+ 3313  clear
+ 3314  ls
+ 3315  cd Code
+ 3316  du -sh typst
+ 3317  cd typst
+ 3318  ls
+ 3319  clear
+ 3320  ls
+ 3321  rm *.zip
+ 3322  clear
+ 3323  ls
+ 3324  clear
+ 3325  ls
+ 3326  du -sh ./
+ 3327  exit
+ 3328  clear
+ 3329  lsa
+ 3330  clear
+ 3331  ls
+ 3332  crontab -e
+ 3333  clear
+ 3334  sl
+ 3335  ls
+ 3336  cd Scripts
+ 3337  ls
+ 3338  vi typst.sh
+ 3339  celar
+ 3340  sl
+ 3341  clear
+ 3342  ls
+ 3343  cd ..
+ 3344  cd Code
+ 3345  ls
+ 3346  du -sh typst
+ 3347  crontab -e
+ 3348  clear
+ 3349  ls
+ 3350  cd
+ 3351  clear
+ 3352  ls
+ 3353  cat s
+ 3354  cat script
+ 3355  cat script.log
+ 3356  crontab -e
+ 3357  celar
+ 3358  ls
+ 3359  rm scriptls
+ 3360  clear
+ 3361  ls
+ 3362  clear
+ 3363  ls
+ 3364  cat script
+ 3365  cat script.log
+ 3366  du -sh script.log
+ 3367  clear
+ 3368  ls
+ 3369  rm script.log
+ 3370  celar
+ 3371  ls
+ 3372  clear
+ 3373  ls
+ 3374  clear
+ 3375  ls
+ 3376  git clone https://github.com/spectrumauctions/sats
+ 3377  celar
+ 3378  ls
+ 3379  cd sats
+ 3380  clear
+ 3381  ls
+ 3382  date
+ 3383  clear
+ 3384  ls
+ 3385  cd ..
+ 3386  rm -rf sats
+ 3387  mkdir SATS
+ 3388  cd SATS
+ 3389  ls
+ 3390  wget https://github.com/spectrumauctions/sats/releases/download/v0.8.1/sats-0.8.1.jar
+ 3391  clear
+ 3392  ls
+ 3393  java -jar sats.jar --model MRVM --nationalbidders 3 --iterator RANDOM --bidsPerBidder 10
+ 3394  clear
+ 3395  ls
+ 3396  mv sats-0.8.1.jar sats.jar
+ 3397  java -jar sats.jar --model MRVM --nationalbidders 3 --iterator RANDOM --bidsPerBidder 10
+ 3398  ls
+ 3399  ls bidfiles
+ 3400  vi ./
+ 3401  clear
+ 3402  ls
+ 3403  clear
+ 3404  ls
+ 3405  exit
+ 3406  clear
+ 3407  ls
+ 3408  crontab -e
+ 3409  clear
+ 3410  ls
+ 3411  cd Scripts
+ 3412  ls
+ 3413  vi ./
+ 3414  vi typst.sh
+ 3415  celar
+ 3416  sl
+ 3417  clear
+ 3418  ls
+ 3419  cd ..
+ 3420  lcelar
+ 3421  sl
+ 3422  datetime
+ 3423  date
+ 3424  clear
+ 3425  ls
+ 3426  cleaer
+ 3427  ls
+ 3428  cd Code
+ 3429  ls
+ 3430  cd typst
+ 3431  ls
+ 3432  tail typst.log
+ 3433  cd MLHCA
+ 3434  ls
+ 3435  clear
+ 3436  ls
+ 3437  tail typst.log
+ 3438  ls
+ 3439  tail typst.log
+ 3440  python3 sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 3441  clear
+ 3442  ls
+ 3443  cd src
+ 3444  clear
+ 3445  ls
+ 3446  python3 sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 3447  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 3448  python3 sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --seed 157 
+ 3449  python3 sim_mlca_dq_hybrid.py --domain GSVM  --seed 157 
+ 3450  python
+ 3451  cd MLHCA
+ 3452  python
+ 3453  clear
+ 3454  ls
+ 3455  python3 sim_mlca_dq_hybrid.py --domain GSVM --qinit 20 --mlccadq 10 --mlccavq 20 --seed 157\n
+ 3456  python3 sim_mlca_dq_hybrid.py --domain GSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3457  clear
+ 3458  ls
+ 3459  tmux 
+ 3460  clear
+ 3461  ls
+ 3462  python3 sim_mlca_dq_hybrid.py --domain GSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3463  tail typst.log
+ 3464  crontab -e
+ 3465  clear
+ 3466  ls
+ 3467  clear
+ 3468  ls
+ 3469  grep -r "gurobi" ./
+ 3470  grep -r "gurobipy" ./
+ 3471  tmux at
+ 3472  clear
+ 3473  ls
+ 3474  cd ..
+ 3475  mkdir Secondary
+ 3476  cd S
+ 3477  ls
+ 3478  cd Secondary
+ 3479  ls
+ 3480  clear
+ 3481  ls
+ 3482  python --version
+ 3483  tmux at
+ 3484  clear
+ 3485  ls
+ 3486  clear
+ 3487  ls
+ 3488  cd ..
+ 3489  ls
+ 3490  cd S
+ 3491  cd Secondary
+ 3492  ls
+ 3493  git clone https://github.com/marketdesignresearch/MLHCA
+ 3494  clear
+ 3495  ls
+ 3496  cd MLHCA
+ 3497  ls
+ 3498  pyenv local 3.8
+ 3499  lcear
+ 3500  ls
+ 3501  pip install -r requirements.txt
+ 3502  clear
+ 3503  ls
+ 3504  cd src
+ 3505  ls
+ 3506  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 3507  clear
+ 3508  ls
+ 3509  cd ..
+ 3510  ls
+ 3511  cd src
+ 3512  ls
+ 3513  c clear
+ 3514  ls
+ 3515  httop
+ 3516  htop
+ 3517  celar
+ 3518  sl
+ 3519  cleare
+ 3520  l
+ 3521  clear
+ 3522  ls
+ 3523  htop
+ 3524  clwar
+ 3525  ls
+ 3526  tmux at
+ 3527  clear
+ 3528  ls
+ 3529  tmux at
+ 3530  clear
+ 3531  ls
+ 3532  htop
+ 3533  clear
+ 3534  ls
+ 3535  cd ..
+ 3536  git clone https://github.com/neeharperi/PreferenceNet
+ 3537  rm PreferenceNet
+ 3538  rm -rf PreferenceNet
+ 3539  https://github.com/marketdesignresearch/BOCA
+ 3540  git clone https://github.com/marketdesignresearch/BOCA
+ 3541  cd BOCa
+ 3542  cd BOCA
+ 3543  ls
+ 3544  clear
+ 3545  ls
+ 3546  pyenv local 3.8
+ 3547  clear
+ 3548  ls
+ 3549  pip install -r requirements.txt
+ 3550  cklear
+ 3551  ls
+ 3552  clear
+ 3553  ls
+ 3554  python sim_mlca.py --domain=LSVM --q=0.9 --seed=10001 --acquisition=uUB_model
+ 3555  cd ..
+ 3556  ls
+ 3557  cd MVNN
+ 3558  ls
+ 3559  c d..
+ 3560  cd MLHCA
+ 3561  ls
+ 3562  cd ..
+ 3563  ls
+ 3564  cd MLHCA
+ 3565  ls
+ 3566  pip install -r requirements-new.txt
+ 3567  cd ..
+ 3568  sl
+ 3569  ls
+ 3570  cd BOCA
+ 3571  ls
+ 3572  clear
+ 3573  ls
+ 3574  python sim_mlca.py --domain=LSVM --q=0.9 --seed=10001 --acquisition=uUB_model
+ 3575  pip install numpy==1.19
+ 3576  python sim_mlca.py --domain=LSVM --q=0.9 --seed=10001 --acquisition=uUB_model
+ 3577  pip install numpy==1.14
+ 3578  clear
+ 3579  ls
+ 3580  pip install "numpy>=1.24,<2"
+ 3581  ~/.pyenv/versions/3.8.20/lib/python3.8/site-packages/docplex/mp/utils.py
+ 3582  pip install -U docplex
+ 3583  vi ./
+ 3584  vi sim_mlca.py
+ 3585  clear
+ 3586  la
+ 3587  clear
+ 3588  ls
+ 3589  clear
+ 3590  ls
+ 3591  clear
+ 3592  ls
+ 3593  vclear
+ 3594  ls
+ 3595  python sim_mlca.py --domain=LSVM --q=0.9 --seed=10001 --acquisition=uUB_model
+ 3596  ls
+ 3597  cat requirements.txt
+ 3598  ls
+ 3599  clear
+ 3600  ls
+ 3601  grep -r "docplex" ./
+ 3602  clear
+ 3603  ls
+ 3604  vi requirements.txt
+ 3605  clear
+ 3606  pip install -r requirements-new.txt
+ 3607  pip install -r requirements.txt
+ 3608  ls
+ 3609  clear
+ 3610  ls
+ 3611  pip install -r requirements.txt
+ 3612  clear
+ 3613  ls
+ 3614  pyenv local latest
+ 3615  pyenv local 3.10.14
+ 3616  pyenv install 3.10.14
+ 3617  clear
+ 3618  ls
+ 3619  clear
+ 3620  ls
+ 3621  pip install -r requirements.txt
+ 3622  python --version
+ 3623  pyenv local 3.10.14
+ 3624  clear
+ 3625  ls
+ 3626  pip install -r requirements.txt
+ 3627  python sim_mlca.py --domain=LSVM --q=0.9 --seed=10001 --acquisition=uUB_model
+ 3628  ls
+ 3629  clear
+ 3630  cd ..
+ 3631  ls
+ 3632  clear
+ 3633  ls
+ 3634  clear
+ 3635  ls
+ 3636  cd MLHCA
+ 3637  ls
+ 3638  cd src
+ 3639  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3640  python --version
+ 3641  vi ./
+ 3642  vi requirements.txt
+ 3643  cd ..
+ 3644  ls
+ 3645  vi requirements-new.txt
+ 3646  pip install -r requirements-nex.txt
+ 3647  pip install -r requirements-new.txt
+ 3648  cd src
+ 3649  clear
+ 3650  ls
+ 3651  python sim_mlca.py --domain=LSVM --q=0.9 --seed=10001 --acquisition=uUB_model
+ 3652  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3653  pyenv local 3.10.14
+ 3654  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3655  pip install gurobipy
+ 3656  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3657  pip install wandb
+ 3658  grep -r "wandb"
+ 3659  clear
+ 3660  ls
+ 3661  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3662  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 3663  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3664  cplex
+ 3665  clear
+ 3666  ls
+ 3667  tmux at
+ 3668  tmux
+ 3669  celar
+ 3670  ls
+ 3671  vi sim_mlca_dq_hybrid.py
+ 3672  clear
+ 3673  ls
+ 3674  clear
+ 3675  ls
+ 3676  vi sim_mclca.py
+ 3677  clear
+ 3678  ls
+ 3679  cd ..
+ 3680  ls
+ 3681  cd ..
+ 3682  ls
+ 3683  clear
+ 3684  ls
+ 3685  cd MLHCA
+ 3686  cd ..
+ 3687  ls
+ 3688  cd ..
+ 3689  clear
+ 3690  ls
+ 3691  cd BOCA
+ 3692  ls
+ 3693  vi generate_SATS_data.py
+ 3694  clear
+ 3695  ls
+ 3696  nvim 
+ 3697  sudo apt get install nvim
+ 3698  sudo apt install neovim
+ 3699  clear
+ 3700  ls
+ 3701  nvim ./
+ 3702  sudo apt install neovim
+ 3703  source .venv/bin/activate
+ 3704  source 
+ 3705  source ~/.zshrc
+ 3706  nvim
+ 3707  vi ~/.zshrc
+ 3708  celar
+ 3709  ls
+ 3710  vi 
+ 3711  htop
+ 3712  tmux at
+ 3713  exit
+ 3714  clear
+ 3715  l
+ 3716  tmux ls
+ 3717  tmux at
+ 3718  clear
+ 3719  ls
+ 3720  cd Code
+ 3721  ls
+ 3722  cd BOCA
+ 3723  ls
+ 3724  clear
+ 3725  ls
+ 3726  ls results
+ 3727  ls results/LVSM
+ 3728  ls results/LSVM/0.9
+ 3729  ls results/LSVM/0.9/10001/uUB_model
+ 3730  ls results/LSVM/0.9/10001/uUB_model/
+ 3731  history
+ 3732  clear
+ 3733  ls
+ 3734  clear
+ 3735  ls
+ 3736  cd ..
+ 3737  ls
+ 3738  clear
+ 3739  ls
+ 3740  cd BOCA
+ 3741  ls
+ 3742  python sim_mlca.py --domain=LSVM --q=0.9 --seed=157 --acquisition=uUB_model
+ 3743  python sim_mlca.py --domain=LSVM --q=0.9 --seed=157 --acquisition=mean_model
+ 3744  ls
+ 3745  cd ..
+ 3746  ls
+ 3747  clear
+ 3748  ls
+ 3749  python sim_mlca.py --domain=GSVM --q=0.9 --seed=157 --acquisition=mean_model
+ 3750  clear
+ 3751  ls
+ 3752  cd BOCA
+ 3753  ls
+ 3754  python sim_mlca.py --domain=GSVM --q=0.9 --seed=157 --acquisition=mean_model
+ 3755  python sim_mlca.py --domain=MRVM --q=0.9 --seed=157 --acquisition=mean_model
+ 3756  vi ./
+ 3757  python sim_mlca.py --domain=MRVM --q=0.9 --seed=157 --acquisition=mean_model
+ 3758  nvim sim_mlca.py
+ 3759  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3760  vi ./
+ 3761  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3762  rm -rf results
+ 3763  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3764  nvim sim_mlca.py
+ 3765  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3766  rm -rf results
+ 3767  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3768  nvim sim_mlca.py
+ 3769  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3770  rm -rf results
+ 3771  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3772  nvim ./
+ 3773  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3774  rm -rf results
+ 3775  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3776  nvim sim_mlca.py
+ 3777  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3778  rm -rf results
+ 3779  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model && rm -rf hpo_results_mvnnUB4
+ 3780  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model && rm -rf results
+ 3781  nvim ./
+ 3782  clear
+ 3783  ls
+ 3784  crontab -e
+ 3785  htop
+ 3786  sudo reboot
+ 3787  clear
+ 3788  ls
+ 3789  htop
+ 3790  clwea
+ 3791  rl
+ 3792  ls
+ 3793  cd Code
+ 3794  ls
+ 3795  cd BOCA
+ 3796  ls
+ 3797  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model && rm -rf results
+ 3798  rm -rf results
+ 3799  tmux
+ 3800  clear
+ 3801  ls
+ 3802  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model && rm -rf results
+ 3803  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 3804  rm -rf results
+ 3805  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=mean_model
+ 3806  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151
+ 3807  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3808  find ~/Code/BOCA -name "*.jar"
+ 3809  export CLASSPATH=$CLASSPATH:/home/janeet/Code/BOCA/lib/sats-0.8.0.jar
+ 3810  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3811  rm -rf results
+ 3812  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3813  export CLASSPATH=/home/janeet/Code/BOCA/lib/
+ 3814  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3815  rm -rf results && python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3816  java -cp "$CLASSPATH" org.spectrumauctions.sats.core.bidlang.xor.SizeBasedUniqueRandomXOR
+ 3817  export CLASSPATH=/home/janeet/Code/BOCA/lib/*
+ 3818  java -cp "$CLASSPATH" org.spectrumauctions.sats.core.bidlang.xor.SizeBasedUniqueRandomXOR
+ 3819  export CLASSPATH=/home/janeet/Code/BOCA/lib/*\nexport JAVA_CLASSPATH=/home/janeet/Code/BOCA/lib/*
+ 3820  rm -rf results && python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3821  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/BOCA/lib/*"
+ 3822  rm -rf results\npython sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model
+ 3823  echo $JAVA_TOOL_OPTIONS
+ 3824  ls /home/janeet/Code/BOCA/lib
+ 3825  ls
+ 3826  cd lib
+ 3827  ls
+ 3828  mv sats-0.8.0.jar sats.jar
+ 3829  cd ..
+ 3830  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3831  rm -rf results\npython sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model
+ 3832  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/BOCA/lib/sats.jar"
+ 3833  python sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model\n\n
+ 3834  rm -rf results\npython sim_mlca.py --domain=MRVM --q=0.9 --seed=151 --acquisition=uUB_model
+ 3835  clear
+ 3836  lclear
+ 3837  ls
+ 3838  cd ..
+ 3839  ls
+ 3840  cd MLHCA
+ 3841  ls
+ 3842  cd src
+ 3843  ls
+ 3844  python simulation_mlca.py --domain SRVM --network_type NN --seed 44400
+ 3845  history | _dq
+ 3846  history | grep _dq
+ 3847  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3848  htop
+ 3849  clea
+ 3850  rlas
+ 3851  exit
+ 3852  clear
+ 3853  ls
+ 3854  htop
+ 3855  clwar
+ 3856  al
+ 3857  tmux at
+ 3858  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 3859  tmux at
+ 3860  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 3861  python3 sim_mlca_dq_hybrid.py --domain LSVM --mlcca_dq 10 --mlcca_vq 20 --seed 157\n
+ 3862  clear
+ 3863  ls
+ 3864  cd ..
+ 3865  ls
+ 3866  cd ...
+ 3867  ls
+ 3868  cd 
+ 3869  ls
+ 3870  cd Codde
+ 3871  cd Code
+ 3872  ls
+ 3873  git clone https://github.com/simondlevy/jbajracharya
+ 3874  clear
+ 3875  ls
+ 3876  cd jbajracharya
+ 3877  ls
+ 3878  cd AI
+ 3879  ls
+ 3880  clear
+ 3881  ls
+ 3882  cd assignment4
+ 3883  ls
+ 3884  clear
+ 3885  ls
+ 3886  python mlp-hyperparameters.py
+ 3887  pyenv local 3.10.14
+ 3888  python mlp-hyperparameters.py
+ 3889  pip install torch torchvision tqdm
+ 3890  python mlp-hyperparameters.py
+ 3891  clear
+ 3892  ls
+ 3893  git pull -f
+ 3894  rm *.csv
+ 3895  clear
+ 3896  ls
+ 3897  python mlp-hyperparameters.py
+ 3898  clear
+ 3899  ls
+ 3900  top
+ 3901  clear
+ 3902  ls
+ 3903  exit
+ 3904  clear
+ 3905  ls
+ 3906  clear
+ 3907  ls
+ 3908  cd .
+ 3909  c d..
+ 3910  cd ..
+ 3911  cd Code
+ 3912  ls
+ 3913  cd jbajracharya
+ 3914  s
+ 3915  clear
+ 3916  ls
+ 3917  git pull -f
+ 3918  cd AI
+ 3919  ls
+ 3920  celar
+ 3921  ls
+ 3922  cd assignment4
+ 3923  clear
+ 3924  ls
+ 3925  vi ./
+ 3926  celar
+ 3927  ls
+ 3928  clear
+ 3929  ls
+ 3930  python mlp-hyperparameters.py
+ 3931  vi ./
+ 3932  celar
+ 3933  ls
+ 3934  python mlp-hyperparameters.py
+ 3935  htop
+ 3936  clear
+ 3937  ls
+ 3938  pyenv install lts
+ 3939  pyenv install --list
+ 3940  clear
+ 3941  ls
+ 3942  git add ./
+ 3943  git push -f
+ 3944  clear
+ 3945  ls
+ 3946  exit
+ 3947  clear
+ 3948  ls
+ 3949  clear
+ 3950  ls
+ 3951  cd Code
+ 3952  ls
+ 3953  cp BOCA Secondary/B
+ 3954  cp -r BOCA Secondary/B
+ 3955  cd Secondary/B
+ 3956  ls
+ 3957  cd B
+ 3958  ls
+ 3959  cd ..
+ 3960  ls
+ 3961  clear
+ 3962  ls
+ 3963  cat << 'EOF' > /tmp/migrate_mvnn.py\nimport re\n\nwith open("mlca/mvnn_mip_torch_new.py", "r") as f:\n    text = f.read()\n\n# Imports\ntext = re.sub(r'import docplex\.mp\.model as cpx', 'import gurobipy as gp\nfrom gurobipy import GRB', text)\ntext = re.sub(r'DOcplex', 'Gurobipy', text)\ntext = re.sub(r'docplex-doc', 'py_python_api_details', text)\n\n# Model\ntext = re.sub(r'cpx\.Model\(', 'gp.Model(', text)\ntext = re.sub(r'\.binary_var\(', '.addVar(vtype=GRB.BINARY, ', text)\ntext = re.sub(r'\.continuous_var\(', '.addVar(vtype=GRB.CONTINUOUS, ', text)\ntext = re.sub(r'self\.Mip\.add_constraint\(ct=(.*?), ctname=(.*?)\)', r'self.Mip.addConstr(\1, name=\2)', text)\ntext = re.sub(r'self\.Mip\.add_constraint\(ct=(.*?),(\s*)ctname=(.*?)\)', r'self.Mip.addConstr(\1,\2name=\3)', text)\ntext = re.sub(r'self\.Mip\.sum\(', 'gp.quicksum(', text)\ntext = re.sub(r'\.solution_value', '.X', text)\ntext = re.sub(r'self\.Mip\.maximize\((.*?)\)', r'self.Mip.setObjective(\1, GRB.MAXIMIZE)', text)\n\nwith open("mlca/mvnn_mip_torch_new.py", "w") as f:\n    f.write(text)\n\nprint("done")\nEOF
+ 3964  python3 /tmp/migrate_mvnn.py
+ 3965  grep -n 'def solve_WDP' mlca/mlca_economies.py
+ 3966  python sim_mlca.py
+ 3967  python sim_mlca.py --domain LSVM --q 0.6 --seed 1 --acquisition mean_model
+ 3968  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/BOCA/lib/sats.jar"
+ 3969  python sim_mlca.py --domain LSVM --q 0.6 --seed 1 --acquisition mean_model
+ 3970  python sim_mlca.py --domain LSVM --q 0.6 --seed 12 --acquisition mean_model
+ 3971  ls /home/janeet/Code/BOCA/lib/sats.jar
+ 3972  jar tf lib/sats.jar | grep SizeBasedUniqueRandomXOR
+ 3973  python sim_mlca.py --domain LSVM --q 0.6 --seed 13 --acquisition mean_model
+ 3974  java -cp lib/sats.jar:lib/cplex.jar org.spectrumauctions.sats.core.bidlang.xor.SizeBasedUniqueRandomXOR
+ 3975  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 15 --acquisition mean_model
+ 3976  clear
+ 3977  ls
+ 3978  grbgetkey 496e6667-8977-410a-b956-d9e8343ca67f
+ 3979  clear
+ 3980  ls
+ 3981  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 15 --acquisition mean_model
+ 3982  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 16 --acquisition mean_model
+ 3983  grbgetkey
+ 3984  grbgetkey 496e6667-8977-410a-b956-d9e8343ca67f
+ 3985  clear
+ 3986  ls
+ 3987  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 16 --acquisition mean_model
+ 3988  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 17 --acquisition mean_model
+ 3989  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/BOCA/lib/sats.jar"
+ 3990  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 19 --acquisition mean_model
+ 3991  cplex --help
+ 3992  cplex --version
+ 3993  clear
+ 3994  ls
+ 3995  clear
+ 3996  ls
+ 3997  ls results
+ 3998  rm -rf results/*
+ 3999  clear
+ 4000  ls
+ 4001  env JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 19 --acquisition mean_model
+ 4002  ls /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+ 4003  env LD_LIBRARY_PATH="/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 20 --acquisition mean_model
+ 4004  ln -s /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/libcplex2212.so lib/libcplex2010.so && env LD_LIBRARY_PATH="/home/janeet/Code/Secondary/B/lib:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" JAVA_TOOL_OPTIONS="-Djava.library.path=/home/janeet/Code/Secondary/B/lib:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 21 --acquisition mean_model
+ 4005  jar tf lib/sats.jar | grep gurobi
+ 4006  cd ..
+ 4007  c d..
+ 4008  cd ..
+ 4009  ls
+ 4010  cd MVNN
+ 4011  ls
+ 4012  vi simulation_mlca.py
+ 4013  cd ..
+ 4014  cd Secondary/B
+ 4015  ls
+ 4016  python sim_mlca.py --domain LSVM --q 0.6 --seed 14 --acquisition mean_model
+ 4017  clear
+ 4018  ls
+ 4019  cd ..
+ 4020  ls
+ 4021  cd MVNN
+ 4022  ls
+ 4023  vi simulation_mlca.py
+ 4024  clear
+ 4025  ls
+ 4026  python simulation_mlca.py --domain=LVSM --network_type=MVNN
+ 4027  python simulation_mlca.py --domain=LSVM --network_type=MVNN --seed 157
+ 4028  vi ./
+ 4029  python sim_mlca.py --domain LSVM --q 0.6 --seed 15 --acquisition mean_model
+ 4030  jar tf lib/sats.jar | grep -i Gurobi
+ 4031  find /opt/ibm/ILOG/ -name "libcplex*.so"
+ 4032  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4033  cplex --
+ 4034  vi ~/.zshrc
+ 4035  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4036  rm -rf results/*
+ 4037  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 25 --acquisition mean_model
+ 4038  cat /home/janeet/Code/Secondary/B/results/LSVM/0.6/25/mean_model/log.txt
+ 4039  ldd /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/libcplex2212.so
+ 4040  ls -la /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/
+ 4041  rm lib/cplex.jar && rm lib/libcplex2010.so
+ 4042  rm -rf results/*
+ 4043  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 26 --acquisition mean_model
+ 4044  ls -l /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/
+ 4045  find /opt/ibm/ILOG/CPLEX_Studio_Community2212/ -name "*.jar"
+ 4046  find /opt/ibm/ILOG/CPLEX_Studio_Community2212/ -name "concert.jar"
+ 4047  clear
+ 4048  ls
+ 4049  ls lib
+ 4050  cd lib
+ 4051  ls
+ 4052  ls -al
+ 4053  cat readme.txt
+ 4054  ls -al 
+ 4055  rm sats.jar
+ 4056  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar ./
+ 4057  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/libcplex.so ./
+ 4058  cp /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/libcplex2212.so ./
+ 4059  clear
+ 4060  ls
+ 4061  rm -rf results/*
+ 4062  cd ..
+ 4063  ls
+ 4064  rm -rf results/*
+ 4065  python sim_mlca.py --domain LSVM --q 0.6 --seed 15 --acquisition mean_model
+ 4066  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4067  ls
+ 4068  ls sats
+ 4069  ls lib
+ 4070  cp ../../MVNN/lib/sats-0.7.0.jar lib/sats.jar
+ 4071  clear
+ 4072  ls
+ 4073  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4074  rm -rf results/*
+ 4075  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4076  clear
+ 4077  ls
+ 4078  ls lib
+ 4079  cat readme.txt
+ 4080  rm -rf results/*
+ 4081  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4082  jar -tf /home/janeet/Code/Secondary/B/lib/sats.jar | grep -i MIP
+ 4083  clear
+ 4084  ls
+ 4085  rm -rf results/*
+ 4086  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4087  htop
+ 4088  clear
+ 4089  ls
+ 4090  cd /home/janeet/Code/Secondary/B/
+ 4091  grep -r "np.int" .
+ 4092  cd /home/janeet/Code/Secondary/B/
+ 4093  grep -rE "np\.(int|float|bool|complex|str|unicode|object)([^\w]|$)" . | grep ".py"
+ 4094  cd /home/janeet/Code/Secondary/B/
+ 4095  grep -rn "np\.int" . --include="*.py"
+ 4096  cd /home/janeet/Code/Secondary/B/
+ 4097  grep -rn "np\.float" . --include="*.py" | grep -v "np\.float32" | grep -v "np\.float64"
+ 4098  rm -rf results/*
+ 4099  cd /home/janeet/Code/Secondary/B/
+ 4100  grep -rn "np\.bool" . --include="*.py" | grep -v "np\.bool_"
+ 4101  cd /home/janeet/Code/Secondary/B/
+ 4102  grep -rnE "np\.(object|str|unicode|complex)" . --include="*.py"
+ 4103  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4104  python3 /tmp/inspect_pysats.py
+ 4105  javap -cp lib/sats.jar org.spectrumauctions.sats.opt.model.lsvm.LSVMStandardMIP
+ 4106  javap -cp lib/sats.jar org.spectrumauctions.sats.opt.model.ModelMIP
+ 4107  javap -cp lib/sats.jar edu.harvard.econcs.jopt.solver.mip.MIP
+ 4108  javap -cp lib/sats.jar edu.harvard.econcs.jopt.solver.mip.MIPWrapper
+ 4109  javap -cp lib/sats.jar edu.harvard.econcs.jopt.solver.server.cplex.CPlexMIPSolver
+ 4110  python3 /tmp/inspect_pysats.py
+ 4111  python3 -c "\nimport os\nimport jnius_config\nlib_dir = os.path.join(os.getcwd(), 'lib')\ncplex_jar = '/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/lib/cplex.jar'\njnius_config.set_classpath(os.path.join(lib_dir, '*'), cplex_jar)\njnius_config.add_options('-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux')\n\nfrom jnius import autoclass\nfrom pysats.pysats import PySats\n\nlsvm = PySats.getInstance().create_lsvm(seed=1)\nmip_wrapper = autoclass('org.spectrumauctions.sats.opt.model.lsvm.LSVMStandardMIP')(lsvm._bidder_list)\nimip = mip_wrapper.getMIP()\nsolver = autoclass('edu.harvard.econcs.jopt.solver.server.cplex.CPlexMIPSolver')()\nexport_path = os.path.abspath('test_allocation.lp')\njava_path = autoclass('java.nio.file.Paths').get(export_path)\n\nprint('Exporting...')\nsolver.exportToDisk(imip, java_path)\nif os.path.exists(export_path):\n    print(f'SUCCESS: {export_path} size {os.path.getsize(export_path)}')\nelse:\n    print('FAILURE')\n"
+ 4112  exit
+ 4113  clear
+ 4114  ls
+ 4115  cd mlca
+ 4116  ls
+ 4117  cd ..
+ 4118  ls
+ 4119  ls mvnns
+ 4120  ls mlca
+ 4121  ls
+ 4122  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4123  rm -rf results/*
+ 4124  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4125  clear
+ 4126  ls
+ 4127  exit
+ 4128  lear
+ 4129  ls
+ 4130  rm -rf results/*
+ 4131  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4132  rm -rf results/*
+ 4133  env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4134  javap -cp lib/sats.jar edu.harvard.econcs.jopt.solver.mip.PoolSolution
+ 4135  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4136  y
+ 4137  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4138  y
+ 4139  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4140  clear
+ 4141  ls
+ 4142  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4143  clearl
+ 4144  s
+ 4145  vi simple_model.py
+ 4146  celar
+ 4147  ls
+ 4148  clear
+ 4149  ls
+ 4150  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4151  yes | rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4152  vi simple_model.py
+ 4153  clear
+ 4154  la
+ 4155  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4156  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model -clear
+ 4157  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.6 --seed 22 --acquisition mean_model
+ 4158  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.9 --seed 22 --acquisition mean_model
+ 4159  htop
+ 4160  clear
+ 4161  ls
+ 4162  clear
+ 4163  ls
+ 4164  cd ..
+ 4165  ls
+ 4166  cd BOCA
+ 4167  ls
+ 4168  grep -rn "results.json" . --include="*.py"
+ 4169  htop
+ 4170  clear
+ 4171  ls
+ 4172  sudo reboot
+ 4173  clear
+ 4174  ls
+ 4175  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.9 --seed 22 --acquisition mean_model
+ 4176  clear
+ 4177  ls
+ 4178  tmux 
+ 4179  clear
+ 4180  ls
+ 4181  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.9 --seed 22 --acquisition=uUB_model
+ 4182  clear
+ 4183  ls
+ 4184  htop
+ 4185  clar
+ 4186  clear
+ 4187  l;s
+ 4188  exit
+ 4189  clear
+ 4190  ls
+ 4191  htop
+ 4192  ls
+ 4193  tmux at
+ 4194  cat results/LSVM/0.9/22/uUB_model/results.json
+ 4195  vi results/LSVM/0.9/22/uUB_model/results.json
+ 4196  htop
+ 4197  exit
+ 4198  lear
+ 4199  ls
+ 4200  clear
+ 4201  ls
+ 4202  clear
+ 4203  ls
+ 4204  clear
+ 4205  ls
+ 4206  nvim ~/.config/nvim/init.lua
+ 4207  exit
+ 4208  clear
+ 4209  ls
+ 4210  tmux at
+ 4211  lear
+ 4212  clear
+ 4213  ls
+ 4214  cd ..
+ 4215  ls
+ 4216  cp -r /home/janeet/.pyenv/versions/3.10.14/lib/python3.10/site-packages/pysats ./pysats/
+ 4217  ls
+ 4218  clear
+ 4219  ls
+ 4220  cd pysat
+ 4221  cd pysats
+ 4222  clear
+ 4223  ls
+ 4224  nvim README.md
+ 4225  clear
+ 4226  ls
+ 4227  vi simple_model.py
+ 4228  clear
+ 4229  ls
+ 4230  cd ..
+ 4231  mv pysats pysats-gurobi
+ 4232  clear
+ 4233  ls
+ 4234  cd ..
+ 4235  cel;ar
+ 4236  ls
+ 4237  clear
+ 4238  ls
+ 4239  clear
+ 4240  ls
+ 4241  clear
+ 4242  ls
+ 4243  clear
+ 4244  ls
+ 4245  cd Auctions
+ 4246  ls
+ 4247  clear
+ 4248  ls
+ 4249  clear
+ 4250  ls
+ 4251  cd ..
+ 4252  sl
+ 4253  celar
+ 4254  ls
+ 4255  mv MLHCA Auctions
+ 4256  ls
+ 4257  cd Auctions
+ 4258  ls
+ 4259  cd ..
+ 4260  ls
+ 4261  clear
+ 4262  ls
+ 4263  mv MVNN Auctions
+ 4264  mv BOCA Auctions
+ 4265  ls
+ 4266  cd Auctions
+ 4267  ls
+ 4268  clear
+ 4269  ls
+ 4270  git add ./
+ 4271  cd BOCA
+ 4272  ls
+ 4273  rm -rf .git
+ 4274  cd ..
+ 4275  ls
+ 4276  cd MLHCA
+ 4277  rm -rf .git
+ 4278  cd ..
+ 4279  cd MVNN
+ 4280  rm -rf .git
+ 4281  clear
+ 4282  ls
+ 4283  cd ..
+ 4284  lss
+ 4285  ls
+ 4286  clear
+ 4287  ls
+ 4288  git add ./
+ 4289  clear
+ 4290  ls
+ 4291  git commit -m "added MLHCA MVNN BOCA"
+ 4292  git push -f
+ 4293  git add./
+ 4294  git status
+ 4295  clear
+ 4296  ls
+ 4297  cd BOCA
+ 4298  ls
+ 4299  git status
+ 4300  git --help
+ 4301  git log
+ 4302  clear
+ 4303  ls
+ 4304  cd ..
+ 4305  git add ./
+ 4306  git stauts
+ 4307  git status
+ 4308  cp -r  MVNN ../MVNN
+ 4309  clear
+ 4310  ls
+ 4311  git rm --cached MVNN
+ 4312  git add ./
+ 4313  git status
+ 4314  colear
+ 4315  ls
+ 4316  clear
+ 4317  ls
+ 4318  git rm --cached MVNN MLHCA BOCA
+ 4319  git rm --cached MLHCA
+ 4320  git rm --cached BOCA
+ 4321  git add ./
+ 4322  git commit -m "MLHCA MVNN BOCA as independent modules and not submodules"
+ 4323  git push -f
+ 4324  clear
+ 4325  ls
+ 4326  clear
+ 4327  ls
+ 4328  cd CATS
+ 4329  ls
+ 4330  git add ./
+ 4331  ls
+ 4332  cd ..
+ 4333  rm -rf CAYS
+ 4334  rm -rf CATS
+ 4335  clear
+ 4336  ls
+ 4337  clear
+ 4338  sl
+ 4339  clear
+ 4340  ls
+ 4341  cd MLHCA
+ 4342  ls .python-version
+ 4343  cat .python-version
+ 4344  clear
+ 4345  ls
+ 4346  cd src
+ 4347  clear
+ 4348  ls
+ 4349  python sim_mlca_dq_hybrid.py --domain GSVM --init_method cca --seed 157 
+ 4350  clear
+ 4351  ls
+ 4352  cd ..
+ 4353  ls
+ 4354  clearls
+ 4355  clear
+ 4356  ls
+ 4357  cd ..
+ 4358  ls
+ 4359  clear
+ 4360  ls
+ 4361* cd BOCA/res
+ 4362* cd BOCA/
+ 4363* ls
+ 4364* clear
+ 4365* ls
+ 4366* clear
+ 4367* ls
+ 4368* python sim_mlca.py --domain LSVM --q 0.9 --seed 15 --acquisition mean_model
+ 4369* export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/BOCA/lib/sats.jar"
+ 4370* python sim_mlca.py --domain LSVM --q 0.9 --seed 15 --acquisition mean_model
+ 4371* export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux"
+ 4372* python sim_mlca.py --domain LSVM --q 0.9 --seed 15 --acquisition mean_model
+ 4373* rm -rf results/*
+ 4374* python sim_mlca.py --domain LSVM --q 0.9 --seed 15 --acquisition mean_model
+ 4375* clear
+ 4376* rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.9 --seed 22 --acquisition=uUB_model
+ 4377* python --version
+ 4378  cd /home/janeet/.pyenv/versions/3.10.14/lib/python3.10/site-packages/pysats/
+ 4379  ls
+ 4380  ls ~/Code/Secondary
+ 4381  ls ~/Code/Secondary/pysats-gurobi
+ 4382  cclear
+ 4383  ls
+ 4384  cd ..
+ 4385  clear
+ 4386  ls
+ 4387  cd .
+ 4388  clear
+ 4389  cd
+ 4390  ls
+ 4391  cd Code
+ 4392  l
+ 4393  clear
+ 4394  ls
+ 4395  cd Auctions
+ 4396  ls
+ 4397  clear
+ 4398  sl
+ 4399  ls
+ 4400  cd BOCA
+ 4401  ls
+ 4402  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/Auctions/BOCA/lib/sats.jar"
+ 4403  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.9 --seed 22 --acquisition=uUB_model
+ 4404  export JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux -Djava.class.path=/home/janeet/Code/Auctions/BOCA/lib/"
+ 4405  rm -rf results/* && env LC_ALL=C JAVA_TOOL_OPTIONS="-Djava.library.path=/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux" python sim_mlca.py --domain LSVM --q 0.9 --seed 22 --acquisition=uUB_model

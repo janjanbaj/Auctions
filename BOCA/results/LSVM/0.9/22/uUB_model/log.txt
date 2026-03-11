@@ -1,0 +1,13 @@
+2026-03-11 16:52:46: START MLCA:
+2026-03-11 16:52:46: -----------------------------------------------
+2026-03-11 16:52:46: Model: LSVM
+2026-03-11 16:52:46: Seed SATS Instance: 22
+2026-03-11 16:52:46: Qinit: 5
+2026-03-11 16:52:46: Qmax: 20
+2026-03-11 16:52:46: Qround: 4
+2026-03-11 16:52:46: Separate economy training: False
+2026-03-11 16:52:46: Balanced global marginals: True
+2026-03-11 16:52:46: New query option: restricted_MIP
+2026-03-11 16:52:46: Acquisition: uUB_model
+2026-03-11 16:52:46: 
+2026-03-11 16:52:46: Instantiate SATS Instance
