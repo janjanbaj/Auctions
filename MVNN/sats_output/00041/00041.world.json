@@ -1,0 +1,231 @@
+{
+  "bands": [
+    {
+      "licenses": [
+        {
+          "bandName": "A",
+          "uuid": "f4dc44f7-3e52-47dd-b29d-56af0608fb61",
+          "longId": 0,
+          "name": "A",
+          "worldId": 41
+        },
+        {
+          "bandName": "A",
+          "uuid": "4059b797-e4d8-4308-94bf-b318eaa2bda8",
+          "longId": 1,
+          "name": "B",
+          "worldId": 41
+        },
+        {
+          "bandName": "A",
+          "uuid": "cf991b4e-fe79-4713-9507-82e5af8b85db",
+          "longId": 2,
+          "name": "C",
+          "worldId": 41
+        },
+        {
+          "bandName": "A",
+          "uuid": "6efe0353-1ede-4dd4-9e68-b48291c530d0",
+          "longId": 3,
+          "name": "D",
+          "worldId": 41
+        },
+        {
+          "bandName": "A",
+          "uuid": "37634aac-f56a-4735-bd76-aea584999f60",
+          "longId": 4,
+          "name": "E",
+          "worldId": 41
+        },
+        {
+          "bandName": "A",
+          "uuid": "6d5e4543-b0c0-4748-80b5-e7646736e485",
+          "longId": 5,
+          "name": "F",
+          "worldId": 41
+        }
+      ],
+      "uuid": "8bcabe99-cfe1-4eba-89f9-0d4b42b0716e",
+      "name": "A",
+      "worldId": 41
+    },
+    {
+      "licenses": [
+        {
+          "bandName": "B",
+          "uuid": "7b6cdbc6-13dc-4436-9d34-ff0c18543f56",
+          "longId": 6,
+          "name": "G",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "5bcba017-f1f6-4a97-8f04-9b258e951be5",
+          "longId": 7,
+          "name": "H",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "04424f1f-5b72-44f8-8fd3-7c1bf8838696",
+          "longId": 8,
+          "name": "I",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "51bc9840-f164-4bf6-90c9-a865741c3a60",
+          "longId": 9,
+          "name": "J",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "a4e108bf-44a5-42bb-9f71-b59edd414d6a",
+          "longId": 10,
+          "name": "K",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "5cb13caf-b139-448d-8403-11e5885da122",
+          "longId": 11,
+          "name": "L",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "a06bc640-8fde-478c-99ac-8dfd3b1d040c",
+          "longId": 12,
+          "name": "M",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "5c0efcfd-6ff9-4c19-8050-051942048e3c",
+          "longId": 13,
+          "name": "N",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "854aba1d-c6b0-4ef2-9da4-116be5acd7b9",
+          "longId": 14,
+          "name": "O",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "38a6f95f-6154-4c97-ae02-ae635ad28625",
+          "longId": 15,
+          "name": "P",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "b0e134ba-9824-4993-a126-9ae0b452ce3f",
+          "longId": 16,
+          "name": "Q",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "a3fefe89-2899-4473-90b4-453e82ed9032",
+          "longId": 17,
+          "name": "R",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "4b682c7c-77b2-4db4-add4-29669825db12",
+          "longId": 18,
+          "name": "S",
+          "worldId": 41
+        },
+        {
+          "bandName": "B",
+          "uuid": "c9e3f2c4-21f2-40cc-ad2c-8af03517e611",
+          "longId": 19,
+          "name": "T",
+          "worldId": 41
+        }
+      ],
+      "uuid": "91638999-46f1-49e5-9373-78f2025c989e",
+      "name": "B",
+      "worldId": 41
+    },
+    {
+      "licenses": [
+        {
+          "bandName": "C",
+          "uuid": "22e46f4d-aed0-4263-8fec-d479f2a2302e",
+          "longId": 20,
+          "name": "U",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "17b8985d-b67a-4ad2-937b-47398d8a7028",
+          "longId": 21,
+          "name": "V",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "ebd5ac88-4ea3-4104-8248-fda8c207499a",
+          "longId": 22,
+          "name": "W",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "73528ef3-f646-4e00-b47f-d2b6f5beec2c",
+          "longId": 23,
+          "name": "X",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "8cce39b0-3e49-4def-b2d7-aca299bc22c5",
+          "longId": 24,
+          "name": "Y",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "1e600cd1-8c60-4de5-aeb7-21e59d36891e",
+          "longId": 25,
+          "name": "Z",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "d1cf365e-bcb3-4892-8663-f46fa0876c9a",
+          "longId": 26,
+          "name": "AA",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "2970fa7b-b699-41d5-9328-439591a81d6c",
+          "longId": 27,
+          "name": "AB",
+          "worldId": 41
+        },
+        {
+          "bandName": "C",
+          "uuid": "d691fd88-7458-4224-9e78-d847d7221e41",
+          "longId": 28,
+          "name": "AC",
+          "worldId": 41
+        }
+      ],
+      "uuid": "f656d73b-6330-4494-bc98-03d39a923123",
+      "name": "C",
+      "worldId": 41
+    }
+  ],
+  "modelName": "Single-Region Value Model",
+  "id": 41,
+  "implementation": "org.spectrumauctions.sats.core.model.srvm.SRVMWorld"
+}

@@ -1,0 +1,89 @@
+{
+  "LSVM_A": 160,
+  "LSVM_B": 4,
+  "proximity": [
+    {
+      "rowPosition": 2,
+      "columnPosition": 1,
+      "uuid": "00562223-dfb5-4640-9adc-e6f962149065",
+      "longId": 13,
+      "name": "N",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 1,
+      "uuid": "0daa3461-86de-43ad-8046-9dea78fba440",
+      "longId": 7,
+      "name": "H",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 2,
+      "uuid": "f248b972-91ef-4674-8b58-f7ff293a39c7",
+      "longId": 14,
+      "name": "O",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 0,
+      "uuid": "a1fa00b9-c6cf-4e9f-978f-0466a1c15526",
+      "longId": 12,
+      "name": "M",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 1,
+      "uuid": "c1a14f2f-695e-42de-a69d-2ad20118edbd",
+      "longId": 1,
+      "name": "B",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 2,
+      "uuid": "f9e4dfa8-5bb1-4c5b-b038-aa240df31226",
+      "longId": 8,
+      "name": "I",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 0,
+      "uuid": "f1b97307-1da9-4a3a-8a38-493e8e9275da",
+      "longId": 6,
+      "name": "G",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 3,
+      "uuid": "1cdcb3b7-7cb9-4905-8a00-8f86ceca4f47",
+      "longId": 15,
+      "name": "P",
+      "worldId": 42
+    }
+  ],
+  "values": {
+    "1": 16.487293553433936,
+    "6": 10.444221319165546,
+    "7": 11.617020222840827,
+    "8": 8.31008233069171,
+    "12": 16.91405858177788,
+    "13": 16.638895680274082,
+    "14": 4.47806613214808,
+    "15": 4.511206422663273
+  },
+  "description": "Regional Bidder Setup which has its headquarter in N, thus interested in licenses N, H, O, M, B, I, G, P.",
+  "setupType": "Regional Bidder Setup",
+  "uuid": "cd4fbde3-520e-4774-b4a2-f4351e5112d6",
+  "population": 0,
+  "id": 5,
+  "worldId": 42,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.lsvm.LSVMBidder"
+}

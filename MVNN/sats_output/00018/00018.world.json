@@ -1,0 +1,145 @@
+{
+  "size": 6,
+  "nationalCircle": {
+    "licenses": [
+      {
+        "position": 0,
+        "uuid": "09776ade-30ae-40e4-95e2-140ed2f567dc",
+        "longId": 0,
+        "name": "A",
+        "worldId": 18
+      },
+      {
+        "position": 1,
+        "uuid": "b8e59cff-e059-41b4-8717-468012529001",
+        "longId": 1,
+        "name": "B",
+        "worldId": 18
+      },
+      {
+        "position": 2,
+        "uuid": "02ec7e1b-8ef3-403d-9d8f-a24c79243509",
+        "longId": 2,
+        "name": "C",
+        "worldId": 18
+      },
+      {
+        "position": 3,
+        "uuid": "bf888b9c-52ea-4092-8aa7-7660e9a54fd3",
+        "longId": 3,
+        "name": "D",
+        "worldId": 18
+      },
+      {
+        "position": 4,
+        "uuid": "60c3e594-34b5-4487-9692-19f9237a3624",
+        "longId": 4,
+        "name": "E",
+        "worldId": 18
+      },
+      {
+        "position": 5,
+        "uuid": "7f83b5ce-94c7-48ac-ad3e-cc9302054184",
+        "longId": 5,
+        "name": "F",
+        "worldId": 18
+      },
+      {
+        "position": 6,
+        "uuid": "4350c54a-b49f-483c-98ae-61477f2e9d8a",
+        "longId": 6,
+        "name": "G",
+        "worldId": 18
+      },
+      {
+        "position": 7,
+        "uuid": "0b3e5c18-fcdc-4fc2-9bbd-7084f90b7fd7",
+        "longId": 7,
+        "name": "H",
+        "worldId": 18
+      },
+      {
+        "position": 8,
+        "uuid": "cda0f8dc-06fb-4a23-b2e6-930b7e95e475",
+        "longId": 8,
+        "name": "I",
+        "worldId": 18
+      },
+      {
+        "position": 9,
+        "uuid": "0ce6eea9-aba3-4766-9d92-f12796fbf15f",
+        "longId": 9,
+        "name": "J",
+        "worldId": 18
+      },
+      {
+        "position": 10,
+        "uuid": "8d4dddb2-4b1f-4ae1-8323-2eb787466b0b",
+        "longId": 10,
+        "name": "K",
+        "worldId": 18
+      },
+      {
+        "position": 11,
+        "uuid": "b61739d5-f986-466b-9925-bf1ff72c4df6",
+        "longId": 11,
+        "name": "L",
+        "worldId": 18
+      }
+    ],
+    "worldId": 18,
+    "size": 12
+  },
+  "regionalCircle": {
+    "licenses": [
+      {
+        "position": 0,
+        "uuid": "deeb0649-cf70-4f21-b882-c770d9978bb6",
+        "longId": 12,
+        "name": "M",
+        "worldId": 18
+      },
+      {
+        "position": 1,
+        "uuid": "f8d21369-3a2a-415b-8ea6-db9311928709",
+        "longId": 13,
+        "name": "N",
+        "worldId": 18
+      },
+      {
+        "position": 2,
+        "uuid": "0018fff5-910d-414d-841f-c582f17993f2",
+        "longId": 14,
+        "name": "O",
+        "worldId": 18
+      },
+      {
+        "position": 3,
+        "uuid": "c35d1d90-49dd-4bfa-bf69-6aa2589fb66f",
+        "longId": 15,
+        "name": "P",
+        "worldId": 18
+      },
+      {
+        "position": 4,
+        "uuid": "917cfea8-1b3f-4563-b66c-16e957cee154",
+        "longId": 16,
+        "name": "Q",
+        "worldId": 18
+      },
+      {
+        "position": 5,
+        "uuid": "888ed6d3-ab13-4892-a545-b4fa8807ae2f",
+        "longId": 17,
+        "name": "R",
+        "worldId": 18
+      }
+    ],
+    "worldId": 18,
+    "size": 6
+  },
+  "isLegacyGSVM": false,
+  "modelName": "Global Synergy Value Model",
+  "id": 18,
+  "implementation": "org.spectrumauctions.sats.core.model.gsvm.GSVMWorld"
+}

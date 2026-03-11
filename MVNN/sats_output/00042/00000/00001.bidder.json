@@ -1,0 +1,98 @@
+{
+  "LSVM_A": 160,
+  "LSVM_B": 4,
+  "proximity": [
+    {
+      "rowPosition": 0,
+      "columnPosition": 2,
+      "uuid": "d59c1c45-7c96-49d0-9b9a-735d210e87f8",
+      "longId": 2,
+      "name": "C",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 3,
+      "uuid": "6e0ef4f0-b27b-4544-91ea-7f7ed6942eb1",
+      "longId": 3,
+      "name": "D",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 2,
+      "uuid": "f9e4dfa8-5bb1-4c5b-b038-aa240df31226",
+      "longId": 8,
+      "name": "I",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 1,
+      "uuid": "c1a14f2f-695e-42de-a69d-2ad20118edbd",
+      "longId": 1,
+      "name": "B",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 4,
+      "uuid": "0582d4e1-6794-45d3-a08d-85c60c9b0673",
+      "longId": 4,
+      "name": "E",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 3,
+      "uuid": "db81b551-d52f-4fd3-87ec-e6947983f72f",
+      "longId": 9,
+      "name": "J",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 2,
+      "uuid": "f248b972-91ef-4674-8b58-f7ff293a39c7",
+      "longId": 14,
+      "name": "O",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 1,
+      "uuid": "0daa3461-86de-43ad-8046-9dea78fba440",
+      "longId": 7,
+      "name": "H",
+      "worldId": 42
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 0,
+      "uuid": "6c8fe1bd-2f7a-4da4-a11b-8d672f792c44",
+      "longId": 0,
+      "name": "A",
+      "worldId": 42
+    }
+  ],
+  "values": {
+    "0": 3.3354631832876622,
+    "1": 3.193359997449761,
+    "2": 13.14724247496223,
+    "3": 4.897044034276934,
+    "4": 7.539469457363528,
+    "7": 11.198306063785907,
+    "8": 5.381143897758834,
+    "9": 8.642297347338413,
+    "14": 10.483036413421228
+  },
+  "description": "Regional Bidder Setup which has its headquarter in C, thus interested in licenses C, D, I, B, E, J, O, H, A.",
+  "setupType": "Regional Bidder Setup",
+  "uuid": "012308ad-cb06-4175-94b4-d0626290159f",
+  "population": 0,
+  "id": 1,
+  "worldId": 42,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.lsvm.LSVMBidder"
+}

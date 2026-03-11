@@ -1,0 +1,44 @@
+{
+  "bidderPosition": 4,
+  "values": {
+    "16": 12.121288018594639,
+    "17": 17.0898042835788,
+    "8": 11.03763510188591,
+    "9": 6.688650997386423,
+    "10": 5.083950202755945,
+    "11": 14.346397437986628
+  },
+  "description": "Regional Bidder Setup with interest in licenses I, J, K, L, Q, R.",
+  "allocationLimit": {
+    "kind": "BundleSizeAllocationLimit",
+    "good1": [
+      "6e894142-f4b6-4d8b-904b-a3676f8950b8",
+      "f75a0b0d-d80c-48bc-bb96-e379fa2e98d5",
+      "027fdd57-277d-48a8-acc6-ad57b996ee6e",
+      "61e0fe5c-15ea-4b53-b31f-f5ef851e8cbe",
+      "479232f3-f01f-4df9-944b-02db652c8fff",
+      "da0bccca-7f52-4c5c-83c6-ab22d2434735",
+      "40eca560-c39f-4f53-9274-0afc95749b59",
+      "f678d813-f906-4ce1-a8ce-4b04a97f1254",
+      "977802bf-3fbb-40af-9a2b-6c5d3f3a3a84",
+      "b555504e-2105-4ac7-812d-e7cf3846920a",
+      "90aac4fe-3eaf-4879-af37-40d698bac0f2",
+      "31bba64a-582b-49f5-9c8f-e82e7f9f0495",
+      "df1ddbda-3579-40b6-bd42-eed866bf85c1",
+      "6e4890d9-b6e7-47b8-8e28-675fdc4a23ef",
+      "3315a5cb-5298-4d3f-9716-e18839ecf975",
+      "5cb579a7-e641-4aa5-a36a-03e2dfaf4dad",
+      "7d61f174-2498-463a-9cad-424702358285",
+      "b99bc249-9abe-4e92-884e-c7f71f11e0d7"
+    ],
+    "numberOfItems": 4
+  },
+  "setupType": "Regional Bidder Setup",
+  "uuid": "6e2f3d32-39a4-403c-a7d5-286234a8845f",
+  "population": 0,
+  "id": 4,
+  "worldId": 32,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.gsvm.GSVMBidder"
+}

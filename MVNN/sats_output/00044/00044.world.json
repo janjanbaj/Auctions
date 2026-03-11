@@ -1,0 +1,163 @@
+{
+  "grid": {
+    "licenses": [
+      [
+        {
+          "rowPosition": 0,
+          "columnPosition": 0,
+          "uuid": "8bf0c778-f196-4d0a-a912-037361057b7f",
+          "longId": 0,
+          "name": "A",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 0,
+          "columnPosition": 1,
+          "uuid": "49dc3459-4e01-4cb9-af22-00bf79c4707e",
+          "longId": 1,
+          "name": "B",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 0,
+          "columnPosition": 2,
+          "uuid": "d0ba3d48-7766-4cd5-9e1b-033e5be9426b",
+          "longId": 2,
+          "name": "C",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 0,
+          "columnPosition": 3,
+          "uuid": "5b32ca71-4f8d-4d66-b199-abda855a9678",
+          "longId": 3,
+          "name": "D",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 0,
+          "columnPosition": 4,
+          "uuid": "e8110552-7224-49b0-bfdf-8291f7907d64",
+          "longId": 4,
+          "name": "E",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 0,
+          "columnPosition": 5,
+          "uuid": "08be1158-0748-43ae-a9ed-ddb301655308",
+          "longId": 5,
+          "name": "F",
+          "worldId": 44
+        }
+      ],
+      [
+        {
+          "rowPosition": 1,
+          "columnPosition": 0,
+          "uuid": "e61f66db-19cc-4ab1-a479-034170fe8ac6",
+          "longId": 6,
+          "name": "G",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 1,
+          "columnPosition": 1,
+          "uuid": "5c4e2ba3-a2cd-45d8-8e74-2cf60585a329",
+          "longId": 7,
+          "name": "H",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 1,
+          "columnPosition": 2,
+          "uuid": "09ac6097-a90e-4ef1-abd6-3755ca6d8464",
+          "longId": 8,
+          "name": "I",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 1,
+          "columnPosition": 3,
+          "uuid": "509fdf0a-c705-4084-ad17-5f86095d5a0c",
+          "longId": 9,
+          "name": "J",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 1,
+          "columnPosition": 4,
+          "uuid": "86b8d260-330f-4ff0-93f6-0b3416a618db",
+          "longId": 10,
+          "name": "K",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 1,
+          "columnPosition": 5,
+          "uuid": "f13d9e42-b8d0-48af-b86f-890718c5acb4",
+          "longId": 11,
+          "name": "L",
+          "worldId": 44
+        }
+      ],
+      [
+        {
+          "rowPosition": 2,
+          "columnPosition": 0,
+          "uuid": "e5979296-b92d-4cd5-bab9-448e7506cf79",
+          "longId": 12,
+          "name": "M",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 2,
+          "columnPosition": 1,
+          "uuid": "1b95a275-3440-49dd-bb84-8b0879297b11",
+          "longId": 13,
+          "name": "N",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 2,
+          "columnPosition": 2,
+          "uuid": "dca0d232-bbd8-487d-bcb5-f7532fdca7ea",
+          "longId": 14,
+          "name": "O",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 2,
+          "columnPosition": 3,
+          "uuid": "ed57f7fb-8c6e-45e9-a15c-99ef573a936a",
+          "longId": 15,
+          "name": "P",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 2,
+          "columnPosition": 4,
+          "uuid": "2376bbdd-270f-44aa-ae1a-d63be3944f45",
+          "longId": 16,
+          "name": "Q",
+          "worldId": 44
+        },
+        {
+          "rowPosition": 2,
+          "columnPosition": 5,
+          "uuid": "a968bda2-7b16-4e34-9ca9-b8f0e67db121",
+          "longId": 17,
+          "name": "R",
+          "worldId": 44
+        }
+      ]
+    ],
+    "worldId": 44,
+    "numberOfRows": 3,
+    "numberOfColumns": 6
+  },
+  "isLegacyLSVM": false,
+  "modelName": "Local Synergy Value Model",
+  "id": 44,
+  "implementation": "org.spectrumauctions.sats.core.model.lsvm.LSVMWorld"
+}

@@ -1,0 +1,27 @@
+{
+  "bidderStrength": 1.1511439905962964,
+  "synergyThreshold": {
+    "A": 4,
+    "B": 2,
+    "C": 2
+  },
+  "baseValues": {
+    "A": 0E-32,
+    "B": 78.33931918254372833791536787773480,
+    "C": 17.71815833498723480524865684212920
+  },
+  "intrabandSynergyFactors": {
+    "A": 1.882754035936096,
+    "B": 1.9563744163286103,
+    "C": 2.0700957850101678
+  },
+  "interbandSynergyValue": 1.1439280218142946,
+  "setupType": "2.6 Ghz Bidder (High Frequence Bidder) Setup",
+  "uuid": "ab23ce08-45cf-4c74-9482-874d0c42f91e",
+  "population": 0,
+  "id": 2,
+  "worldId": 41,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.srvm.SRVMBidder"
+}

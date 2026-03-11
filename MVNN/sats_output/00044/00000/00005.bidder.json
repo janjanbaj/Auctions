@@ -1,0 +1,80 @@
+{
+  "LSVM_A": 160,
+  "LSVM_B": 4,
+  "proximity": [
+    {
+      "rowPosition": 1,
+      "columnPosition": 0,
+      "uuid": "e61f66db-19cc-4ab1-a479-034170fe8ac6",
+      "longId": 6,
+      "name": "G",
+      "worldId": 44
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 0,
+      "uuid": "8bf0c778-f196-4d0a-a912-037361057b7f",
+      "longId": 0,
+      "name": "A",
+      "worldId": 44
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 1,
+      "uuid": "5c4e2ba3-a2cd-45d8-8e74-2cf60585a329",
+      "longId": 7,
+      "name": "H",
+      "worldId": 44
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 0,
+      "uuid": "e5979296-b92d-4cd5-bab9-448e7506cf79",
+      "longId": 12,
+      "name": "M",
+      "worldId": 44
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 1,
+      "uuid": "49dc3459-4e01-4cb9-af22-00bf79c4707e",
+      "longId": 1,
+      "name": "B",
+      "worldId": 44
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 2,
+      "uuid": "09ac6097-a90e-4ef1-abd6-3755ca6d8464",
+      "longId": 8,
+      "name": "I",
+      "worldId": 44
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 1,
+      "uuid": "1b95a275-3440-49dd-bb84-8b0879297b11",
+      "longId": 13,
+      "name": "N",
+      "worldId": 44
+    }
+  ],
+  "values": {
+    "0": 19.39746675379647,
+    "1": 19.356501118516892,
+    "6": 17.364310623347187,
+    "7": 4.940717560066987,
+    "8": 10.049505211112455,
+    "12": 9.737037516387105,
+    "13": 4.777585463549102
+  },
+  "description": "Regional Bidder Setup which has its headquarter in G, thus interested in licenses G, A, H, M, B, I, N.",
+  "setupType": "Regional Bidder Setup",
+  "uuid": "6a4cdef2-ab53-458f-9410-b59f40fd9069",
+  "population": 0,
+  "id": 5,
+  "worldId": 44,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.lsvm.LSVMBidder"
+}

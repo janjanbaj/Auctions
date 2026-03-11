@@ -1,0 +1,27 @@
+{
+  "bidderStrength": 0.8102796563370686,
+  "synergyThreshold": {
+    "A": 4,
+    "B": 2,
+    "C": 2
+  },
+  "baseValues": {
+    "A": 262.63937492168413380398460855377400,
+    "B": 69.1997855883231587016168148065500,
+    "C": 12.09292886323787092549886421794820
+  },
+  "intrabandSynergyFactors": {
+    "A": 3.913675539224594,
+    "B": 1.8573558712668812,
+    "C": 2.242520005947816
+  },
+  "interbandSynergyValue": 1.0491300734696896,
+  "setupType": "Primary Bidder Setup",
+  "uuid": "eff91f6d-5dc4-4ae6-896e-c2b3de9336cc",
+  "population": 0,
+  "id": 5,
+  "worldId": 41,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.srvm.SRVMBidder"
+}
