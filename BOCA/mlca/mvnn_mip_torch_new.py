@@ -7,12 +7,13 @@ See example_toy{i}_mip_test.py for examples of how to use this class.
 import logging
 from collections import OrderedDict
 
-import docplex.mp.model as cpx
+import gurobipy as gp
+from gurobipy import GRB
 import numpy as np
 import pandas as pd
 
-# # CPLEX: Here, DOcplex is used for solving the deep neural network-based Winner Determination Problem.
-# documentation: http://ibmdecisionoptimization.github.io/docplex-doc/mp/docplex.mp.model.html
+# # CPLEX: Here, Gurobipy is used for solving the deep neural network-based Winner Determination Problem.
+# documentation: http://ibmdecisionoptimization.github.io/py_python_api_details/mp/docplex.mp.model.html
 # %% Neural Net Optimization Class
 
 
@@ -33,7 +34,7 @@ class MVNN_MIP_TORCH_NEW:
         self.sorted_bidders = list(self.Models.keys())  # sorted list of bidders
         self.sorted_bidders.sort()
         self.N = len(models)  # number of bidders
-        self.Mip = cpx.Model(name="MVNN_MIP_NEW")  # docplex instance
+        self.Mip = gp.Model(name="MVNN_MIP_NEW")  # docplex instance
 
         self.z = {}  # continous MIP variable
         self.alpha = {}  # binary MIP variable
@@ -55,10 +56,10 @@ class MVNN_MIP_TORCH_NEW:
         upper_bound_input = [1] * self.M
         lower_bound_input = [0] * self.M
         self.upper_box_bounds = OrderedDict(list(
-            (bidder_name, [np.array(upper_bound_input, dtype=np.int).reshape(-1, 1)]) for bidder_name in
+            (bidder_name, [np.array(upper_bound_input, dtype=int).reshape(-1, 1)]) for bidder_name in
             self.sorted_bidders))
         self.lower_box_bounds = OrderedDict(list(
-            (bidder_name, [np.array(lower_bound_input, dtype=np.int).reshape(-1, 1)]) for bidder_name in
+            (bidder_name, [np.array(lower_bound_input, dtype=int).reshape(-1, 1)]) for bidder_name in
             self.sorted_bidders))
         # Propagate through Networks
         for bidder_name in self.sorted_bidders:
@@ -100,51 +101,54 @@ class MVNN_MIP_TORCH_NEW:
                   feasibility_tol=None,
                   mip_start=None):
         # add a warm start
+        self.Mip.Params.LogToConsole = 1 if log_output else 0
         if mip_start is not None:
-            # self.Mip # not sure why this is there JW?
-            self.Mip.add_mip_start(mip_start)
-        # set time limit
+            for v in self.Mip.getVars():
+                if v.VarName in mip_start:
+                    v.Start = mip_start[v.VarName]
         if time_limit is not None:
-            self.Mip.set_time_limit(time_limit)
-        # set mip relative gap
+            self.Mip.Params.TimeLimit = time_limit
         if mip_relative_gap is not None:
-            self.Mip.parameters.mip.tolerances.mipgap.set(mip_relative_gap)
-        # set mip integrality tolerance
+            self.Mip.Params.MIPGap = mip_relative_gap
         if integrality_tol is not None:
-            self.Mip.parameters.mip.tolerances.integrality.set(integrality_tol)
-        # Set feasibility tolerance
+            self.Mip.Params.IntFeasTol = integrality_tol
         if feasibility_tol is not None:
-            self.Mip.parameters.simplex.tolerances.feasibility.set(feasibility_tol)
+            self.Mip.Params.FeasibilityTol = feasibility_tol
 
         logging.info('')
         logging.info('Solve MIP')
         logging.info('-----------------------------------------------')
         logging.info(f'MIP warm-start {bool(mip_start)}')
-        logging.info('MIP time Limit of %s', self.Mip.get_time_limit())
-        logging.info('MIP relative gap %s', self.Mip.parameters.mip.tolerances.mipgap.get())
-        logging.info('MIP integrality tol %s', self.Mip.parameters.mip.tolerances.integrality.get())
-        logging.info('MIP integrality tol %s', self.Mip.parameters.simplex.tolerances.feasibility.get())
+        logging.info('MIP time Limit of %s', getattr(self.Mip.Params, "TimeLimit", None))
+        logging.info('MIP relative gap %s', getattr(self.Mip.Params, "MIPGap", None))
+        logging.info('MIP integrality tol %s', getattr(self.Mip.Params, "IntFeasTol", None))
+        logging.info('MIP feasibility tol %s', getattr(self.Mip.Params, "FeasibilityTol", None))
 
-        # solve MIP
-        # self.Mip.dump('debug/lsvm_debug_mip')
-        # print('DUMP MIP')
-        # logging.info('DUMP MIP')
-        Sol = self.Mip.solve(log_output=log_output)
-        unsatisfied_constraints = Sol.find_unsatisfied_constraints(self.Mip)
+        self.Mip.optimize()
+        
+        unsatisfied_constraints = []
+        if self.Mip.Status not in [GRB.OPTIMAL, GRB.TIME_LIMIT, GRB.SUBOPTIMAL]:
+            unsatisfied_constraints = ["Model is infeasible or unbounded"]
+            
         logging.info(f'MIP unsatisfied constraints: {unsatisfied_constraints}')
         assert len(unsatisfied_constraints) == 0, \
             f'Solution does not satisfy {len(unsatisfied_constraints)} constraint(s).'
+            
+        Sol = {}
+        if self.Mip.Status in [GRB.OPTIMAL, GRB.TIME_LIMIT, GRB.SUBOPTIMAL] and self.Mip.SolCount > 0:
+            for v in self.Mip.getVars():
+                Sol[v.VarName] = v.X
 
         # get solution details
         try:
-            self.soltime = Sol.solve_details._time
+            self.soltime = self.Mip.Runtime
         except Exception:
             self.soltime = None
         mip_log = self.log_solve_details(self.Mip)
         # set the optimal allocation
         for i in range(0, self.N):
             for j in range(0, self.M):
-                self.x_star[i, j] = int(self.z[(i, 0, j)].solution_value)
+                self.x_star[i, j] = int(self.z[(i, 0, j)].X)
 
             logging.debug('MIP Solution')
             logging.debug(f'Bidder {i} - {self.x_star[i, :].flatten().tolist()}')
@@ -153,16 +157,24 @@ class MVNN_MIP_TORCH_NEW:
 
     def log_solve_details(self,
                           solved_mip):
-        details = solved_mip.get_solve_details()
         logging.info('\nSolve Details')
         logging.info('-----------------------------------------------')
-        logging.info('Problem : %s', details.problem_type)
-        logging.info('Status  : %s', details.status)
-        logging.info('Time    : %s sec', round(details.time))
-        logging.info('Rel. Gap: {} %'.format(details.mip_relative_gap))
-        logging.debug('N. Iter : %s', details.nb_iterations)
-        logging.debug('Hit Lim.: %s', details.has_hit_limit())
-        logging.debug('Objective Value: %s', solved_mip.objective_value)
+        logging.info('Problem : %s', "MIP")
+        logging.info('Status  : %s', solved_mip.Status)
+        try:
+            logging.info('Time    : %s sec', round(solved_mip.Runtime))
+        except AttributeError:
+            pass
+        try:
+            logging.info('Rel. Gap: {} %'.format(solved_mip.MIPGap))
+        except AttributeError:
+            logging.info('Rel. Gap: N/A %')
+        logging.debug('N. Iter : %s', solved_mip.IterCount)
+        logging.debug('Hit Lim.: %s', solved_mip.Status == GRB.TIME_LIMIT)
+        try:
+            logging.debug('Objective Value: %s', solved_mip.ObjVal)
+        except AttributeError:
+            logging.debug('Objective Value: N/A')
         logging.debug('')
         logging.debug('IA Case Statistics:')
         for bidder_name, v in self.case_counter.items():
@@ -170,8 +182,10 @@ class MVNN_MIP_TORCH_NEW:
             for k, v2 in v.items():
                 logging.debug(f' - {k}: {v2}')
         logging.debug('\n')
-        return {'n_iter': details.nb_iterations, 'rel. gap': details.mip_relative_gap,
-                'hit_limit': details.has_hit_limit(), 'time': details.time,
+        gap = solved_mip.MIPGap if hasattr(solved_mip, "MIPGap") else 0.0
+        time_sec = solved_mip.Runtime if hasattr(solved_mip, "Runtime") else 0.0
+        return {'n_iter': solved_mip.IterCount, 'rel. gap': gap,
+                'hit_limit': solved_mip.Status == GRB.TIME_LIMIT, 'time': time_sec,
                 'case_counter': self.case_counter}
 
     def summary(self):
@@ -278,9 +292,9 @@ class MVNN_MIP_TORCH_NEW:
             R, J = W.shape
             # decision variables
             if layer_idx == 0:
-                self.z.update({(i, 0, j): self.Mip.binary_var(name=f"x_B{i}_(0,{j})") for j in
+                self.z.update({(i, 0, j): self.Mip.addVar(vtype=GRB.BINARY, name=f"x_B{i}_(0,{j})") for j in
                                range(0, J)})  # binary variables for allocation
-            self.z.update({(i, layer, r): self.Mip.continuous_var(name=f"z_B{i}_({layer},{r})") for r in range(0,
+            self.z.update({(i, layer, r): self.Mip.addVar(vtype=GRB.CONTINUOUS, name=f"z_B{i}_({layer},{r})") for r in range(0,
                                                                                                                R)})  # output value variables after activation: remark one could add lb=0, ub=ts[layer-1] globally, not sure if this makes it faster or slower.
 
             # BUILD CONSTRAINTS FOR EACH NODE IN BIDDER {key}'s MVNN
@@ -299,71 +313,71 @@ class MVNN_MIP_TORCH_NEW:
                         self.upper_box_bounds[key][layer][r, 0] >= 0 and self.upper_box_bounds[key][layer][r, 0] <= ts[
                     layer - 1][r]):
                     # PRECALCULATION:
-                    aff_linear_output = self.Mip.sum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
-                    # self.Mip.add_constraint(ct=self.z[(i, layer , r)] ==  aff_linear_output, ctname=f'Bidder{i}_Node({layer},{r})_Case3_CT1')
+                    aff_linear_output = gp.quicksum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
+                    # self.Mip.addConstr(self.z[(i, layer , r)] ==  aff_linear_output, name=f'Bidder{i}_Node({layer},{r})_Case3_CT1')
                     self.z[(i, layer, r)] = aff_linear_output
                     self.case_counter[key]['Case3'] += 1
                 # CASE 4 -> REMOVAL:
                 elif self.lower_box_bounds[key][layer][r, 0] >= 0:
                     # PRECALCULATION:
-                    aff_linear_output = self.Mip.sum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
+                    aff_linear_output = gp.quicksum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
                     # Initialize binary variable beta
-                    self.beta.update({(i, layer, r): self.Mip.binary_var(name=f"beta_B{i}_({layer},{r})")})
+                    self.beta.update({(i, layer, r): self.Mip.addVar(vtype=GRB.BINARY, name=f"beta_B{i}_({layer},{r})")})
                     # TYPE 1 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] <= ts[layer - 1][r],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case4_CT1')
+                    self.Mip.addConstr(self.z[(i, layer, r)] <= ts[layer - 1][r],
+                                            name=f'Bidder{i}_Node({layer},{r})_Case4_CT1')
                     # TYPE 2 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] <= aff_linear_output,
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case4_CT2')
+                    self.Mip.addConstr(self.z[(i, layer, r)] <= aff_linear_output,
+                                            name=f'Bidder{i}_Node({layer},{r})_Case4_CT2')
                     # TYPE 3 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] >= self.beta[(i, layer, r)] * ts[layer - 1][r],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case4_CT3')
+                    self.Mip.addConstr(self.z[(i, layer, r)] >= self.beta[(i, layer, r)] * ts[layer - 1][r],
+                                            name=f'Bidder{i}_Node({layer},{r})_Case4_CT3')
                     # TYPE 4 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] >= aff_linear_output + (
+                    self.Mip.addConstr(self.z[(i, layer, r)] >= aff_linear_output + (
                             ts[layer - 1][r] - self.upper_box_bounds[key][layer][r, 0]) * self.beta[(i, layer, r)],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case4_CT4')
+                                            name=f'Bidder{i}_Node({layer},{r})_Case4_CT4')
                     self.case_counter[key]['Case4'] += 1
                 # CASE 5 -> REMOVAL:
                 elif self.upper_box_bounds[key][layer][r, 0] <= ts[layer - 1][r]:
                     # PRECALCULATION:
-                    aff_linear_output = self.Mip.sum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
+                    aff_linear_output = gp.quicksum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
                     # Initialize binary variable alpha
-                    self.alpha.update({(i, layer, r): self.Mip.binary_var(name=f"alpha_B{i}_({layer},{r})")})
+                    self.alpha.update({(i, layer, r): self.Mip.addVar(vtype=GRB.BINARY, name=f"alpha_B{i}_({layer},{r})")})
                     # TYPE 1 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] <= self.alpha[(i, layer, r)] * ts[layer - 1][r],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case5_CT1')
+                    self.Mip.addConstr(self.z[(i, layer, r)] <= self.alpha[(i, layer, r)] * ts[layer - 1][r],
+                                            name=f'Bidder{i}_Node({layer},{r})_Case5_CT1')
                     # TYPE 2 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(
-                        ct=self.z[(i, layer, r)] <= aff_linear_output - self.lower_box_bounds[key][layer][r, 0] * (
-                                1 - self.alpha[(i, layer, r)]), ctname=f'Bidder{i}_Node({layer},{r})_Case5_CT2')
+                    self.Mip.addConstr(
+                        self.z[(i, layer, r)] <= aff_linear_output - self.lower_box_bounds[key][layer][r, 0] * (
+                                1 - self.alpha[(i, layer, r)]), name=f'Bidder{i}_Node({layer},{r})_Case5_CT2')
                     # TYPE 3 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] >= 0,
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case5_CT3')
+                    self.Mip.addConstr(self.z[(i, layer, r)] >= 0,
+                                            name=f'Bidder{i}_Node({layer},{r})_Case5_CT3')
                     # TYPE 4 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] >= aff_linear_output,
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Case5_CT4')
+                    self.Mip.addConstr(self.z[(i, layer, r)] >= aff_linear_output,
+                                            name=f'Bidder{i}_Node({layer},{r})_Case5_CT4')
                     self.case_counter[key]['Case5'] += 1
                 # DEFAULT CASE -> NO REMOVAL:
                 else:
                     # PRECALCULATION:
-                    aff_linear_output = self.Mip.sum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
+                    aff_linear_output = gp.quicksum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) + b[r]
                     # Initialize binary variables alpha and beta
-                    self.alpha.update({(i, layer, r): self.Mip.binary_var(name=f"alpha_B{i}_({layer},{r})")})
-                    self.beta.update({(i, layer, r): self.Mip.binary_var(name=f"beta_B{i}_({layer},{r})")})
+                    self.alpha.update({(i, layer, r): self.Mip.addVar(vtype=GRB.BINARY, name=f"alpha_B{i}_({layer},{r})")})
+                    self.beta.update({(i, layer, r): self.Mip.addVar(vtype=GRB.BINARY, name=f"beta_B{i}_({layer},{r})")})
                     # TYPE 1 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] <= self.alpha[(i, layer, r)] * ts[layer - 1][r],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Default_CT1')
+                    self.Mip.addConstr(self.z[(i, layer, r)] <= self.alpha[(i, layer, r)] * ts[layer - 1][r],
+                                            name=f'Bidder{i}_Node({layer},{r})_Default_CT1')
                     # TYPE 2 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(
-                        ct=self.z[(i, layer, r)] <= aff_linear_output - self.lower_box_bounds[key][layer][r, 0] * (
-                                1 - self.alpha[(i, layer, r)]), ctname=f'Bidder{i}_Node({layer},{r})_Default_CT2')
+                    self.Mip.addConstr(
+                        self.z[(i, layer, r)] <= aff_linear_output - self.lower_box_bounds[key][layer][r, 0] * (
+                                1 - self.alpha[(i, layer, r)]), name=f'Bidder{i}_Node({layer},{r})_Default_CT2')
                     # TYPE 3 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] >= self.beta[(i, layer, r)] * ts[layer - 1][r],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Default_CT3')
+                    self.Mip.addConstr(self.z[(i, layer, r)] >= self.beta[(i, layer, r)] * ts[layer - 1][r],
+                                            name=f'Bidder{i}_Node({layer},{r})_Default_CT3')
                     # TYPE 4 Constraints for the whole network (except the output layer)
-                    self.Mip.add_constraint(ct=self.z[(i, layer, r)] >= aff_linear_output + (
+                    self.Mip.addConstr(self.z[(i, layer, r)] >= aff_linear_output + (
                             ts[layer - 1][r] - self.upper_box_bounds[key][layer][r, 0]) * self.beta[(i, layer, r)],
-                                            ctname=f'Bidder{i}_Node({layer},{r})_Default_CT4')
+                                            name=f'Bidder{i}_Node({layer},{r})_Default_CT4')
 
             layer += 1
 
@@ -371,15 +385,15 @@ class MVNN_MIP_TORCH_NEW:
         if hasattr(self.Models[key], 'lin_skip_layer'):
             W = weights[-1]
             R, J = W.shape
-            output_classic = self.Mip.sum(W[0, j] * self.z[(i, layer - 1, j)] for j in range(0, J))
+            output_classic = gp.quicksum(W[0, j] * self.z[(i, layer - 1, j)] for j in range(0, J))
             lin_skip_W = self.Models[key].lin_skip_layer.weight.detach().cpu().numpy()
             R, J = lin_skip_W.shape
-            output_lin_skip_conection = self.Mip.sum(lin_skip_W[0, j] * self.z[(i, 0, j)] for j in range(0, J))
+            output_lin_skip_conection = gp.quicksum(lin_skip_W[0, j] * self.z[(i, 0, j)] for j in range(0, J))
             self.z.update({(i, layer, 0): output_classic + output_lin_skip_conection})
         else:
             W = weights[-1]
             R, J = W.shape
-            self.z.update({(i, layer, r): self.Mip.sum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) for r in
+            self.z.update({(i, layer, r): gp.quicksum(W[r, j] * self.z[(i, layer - 1, j)] for j in range(0, J)) for r in
                            range(0, R)})
 
     def initialize_mip(self,
@@ -402,8 +416,8 @@ class MVNN_MIP_TORCH_NEW:
             self._add_matrix_constraints(i, verbose=verbose)
         # allocation constraints for x^i's
         for j in range(0, self.M):
-            self.Mip.add_constraint(ct=(self.Mip.sum(self.z[(i, 0, j)] for i in range(0, self.N)) <= 1),
-                                    ctname="FeasabilityCT_item_{}".format(j))
+            self.Mip.addConstr((gp.quicksum(self.z[(i, 0, j)] for i in range(0, self.N)) <= 1),
+                                    name="FeasabilityCT_item_{}".format(j))
         # add bidder specific constraints
         if bidder_specific_constraints is not None:
             self._add_bidder_specific_constraints(bidder_specific_constraints)
@@ -414,26 +428,26 @@ class MVNN_MIP_TORCH_NEW:
                 # regional bidder
                 if self.sorted_bidders[i] in ['Bidder_0', 'Bidder_1', 'Bidder_2', 'Bidder_3', 'Bidder_4', 'Bidder_5']:
                     logging.debug('Adding GSVM specific constraints for regional {}.'.format(self.sorted_bidders[i]))
-                    self.Mip.add_constraint(ct=(self.Mip.sum(self.z[(i, 0, j)] for j in range(0, self.M)) <= 4),
-                                            ctname="GSVM_CT_RegionalBidder{}".format(i))
+                    self.Mip.addConstr((gp.quicksum(self.z[(i, 0, j)] for j in range(0, self.M)) <= 4),
+                                            name="GSVM_CT_RegionalBidder{}".format(i))
                 # national bidder
                 elif self.sorted_bidders[i] in ['Bidder_6']:
                     logging.debug(
                         'Adding GSVM specific constraints for national {} with national circle complement {}.'.format(
                             self.sorted_bidders[i], national_circle_complement))
-                    self.Mip.add_constraint(
-                        ct=(self.Mip.sum(self.z[(i, 0, j)] for j in national_circle_complement) == 0),
-                        ctname="GSVM_CT_NationalBidder{}".format(i))
+                    self.Mip.addConstr(
+                        (gp.quicksum(self.z[(i, 0, j)] for j in national_circle_complement) == 0),
+                        name="GSVM_CT_NationalBidder{}".format(i))
                 else:
                     raise NotImplementedError(
                         'GSVM only implmented in default version for Regional Bidders:[Bidder_0,..,Bidder_5] and National Bidder: [Bidder_6]. You entered {}'.format(
                             self.sorted_bidders[i]))
 
         # add objective: sum of 1dim outputs of neural network per bidder z[(i,K_i,0)]
-        objective = self.Mip.sum(
+        objective = gp.quicksum(
             self.Models[self.sorted_bidders[i]]._target_max * self.z[
                 (i, self.Models[self.sorted_bidders[i]]._num_hidden_layers + 1, 0)] for i in range(0, self.N))
-        self.Mip.maximize(objective)
+        self.Mip.setObjective(objective, GRB.MAXIMIZE)
         logging.info('MIP initialized')
 
     def _add_bidder_specific_constraints(self,
@@ -445,14 +459,14 @@ class MVNN_MIP_TORCH_NEW:
             for idx, bundle in enumerate(bundles):
                 logging.debug(f'{bundle}')
                 # NEW LINEAR CUT
-                self.Mip.add_constraint(
-                    ct=self.Mip.sum(self.z[(bidder_id, 0, j)]*int(2*(bundle[j]-0.5)) for j in range(0, self.M)) <= int(np.sum(bundle)-1),
-                    ctname="BidderSpecificCT_Bidder{}_No{}".format(bidder_id, idx))
+                self.Mip.addConstr(
+                    gp.quicksum(self.z[(bidder_id, 0, j)]*int(2*(bundle[j]-0.5)) for j in range(0, self.M)) <= int(np.sum(bundle)-1),
+                    name="BidderSpecificCT_Bidder{}_No{}".format(bidder_id, idx))
                 '''
                 # OLD INTEGER CUT
-                self.Mip.add_constraint(
-                    ct=(self.Mip.sum((self.z[(bidder_id, 0, j)] == bundle[j]) for j in range(0, self.M)) <= self.M - 1),
-                    ctname="BidderSpecificCT_Bidder{}_No{}".format(bidder_id, idx))
+                self.Mip.addConstr(
+                    (gp.quicksum((self.z[(bidder_id, 0, j)] == bundle[j]) for j in range(0, self.M)) <= self.M - 1),
+                    name="BidderSpecificCT_Bidder{}_No{}".format(bidder_id, idx))
                 '''
 
     def get_bidder_key_position(self,
@@ -460,7 +474,7 @@ class MVNN_MIP_TORCH_NEW:
         return np.where([x == bidder_key for x in self.sorted_bidders])[0][0]
 
     def reset_mip(self):
-        self.Mip = cpx.Model(name="MVNN_MIP_NEW")
+        self.Mip = gp.Model(name="MVNN_MIP_NEW")
 
     def print_bounds(self):
         print('\n######################### BOUNDS & IA Case Statistics #########################')

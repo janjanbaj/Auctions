@@ -82,7 +82,6 @@ from collections import OrderedDict, defaultdict
 from datetime import timedelta, datetime
 from functools import partial
 
-import docplex
 import numpy as np
 import torch
 from joblib import Parallel, delayed
@@ -569,7 +568,28 @@ class MLCA_Economies:
         self.mlca_scw = None
 
     def solve_SATS_auction_instance(self):
-        self.SATS_auction_instance_allocation, self.SATS_auction_instance_scw = self.SATS_auction_instance.get_efficient_allocation()
+        if 'SATS_auction_instance' in self.__dict__:
+            import os
+            try:
+                from jnius import autoclass
+                System = autoclass('java.lang.System')
+                logging.warning(f"JAVA LIBRARY PATH: {System.getProperty('java.library.path')}")
+                logging.warning(f"PYTHON LD_LIBRARY_PATH: {os.environ.get('LD_LIBRARY_PATH')}")
+                logging.warning(f"PYTHON PATH: {os.environ.get('PATH')}")
+                # Try explicit load
+                try:
+                    System.loadLibrary("cplex2212")
+                    logging.warning("Explicitly loaded cplex2212")
+                except Exception as e:
+                    logging.warning(f"Failed to explicitly load cplex2212: {e}")
+                try:
+                    System.loadLibrary("cplex")
+                    logging.warning("Explicitly loaded cplex")
+                except Exception as e:
+                    logging.warning(f"Failed to explicitly load cplex: {e}")
+            except Exception as e:
+                logging.warning(f"JNIUS debug hook failed: {e}")
+            self.SATS_auction_instance_allocation, self.SATS_auction_instance_scw = self.SATS_auction_instance.get_efficient_allocation()
 
     def set_global_admissible_marginals(self,
                                         mlca_iteration
@@ -1733,8 +1753,7 @@ class MLCA_Economies:
                         mip_relative_gap=self.MIP_parameters['relative_gap'],
                         integrality_tol=self.MIP_parameters['integrality_tol'],
                         feasibility_tol=self.MIP_parameters['feasibility_tol'],
-                        mip_start=docplex.mp.solution.SolveSolution(MIP.Mip,
-                                                                    self.warm_start_sol[economy_key].as_dict()))
+                        mip_start=self.warm_start_sol[economy_key])
                     self.warm_start_sol[economy_key] = sol
                 else:
                     sol, log = MIP.solve_mip(
@@ -1833,7 +1852,7 @@ class MLCA_Economies:
         wdp.initialize_mip(verbose=0)
         wdp.solve_mip(verbose)
 
-        objective = wdp.Mip.objective_value
+        objective = wdp.Mip.ObjVal
         allocation = format_solution_mip_new(Mip=wdp.Mip, elicited_bids=elicited_bundle_value_pairs,
                                              bidder_names=bidder_names, fitted_scaler=self.fitted_scaler)
         if self.fitted_scaler is not None:
@@ -1856,6 +1875,7 @@ class MLCA_Economies:
                                            ):
 
         self.solve_SATS_auction_instance()
+        print(self.SATS_auction_instance_scw)
         efficiency = allocation_scw / self.SATS_auction_instance_scw
         if verbose == 1:
             logging.debug('Calculating efficiency of input allocation:')

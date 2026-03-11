@@ -236,7 +236,7 @@ def format_solution_mip_new(Mip, elicited_bids, bidder_names, fitted_scaler):
     Z = OrderedDict()
     for bidder_name in bidder_names:
         Z[bidder_name] = tmp
-    S = Mip.solution.as_dict()
+    S = {v.VarName: v.X for v in Mip.getVars() if v.X > 0.5}
     for key in list(S.keys()):
         key = str(key)
         index = [int(x) for x in re.findall(r'\d+', key)]
