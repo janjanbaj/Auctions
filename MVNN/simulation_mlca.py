@@ -25,17 +25,28 @@ INCUMBENTS_to_num_train_data = {
 }
 
 
+import sys
+
+
 def main(domain: str, num_train_data: int, layer_type: str, seed: int):
     logging.basicConfig(
         level=logging.INFO,
         datefmt="%H:%M:%S",
         format="%(asctime)s: %(message)s",
-        filename=f"{seed}.log",
+        handlers=[
+            logging.FileHandler(
+                f"{seed}.log",
+            ),  # Logs to a file
+            logging.StreamHandler(sys.stdout),  # Logs to stdout
+        ],
     )
+
     value_model = create_value_model(domain)
+    print("Created Value Model")
 
     hpo_results = json.load(open("prediction_performance_hpo_results.json", "r"))
 
+    print("Loaded HPOs")
     # Reformatting the hpo experiments
     NN_parameters = defaultdict(dict)
     for bidder_type in problem_instance_info[value_model.name.upper()].bidder_types:
@@ -97,9 +108,12 @@ def main(domain: str, num_train_data: int, layer_type: str, seed: int):
     }
     from mlca_src.mlca import mlca_mechanism
 
+    print("Done importing MLCA Mech")
     mlca_func = partial(mlca_mechanism, **kwargs)
 
     # Evaluate the MLCA
+    print(f"MLCA Func called for {int(seed)}")
+
     _, logs = mlca_func(int(seed))
 
     logging.debug("MLCA Efficiency: {}".format(logs["MLCA Efficiency"]))

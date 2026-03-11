@@ -7205,3 +7205,3507 @@ Solve Details
 17:40:54: ESTIMATION STEP
 17:40:54: -----------------------------------------------
 17:40:54: Bidder_0
+17:41:52: Time for Bidder_0: 58 sec
+
+17:41:52: Bidder_1
+17:41:58: Time for Bidder_1: 6 sec
+
+17:41:58: Bidder_3
+17:42:05: Time for Bidder_3: 6 sec
+
+17:42:05: Bidder_4
+17:42:11: Time for Bidder_4: 6 sec
+
+17:42:11: Bidder_5
+17:42:17: Time for Bidder_5: 6 sec
+
+17:42:17: OPTIMIZATION STEP
+17:42:17: -----------------------------------------------
+17:42:17: 
+17:42:17: Tighten Bounds with IA
+17:42:17: -----------------------------------------------
+17:42:17: 
+17:42:17: Initialize MIP
+17:42:17: -----------------------------------------------
+17:42:17: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:17: MIP initialized
+17:42:17: Solving MIP
+17:42:17: Attempt no: 1
+17:42:17: Set parameter TimeLimit to value 300
+17:42:17: Set parameter MIPGap to value 0.01
+17:42:17: Set parameter IntFeasTol to value 1e-06
+17:42:17: 
+17:42:17: Solve MIP
+17:42:17: -----------------------------------------------
+17:42:17: MIP warm-start False
+17:42:17: MIP time Limit of 300.0
+17:42:17: MIP relative gap 0.01
+17:42:17: MIP integrality tol 1e-06
+17:42:18: 
+Solve Details
+17:42:18: -----------------------------------------------
+17:42:18: NN-Type : UNN
+17:42:18:  - number of UNN-activation-function-constraints removed: 0
+17:42:18: Status  : solution found
+17:42:18: Time    : 0 sec
+17:42:18: Problem : MIP
+17:42:18: Rel. Gap: 0.009539590230404125 %
+17:42:18: 
+
+17:42:18: Argmax bundle ALREADY ELICITED from Bidder_1
+
+17:42:18: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+17:42:18: -----------------------------------------------
+17:42:18: 
+17:42:18: Tighten Bounds with IA
+17:42:18: -----------------------------------------------
+17:42:18: 
+17:42:18: Initialize MIP
+17:42:18: -----------------------------------------------
+17:42:18: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:18: MIP initialized
+17:42:18: Solving MIP
+17:42:18: Attempt no: 1
+17:42:18: Set parameter TimeLimit to value 300
+17:42:18: Set parameter MIPGap to value 0.01
+17:42:18: Set parameter IntFeasTol to value 1e-06
+17:42:18: 
+17:42:18: Solve MIP
+17:42:18: -----------------------------------------------
+17:42:18: MIP warm-start False
+17:42:18: MIP time Limit of 300.0
+17:42:18: MIP relative gap 0.01
+17:42:18: MIP integrality tol 1e-06
+17:42:19: 
+Solve Details
+17:42:19: -----------------------------------------------
+17:42:19: NN-Type : UNN
+17:42:19:  - number of UNN-activation-function-constraints removed: 0
+17:42:19: Status  : solution found
+17:42:19: Time    : 1 sec
+17:42:19: Problem : MIP
+17:42:19: Rel. Gap: 0.006913036688085242 %
+17:42:19: 
+
+17:42:19: Bidder_1 | Marginal Economy -(4)
+17:42:19: -----------------------------------------------
+17:42:19: Status of Economy: True
+
+17:42:19: Argmax bundle ALREADY ELICITED from Bidder_1
+
+17:42:19: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+17:42:19: -----------------------------------------------
+17:42:19: 
+17:42:19: Tighten Bounds with IA
+17:42:19: -----------------------------------------------
+17:42:19: 
+17:42:19: Initialize MIP
+17:42:19: -----------------------------------------------
+17:42:19: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:19: MIP initialized
+17:42:19: Solving MIP
+17:42:19: Attempt no: 1
+17:42:19: Set parameter TimeLimit to value 300
+17:42:19: Set parameter MIPGap to value 0.01
+17:42:19: Set parameter IntFeasTol to value 1e-06
+17:42:19: 
+17:42:19: Solve MIP
+17:42:19: -----------------------------------------------
+17:42:19: MIP warm-start False
+17:42:19: MIP time Limit of 300.0
+17:42:19: MIP relative gap 0.01
+17:42:19: MIP integrality tol 1e-06
+17:42:20: 
+Solve Details
+17:42:20: -----------------------------------------------
+17:42:20: NN-Type : UNN
+17:42:20:  - number of UNN-activation-function-constraints removed: 0
+17:42:20: Status  : solution found
+17:42:20: Time    : 1 sec
+17:42:20: Problem : MIP
+17:42:20: Rel. Gap: 0.0013498302631099717 %
+17:42:20: 
+
+17:42:20: Bidder_2
+17:42:20: -----------------------------------------------
+17:42:20: Bidder_2 | Marginal Economy -(0)
+17:42:20: -----------------------------------------------
+17:42:20: Status of Economy: True
+
+17:42:20: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:42:20: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:42:20: -----------------------------------------------
+17:42:20: 
+17:42:20: Tighten Bounds with IA
+17:42:20: -----------------------------------------------
+17:42:20: 
+17:42:20: Initialize MIP
+17:42:20: -----------------------------------------------
+17:42:20: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:20: MIP initialized
+17:42:20: Solving MIP
+17:42:20: Attempt no: 1
+17:42:20: Set parameter TimeLimit to value 300
+17:42:20: Set parameter MIPGap to value 0.01
+17:42:20: Set parameter IntFeasTol to value 1e-06
+17:42:20: 
+17:42:20: Solve MIP
+17:42:20: -----------------------------------------------
+17:42:20: MIP warm-start False
+17:42:20: MIP time Limit of 300.0
+17:42:20: MIP relative gap 0.01
+17:42:20: MIP integrality tol 1e-06
+17:42:21: 
+Solve Details
+17:42:21: -----------------------------------------------
+17:42:21: NN-Type : UNN
+17:42:21:  - number of UNN-activation-function-constraints removed: 0
+17:42:21: Status  : solution found
+17:42:21: Time    : 1 sec
+17:42:21: Problem : MIP
+17:42:21: Rel. Gap: 0.009670899800893728 %
+17:42:21: 
+
+17:42:21: Bidder_2 | Marginal Economy -(3)
+17:42:21: -----------------------------------------------
+17:42:21: Status of Economy: True
+
+17:42:21: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:42:21: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:42:21: -----------------------------------------------
+17:42:21: 
+17:42:21: Tighten Bounds with IA
+17:42:21: -----------------------------------------------
+17:42:21: 
+17:42:21: Initialize MIP
+17:42:21: -----------------------------------------------
+17:42:21: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:22: MIP initialized
+17:42:22: Solving MIP
+17:42:22: Attempt no: 1
+17:42:22: Set parameter TimeLimit to value 300
+17:42:22: Set parameter MIPGap to value 0.01
+17:42:22: Set parameter IntFeasTol to value 1e-06
+17:42:22: 
+17:42:22: Solve MIP
+17:42:22: -----------------------------------------------
+17:42:22: MIP warm-start False
+17:42:22: MIP time Limit of 300.0
+17:42:22: MIP relative gap 0.01
+17:42:22: MIP integrality tol 1e-06
+17:42:22: 
+Solve Details
+17:42:22: -----------------------------------------------
+17:42:22: NN-Type : UNN
+17:42:22:  - number of UNN-activation-function-constraints removed: 0
+17:42:22: Status  : solution found
+17:42:22: Time    : 1 sec
+17:42:22: Problem : MIP
+17:42:22: Rel. Gap: 0.002859359605961012 %
+17:42:22: 
+
+17:42:22: Bidder_2 | Marginal Economy -(4)
+17:42:22: -----------------------------------------------
+17:42:22: Status of Economy: True
+
+17:42:22: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:42:22: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:42:22: -----------------------------------------------
+17:42:22: 
+17:42:22: Tighten Bounds with IA
+17:42:22: -----------------------------------------------
+17:42:22: 
+17:42:22: Initialize MIP
+17:42:22: -----------------------------------------------
+17:42:22: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:22: MIP initialized
+17:42:22: Solving MIP
+17:42:22: Attempt no: 1
+17:42:22: Set parameter TimeLimit to value 300
+17:42:22: Set parameter MIPGap to value 0.01
+17:42:22: Set parameter IntFeasTol to value 1e-06
+17:42:22: 
+17:42:22: Solve MIP
+17:42:22: -----------------------------------------------
+17:42:22: MIP warm-start False
+17:42:22: MIP time Limit of 300.0
+17:42:22: MIP relative gap 0.01
+17:42:22: MIP integrality tol 1e-06
+17:42:23: 
+Solve Details
+17:42:23: -----------------------------------------------
+17:42:23: NN-Type : UNN
+17:42:23:  - number of UNN-activation-function-constraints removed: 0
+17:42:23: Status  : solution found
+17:42:23: Time    : 1 sec
+17:42:23: Problem : MIP
+17:42:23: Rel. Gap: 0.00530244427945929 %
+17:42:23: 
+
+17:42:23: Bidder_3
+17:42:23: -----------------------------------------------
+17:42:23: Bidder_3 | Marginal Economy -(0)
+17:42:23: -----------------------------------------------
+17:42:23: Status of Economy: True
+
+17:42:23: Bidder_3 | Marginal Economy -(2)
+17:42:23: -----------------------------------------------
+17:42:23: Status of Economy: True
+
+17:42:23: Bidder_3 | Marginal Economy -(4)
+17:42:23: -----------------------------------------------
+17:42:23: Status of Economy: True
+
+17:42:23: Bidder_4
+17:42:23: -----------------------------------------------
+17:42:23: Bidder_4 | Marginal Economy -(0)
+17:42:23: -----------------------------------------------
+17:42:23: Status of Economy: True
+
+17:42:23: Bidder_4 | Marginal Economy -(1)
+17:42:23: -----------------------------------------------
+17:42:23: Status of Economy: True
+
+17:42:23: Argmax bundle ALREADY QUERIED IN THIS AUCTION ROUND from Bidder_4
+
+17:42:23: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+17:42:23: -----------------------------------------------
+17:42:23: 
+17:42:23: Tighten Bounds with IA
+17:42:23: -----------------------------------------------
+17:42:23: 
+17:42:23: Initialize MIP
+17:42:23: -----------------------------------------------
+17:42:23: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:42:23: MIP initialized
+17:42:23: Solving MIP
+17:42:23: Attempt no: 1
+17:42:23: Set parameter TimeLimit to value 300
+17:42:23: Set parameter MIPGap to value 0.01
+17:42:23: Set parameter IntFeasTol to value 1e-06
+17:42:23: 
+17:42:23: Solve MIP
+17:42:23: -----------------------------------------------
+17:42:23: MIP warm-start False
+17:42:23: MIP time Limit of 300.0
+17:42:23: MIP relative gap 0.01
+17:42:23: MIP integrality tol 1e-06
+17:42:25: 
+Solve Details
+17:42:25: -----------------------------------------------
+17:42:25: NN-Type : UNN
+17:42:25:  - number of UNN-activation-function-constraints removed: 0
+17:42:25: Status  : solution found
+17:42:25: Time    : 1 sec
+17:42:25: Problem : MIP
+17:42:25: Rel. Gap: 0.003053773177234533 %
+17:42:25: 
+
+17:42:25: Bidder_4 | Marginal Economy -(5)
+17:42:25: -----------------------------------------------
+17:42:25: Status of Economy: False
+
+17:42:25: ESTIMATION STEP
+17:42:25: -----------------------------------------------
+17:42:25: Bidder_0
+17:44:02: Time for Bidder_0: 98 sec
+
+17:44:02: Bidder_1
+17:44:09: Time for Bidder_1: 6 sec
+
+17:44:09: Bidder_2
+17:44:15: Time for Bidder_2: 6 sec
+
+17:44:15: Bidder_3
+17:44:22: Time for Bidder_3: 6 sec
+
+17:44:22: Bidder_4
+17:44:28: Time for Bidder_4: 6 sec
+
+17:44:28: OPTIMIZATION STEP
+17:44:28: -----------------------------------------------
+17:44:28: 
+17:44:28: Tighten Bounds with IA
+17:44:28: -----------------------------------------------
+17:44:28: 
+17:44:28: Initialize MIP
+17:44:28: -----------------------------------------------
+17:44:28: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:44:28: MIP initialized
+17:44:28: Solving MIP
+17:44:28: Attempt no: 1
+17:44:28: Set parameter TimeLimit to value 300
+17:44:28: Set parameter MIPGap to value 0.01
+17:44:28: Set parameter IntFeasTol to value 1e-06
+17:44:28: 
+17:44:28: Solve MIP
+17:44:28: -----------------------------------------------
+17:44:28: MIP warm-start False
+17:44:28: MIP time Limit of 300.0
+17:44:28: MIP relative gap 0.01
+17:44:28: MIP integrality tol 1e-06
+17:44:29: 
+Solve Details
+17:44:29: -----------------------------------------------
+17:44:29: NN-Type : UNN
+17:44:29:  - number of UNN-activation-function-constraints removed: 0
+17:44:29: Status  : solution found
+17:44:29: Time    : 0 sec
+17:44:29: Problem : MIP
+17:44:29: Rel. Gap: 1.0464196195086979e-06 %
+17:44:29: 
+
+17:44:29: Argmax bundle ALREADY QUERIED IN THIS AUCTION ROUND from Bidder_4
+
+17:44:29: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+17:44:29: -----------------------------------------------
+17:44:29: 
+17:44:29: Tighten Bounds with IA
+17:44:29: -----------------------------------------------
+17:44:29: 
+17:44:29: Initialize MIP
+17:44:29: -----------------------------------------------
+17:44:29: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:44:29: MIP initialized
+17:44:29: Solving MIP
+17:44:29: Attempt no: 1
+17:44:29: Set parameter TimeLimit to value 300
+17:44:29: Set parameter MIPGap to value 0.01
+17:44:29: Set parameter IntFeasTol to value 1e-06
+17:44:29: 
+17:44:29: Solve MIP
+17:44:29: -----------------------------------------------
+17:44:29: MIP warm-start False
+17:44:29: MIP time Limit of 300.0
+17:44:29: MIP relative gap 0.01
+17:44:29: MIP integrality tol 1e-06
+17:44:29: 
+Solve Details
+17:44:29: -----------------------------------------------
+17:44:29: NN-Type : UNN
+17:44:29:  - number of UNN-activation-function-constraints removed: 0
+17:44:29: Status  : solution found
+17:44:29: Time    : 0 sec
+17:44:29: Problem : MIP
+17:44:29: Rel. Gap: 0.0009258823576603537 %
+17:44:29: 
+
+17:44:29: Bidder_5
+17:44:29: -----------------------------------------------
+17:44:29: Bidder_5 | Marginal Economy -(0)
+17:44:29: -----------------------------------------------
+17:44:29: Status of Economy: True
+
+17:44:29: Argmax bundle ALREADY ELICITED from Bidder_5
+
+17:44:29: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+17:44:29: -----------------------------------------------
+17:44:29: 
+17:44:29: Tighten Bounds with IA
+17:44:29: -----------------------------------------------
+17:44:29: 
+17:44:29: Initialize MIP
+17:44:29: -----------------------------------------------
+17:44:29: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:44:29: MIP initialized
+17:44:29: Solving MIP
+17:44:29: Attempt no: 1
+17:44:29: Set parameter TimeLimit to value 300
+17:44:29: Set parameter MIPGap to value 0.01
+17:44:29: Set parameter IntFeasTol to value 1e-06
+17:44:29: 
+17:44:29: Solve MIP
+17:44:29: -----------------------------------------------
+17:44:29: MIP warm-start False
+17:44:29: MIP time Limit of 300.0
+17:44:29: MIP relative gap 0.01
+17:44:29: MIP integrality tol 1e-06
+17:44:31: 
+Solve Details
+17:44:31: -----------------------------------------------
+17:44:31: NN-Type : UNN
+17:44:31:  - number of UNN-activation-function-constraints removed: 0
+17:44:31: Status  : solution found
+17:44:31: Time    : 1 sec
+17:44:31: Problem : MIP
+17:44:31: Rel. Gap: 0.007625139538590246 %
+17:44:31: 
+
+17:44:31: Bidder_5 | Marginal Economy -(2)
+17:44:31: -----------------------------------------------
+17:44:31: Status of Economy: True
+
+17:44:31: Argmax bundle ALREADY ELICITED from Bidder_5
+
+17:44:31: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+17:44:31: -----------------------------------------------
+17:44:31: 
+17:44:31: Tighten Bounds with IA
+17:44:31: -----------------------------------------------
+17:44:31: 
+17:44:31: Initialize MIP
+17:44:31: -----------------------------------------------
+17:44:31: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:44:31: MIP initialized
+17:44:31: Solving MIP
+17:44:31: Attempt no: 1
+17:44:31: Set parameter TimeLimit to value 300
+17:44:31: Set parameter MIPGap to value 0.01
+17:44:31: Set parameter IntFeasTol to value 1e-06
+17:44:31: 
+17:44:31: Solve MIP
+17:44:31: -----------------------------------------------
+17:44:31: MIP warm-start False
+17:44:31: MIP time Limit of 300.0
+17:44:31: MIP relative gap 0.01
+17:44:31: MIP integrality tol 1e-06
+17:44:32: 
+Solve Details
+17:44:32: -----------------------------------------------
+17:44:32: NN-Type : UNN
+17:44:32:  - number of UNN-activation-function-constraints removed: 0
+17:44:32: Status  : solution found
+17:44:32: Time    : 1 sec
+17:44:32: Problem : MIP
+17:44:32: Rel. Gap: 0.0 %
+17:44:32: 
+
+17:44:32: Bidder_5 | Marginal Economy -(3)
+17:44:32: -----------------------------------------------
+17:44:32: Status of Economy: True
+
+17:44:32: Argmax bundle ALREADY ELICITED from Bidder_5
+
+17:44:32: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+17:44:32: -----------------------------------------------
+17:44:32: 
+17:44:32: Tighten Bounds with IA
+17:44:32: -----------------------------------------------
+17:44:32: 
+17:44:32: Initialize MIP
+17:44:32: -----------------------------------------------
+17:44:32: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:44:32: MIP initialized
+17:44:32: Solving MIP
+17:44:32: Attempt no: 1
+17:44:32: Set parameter TimeLimit to value 300
+17:44:32: Set parameter MIPGap to value 0.01
+17:44:32: Set parameter IntFeasTol to value 1e-06
+17:44:32: 
+17:44:32: Solve MIP
+17:44:32: -----------------------------------------------
+17:44:32: MIP warm-start False
+17:44:32: MIP time Limit of 300.0
+17:44:32: MIP relative gap 0.01
+17:44:32: MIP integrality tol 1e-06
+17:44:33: 
+Solve Details
+17:44:33: -----------------------------------------------
+17:44:33: NN-Type : UNN
+17:44:33:  - number of UNN-activation-function-constraints removed: 0
+17:44:33: Status  : solution found
+17:44:33: Time    : 1 sec
+17:44:33: Problem : MIP
+17:44:33: Rel. Gap: 0.009528898499129416 %
+17:44:33: 
+
+17:44:33: RESET: NN Models of marginal Economies
+17:44:33: MAIN ECONOMY FOR ALL BIDDERS
+17:44:33: -----------------------------------------------
+
+17:44:33: Bidder_0
+17:44:33: -----------------------------------------------
+17:44:33: ESTIMATION STEP
+17:44:33: -----------------------------------------------
+17:44:33: Bidder_0
+17:46:00: Time for Bidder_0: 87 sec
+
+17:46:00: Bidder_1
+17:46:07: Time for Bidder_1: 6 sec
+
+17:46:07: Bidder_2
+17:46:13: Time for Bidder_2: 6 sec
+
+17:46:13: Bidder_3
+17:46:20: Time for Bidder_3: 6 sec
+
+17:46:20: Bidder_4
+17:46:26: Time for Bidder_4: 6 sec
+
+17:46:26: Bidder_5
+17:46:32: Time for Bidder_5: 6 sec
+
+17:46:32: OPTIMIZATION STEP
+17:46:32: -----------------------------------------------
+17:46:32: 
+17:46:32: Tighten Bounds with IA
+17:46:32: -----------------------------------------------
+17:46:32: 
+17:46:32: Initialize MIP
+17:46:32: -----------------------------------------------
+17:46:32: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:46:33: MIP initialized
+17:46:33: Solving MIP
+17:46:33: Attempt no: 1
+17:46:33: Set parameter TimeLimit to value 300
+17:46:33: Set parameter MIPGap to value 0.01
+17:46:33: Set parameter IntFeasTol to value 1e-06
+17:46:33: 
+17:46:33: Solve MIP
+17:46:33: -----------------------------------------------
+17:46:33: MIP warm-start False
+17:46:33: MIP time Limit of 300.0
+17:46:33: MIP relative gap 0.01
+17:46:33: MIP integrality tol 1e-06
+17:46:33: 
+Solve Details
+17:46:33: -----------------------------------------------
+17:46:33: NN-Type : UNN
+17:46:33:  - number of UNN-activation-function-constraints removed: 0
+17:46:33: Status  : solution found
+17:46:33: Time    : 1 sec
+17:46:33: Problem : MIP
+17:46:33: Rel. Gap: 0.005174586153720791 %
+17:46:33: 
+
+17:46:33: Argmax bundle ALREADY ELICITED from Bidder_0
+
+17:46:33: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+17:46:33: -----------------------------------------------
+17:46:33: 
+17:46:33: Tighten Bounds with IA
+17:46:33: -----------------------------------------------
+17:46:33: 
+17:46:33: Initialize MIP
+17:46:33: -----------------------------------------------
+17:46:33: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:46:34: MIP initialized
+17:46:34: Solving MIP
+17:46:34: Attempt no: 1
+17:46:34: Set parameter TimeLimit to value 300
+17:46:34: Set parameter MIPGap to value 0.01
+17:46:34: Set parameter IntFeasTol to value 1e-06
+17:46:34: 
+17:46:34: Solve MIP
+17:46:34: -----------------------------------------------
+17:46:34: MIP warm-start False
+17:46:34: MIP time Limit of 300.0
+17:46:34: MIP relative gap 0.01
+17:46:34: MIP integrality tol 1e-06
+17:46:34: 
+Solve Details
+17:46:34: -----------------------------------------------
+17:46:34: NN-Type : UNN
+17:46:34:  - number of UNN-activation-function-constraints removed: 0
+17:46:34: Status  : solution found
+17:46:34: Time    : 1 sec
+17:46:34: Problem : MIP
+17:46:34: Rel. Gap: 0.009203295674137022 %
+17:46:34: 
+
+17:46:34: Bidder_1
+17:46:34: -----------------------------------------------
+17:46:34: Argmax bundle ALREADY ELICITED from Bidder_1
+
+17:46:34: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+17:46:34: -----------------------------------------------
+17:46:34: 
+17:46:34: Tighten Bounds with IA
+17:46:34: -----------------------------------------------
+17:46:35: 
+17:46:35: Initialize MIP
+17:46:35: -----------------------------------------------
+17:46:35: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:46:35: MIP initialized
+17:46:35: Solving MIP
+17:46:35: Attempt no: 1
+17:46:35: Set parameter TimeLimit to value 300
+17:46:35: Set parameter MIPGap to value 0.01
+17:46:35: Set parameter IntFeasTol to value 1e-06
+17:46:35: 
+17:46:35: Solve MIP
+17:46:35: -----------------------------------------------
+17:46:35: MIP warm-start False
+17:46:35: MIP time Limit of 300.0
+17:46:35: MIP relative gap 0.01
+17:46:35: MIP integrality tol 1e-06
+17:46:36: 
+Solve Details
+17:46:36: -----------------------------------------------
+17:46:36: NN-Type : UNN
+17:46:36:  - number of UNN-activation-function-constraints removed: 0
+17:46:36: Status  : solution found
+17:46:36: Time    : 1 sec
+17:46:36: Problem : MIP
+17:46:36: Rel. Gap: 0.008317102205951011 %
+17:46:36: 
+
+17:46:36: Bidder_2
+17:46:36: -----------------------------------------------
+17:46:36: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:46:36: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:46:36: -----------------------------------------------
+17:46:36: 
+17:46:36: Tighten Bounds with IA
+17:46:36: -----------------------------------------------
+17:46:36: 
+17:46:36: Initialize MIP
+17:46:36: -----------------------------------------------
+17:46:36: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:46:36: MIP initialized
+17:46:36: Solving MIP
+17:46:36: Attempt no: 1
+17:46:36: Set parameter TimeLimit to value 300
+17:46:36: Set parameter MIPGap to value 0.01
+17:46:36: Set parameter IntFeasTol to value 1e-06
+17:46:36: 
+17:46:36: Solve MIP
+17:46:36: -----------------------------------------------
+17:46:36: MIP warm-start False
+17:46:36: MIP time Limit of 300.0
+17:46:36: MIP relative gap 0.01
+17:46:36: MIP integrality tol 1e-06
+17:46:38: 
+Solve Details
+17:46:38: -----------------------------------------------
+17:46:38: NN-Type : UNN
+17:46:38:  - number of UNN-activation-function-constraints removed: 0
+17:46:38: Status  : solution found
+17:46:38: Time    : 1 sec
+17:46:38: Problem : MIP
+17:46:38: Rel. Gap: 0.009869539120162 %
+17:46:38: 
+
+17:46:38: Bidder_3
+17:46:38: -----------------------------------------------
+17:46:38: Bidder_4
+17:46:38: -----------------------------------------------
+17:46:38: Argmax bundle ALREADY QUERIED IN THIS AUCTION ROUND from Bidder_4
+
+17:46:38: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+17:46:38: -----------------------------------------------
+17:46:38: 
+17:46:38: Tighten Bounds with IA
+17:46:38: -----------------------------------------------
+17:46:38: 
+17:46:38: Initialize MIP
+17:46:38: -----------------------------------------------
+17:46:38: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:46:38: MIP initialized
+17:46:38: Solving MIP
+17:46:38: Attempt no: 1
+17:46:38: Set parameter TimeLimit to value 300
+17:46:38: Set parameter MIPGap to value 0.01
+17:46:38: Set parameter IntFeasTol to value 1e-06
+17:46:38: 
+17:46:38: Solve MIP
+17:46:38: -----------------------------------------------
+17:46:38: MIP warm-start False
+17:46:38: MIP time Limit of 300.0
+17:46:38: MIP relative gap 0.01
+17:46:38: MIP integrality tol 1e-06
+17:46:40: 
+Solve Details
+17:46:40: -----------------------------------------------
+17:46:40: NN-Type : UNN
+17:46:40:  - number of UNN-activation-function-constraints removed: 0
+17:46:40: Status  : solution found
+17:46:40: Time    : 2 sec
+17:46:40: Problem : MIP
+17:46:40: Rel. Gap: 0.008195965895364015 %
+17:46:40: 
+
+17:46:40: Bidder_5
+17:46:40: -----------------------------------------------
+17:46:40: Argmax bundle ALREADY ELICITED from Bidder_5
+
+17:46:40: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+17:46:40: -----------------------------------------------
+17:46:40: 
+17:46:40: Tighten Bounds with IA
+17:46:40: -----------------------------------------------
+17:46:40: 
+17:46:40: Initialize MIP
+17:46:40: -----------------------------------------------
+17:46:40: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:46:40: MIP initialized
+17:46:40: Solving MIP
+17:46:40: Attempt no: 1
+17:46:40: Set parameter TimeLimit to value 300
+17:46:40: Set parameter MIPGap to value 0.01
+17:46:40: Set parameter IntFeasTol to value 1e-06
+17:46:40: 
+17:46:40: Solve MIP
+17:46:40: -----------------------------------------------
+17:46:40: MIP warm-start False
+17:46:40: MIP time Limit of 300.0
+17:46:40: MIP relative gap 0.01
+17:46:40: MIP integrality tol 1e-06
+17:46:41: 
+Solve Details
+17:46:41: -----------------------------------------------
+17:46:41: NN-Type : UNN
+17:46:41:  - number of UNN-activation-function-constraints removed: 0
+17:46:41: Status  : solution found
+17:46:41: Time    : 2 sec
+17:46:41: Problem : MIP
+17:46:41: Rel. Gap: 0.0 %
+17:46:41: 
+
+17:46:41: UPDATE ELICITED BIDS: S -> R for Bidder_0
+17:46:41: ---------------------------------------------
+17:46:41: CHECK Uniqueness of updated elicited bids:
+17:46:41: UNIQUE
+
+17:46:41: UPDATE ELICITED BIDS: S -> R for Bidder_1
+17:46:41: ---------------------------------------------
+17:46:41: CHECK Uniqueness of updated elicited bids:
+17:46:41: UNIQUE
+
+17:46:41: UPDATE ELICITED BIDS: S -> R for Bidder_2
+17:46:41: ---------------------------------------------
+17:46:41: CHECK Uniqueness of updated elicited bids:
+17:46:41: UNIQUE
+
+17:46:41: UPDATE ELICITED BIDS: S -> R for Bidder_3
+17:46:41: ---------------------------------------------
+17:46:42: CHECK Uniqueness of updated elicited bids:
+17:46:42: UNIQUE
+
+17:46:42: UPDATE ELICITED BIDS: S -> R for Bidder_4
+17:46:42: ---------------------------------------------
+17:46:42: CHECK Uniqueness of updated elicited bids:
+17:46:42: UNIQUE
+
+17:46:42: UPDATE ELICITED BIDS: S -> R for Bidder_5
+17:46:42: ---------------------------------------------
+17:46:42: CHECK Uniqueness of updated elicited bids:
+17:46:42: UNIQUE
+
+17:46:42: INFO
+17:46:42: -----------------------------------------------
+17:46:42: Seed Auction Instance: 157
+17:46:42: Iteration of MLCA: 2
+17:46:42: Number of Elicited Bids:
+17:46:42: Bidder_0: 44
+17:46:42: Bidder_1: 44
+17:46:42: Bidder_2: 44
+17:46:42: Bidder_3: 44
+17:46:42: Bidder_4: 44
+17:46:42: Bidder_5: 44
+17:46:42: Qinit: 40 | Qround: 4 | Qmax: 100
+17:46:42: Efficiency given elicited bids from iteration 0-1: 0.9596384463337357
+
+17:46:42: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+17:46:42: RESET: Status of Economies
+17:46:42: RESET: NN Models
+17:46:42: RESET: Argmax Allocation
+
+17:46:42: MARGINAL ECONOMIES FOR ALL BIDDERS
+17:46:42: -----------------------------------------------
+
+17:46:42: Bidder_0
+17:46:42: -----------------------------------------------
+17:46:42: Bidder_0 | Marginal Economy -(1)
+17:46:42: -----------------------------------------------
+17:46:42: Status of Economy: False
+
+17:46:42: ESTIMATION STEP
+17:46:42: -----------------------------------------------
+17:46:42: Bidder_0
+17:48:16: Time for Bidder_0: 95 sec
+
+17:48:16: Bidder_2
+17:48:23: Time for Bidder_2: 7 sec
+
+17:48:23: Bidder_3
+17:48:30: Time for Bidder_3: 7 sec
+
+17:48:30: Bidder_4
+17:48:37: Time for Bidder_4: 7 sec
+
+17:48:37: Bidder_5
+17:48:44: Time for Bidder_5: 7 sec
+
+17:48:44: OPTIMIZATION STEP
+17:48:44: -----------------------------------------------
+17:48:44: 
+17:48:44: Tighten Bounds with IA
+17:48:44: -----------------------------------------------
+17:48:44: 
+17:48:44: Initialize MIP
+17:48:44: -----------------------------------------------
+17:48:45: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:48:45: MIP initialized
+17:48:45: Solving MIP
+17:48:45: Attempt no: 1
+17:48:45: Set parameter TimeLimit to value 300
+17:48:45: Set parameter MIPGap to value 0.01
+17:48:45: Set parameter IntFeasTol to value 1e-06
+17:48:45: 
+17:48:45: Solve MIP
+17:48:45: -----------------------------------------------
+17:48:45: MIP warm-start False
+17:48:45: MIP time Limit of 300.0
+17:48:45: MIP relative gap 0.01
+17:48:45: MIP integrality tol 1e-06
+17:48:45: 
+Solve Details
+17:48:45: -----------------------------------------------
+17:48:45: NN-Type : UNN
+17:48:45:  - number of UNN-activation-function-constraints removed: 1
+17:48:45: Status  : solution found
+17:48:45: Time    : 0 sec
+17:48:45: Problem : MIP
+17:48:45: Rel. Gap: 0.0 %
+17:48:45: 
+
+17:48:45: Argmax bundle ALREADY ELICITED from Bidder_0
+
+17:48:45: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+17:48:45: -----------------------------------------------
+17:48:45: 
+17:48:45: Tighten Bounds with IA
+17:48:45: -----------------------------------------------
+17:48:45: 
+17:48:45: Initialize MIP
+17:48:45: -----------------------------------------------
+17:48:45: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:48:45: MIP initialized
+17:48:45: Solving MIP
+17:48:45: Attempt no: 1
+17:48:45: Set parameter TimeLimit to value 300
+17:48:45: Set parameter MIPGap to value 0.01
+17:48:45: Set parameter IntFeasTol to value 1e-06
+17:48:45: 
+17:48:45: Solve MIP
+17:48:45: -----------------------------------------------
+17:48:45: MIP warm-start False
+17:48:45: MIP time Limit of 300.0
+17:48:45: MIP relative gap 0.01
+17:48:45: MIP integrality tol 1e-06
+17:48:46: 
+Solve Details
+17:48:46: -----------------------------------------------
+17:48:46: NN-Type : UNN
+17:48:46:  - number of UNN-activation-function-constraints removed: 1
+17:48:46: Status  : solution found
+17:48:46: Time    : 0 sec
+17:48:46: Problem : MIP
+17:48:46: Rel. Gap: 0.008381141383881087 %
+17:48:46: 
+
+17:48:46: Bidder_0 | Marginal Economy -(2)
+17:48:46: -----------------------------------------------
+17:48:46: Status of Economy: False
+
+17:48:46: ESTIMATION STEP
+17:48:46: -----------------------------------------------
+17:48:46: Bidder_0
+17:50:42: Time for Bidder_0: 116 sec
+
+17:50:42: Bidder_1
+17:50:49: Time for Bidder_1: 7 sec
+
+17:50:49: Bidder_3
+17:50:56: Time for Bidder_3: 7 sec
+
+17:50:56: Bidder_4
+17:51:03: Time for Bidder_4: 7 sec
+
+17:51:03: Bidder_5
+17:51:10: Time for Bidder_5: 7 sec
+
+17:51:10: OPTIMIZATION STEP
+17:51:10: -----------------------------------------------
+17:51:10: 
+17:51:10: Tighten Bounds with IA
+17:51:10: -----------------------------------------------
+17:51:10: 
+17:51:10: Initialize MIP
+17:51:10: -----------------------------------------------
+17:51:10: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:51:11: MIP initialized
+17:51:11: Solving MIP
+17:51:11: Attempt no: 1
+17:51:11: Set parameter TimeLimit to value 300
+17:51:11: Set parameter MIPGap to value 0.01
+17:51:11: Set parameter IntFeasTol to value 1e-06
+17:51:11: 
+17:51:11: Solve MIP
+17:51:11: -----------------------------------------------
+17:51:11: MIP warm-start False
+17:51:11: MIP time Limit of 300.0
+17:51:11: MIP relative gap 0.01
+17:51:11: MIP integrality tol 1e-06
+17:51:11: 
+Solve Details
+17:51:11: -----------------------------------------------
+17:51:11: NN-Type : UNN
+17:51:11:  - number of UNN-activation-function-constraints removed: 1
+17:51:11: Status  : solution found
+17:51:11: Time    : 0 sec
+17:51:11: Problem : MIP
+17:51:11: Rel. Gap: 0.009604536653526206 %
+17:51:11: 
+
+17:51:11: Argmax bundle ALREADY ELICITED from Bidder_0
+
+17:51:11: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+17:51:11: -----------------------------------------------
+17:51:11: 
+17:51:11: Tighten Bounds with IA
+17:51:11: -----------------------------------------------
+17:51:11: 
+17:51:11: Initialize MIP
+17:51:11: -----------------------------------------------
+17:51:11: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:51:11: MIP initialized
+17:51:11: Solving MIP
+17:51:11: Attempt no: 1
+17:51:11: Set parameter TimeLimit to value 300
+17:51:11: Set parameter MIPGap to value 0.01
+17:51:11: Set parameter IntFeasTol to value 1e-06
+17:51:11: 
+17:51:11: Solve MIP
+17:51:11: -----------------------------------------------
+17:51:11: MIP warm-start False
+17:51:11: MIP time Limit of 300.0
+17:51:11: MIP relative gap 0.01
+17:51:11: MIP integrality tol 1e-06
+17:51:12: 
+Solve Details
+17:51:12: -----------------------------------------------
+17:51:12: NN-Type : UNN
+17:51:12:  - number of UNN-activation-function-constraints removed: 1
+17:51:12: Status  : solution found
+17:51:12: Time    : 1 sec
+17:51:12: Problem : MIP
+17:51:12: Rel. Gap: 0.005277973550284519 %
+17:51:12: 
+
+17:51:12: Bidder_0 | Marginal Economy -(5)
+17:51:12: -----------------------------------------------
+17:51:12: Status of Economy: False
+
+17:51:12: ESTIMATION STEP
+17:51:12: -----------------------------------------------
+17:51:12: Bidder_0
+17:53:07: Time for Bidder_0: 115 sec
+
+17:53:07: Bidder_1
+17:53:14: Time for Bidder_1: 7 sec
+
+17:53:14: Bidder_2
+17:53:21: Time for Bidder_2: 7 sec
+
+17:53:21: Bidder_3
+17:53:29: Time for Bidder_3: 7 sec
+
+17:53:29: Bidder_4
+17:53:36: Time for Bidder_4: 7 sec
+
+17:53:36: OPTIMIZATION STEP
+17:53:36: -----------------------------------------------
+17:53:36: 
+17:53:36: Tighten Bounds with IA
+17:53:36: -----------------------------------------------
+17:53:36: 
+17:53:36: Initialize MIP
+17:53:36: -----------------------------------------------
+17:53:36: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:53:36: MIP initialized
+17:53:36: Solving MIP
+17:53:36: Attempt no: 1
+17:53:36: Set parameter TimeLimit to value 300
+17:53:36: Set parameter MIPGap to value 0.01
+17:53:36: Set parameter IntFeasTol to value 1e-06
+17:53:36: 
+17:53:36: Solve MIP
+17:53:36: -----------------------------------------------
+17:53:36: MIP warm-start False
+17:53:36: MIP time Limit of 300.0
+17:53:36: MIP relative gap 0.01
+17:53:36: MIP integrality tol 1e-06
+17:53:37: 
+Solve Details
+17:53:37: -----------------------------------------------
+17:53:37: NN-Type : UNN
+17:53:37:  - number of UNN-activation-function-constraints removed: 0
+17:53:37: Status  : solution found
+17:53:37: Time    : 1 sec
+17:53:37: Problem : MIP
+17:53:37: Rel. Gap: 0.006963270452781669 %
+17:53:37: 
+
+17:53:37: Argmax bundle ALREADY ELICITED from Bidder_0
+
+17:53:37: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+17:53:37: -----------------------------------------------
+17:53:37: 
+17:53:37: Tighten Bounds with IA
+17:53:37: -----------------------------------------------
+17:53:37: 
+17:53:37: Initialize MIP
+17:53:37: -----------------------------------------------
+17:53:37: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:53:37: MIP initialized
+17:53:37: Solving MIP
+17:53:37: Attempt no: 1
+17:53:37: Set parameter TimeLimit to value 300
+17:53:37: Set parameter MIPGap to value 0.01
+17:53:37: Set parameter IntFeasTol to value 1e-06
+17:53:37: 
+17:53:37: Solve MIP
+17:53:37: -----------------------------------------------
+17:53:37: MIP warm-start False
+17:53:37: MIP time Limit of 300.0
+17:53:37: MIP relative gap 0.01
+17:53:37: MIP integrality tol 1e-06
+17:53:38: 
+Solve Details
+17:53:38: -----------------------------------------------
+17:53:38: NN-Type : UNN
+17:53:38:  - number of UNN-activation-function-constraints removed: 0
+17:53:38: Status  : solution found
+17:53:38: Time    : 1 sec
+17:53:38: Problem : MIP
+17:53:38: Rel. Gap: 0.0072920554645003145 %
+17:53:38: 
+
+17:53:38: Bidder_1
+17:53:38: -----------------------------------------------
+17:53:38: Bidder_1 | Marginal Economy -(0)
+17:53:38: -----------------------------------------------
+17:53:38: Status of Economy: False
+
+17:53:38: ESTIMATION STEP
+17:53:38: -----------------------------------------------
+17:53:38: Bidder_1
+17:53:45: Time for Bidder_1: 7 sec
+
+17:53:45: Bidder_2
+17:53:53: Time for Bidder_2: 7 sec
+
+17:53:53: Bidder_3
+17:54:00: Time for Bidder_3: 7 sec
+
+17:54:00: Bidder_4
+17:54:07: Time for Bidder_4: 7 sec
+
+17:54:07: Bidder_5
+17:54:14: Time for Bidder_5: 7 sec
+
+17:54:14: OPTIMIZATION STEP
+17:54:14: -----------------------------------------------
+17:54:14: 
+17:54:14: Tighten Bounds with IA
+17:54:14: -----------------------------------------------
+17:54:14: 
+17:54:14: Initialize MIP
+17:54:14: -----------------------------------------------
+17:54:14: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:54:14: MIP initialized
+17:54:14: Solving MIP
+17:54:14: Attempt no: 1
+17:54:14: Set parameter TimeLimit to value 300
+17:54:14: Set parameter MIPGap to value 0.01
+17:54:14: Set parameter IntFeasTol to value 1e-06
+17:54:14: 
+17:54:14: Solve MIP
+17:54:14: -----------------------------------------------
+17:54:14: MIP warm-start False
+17:54:14: MIP time Limit of 300.0
+17:54:14: MIP relative gap 0.01
+17:54:14: MIP integrality tol 1e-06
+17:54:14: 
+Solve Details
+17:54:14: -----------------------------------------------
+17:54:14: NN-Type : UNN
+17:54:14:  - number of UNN-activation-function-constraints removed: 0
+17:54:14: Status  : solution found
+17:54:14: Time    : 0 sec
+17:54:14: Problem : MIP
+17:54:14: Rel. Gap: 0.0 %
+17:54:14: 
+
+17:54:14: Argmax bundle ALREADY ELICITED from Bidder_1
+
+17:54:14: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+17:54:14: -----------------------------------------------
+17:54:14: 
+17:54:14: Tighten Bounds with IA
+17:54:14: -----------------------------------------------
+17:54:14: 
+17:54:14: Initialize MIP
+17:54:14: -----------------------------------------------
+17:54:14: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:54:14: MIP initialized
+17:54:14: Solving MIP
+17:54:14: Attempt no: 1
+17:54:14: Set parameter TimeLimit to value 300
+17:54:14: Set parameter MIPGap to value 0.01
+17:54:14: Set parameter IntFeasTol to value 1e-06
+17:54:14: 
+17:54:14: Solve MIP
+17:54:14: -----------------------------------------------
+17:54:14: MIP warm-start False
+17:54:14: MIP time Limit of 300.0
+17:54:14: MIP relative gap 0.01
+17:54:14: MIP integrality tol 1e-06
+17:54:15: 
+Solve Details
+17:54:15: -----------------------------------------------
+17:54:15: NN-Type : UNN
+17:54:15:  - number of UNN-activation-function-constraints removed: 0
+17:54:15: Status  : solution found
+17:54:15: Time    : 0 sec
+17:54:15: Problem : MIP
+17:54:15: Rel. Gap: 0.0042403896917836735 %
+17:54:15: 
+
+17:54:15: Bidder_1 | Marginal Economy -(4)
+17:54:15: -----------------------------------------------
+17:54:15: Status of Economy: False
+
+17:54:15: ESTIMATION STEP
+17:54:15: -----------------------------------------------
+17:54:15: Bidder_0
+17:56:21: Time for Bidder_0: 126 sec
+
+17:56:21: Bidder_1
+17:56:28: Time for Bidder_1: 7 sec
+
+17:56:28: Bidder_2
+17:56:35: Time for Bidder_2: 7 sec
+
+17:56:35: Bidder_3
+17:56:42: Time for Bidder_3: 7 sec
+
+17:56:42: Bidder_5
+17:56:49: Time for Bidder_5: 7 sec
+
+17:56:49: OPTIMIZATION STEP
+17:56:49: -----------------------------------------------
+17:56:49: 
+17:56:49: Tighten Bounds with IA
+17:56:49: -----------------------------------------------
+17:56:49: 
+17:56:49: Initialize MIP
+17:56:49: -----------------------------------------------
+17:56:50: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:56:50: MIP initialized
+17:56:50: Solving MIP
+17:56:50: Attempt no: 1
+17:56:50: Set parameter TimeLimit to value 300
+17:56:50: Set parameter MIPGap to value 0.01
+17:56:50: Set parameter IntFeasTol to value 1e-06
+17:56:50: 
+17:56:50: Solve MIP
+17:56:50: -----------------------------------------------
+17:56:50: MIP warm-start False
+17:56:50: MIP time Limit of 300.0
+17:56:50: MIP relative gap 0.01
+17:56:50: MIP integrality tol 1e-06
+17:56:50: 
+Solve Details
+17:56:50: -----------------------------------------------
+17:56:50: NN-Type : UNN
+17:56:50:  - number of UNN-activation-function-constraints removed: 0
+17:56:50: Status  : solution found
+17:56:50: Time    : 1 sec
+17:56:50: Problem : MIP
+17:56:50: Rel. Gap: 0.005081761903214098 %
+17:56:50: 
+
+17:56:50: Argmax bundle ALREADY ELICITED from Bidder_1
+
+17:56:50: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+17:56:50: -----------------------------------------------
+17:56:50: 
+17:56:50: Tighten Bounds with IA
+17:56:50: -----------------------------------------------
+17:56:50: 
+17:56:50: Initialize MIP
+17:56:50: -----------------------------------------------
+17:56:50: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:56:51: MIP initialized
+17:56:51: Solving MIP
+17:56:51: Attempt no: 1
+17:56:51: Set parameter TimeLimit to value 300
+17:56:51: Set parameter MIPGap to value 0.01
+17:56:51: Set parameter IntFeasTol to value 1e-06
+17:56:51: 
+17:56:51: Solve MIP
+17:56:51: -----------------------------------------------
+17:56:51: MIP warm-start False
+17:56:51: MIP time Limit of 300.0
+17:56:51: MIP relative gap 0.01
+17:56:51: MIP integrality tol 1e-06
+17:56:52: 
+Solve Details
+17:56:52: -----------------------------------------------
+17:56:52: NN-Type : UNN
+17:56:52:  - number of UNN-activation-function-constraints removed: 0
+17:56:52: Status  : solution found
+17:56:52: Time    : 2 sec
+17:56:52: Problem : MIP
+17:56:52: Rel. Gap: 0.0008362207130937291 %
+17:56:52: 
+
+17:56:52: Bidder_1 | Marginal Economy -(5)
+17:56:52: -----------------------------------------------
+17:56:52: Status of Economy: True
+
+17:56:52: Argmax bundle ALREADY ELICITED from Bidder_1
+
+17:56:52: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+17:56:52: -----------------------------------------------
+17:56:52: 
+17:56:52: Tighten Bounds with IA
+17:56:52: -----------------------------------------------
+17:56:52: 
+17:56:52: Initialize MIP
+17:56:52: -----------------------------------------------
+17:56:52: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:56:52: MIP initialized
+17:56:52: Solving MIP
+17:56:52: Attempt no: 1
+17:56:52: Set parameter TimeLimit to value 300
+17:56:52: Set parameter MIPGap to value 0.01
+17:56:52: Set parameter IntFeasTol to value 1e-06
+17:56:52: 
+17:56:52: Solve MIP
+17:56:52: -----------------------------------------------
+17:56:52: MIP warm-start False
+17:56:52: MIP time Limit of 300.0
+17:56:52: MIP relative gap 0.01
+17:56:52: MIP integrality tol 1e-06
+17:56:54: 
+Solve Details
+17:56:54: -----------------------------------------------
+17:56:54: NN-Type : UNN
+17:56:54:  - number of UNN-activation-function-constraints removed: 0
+17:56:54: Status  : solution found
+17:56:54: Time    : 1 sec
+17:56:54: Problem : MIP
+17:56:54: Rel. Gap: 0.0006237982901459326 %
+17:56:54: 
+
+17:56:54: Bidder_2
+17:56:54: -----------------------------------------------
+17:56:54: Bidder_2 | Marginal Economy -(0)
+17:56:54: -----------------------------------------------
+17:56:54: Status of Economy: True
+
+17:56:54: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:56:54: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:56:54: -----------------------------------------------
+17:56:54: 
+17:56:54: Tighten Bounds with IA
+17:56:54: -----------------------------------------------
+17:56:54: 
+17:56:54: Initialize MIP
+17:56:54: -----------------------------------------------
+17:56:54: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:56:54: MIP initialized
+17:56:54: Solving MIP
+17:56:54: Attempt no: 1
+17:56:54: Set parameter TimeLimit to value 300
+17:56:54: Set parameter MIPGap to value 0.01
+17:56:54: Set parameter IntFeasTol to value 1e-06
+17:56:54: 
+17:56:54: Solve MIP
+17:56:54: -----------------------------------------------
+17:56:54: MIP warm-start False
+17:56:54: MIP time Limit of 300.0
+17:56:54: MIP relative gap 0.01
+17:56:54: MIP integrality tol 1e-06
+17:56:54: 
+Solve Details
+17:56:54: -----------------------------------------------
+17:56:54: NN-Type : UNN
+17:56:54:  - number of UNN-activation-function-constraints removed: 0
+17:56:54: Status  : solution found
+17:56:54: Time    : 0 sec
+17:56:54: Problem : MIP
+17:56:54: Rel. Gap: 0.00831928790967065 %
+17:56:54: 
+
+17:56:54: Bidder_2 | Marginal Economy -(3)
+17:56:54: -----------------------------------------------
+17:56:54: Status of Economy: False
+
+17:56:54: ESTIMATION STEP
+17:56:54: -----------------------------------------------
+17:56:54: Bidder_0
+17:58:29: Time for Bidder_0: 95 sec
+
+17:58:29: Bidder_1
+17:58:36: Time for Bidder_1: 7 sec
+
+17:58:36: Bidder_2
+17:58:43: Time for Bidder_2: 7 sec
+
+17:58:43: Bidder_4
+17:58:51: Time for Bidder_4: 7 sec
+
+17:58:51: Bidder_5
+17:58:58: Time for Bidder_5: 7 sec
+
+17:58:58: OPTIMIZATION STEP
+17:58:58: -----------------------------------------------
+17:58:58: 
+17:58:58: Tighten Bounds with IA
+17:58:58: -----------------------------------------------
+17:58:58: 
+17:58:58: Initialize MIP
+17:58:58: -----------------------------------------------
+17:58:58: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:58:58: MIP initialized
+17:58:58: Solving MIP
+17:58:58: Attempt no: 1
+17:58:58: Set parameter TimeLimit to value 300
+17:58:58: Set parameter MIPGap to value 0.01
+17:58:58: Set parameter IntFeasTol to value 1e-06
+17:58:58: 
+17:58:58: Solve MIP
+17:58:58: -----------------------------------------------
+17:58:58: MIP warm-start False
+17:58:58: MIP time Limit of 300.0
+17:58:58: MIP relative gap 0.01
+17:58:58: MIP integrality tol 1e-06
+17:58:58: 
+Solve Details
+17:58:58: -----------------------------------------------
+17:58:58: NN-Type : UNN
+17:58:58:  - number of UNN-activation-function-constraints removed: 0
+17:58:58: Status  : solution found
+17:58:58: Time    : 0 sec
+17:58:58: Problem : MIP
+17:58:58: Rel. Gap: 0.00024542754491600505 %
+17:58:58: 
+
+17:58:58: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:58:58: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:58:58: -----------------------------------------------
+17:58:58: 
+17:58:58: Tighten Bounds with IA
+17:58:58: -----------------------------------------------
+17:58:58: 
+17:58:58: Initialize MIP
+17:58:58: -----------------------------------------------
+17:58:58: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:58:58: MIP initialized
+17:58:58: Solving MIP
+17:58:58: Attempt no: 1
+17:58:58: Set parameter TimeLimit to value 300
+17:58:58: Set parameter MIPGap to value 0.01
+17:58:58: Set parameter IntFeasTol to value 1e-06
+17:58:58: 
+17:58:58: Solve MIP
+17:58:58: -----------------------------------------------
+17:58:58: MIP warm-start False
+17:58:58: MIP time Limit of 300.0
+17:58:58: MIP relative gap 0.01
+17:58:58: MIP integrality tol 1e-06
+17:58:59: 
+Solve Details
+17:58:59: -----------------------------------------------
+17:58:59: NN-Type : UNN
+17:58:59:  - number of UNN-activation-function-constraints removed: 0
+17:58:59: Status  : solution found
+17:58:59: Time    : 0 sec
+17:58:59: Problem : MIP
+17:58:59: Rel. Gap: 0.004647495218642258 %
+17:58:59: 
+
+17:58:59: Bidder_2 | Marginal Economy -(4)
+17:58:59: -----------------------------------------------
+17:58:59: Status of Economy: True
+
+17:58:59: Argmax bundle ALREADY ELICITED from Bidder_2
+
+17:58:59: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+17:58:59: -----------------------------------------------
+17:58:59: 
+17:58:59: Tighten Bounds with IA
+17:58:59: -----------------------------------------------
+17:58:59: 
+17:58:59: Initialize MIP
+17:58:59: -----------------------------------------------
+17:58:59: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:58:59: MIP initialized
+17:58:59: Solving MIP
+17:58:59: Attempt no: 1
+17:58:59: Set parameter TimeLimit to value 300
+17:58:59: Set parameter MIPGap to value 0.01
+17:58:59: Set parameter IntFeasTol to value 1e-06
+17:58:59: 
+17:58:59: Solve MIP
+17:58:59: -----------------------------------------------
+17:58:59: MIP warm-start False
+17:58:59: MIP time Limit of 300.0
+17:58:59: MIP relative gap 0.01
+17:58:59: MIP integrality tol 1e-06
+17:59:00: 
+Solve Details
+17:59:00: -----------------------------------------------
+17:59:00: NN-Type : UNN
+17:59:00:  - number of UNN-activation-function-constraints removed: 0
+17:59:00: Status  : solution found
+17:59:00: Time    : 1 sec
+17:59:00: Problem : MIP
+17:59:00: Rel. Gap: 0.006669934574023752 %
+17:59:00: 
+
+17:59:00: Bidder_3
+17:59:00: -----------------------------------------------
+17:59:00: Bidder_3 | Marginal Economy -(0)
+17:59:00: -----------------------------------------------
+17:59:00: Status of Economy: True
+
+17:59:00: Bidder_3 | Marginal Economy -(2)
+17:59:00: -----------------------------------------------
+17:59:00: Status of Economy: True
+
+17:59:00: Argmax bundle ALREADY ELICITED from Bidder_3
+
+17:59:00: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+17:59:00: -----------------------------------------------
+17:59:00: 
+17:59:00: Tighten Bounds with IA
+17:59:00: -----------------------------------------------
+17:59:00: 
+17:59:00: Initialize MIP
+17:59:00: -----------------------------------------------
+17:59:00: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:00: MIP initialized
+17:59:00: Solving MIP
+17:59:00: Attempt no: 1
+17:59:00: Set parameter TimeLimit to value 300
+17:59:00: Set parameter MIPGap to value 0.01
+17:59:00: Set parameter IntFeasTol to value 1e-06
+17:59:00: 
+17:59:00: Solve MIP
+17:59:00: -----------------------------------------------
+17:59:00: MIP warm-start False
+17:59:00: MIP time Limit of 300.0
+17:59:00: MIP relative gap 0.01
+17:59:00: MIP integrality tol 1e-06
+17:59:01: 
+Solve Details
+17:59:01: -----------------------------------------------
+17:59:01: NN-Type : UNN
+17:59:01:  - number of UNN-activation-function-constraints removed: 1
+17:59:01: Status  : solution found
+17:59:01: Time    : 1 sec
+17:59:01: Problem : MIP
+17:59:01: Rel. Gap: 0.008640843968831304 %
+17:59:01: 
+
+17:59:01: Bidder_3 | Marginal Economy -(4)
+17:59:01: -----------------------------------------------
+17:59:01: Status of Economy: True
+
+17:59:01: Argmax bundle ALREADY QUERIED IN THIS AUCTION ROUND from Bidder_3
+
+17:59:01: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+17:59:01: -----------------------------------------------
+17:59:01: 
+17:59:01: Tighten Bounds with IA
+17:59:01: -----------------------------------------------
+17:59:01: 
+17:59:01: Initialize MIP
+17:59:01: -----------------------------------------------
+17:59:01: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:01: MIP initialized
+17:59:01: Solving MIP
+17:59:01: Attempt no: 1
+17:59:01: Set parameter TimeLimit to value 300
+17:59:01: Set parameter MIPGap to value 0.01
+17:59:01: Set parameter IntFeasTol to value 1e-06
+17:59:01: 
+17:59:01: Solve MIP
+17:59:01: -----------------------------------------------
+17:59:01: MIP warm-start False
+17:59:01: MIP time Limit of 300.0
+17:59:01: MIP relative gap 0.01
+17:59:01: MIP integrality tol 1e-06
+17:59:02: 
+Solve Details
+17:59:02: -----------------------------------------------
+17:59:02: NN-Type : UNN
+17:59:02:  - number of UNN-activation-function-constraints removed: 0
+17:59:02: Status  : solution found
+17:59:02: Time    : 1 sec
+17:59:02: Problem : MIP
+17:59:02: Rel. Gap: 8.072333411880766e-06 %
+17:59:02: 
+
+17:59:02: Bidder_4
+17:59:02: -----------------------------------------------
+17:59:02: Bidder_4 | Marginal Economy -(1)
+17:59:02: -----------------------------------------------
+17:59:02: Status of Economy: True
+
+17:59:02: Argmax bundle ALREADY ELICITED from Bidder_4
+
+17:59:02: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+17:59:02: -----------------------------------------------
+17:59:02: 
+17:59:02: Tighten Bounds with IA
+17:59:02: -----------------------------------------------
+17:59:02: 
+17:59:02: Initialize MIP
+17:59:02: -----------------------------------------------
+17:59:02: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:02: MIP initialized
+17:59:02: Solving MIP
+17:59:02: Attempt no: 1
+17:59:02: Set parameter TimeLimit to value 300
+17:59:02: Set parameter MIPGap to value 0.01
+17:59:02: Set parameter IntFeasTol to value 1e-06
+17:59:02: 
+17:59:02: Solve MIP
+17:59:02: -----------------------------------------------
+17:59:02: MIP warm-start False
+17:59:02: MIP time Limit of 300.0
+17:59:02: MIP relative gap 0.01
+17:59:02: MIP integrality tol 1e-06
+17:59:03: 
+Solve Details
+17:59:03: -----------------------------------------------
+17:59:03: NN-Type : UNN
+17:59:03:  - number of UNN-activation-function-constraints removed: 1
+17:59:03: Status  : solution found
+17:59:03: Time    : 0 sec
+17:59:03: Problem : MIP
+17:59:03: Rel. Gap: 0.003117383737901835 %
+17:59:03: 
+
+17:59:03: Bidder_4 | Marginal Economy -(2)
+17:59:03: -----------------------------------------------
+17:59:03: Status of Economy: True
+
+17:59:03: Argmax bundle ALREADY ELICITED from Bidder_4
+
+17:59:03: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+17:59:03: -----------------------------------------------
+17:59:03: 
+17:59:03: Tighten Bounds with IA
+17:59:03: -----------------------------------------------
+17:59:03: 
+17:59:03: Initialize MIP
+17:59:03: -----------------------------------------------
+17:59:03: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:03: MIP initialized
+17:59:03: Solving MIP
+17:59:03: Attempt no: 1
+17:59:03: Set parameter TimeLimit to value 300
+17:59:03: Set parameter MIPGap to value 0.01
+17:59:03: Set parameter IntFeasTol to value 1e-06
+17:59:03: 
+17:59:03: Solve MIP
+17:59:03: -----------------------------------------------
+17:59:03: MIP warm-start False
+17:59:03: MIP time Limit of 300.0
+17:59:03: MIP relative gap 0.01
+17:59:03: MIP integrality tol 1e-06
+17:59:03: 
+Solve Details
+17:59:03: -----------------------------------------------
+17:59:03: NN-Type : UNN
+17:59:03:  - number of UNN-activation-function-constraints removed: 1
+17:59:03: Status  : solution found
+17:59:03: Time    : 0 sec
+17:59:03: Problem : MIP
+17:59:03: Rel. Gap: 0.008014281924339084 %
+17:59:03: 
+
+17:59:03: Bidder_4 | Marginal Economy -(5)
+17:59:03: -----------------------------------------------
+17:59:03: Status of Economy: True
+
+17:59:03: Argmax bundle ALREADY ELICITED from Bidder_4
+
+17:59:03: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+17:59:03: -----------------------------------------------
+17:59:03: 
+17:59:03: Tighten Bounds with IA
+17:59:03: -----------------------------------------------
+17:59:03: 
+17:59:03: Initialize MIP
+17:59:03: -----------------------------------------------
+17:59:03: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:04: MIP initialized
+17:59:04: Solving MIP
+17:59:04: Attempt no: 1
+17:59:04: Set parameter TimeLimit to value 300
+17:59:04: Set parameter MIPGap to value 0.01
+17:59:04: Set parameter IntFeasTol to value 1e-06
+17:59:04: 
+17:59:04: Solve MIP
+17:59:04: -----------------------------------------------
+17:59:04: MIP warm-start False
+17:59:04: MIP time Limit of 300.0
+17:59:04: MIP relative gap 0.01
+17:59:04: MIP integrality tol 1e-06
+17:59:05: 
+Solve Details
+17:59:05: -----------------------------------------------
+17:59:05: NN-Type : UNN
+17:59:05:  - number of UNN-activation-function-constraints removed: 0
+17:59:05: Status  : solution found
+17:59:05: Time    : 2 sec
+17:59:05: Problem : MIP
+17:59:05: Rel. Gap: 0.0 %
+17:59:05: 
+
+17:59:05: Bidder_5
+17:59:05: -----------------------------------------------
+17:59:05: Bidder_5 | Marginal Economy -(0)
+17:59:05: -----------------------------------------------
+17:59:05: Status of Economy: True
+
+17:59:05: Argmax bundle ALREADY ELICITED from Bidder_5
+
+17:59:05: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+17:59:05: -----------------------------------------------
+17:59:05: 
+17:59:05: Tighten Bounds with IA
+17:59:05: -----------------------------------------------
+17:59:05: 
+17:59:05: Initialize MIP
+17:59:05: -----------------------------------------------
+17:59:05: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:05: MIP initialized
+17:59:05: Solving MIP
+17:59:05: Attempt no: 1
+17:59:05: Set parameter TimeLimit to value 300
+17:59:05: Set parameter MIPGap to value 0.01
+17:59:05: Set parameter IntFeasTol to value 1e-06
+17:59:05: 
+17:59:05: Solve MIP
+17:59:05: -----------------------------------------------
+17:59:05: MIP warm-start False
+17:59:05: MIP time Limit of 300.0
+17:59:05: MIP relative gap 0.01
+17:59:05: MIP integrality tol 1e-06
+17:59:06: 
+Solve Details
+17:59:06: -----------------------------------------------
+17:59:06: NN-Type : UNN
+17:59:06:  - number of UNN-activation-function-constraints removed: 0
+17:59:06: Status  : solution found
+17:59:06: Time    : 0 sec
+17:59:06: Problem : MIP
+17:59:06: Rel. Gap: 0.009704010695626009 %
+17:59:06: 
+
+17:59:06: Bidder_5 | Marginal Economy -(3)
+17:59:06: -----------------------------------------------
+17:59:06: Status of Economy: True
+
+17:59:06: Argmax bundle ALREADY ELICITED from Bidder_5
+
+17:59:06: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+17:59:06: -----------------------------------------------
+17:59:06: 
+17:59:06: Tighten Bounds with IA
+17:59:06: -----------------------------------------------
+17:59:06: 
+17:59:06: Initialize MIP
+17:59:06: -----------------------------------------------
+17:59:06: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+17:59:06: MIP initialized
+17:59:06: Solving MIP
+17:59:06: Attempt no: 1
+17:59:06: Set parameter TimeLimit to value 300
+17:59:06: Set parameter MIPGap to value 0.01
+17:59:06: Set parameter IntFeasTol to value 1e-06
+17:59:06: 
+17:59:06: Solve MIP
+17:59:06: -----------------------------------------------
+17:59:06: MIP warm-start False
+17:59:06: MIP time Limit of 300.0
+17:59:06: MIP relative gap 0.01
+17:59:06: MIP integrality tol 1e-06
+17:59:07: 
+Solve Details
+17:59:07: -----------------------------------------------
+17:59:07: NN-Type : UNN
+17:59:07:  - number of UNN-activation-function-constraints removed: 0
+17:59:07: Status  : solution found
+17:59:07: Time    : 1 sec
+17:59:07: Problem : MIP
+17:59:07: Rel. Gap: 0.0 %
+17:59:07: 
+
+17:59:07: Bidder_5 | Marginal Economy -(4)
+17:59:07: -----------------------------------------------
+17:59:07: Status of Economy: True
+
+17:59:07: RESET: NN Models of marginal Economies
+17:59:07: MAIN ECONOMY FOR ALL BIDDERS
+17:59:07: -----------------------------------------------
+
+17:59:07: Bidder_0
+17:59:07: -----------------------------------------------
+17:59:07: ESTIMATION STEP
+17:59:07: -----------------------------------------------
+17:59:07: Bidder_0
+18:00:42: Time for Bidder_0: 95 sec
+
+18:00:42: Bidder_1
+18:00:49: Time for Bidder_1: 7 sec
+
+18:00:49: Bidder_2
+18:00:56: Time for Bidder_2: 7 sec
+
+18:00:56: Bidder_3
+18:01:03: Time for Bidder_3: 7 sec
+
+18:01:03: Bidder_4
+18:01:10: Time for Bidder_4: 7 sec
+
+18:01:10: Bidder_5
+18:01:17: Time for Bidder_5: 7 sec
+
+18:01:17: OPTIMIZATION STEP
+18:01:17: -----------------------------------------------
+18:01:17: 
+18:01:17: Tighten Bounds with IA
+18:01:17: -----------------------------------------------
+18:01:17: 
+18:01:17: Initialize MIP
+18:01:17: -----------------------------------------------
+18:01:17: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:17: MIP initialized
+18:01:17: Solving MIP
+18:01:17: Attempt no: 1
+18:01:17: Set parameter TimeLimit to value 300
+18:01:17: Set parameter MIPGap to value 0.01
+18:01:17: Set parameter IntFeasTol to value 1e-06
+18:01:17: 
+18:01:17: Solve MIP
+18:01:17: -----------------------------------------------
+18:01:17: MIP warm-start False
+18:01:17: MIP time Limit of 300.0
+18:01:17: MIP relative gap 0.01
+18:01:17: MIP integrality tol 1e-06
+18:01:18: 
+Solve Details
+18:01:18: -----------------------------------------------
+18:01:18: NN-Type : UNN
+18:01:18:  - number of UNN-activation-function-constraints removed: 2
+18:01:18: Status  : solution found
+18:01:18: Time    : 1 sec
+18:01:18: Problem : MIP
+18:01:18: Rel. Gap: 0.0005667370481487696 %
+18:01:18: 
+
+18:01:18: Argmax bundle ALREADY ELICITED from Bidder_0
+
+18:01:18: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+18:01:18: -----------------------------------------------
+18:01:18: 
+18:01:18: Tighten Bounds with IA
+18:01:18: -----------------------------------------------
+18:01:18: 
+18:01:18: Initialize MIP
+18:01:18: -----------------------------------------------
+18:01:18: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:18: MIP initialized
+18:01:18: Solving MIP
+18:01:18: Attempt no: 1
+18:01:18: Set parameter TimeLimit to value 300
+18:01:18: Set parameter MIPGap to value 0.01
+18:01:18: Set parameter IntFeasTol to value 1e-06
+18:01:18: 
+18:01:18: Solve MIP
+18:01:18: -----------------------------------------------
+18:01:18: MIP warm-start False
+18:01:18: MIP time Limit of 300.0
+18:01:18: MIP relative gap 0.01
+18:01:18: MIP integrality tol 1e-06
+18:01:20: 
+Solve Details
+18:01:20: -----------------------------------------------
+18:01:20: NN-Type : UNN
+18:01:20:  - number of UNN-activation-function-constraints removed: 2
+18:01:20: Status  : solution found
+18:01:20: Time    : 2 sec
+18:01:20: Problem : MIP
+18:01:20: Rel. Gap: 0.009197675416138579 %
+18:01:20: 
+
+18:01:20: Bidder_1
+18:01:20: -----------------------------------------------
+18:01:20: Argmax bundle ALREADY ELICITED from Bidder_1
+
+18:01:20: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+18:01:20: -----------------------------------------------
+18:01:20: 
+18:01:20: Tighten Bounds with IA
+18:01:20: -----------------------------------------------
+18:01:20: 
+18:01:20: Initialize MIP
+18:01:20: -----------------------------------------------
+18:01:20: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:20: MIP initialized
+18:01:20: Solving MIP
+18:01:20: Attempt no: 1
+18:01:20: Set parameter TimeLimit to value 300
+18:01:20: Set parameter MIPGap to value 0.01
+18:01:20: Set parameter IntFeasTol to value 1e-06
+18:01:20: 
+18:01:20: Solve MIP
+18:01:20: -----------------------------------------------
+18:01:20: MIP warm-start False
+18:01:20: MIP time Limit of 300.0
+18:01:20: MIP relative gap 0.01
+18:01:20: MIP integrality tol 1e-06
+18:01:22: 
+Solve Details
+18:01:22: -----------------------------------------------
+18:01:22: NN-Type : UNN
+18:01:22:  - number of UNN-activation-function-constraints removed: 2
+18:01:22: Status  : solution found
+18:01:22: Time    : 2 sec
+18:01:22: Problem : MIP
+18:01:22: Rel. Gap: 0.005754559931520001 %
+18:01:22: 
+
+18:01:22: Bidder_2
+18:01:22: -----------------------------------------------
+18:01:22: Argmax bundle ALREADY ELICITED from Bidder_2
+
+18:01:22: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+18:01:22: -----------------------------------------------
+18:01:22: 
+18:01:22: Tighten Bounds with IA
+18:01:22: -----------------------------------------------
+18:01:22: 
+18:01:22: Initialize MIP
+18:01:22: -----------------------------------------------
+18:01:22: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:22: MIP initialized
+18:01:22: Solving MIP
+18:01:22: Attempt no: 1
+18:01:22: Set parameter TimeLimit to value 300
+18:01:22: Set parameter MIPGap to value 0.01
+18:01:22: Set parameter IntFeasTol to value 1e-06
+18:01:22: 
+18:01:22: Solve MIP
+18:01:22: -----------------------------------------------
+18:01:22: MIP warm-start False
+18:01:22: MIP time Limit of 300.0
+18:01:22: MIP relative gap 0.01
+18:01:22: MIP integrality tol 1e-06
+18:01:23: 
+Solve Details
+18:01:23: -----------------------------------------------
+18:01:23: NN-Type : UNN
+18:01:23:  - number of UNN-activation-function-constraints removed: 2
+18:01:23: Status  : solution found
+18:01:23: Time    : 1 sec
+18:01:23: Problem : MIP
+18:01:23: Rel. Gap: 0.006299109491922134 %
+18:01:23: 
+
+18:01:23: Bidder_3
+18:01:23: -----------------------------------------------
+18:01:23: Argmax bundle ALREADY QUERIED IN THIS AUCTION ROUND from Bidder_3
+
+18:01:23: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+18:01:23: -----------------------------------------------
+18:01:23: 
+18:01:23: Tighten Bounds with IA
+18:01:23: -----------------------------------------------
+18:01:23: 
+18:01:23: Initialize MIP
+18:01:23: -----------------------------------------------
+18:01:23: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:24: MIP initialized
+18:01:24: Solving MIP
+18:01:24: Attempt no: 1
+18:01:24: Set parameter TimeLimit to value 300
+18:01:24: Set parameter MIPGap to value 0.01
+18:01:24: Set parameter IntFeasTol to value 1e-06
+18:01:24: 
+18:01:24: Solve MIP
+18:01:24: -----------------------------------------------
+18:01:24: MIP warm-start False
+18:01:24: MIP time Limit of 300.0
+18:01:24: MIP relative gap 0.01
+18:01:24: MIP integrality tol 1e-06
+18:01:24: 
+Solve Details
+18:01:24: -----------------------------------------------
+18:01:24: NN-Type : UNN
+18:01:24:  - number of UNN-activation-function-constraints removed: 2
+18:01:24: Status  : solution found
+18:01:24: Time    : 1 sec
+18:01:24: Problem : MIP
+18:01:24: Rel. Gap: 0.007823702841468105 %
+18:01:24: 
+
+18:01:24: Bidder_4
+18:01:24: -----------------------------------------------
+18:01:24: Argmax bundle ALREADY ELICITED from Bidder_4
+
+18:01:24: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+18:01:24: -----------------------------------------------
+18:01:24: 
+18:01:24: Tighten Bounds with IA
+18:01:24: -----------------------------------------------
+18:01:24: 
+18:01:24: Initialize MIP
+18:01:24: -----------------------------------------------
+18:01:24: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:25: MIP initialized
+18:01:25: Solving MIP
+18:01:25: Attempt no: 1
+18:01:25: Set parameter TimeLimit to value 300
+18:01:25: Set parameter MIPGap to value 0.01
+18:01:25: Set parameter IntFeasTol to value 1e-06
+18:01:25: 
+18:01:25: Solve MIP
+18:01:25: -----------------------------------------------
+18:01:25: MIP warm-start False
+18:01:25: MIP time Limit of 300.0
+18:01:25: MIP relative gap 0.01
+18:01:25: MIP integrality tol 1e-06
+18:01:26: 
+Solve Details
+18:01:26: -----------------------------------------------
+18:01:26: NN-Type : UNN
+18:01:26:  - number of UNN-activation-function-constraints removed: 2
+18:01:26: Status  : solution found
+18:01:26: Time    : 2 sec
+18:01:26: Problem : MIP
+18:01:26: Rel. Gap: 0.009678395506750516 %
+18:01:26: 
+
+18:01:26: Bidder_5
+18:01:26: -----------------------------------------------
+18:01:26: Argmax bundle ALREADY ELICITED from Bidder_5
+
+18:01:26: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+18:01:26: -----------------------------------------------
+18:01:26: 
+18:01:26: Tighten Bounds with IA
+18:01:26: -----------------------------------------------
+18:01:26: 
+18:01:26: Initialize MIP
+18:01:26: -----------------------------------------------
+18:01:26: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:01:26: MIP initialized
+18:01:26: Solving MIP
+18:01:26: Attempt no: 1
+18:01:26: Set parameter TimeLimit to value 300
+18:01:26: Set parameter MIPGap to value 0.01
+18:01:26: Set parameter IntFeasTol to value 1e-06
+18:01:26: 
+18:01:26: Solve MIP
+18:01:26: -----------------------------------------------
+18:01:26: MIP warm-start False
+18:01:26: MIP time Limit of 300.0
+18:01:26: MIP relative gap 0.01
+18:01:26: MIP integrality tol 1e-06
+18:01:28: 
+Solve Details
+18:01:28: -----------------------------------------------
+18:01:28: NN-Type : UNN
+18:01:28:  - number of UNN-activation-function-constraints removed: 2
+18:01:28: Status  : solution found
+18:01:28: Time    : 1 sec
+18:01:28: Problem : MIP
+18:01:28: Rel. Gap: 0.00942644220308953 %
+18:01:28: 
+
+18:01:28: UPDATE ELICITED BIDS: S -> R for Bidder_0
+18:01:28: ---------------------------------------------
+18:01:28: CHECK Uniqueness of updated elicited bids:
+18:01:28: UNIQUE
+
+18:01:28: UPDATE ELICITED BIDS: S -> R for Bidder_1
+18:01:28: ---------------------------------------------
+18:01:28: CHECK Uniqueness of updated elicited bids:
+18:01:28: UNIQUE
+
+18:01:28: UPDATE ELICITED BIDS: S -> R for Bidder_2
+18:01:28: ---------------------------------------------
+18:01:28: CHECK Uniqueness of updated elicited bids:
+18:01:28: UNIQUE
+
+18:01:28: UPDATE ELICITED BIDS: S -> R for Bidder_3
+18:01:28: ---------------------------------------------
+18:01:28: CHECK Uniqueness of updated elicited bids:
+18:01:28: UNIQUE
+
+18:01:28: UPDATE ELICITED BIDS: S -> R for Bidder_4
+18:01:28: ---------------------------------------------
+18:01:28: CHECK Uniqueness of updated elicited bids:
+18:01:28: UNIQUE
+
+18:01:28: UPDATE ELICITED BIDS: S -> R for Bidder_5
+18:01:28: ---------------------------------------------
+18:01:28: CHECK Uniqueness of updated elicited bids:
+18:01:28: UNIQUE
+
+18:01:28: INFO
+18:01:28: -----------------------------------------------
+18:01:28: Seed Auction Instance: 157
+18:01:28: Iteration of MLCA: 3
+18:01:28: Number of Elicited Bids:
+18:01:28: Bidder_0: 48
+18:01:28: Bidder_1: 48
+18:01:28: Bidder_2: 48
+18:01:28: Bidder_3: 48
+18:01:28: Bidder_4: 48
+18:01:28: Bidder_5: 48
+18:01:28: Qinit: 40 | Qround: 4 | Qmax: 100
+18:01:28: Efficiency given elicited bids from iteration 0-2: 0.9884208361060365
+
+18:01:28: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+18:01:28: RESET: Status of Economies
+18:01:28: RESET: NN Models
+18:01:28: RESET: Argmax Allocation
+
+18:01:28: MARGINAL ECONOMIES FOR ALL BIDDERS
+18:01:28: -----------------------------------------------
+
+18:01:28: Bidder_0
+18:01:28: -----------------------------------------------
+18:01:28: Bidder_0 | Marginal Economy -(1)
+18:01:28: -----------------------------------------------
+18:01:28: Status of Economy: False
+
+18:01:28: ESTIMATION STEP
+18:01:28: -----------------------------------------------
+18:01:28: Bidder_0
+18:03:00: Time for Bidder_0: 92 sec
+
+18:03:00: Bidder_2
+18:03:08: Time for Bidder_2: 8 sec
+
+18:03:08: Bidder_3
+18:03:15: Time for Bidder_3: 8 sec
+
+18:03:15: Bidder_4
+18:03:23: Time for Bidder_4: 8 sec
+
+18:03:23: Bidder_5
+18:03:31: Time for Bidder_5: 8 sec
+
+18:03:31: OPTIMIZATION STEP
+18:03:31: -----------------------------------------------
+18:03:31: 
+18:03:31: Tighten Bounds with IA
+18:03:31: -----------------------------------------------
+18:03:31: 
+18:03:31: Initialize MIP
+18:03:31: -----------------------------------------------
+18:03:31: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:03:31: MIP initialized
+18:03:31: Solving MIP
+18:03:31: Attempt no: 1
+18:03:31: Set parameter TimeLimit to value 300
+18:03:31: Set parameter MIPGap to value 0.01
+18:03:31: Set parameter IntFeasTol to value 1e-06
+18:03:31: 
+18:03:31: Solve MIP
+18:03:31: -----------------------------------------------
+18:03:31: MIP warm-start False
+18:03:31: MIP time Limit of 300.0
+18:03:31: MIP relative gap 0.01
+18:03:31: MIP integrality tol 1e-06
+18:03:31: 
+Solve Details
+18:03:31: -----------------------------------------------
+18:03:31: NN-Type : UNN
+18:03:31:  - number of UNN-activation-function-constraints removed: 1
+18:03:31: Status  : solution found
+18:03:31: Time    : 0 sec
+18:03:31: Problem : MIP
+18:03:31: Rel. Gap: 3.661984362077985e-05 %
+18:03:31: 
+
+18:03:31: Argmax bundle ALREADY ELICITED from Bidder_0
+
+18:03:31: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+18:03:31: -----------------------------------------------
+18:03:31: 
+18:03:31: Tighten Bounds with IA
+18:03:31: -----------------------------------------------
+18:03:31: 
+18:03:31: Initialize MIP
+18:03:31: -----------------------------------------------
+18:03:31: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:03:31: MIP initialized
+18:03:31: Solving MIP
+18:03:31: Attempt no: 1
+18:03:31: Set parameter TimeLimit to value 300
+18:03:31: Set parameter MIPGap to value 0.01
+18:03:31: Set parameter IntFeasTol to value 1e-06
+18:03:31: 
+18:03:31: Solve MIP
+18:03:31: -----------------------------------------------
+18:03:31: MIP warm-start False
+18:03:31: MIP time Limit of 300.0
+18:03:31: MIP relative gap 0.01
+18:03:31: MIP integrality tol 1e-06
+18:03:32: 
+Solve Details
+18:03:32: -----------------------------------------------
+18:03:32: NN-Type : UNN
+18:03:32:  - number of UNN-activation-function-constraints removed: 1
+18:03:32: Status  : solution found
+18:03:32: Time    : 1 sec
+18:03:32: Problem : MIP
+18:03:32: Rel. Gap: 0.009963593176200639 %
+18:03:32: 
+
+18:03:32: Bidder_0 | Marginal Economy -(3)
+18:03:32: -----------------------------------------------
+18:03:32: Status of Economy: False
+
+18:03:32: ESTIMATION STEP
+18:03:32: -----------------------------------------------
+18:03:32: Bidder_0
+18:05:04: Time for Bidder_0: 91 sec
+
+18:05:04: Bidder_1
+18:05:11: Time for Bidder_1: 8 sec
+
+18:05:11: Bidder_2
+18:05:19: Time for Bidder_2: 8 sec
+
+18:05:19: Bidder_4
+18:05:27: Time for Bidder_4: 8 sec
+
+18:05:27: Bidder_5
+18:05:34: Time for Bidder_5: 8 sec
+
+18:05:34: OPTIMIZATION STEP
+18:05:34: -----------------------------------------------
+18:05:34: 
+18:05:34: Tighten Bounds with IA
+18:05:34: -----------------------------------------------
+18:05:34: 
+18:05:34: Initialize MIP
+18:05:34: -----------------------------------------------
+18:05:34: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:05:34: MIP initialized
+18:05:34: Solving MIP
+18:05:34: Attempt no: 1
+18:05:34: Set parameter TimeLimit to value 300
+18:05:34: Set parameter MIPGap to value 0.01
+18:05:34: Set parameter IntFeasTol to value 1e-06
+18:05:34: 
+18:05:34: Solve MIP
+18:05:34: -----------------------------------------------
+18:05:34: MIP warm-start False
+18:05:34: MIP time Limit of 300.0
+18:05:34: MIP relative gap 0.01
+18:05:34: MIP integrality tol 1e-06
+18:05:35: 
+Solve Details
+18:05:35: -----------------------------------------------
+18:05:35: NN-Type : UNN
+18:05:35:  - number of UNN-activation-function-constraints removed: 1
+18:05:35: Status  : solution found
+18:05:35: Time    : 1 sec
+18:05:35: Problem : MIP
+18:05:35: Rel. Gap: 0.009493455537826186 %
+18:05:35: 
+
+18:05:35: Argmax bundle ALREADY ELICITED from Bidder_0
+
+18:05:35: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+18:05:35: -----------------------------------------------
+18:05:35: 
+18:05:35: Tighten Bounds with IA
+18:05:35: -----------------------------------------------
+18:05:35: 
+18:05:35: Initialize MIP
+18:05:35: -----------------------------------------------
+18:05:35: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:05:35: MIP initialized
+18:05:35: Solving MIP
+18:05:35: Attempt no: 1
+18:05:35: Set parameter TimeLimit to value 300
+18:05:35: Set parameter MIPGap to value 0.01
+18:05:35: Set parameter IntFeasTol to value 1e-06
+18:05:35: 
+18:05:35: Solve MIP
+18:05:35: -----------------------------------------------
+18:05:35: MIP warm-start False
+18:05:35: MIP time Limit of 300.0
+18:05:35: MIP relative gap 0.01
+18:05:35: MIP integrality tol 1e-06
+18:05:36: 
+Solve Details
+18:05:36: -----------------------------------------------
+18:05:36: NN-Type : UNN
+18:05:36:  - number of UNN-activation-function-constraints removed: 1
+18:05:36: Status  : solution found
+18:05:36: Time    : 1 sec
+18:05:36: Problem : MIP
+18:05:36: Rel. Gap: 0.008723266573107437 %
+18:05:36: 
+
+18:05:36: Bidder_0 | Marginal Economy -(4)
+18:05:36: -----------------------------------------------
+18:05:36: Status of Economy: False
+
+18:05:36: ESTIMATION STEP
+18:05:36: -----------------------------------------------
+18:05:36: Bidder_0
+18:06:56: Time for Bidder_0: 80 sec
+
+18:06:56: Bidder_1
+18:07:03: Time for Bidder_1: 8 sec
+
+18:07:03: Bidder_2
+18:07:11: Time for Bidder_2: 8 sec
+
+18:07:11: Bidder_3
+18:07:19: Time for Bidder_3: 8 sec
+
+18:07:19: Bidder_5
+18:07:26: Time for Bidder_5: 8 sec
+
+18:07:26: OPTIMIZATION STEP
+18:07:26: -----------------------------------------------
+18:07:26: 
+18:07:26: Tighten Bounds with IA
+18:07:26: -----------------------------------------------
+18:07:26: 
+18:07:26: Initialize MIP
+18:07:26: -----------------------------------------------
+18:07:26: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:07:26: MIP initialized
+18:07:26: Solving MIP
+18:07:26: Attempt no: 1
+18:07:26: Set parameter TimeLimit to value 300
+18:07:26: Set parameter MIPGap to value 0.01
+18:07:26: Set parameter IntFeasTol to value 1e-06
+18:07:26: 
+18:07:26: Solve MIP
+18:07:26: -----------------------------------------------
+18:07:26: MIP warm-start False
+18:07:26: MIP time Limit of 300.0
+18:07:26: MIP relative gap 0.01
+18:07:26: MIP integrality tol 1e-06
+18:07:27: 
+Solve Details
+18:07:27: -----------------------------------------------
+18:07:27: NN-Type : UNN
+18:07:27:  - number of UNN-activation-function-constraints removed: 0
+18:07:27: Status  : solution found
+18:07:27: Time    : 0 sec
+18:07:27: Problem : MIP
+18:07:27: Rel. Gap: 0.009646913137546249 %
+18:07:27: 
+
+18:07:27: Argmax bundle ALREADY ELICITED from Bidder_0
+
+18:07:27: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+18:07:27: -----------------------------------------------
+18:07:27: 
+18:07:27: Tighten Bounds with IA
+18:07:27: -----------------------------------------------
+18:07:27: 
+18:07:27: Initialize MIP
+18:07:27: -----------------------------------------------
+18:07:27: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:07:27: MIP initialized
+18:07:27: Solving MIP
+18:07:27: Attempt no: 1
+18:07:27: Set parameter TimeLimit to value 300
+18:07:27: Set parameter MIPGap to value 0.01
+18:07:27: Set parameter IntFeasTol to value 1e-06
+18:07:27: 
+18:07:27: Solve MIP
+18:07:27: -----------------------------------------------
+18:07:27: MIP warm-start False
+18:07:27: MIP time Limit of 300.0
+18:07:27: MIP relative gap 0.01
+18:07:27: MIP integrality tol 1e-06
+18:07:28: 
+Solve Details
+18:07:28: -----------------------------------------------
+18:07:28: NN-Type : UNN
+18:07:28:  - number of UNN-activation-function-constraints removed: 0
+18:07:28: Status  : solution found
+18:07:28: Time    : 1 sec
+18:07:28: Problem : MIP
+18:07:28: Rel. Gap: 0.007126594993267725 %
+18:07:28: 
+
+18:07:28: Bidder_1
+18:07:28: -----------------------------------------------
+18:07:28: Bidder_1 | Marginal Economy -(0)
+18:07:28: -----------------------------------------------
+18:07:28: Status of Economy: False
+
+18:07:28: ESTIMATION STEP
+18:07:28: -----------------------------------------------
+18:07:28: Bidder_1
+18:07:36: Time for Bidder_1: 8 sec
+
+18:07:36: Bidder_2
+18:07:43: Time for Bidder_2: 8 sec
+
+18:07:43: Bidder_3
+18:07:51: Time for Bidder_3: 8 sec
+
+18:07:51: Bidder_4
+18:07:58: Time for Bidder_4: 8 sec
+
+18:07:58: Bidder_5
+18:08:06: Time for Bidder_5: 8 sec
+
+18:08:06: OPTIMIZATION STEP
+18:08:06: -----------------------------------------------
+18:08:06: 
+18:08:06: Tighten Bounds with IA
+18:08:06: -----------------------------------------------
+18:08:06: 
+18:08:06: Initialize MIP
+18:08:06: -----------------------------------------------
+18:08:06: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:08:06: MIP initialized
+18:08:06: Solving MIP
+18:08:06: Attempt no: 1
+18:08:06: Set parameter TimeLimit to value 300
+18:08:06: Set parameter MIPGap to value 0.01
+18:08:06: Set parameter IntFeasTol to value 1e-06
+18:08:06: 
+18:08:06: Solve MIP
+18:08:06: -----------------------------------------------
+18:08:06: MIP warm-start False
+18:08:06: MIP time Limit of 300.0
+18:08:06: MIP relative gap 0.01
+18:08:06: MIP integrality tol 1e-06
+18:08:07: 
+Solve Details
+18:08:07: -----------------------------------------------
+18:08:07: NN-Type : UNN
+18:08:07:  - number of UNN-activation-function-constraints removed: 0
+18:08:07: Status  : solution found
+18:08:07: Time    : 0 sec
+18:08:07: Problem : MIP
+18:08:07: Rel. Gap: 0.009511883197901848 %
+18:08:07: 
+
+18:08:07: Argmax bundle ALREADY ELICITED from Bidder_1
+
+18:08:07: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+18:08:07: -----------------------------------------------
+18:08:07: 
+18:08:07: Tighten Bounds with IA
+18:08:07: -----------------------------------------------
+18:08:07: 
+18:08:07: Initialize MIP
+18:08:07: -----------------------------------------------
+18:08:07: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:08:07: MIP initialized
+18:08:07: Solving MIP
+18:08:07: Attempt no: 1
+18:08:07: Set parameter TimeLimit to value 300
+18:08:07: Set parameter MIPGap to value 0.01
+18:08:07: Set parameter IntFeasTol to value 1e-06
+18:08:07: 
+18:08:07: Solve MIP
+18:08:07: -----------------------------------------------
+18:08:07: MIP warm-start False
+18:08:07: MIP time Limit of 300.0
+18:08:07: MIP relative gap 0.01
+18:08:07: MIP integrality tol 1e-06
+18:08:08: 
+Solve Details
+18:08:08: -----------------------------------------------
+18:08:08: NN-Type : UNN
+18:08:08:  - number of UNN-activation-function-constraints removed: 0
+18:08:08: Status  : solution found
+18:08:08: Time    : 1 sec
+18:08:08: Problem : MIP
+18:08:08: Rel. Gap: 0.0 %
+18:08:08: 
+
+18:08:08: Bidder_1 | Marginal Economy -(2)
+18:08:08: -----------------------------------------------
+18:08:08: Status of Economy: False
+
+18:08:08: ESTIMATION STEP
+18:08:08: -----------------------------------------------
+18:08:08: Bidder_0
+18:09:53: Time for Bidder_0: 105 sec
+
+18:09:53: Bidder_1
+18:10:01: Time for Bidder_1: 8 sec
+
+18:10:01: Bidder_3
+18:10:08: Time for Bidder_3: 8 sec
+
+18:10:08: Bidder_4
+18:10:16: Time for Bidder_4: 8 sec
+
+18:10:16: Bidder_5
+18:10:24: Time for Bidder_5: 8 sec
+
+18:10:24: OPTIMIZATION STEP
+18:10:24: -----------------------------------------------
+18:10:24: 
+18:10:24: Tighten Bounds with IA
+18:10:24: -----------------------------------------------
+18:10:24: 
+18:10:24: Initialize MIP
+18:10:24: -----------------------------------------------
+18:10:24: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:24: MIP initialized
+18:10:24: Solving MIP
+18:10:24: Attempt no: 1
+18:10:24: Set parameter TimeLimit to value 300
+18:10:24: Set parameter MIPGap to value 0.01
+18:10:24: Set parameter IntFeasTol to value 1e-06
+18:10:24: 
+18:10:24: Solve MIP
+18:10:24: -----------------------------------------------
+18:10:24: MIP warm-start False
+18:10:24: MIP time Limit of 300.0
+18:10:24: MIP relative gap 0.01
+18:10:24: MIP integrality tol 1e-06
+18:10:25: 
+Solve Details
+18:10:25: -----------------------------------------------
+18:10:25: NN-Type : UNN
+18:10:25:  - number of UNN-activation-function-constraints removed: 1
+18:10:25: Status  : solution found
+18:10:25: Time    : 1 sec
+18:10:25: Problem : MIP
+18:10:25: Rel. Gap: 0.006354810224682163 %
+18:10:25: 
+
+18:10:25: Argmax bundle ALREADY ELICITED from Bidder_1
+
+18:10:25: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+18:10:25: -----------------------------------------------
+18:10:25: 
+18:10:25: Tighten Bounds with IA
+18:10:25: -----------------------------------------------
+18:10:25: 
+18:10:25: Initialize MIP
+18:10:25: -----------------------------------------------
+18:10:25: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:25: MIP initialized
+18:10:25: Solving MIP
+18:10:25: Attempt no: 1
+18:10:25: Set parameter TimeLimit to value 300
+18:10:25: Set parameter MIPGap to value 0.01
+18:10:25: Set parameter IntFeasTol to value 1e-06
+18:10:25: 
+18:10:25: Solve MIP
+18:10:25: -----------------------------------------------
+18:10:25: MIP warm-start False
+18:10:25: MIP time Limit of 300.0
+18:10:25: MIP relative gap 0.01
+18:10:25: MIP integrality tol 1e-06
+18:10:26: 
+Solve Details
+18:10:26: -----------------------------------------------
+18:10:26: NN-Type : UNN
+18:10:26:  - number of UNN-activation-function-constraints removed: 1
+18:10:26: Status  : solution found
+18:10:26: Time    : 1 sec
+18:10:26: Problem : MIP
+18:10:26: Rel. Gap: 0.0 %
+18:10:26: 
+
+18:10:26: Bidder_1 | Marginal Economy -(3)
+18:10:26: -----------------------------------------------
+18:10:26: Status of Economy: True
+
+18:10:26: Bidder_2
+18:10:26: -----------------------------------------------
+18:10:26: Bidder_2 | Marginal Economy -(0)
+18:10:26: -----------------------------------------------
+18:10:26: Status of Economy: True
+
+18:10:26: Argmax bundle ALREADY ELICITED from Bidder_2
+
+18:10:26: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+18:10:26: -----------------------------------------------
+18:10:26: 
+18:10:26: Tighten Bounds with IA
+18:10:26: -----------------------------------------------
+18:10:26: 
+18:10:26: Initialize MIP
+18:10:26: -----------------------------------------------
+18:10:26: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:26: MIP initialized
+18:10:26: Solving MIP
+18:10:26: Attempt no: 1
+18:10:26: Set parameter TimeLimit to value 300
+18:10:26: Set parameter MIPGap to value 0.01
+18:10:26: Set parameter IntFeasTol to value 1e-06
+18:10:26: 
+18:10:26: Solve MIP
+18:10:26: -----------------------------------------------
+18:10:26: MIP warm-start False
+18:10:26: MIP time Limit of 300.0
+18:10:26: MIP relative gap 0.01
+18:10:26: MIP integrality tol 1e-06
+18:10:28: 
+Solve Details
+18:10:28: -----------------------------------------------
+18:10:28: NN-Type : UNN
+18:10:28:  - number of UNN-activation-function-constraints removed: 0
+18:10:28: Status  : solution found
+18:10:28: Time    : 1 sec
+18:10:28: Problem : MIP
+18:10:28: Rel. Gap: 0.0 %
+18:10:28: 
+
+18:10:28: Bidder_2 | Marginal Economy -(1)
+18:10:28: -----------------------------------------------
+18:10:28: Status of Economy: True
+
+18:10:28: Argmax bundle ALREADY ELICITED from Bidder_2
+
+18:10:28: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+18:10:28: -----------------------------------------------
+18:10:28: 
+18:10:28: Tighten Bounds with IA
+18:10:28: -----------------------------------------------
+18:10:28: 
+18:10:28: Initialize MIP
+18:10:28: -----------------------------------------------
+18:10:28: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:28: MIP initialized
+18:10:28: Solving MIP
+18:10:28: Attempt no: 1
+18:10:28: Set parameter TimeLimit to value 300
+18:10:28: Set parameter MIPGap to value 0.01
+18:10:28: Set parameter IntFeasTol to value 1e-06
+18:10:28: 
+18:10:28: Solve MIP
+18:10:28: -----------------------------------------------
+18:10:28: MIP warm-start False
+18:10:28: MIP time Limit of 300.0
+18:10:28: MIP relative gap 0.01
+18:10:28: MIP integrality tol 1e-06
+18:10:29: 
+Solve Details
+18:10:29: -----------------------------------------------
+18:10:29: NN-Type : UNN
+18:10:29:  - number of UNN-activation-function-constraints removed: 1
+18:10:29: Status  : solution found
+18:10:29: Time    : 1 sec
+18:10:29: Problem : MIP
+18:10:29: Rel. Gap: 0.006487614583724667 %
+18:10:29: 
+
+18:10:29: Bidder_2 | Marginal Economy -(4)
+18:10:29: -----------------------------------------------
+18:10:29: Status of Economy: True
+
+18:10:29: Argmax bundle ALREADY ELICITED from Bidder_2
+
+18:10:29: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+18:10:29: -----------------------------------------------
+18:10:29: 
+18:10:29: Tighten Bounds with IA
+18:10:29: -----------------------------------------------
+18:10:29: 
+18:10:29: Initialize MIP
+18:10:29: -----------------------------------------------
+18:10:29: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:29: MIP initialized
+18:10:29: Solving MIP
+18:10:29: Attempt no: 1
+18:10:29: Set parameter TimeLimit to value 300
+18:10:29: Set parameter MIPGap to value 0.01
+18:10:29: Set parameter IntFeasTol to value 1e-06
+18:10:29: 
+18:10:29: Solve MIP
+18:10:29: -----------------------------------------------
+18:10:29: MIP warm-start False
+18:10:29: MIP time Limit of 300.0
+18:10:29: MIP relative gap 0.01
+18:10:29: MIP integrality tol 1e-06
+18:10:31: 
+Solve Details
+18:10:31: -----------------------------------------------
+18:10:31: NN-Type : UNN
+18:10:31:  - number of UNN-activation-function-constraints removed: 0
+18:10:31: Status  : solution found
+18:10:31: Time    : 1 sec
+18:10:31: Problem : MIP
+18:10:31: Rel. Gap: 0.008220099312194465 %
+18:10:31: 
+
+18:10:31: Bidder_3
+18:10:31: -----------------------------------------------
+18:10:31: Bidder_3 | Marginal Economy -(1)
+18:10:31: -----------------------------------------------
+18:10:31: Status of Economy: True
+
+18:10:31: Argmax bundle ALREADY ELICITED from Bidder_3
+
+18:10:31: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+18:10:31: -----------------------------------------------
+18:10:31: 
+18:10:31: Tighten Bounds with IA
+18:10:31: -----------------------------------------------
+18:10:31: 
+18:10:31: Initialize MIP
+18:10:31: -----------------------------------------------
+18:10:31: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:31: MIP initialized
+18:10:31: Solving MIP
+18:10:31: Attempt no: 1
+18:10:31: Set parameter TimeLimit to value 300
+18:10:31: Set parameter MIPGap to value 0.01
+18:10:31: Set parameter IntFeasTol to value 1e-06
+18:10:31: 
+18:10:31: Solve MIP
+18:10:31: -----------------------------------------------
+18:10:31: MIP warm-start False
+18:10:31: MIP time Limit of 300.0
+18:10:31: MIP relative gap 0.01
+18:10:31: MIP integrality tol 1e-06
+18:10:31: 
+Solve Details
+18:10:31: -----------------------------------------------
+18:10:31: NN-Type : UNN
+18:10:31:  - number of UNN-activation-function-constraints removed: 1
+18:10:31: Status  : solution found
+18:10:31: Time    : 0 sec
+18:10:31: Problem : MIP
+18:10:31: Rel. Gap: 0.008902836251069536 %
+18:10:31: 
+
+18:10:31: Bidder_3 | Marginal Economy -(2)
+18:10:31: -----------------------------------------------
+18:10:31: Status of Economy: True
+
+18:10:31: Argmax bundle ALREADY ELICITED from Bidder_3
+
+18:10:31: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+18:10:31: -----------------------------------------------
+18:10:31: 
+18:10:31: Tighten Bounds with IA
+18:10:31: -----------------------------------------------
+18:10:31: 
+18:10:31: Initialize MIP
+18:10:31: -----------------------------------------------
+18:10:31: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:32: MIP initialized
+18:10:32: Solving MIP
+18:10:32: Attempt no: 1
+18:10:32: Set parameter TimeLimit to value 300
+18:10:32: Set parameter MIPGap to value 0.01
+18:10:32: Set parameter IntFeasTol to value 1e-06
+18:10:32: 
+18:10:32: Solve MIP
+18:10:32: -----------------------------------------------
+18:10:32: MIP warm-start False
+18:10:32: MIP time Limit of 300.0
+18:10:32: MIP relative gap 0.01
+18:10:32: MIP integrality tol 1e-06
+18:10:32: 
+Solve Details
+18:10:32: -----------------------------------------------
+18:10:32: NN-Type : UNN
+18:10:32:  - number of UNN-activation-function-constraints removed: 1
+18:10:32: Status  : solution found
+18:10:32: Time    : 1 sec
+18:10:32: Problem : MIP
+18:10:32: Rel. Gap: 0.008664322275008445 %
+18:10:32: 
+
+18:10:32: Bidder_3 | Marginal Economy -(4)
+18:10:32: -----------------------------------------------
+18:10:32: Status of Economy: True
+
+18:10:32: Argmax bundle ALREADY ELICITED from Bidder_3
+
+18:10:32: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+18:10:32: -----------------------------------------------
+18:10:32: 
+18:10:32: Tighten Bounds with IA
+18:10:32: -----------------------------------------------
+18:10:32: 
+18:10:32: Initialize MIP
+18:10:32: -----------------------------------------------
+18:10:32: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:33: MIP initialized
+18:10:33: Solving MIP
+18:10:33: Attempt no: 1
+18:10:33: Set parameter TimeLimit to value 300
+18:10:33: Set parameter MIPGap to value 0.01
+18:10:33: Set parameter IntFeasTol to value 1e-06
+18:10:33: 
+18:10:33: Solve MIP
+18:10:33: -----------------------------------------------
+18:10:33: MIP warm-start False
+18:10:33: MIP time Limit of 300.0
+18:10:33: MIP relative gap 0.01
+18:10:33: MIP integrality tol 1e-06
+18:10:34: 
+Solve Details
+18:10:34: -----------------------------------------------
+18:10:34: NN-Type : UNN
+18:10:34:  - number of UNN-activation-function-constraints removed: 0
+18:10:34: Status  : solution found
+18:10:34: Time    : 1 sec
+18:10:34: Problem : MIP
+18:10:34: Rel. Gap: 0.006202099901607717 %
+18:10:34: 
+
+18:10:34: Bidder_4
+18:10:34: -----------------------------------------------
+18:10:34: Bidder_4 | Marginal Economy -(2)
+18:10:34: -----------------------------------------------
+18:10:34: Status of Economy: True
+
+18:10:34: Argmax bundle ALREADY ELICITED from Bidder_4
+
+18:10:34: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+18:10:34: -----------------------------------------------
+18:10:34: 
+18:10:34: Tighten Bounds with IA
+18:10:34: -----------------------------------------------
+18:10:34: 
+18:10:34: Initialize MIP
+18:10:34: -----------------------------------------------
+18:10:34: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:10:34: MIP initialized
+18:10:34: Solving MIP
+18:10:34: Attempt no: 1
+18:10:34: Set parameter TimeLimit to value 300
+18:10:34: Set parameter MIPGap to value 0.01
+18:10:34: Set parameter IntFeasTol to value 1e-06
+18:10:34: 
+18:10:34: Solve MIP
+18:10:34: -----------------------------------------------
+18:10:34: MIP warm-start False
+18:10:34: MIP time Limit of 300.0
+18:10:34: MIP relative gap 0.01
+18:10:34: MIP integrality tol 1e-06
+18:10:35: 
+Solve Details
+18:10:35: -----------------------------------------------
+18:10:35: NN-Type : UNN
+18:10:35:  - number of UNN-activation-function-constraints removed: 1
+18:10:35: Status  : solution found
+18:10:35: Time    : 1 sec
+18:10:35: Problem : MIP
+18:10:35: Rel. Gap: 0.005331155168988529 %
+18:10:35: 
+
+18:10:35: Bidder_4 | Marginal Economy -(3)
+18:10:35: -----------------------------------------------
+18:10:35: Status of Economy: True
+
+18:10:35: Bidder_4 | Marginal Economy -(5)
+18:10:35: -----------------------------------------------
+18:10:35: Status of Economy: False
+
+18:10:35: ESTIMATION STEP
+18:10:35: -----------------------------------------------
+18:10:35: Bidder_0
+18:11:47: Time for Bidder_0: 72 sec
+
+18:11:47: Bidder_1
+18:11:55: Time for Bidder_1: 8 sec
+
+18:11:55: Bidder_2
+18:12:03: Time for Bidder_2: 8 sec
+
+18:12:03: Bidder_3
+18:12:10: Time for Bidder_3: 8 sec
+
+18:12:10: Bidder_4
+18:12:18: Time for Bidder_4: 8 sec
+
+18:12:18: OPTIMIZATION STEP
+18:12:18: -----------------------------------------------
+18:12:18: 
+18:12:18: Tighten Bounds with IA
+18:12:18: -----------------------------------------------
+18:12:18: 
+18:12:18: Initialize MIP
+18:12:18: -----------------------------------------------
+18:12:18: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:12:18: MIP initialized
+18:12:18: Solving MIP
+18:12:18: Attempt no: 1
+18:12:18: Set parameter TimeLimit to value 300
+18:12:18: Set parameter MIPGap to value 0.01
+18:12:18: Set parameter IntFeasTol to value 1e-06
+18:12:18: 
+18:12:18: Solve MIP
+18:12:18: -----------------------------------------------
+18:12:18: MIP warm-start False
+18:12:18: MIP time Limit of 300.0
+18:12:18: MIP relative gap 0.01
+18:12:18: MIP integrality tol 1e-06
+18:12:19: 
+Solve Details
+18:12:19: -----------------------------------------------
+18:12:19: NN-Type : UNN
+18:12:19:  - number of UNN-activation-function-constraints removed: 0
+18:12:19: Status  : solution found
+18:12:19: Time    : 1 sec
+18:12:19: Problem : MIP
+18:12:19: Rel. Gap: 0.0 %
+18:12:19: 
+
+18:12:19: Argmax bundle ALREADY ELICITED from Bidder_4
+
+18:12:19: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+18:12:19: -----------------------------------------------
+18:12:19: 
+18:12:19: Tighten Bounds with IA
+18:12:19: -----------------------------------------------
+18:12:19: 
+18:12:19: Initialize MIP
+18:12:19: -----------------------------------------------
+18:12:19: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:12:20: MIP initialized
+18:12:20: Solving MIP
+18:12:20: Attempt no: 1
+18:12:20: Set parameter TimeLimit to value 300
+18:12:20: Set parameter MIPGap to value 0.01
+18:12:20: Set parameter IntFeasTol to value 1e-06
+18:12:20: 
+18:12:20: Solve MIP
+18:12:20: -----------------------------------------------
+18:12:20: MIP warm-start False
+18:12:20: MIP time Limit of 300.0
+18:12:20: MIP relative gap 0.01
+18:12:20: MIP integrality tol 1e-06
+18:12:20: 
+Solve Details
+18:12:20: -----------------------------------------------
+18:12:20: NN-Type : UNN
+18:12:20:  - number of UNN-activation-function-constraints removed: 0
+18:12:20: Status  : solution found
+18:12:20: Time    : 0 sec
+18:12:20: Problem : MIP
+18:12:20: Rel. Gap: 0.009402757933236713 %
+18:12:20: 
+
+18:12:20: Bidder_5
+18:12:20: -----------------------------------------------
+18:12:20: Bidder_5 | Marginal Economy -(0)
+18:12:20: -----------------------------------------------
+18:12:20: Status of Economy: True
+
+18:12:20: Argmax bundle ALREADY ELICITED from Bidder_5
+
+18:12:20: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+18:12:20: -----------------------------------------------
+18:12:20: 
+18:12:20: Tighten Bounds with IA
+18:12:20: -----------------------------------------------
+18:12:20: 
+18:12:20: Initialize MIP
+18:12:20: -----------------------------------------------
+18:12:20: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:12:20: MIP initialized
+18:12:20: Solving MIP
+18:12:20: Attempt no: 1
+18:12:20: Set parameter TimeLimit to value 300
+18:12:20: Set parameter MIPGap to value 0.01
+18:12:20: Set parameter IntFeasTol to value 1e-06
+18:12:20: 
+18:12:20: Solve MIP
+18:12:20: -----------------------------------------------
+18:12:20: MIP warm-start False
+18:12:20: MIP time Limit of 300.0
+18:12:20: MIP relative gap 0.01
+18:12:20: MIP integrality tol 1e-06
+18:12:21: 
+Solve Details
+18:12:21: -----------------------------------------------
+18:12:21: NN-Type : UNN
+18:12:21:  - number of UNN-activation-function-constraints removed: 0
+18:12:21: Status  : solution found
+18:12:21: Time    : 1 sec
+18:12:21: Problem : MIP
+18:12:21: Rel. Gap: 0.006297130010804799 %
+18:12:21: 
+
+18:12:21: Bidder_5 | Marginal Economy -(2)
+18:12:21: -----------------------------------------------
+18:12:21: Status of Economy: True
+
+18:12:21: Argmax bundle ALREADY ELICITED from Bidder_5
+
+18:12:21: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+18:12:21: -----------------------------------------------
+18:12:21: 
+18:12:21: Tighten Bounds with IA
+18:12:21: -----------------------------------------------
+18:12:21: 
+18:12:21: Initialize MIP
+18:12:21: -----------------------------------------------
+18:12:21: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:12:21: MIP initialized
+18:12:21: Solving MIP
+18:12:21: Attempt no: 1
+18:12:21: Set parameter TimeLimit to value 300
+18:12:21: Set parameter MIPGap to value 0.01
+18:12:21: Set parameter IntFeasTol to value 1e-06
+18:12:21: 
+18:12:21: Solve MIP
+18:12:21: -----------------------------------------------
+18:12:21: MIP warm-start False
+18:12:21: MIP time Limit of 300.0
+18:12:21: MIP relative gap 0.01
+18:12:21: MIP integrality tol 1e-06
+18:12:23: 
+Solve Details
+18:12:23: -----------------------------------------------
+18:12:23: NN-Type : UNN
+18:12:23:  - number of UNN-activation-function-constraints removed: 1
+18:12:23: Status  : solution found
+18:12:23: Time    : 1 sec
+18:12:23: Problem : MIP
+18:12:23: Rel. Gap: 0.005522817267805301 %
+18:12:23: 
+
+18:12:23: Bidder_5 | Marginal Economy -(4)
+18:12:23: -----------------------------------------------
+18:12:23: Status of Economy: True
+
+18:12:23: Argmax bundle ALREADY ELICITED from Bidder_5
+
+18:12:23: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+18:12:23: -----------------------------------------------
+18:12:23: 
+18:12:23: Tighten Bounds with IA
+18:12:23: -----------------------------------------------
+18:12:23: 
+18:12:23: Initialize MIP
+18:12:23: -----------------------------------------------
+18:12:23: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:12:23: MIP initialized
+18:12:23: Solving MIP
+18:12:23: Attempt no: 1
+18:12:23: Set parameter TimeLimit to value 300
+18:12:23: Set parameter MIPGap to value 0.01
+18:12:23: Set parameter IntFeasTol to value 1e-06
+18:12:23: 
+18:12:23: Solve MIP
+18:12:23: -----------------------------------------------
+18:12:23: MIP warm-start False
+18:12:23: MIP time Limit of 300.0
+18:12:23: MIP relative gap 0.01
+18:12:23: MIP integrality tol 1e-06
+18:12:23: 
+Solve Details
+18:12:23: -----------------------------------------------
+18:12:23: NN-Type : UNN
+18:12:23:  - number of UNN-activation-function-constraints removed: 0
+18:12:23: Status  : solution found
+18:12:23: Time    : 0 sec
+18:12:23: Problem : MIP
+18:12:23: Rel. Gap: 0.00317054542145033 %
+18:12:23: 
+
+18:12:23: RESET: NN Models of marginal Economies
+18:12:23: MAIN ECONOMY FOR ALL BIDDERS
+18:12:23: -----------------------------------------------
+
+18:12:23: Bidder_0
+18:12:23: -----------------------------------------------
+18:12:23: ESTIMATION STEP
+18:12:23: -----------------------------------------------
+18:12:23: Bidder_0
+18:13:45: Time for Bidder_0: 82 sec
+
+18:13:45: Bidder_1
+18:13:53: Time for Bidder_1: 8 sec
+
+18:13:53: Bidder_2
+18:14:00: Time for Bidder_2: 8 sec
+
+18:14:00: Bidder_3
+18:14:08: Time for Bidder_3: 8 sec
+
+18:14:08: Bidder_4
+18:14:15: Time for Bidder_4: 8 sec
+
+18:14:15: Bidder_5
+18:14:23: Time for Bidder_5: 8 sec
+
+18:14:23: OPTIMIZATION STEP
+18:14:23: -----------------------------------------------
+18:14:23: 
+18:14:23: Tighten Bounds with IA
+18:14:23: -----------------------------------------------
+18:14:23: 
+18:14:23: Initialize MIP
+18:14:23: -----------------------------------------------
+18:14:23: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:23: MIP initialized
+18:14:23: Solving MIP
+18:14:23: Attempt no: 1
+18:14:23: Set parameter TimeLimit to value 300
+18:14:23: Set parameter MIPGap to value 0.01
+18:14:23: Set parameter IntFeasTol to value 1e-06
+18:14:23: 
+18:14:23: Solve MIP
+18:14:23: -----------------------------------------------
+18:14:23: MIP warm-start False
+18:14:23: MIP time Limit of 300.0
+18:14:23: MIP relative gap 0.01
+18:14:23: MIP integrality tol 1e-06
+18:14:24: 
+Solve Details
+18:14:24: -----------------------------------------------
+18:14:24: NN-Type : UNN
+18:14:24:  - number of UNN-activation-function-constraints removed: 0
+18:14:24: Status  : solution found
+18:14:24: Time    : 0 sec
+18:14:24: Problem : MIP
+18:14:24: Rel. Gap: 0.004514820224182614 %
+18:14:24: 
+
+18:14:24: Argmax bundle ALREADY ELICITED from Bidder_0
+
+18:14:24: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+18:14:24: -----------------------------------------------
+18:14:24: 
+18:14:24: Tighten Bounds with IA
+18:14:24: -----------------------------------------------
+18:14:24: 
+18:14:24: Initialize MIP
+18:14:24: -----------------------------------------------
+18:14:24: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:24: MIP initialized
+18:14:24: Solving MIP
+18:14:24: Attempt no: 1
+18:14:24: Set parameter TimeLimit to value 300
+18:14:24: Set parameter MIPGap to value 0.01
+18:14:24: Set parameter IntFeasTol to value 1e-06
+18:14:24: 
+18:14:24: Solve MIP
+18:14:24: -----------------------------------------------
+18:14:24: MIP warm-start False
+18:14:24: MIP time Limit of 300.0
+18:14:24: MIP relative gap 0.01
+18:14:24: MIP integrality tol 1e-06
+18:14:26: 
+Solve Details
+18:14:26: -----------------------------------------------
+18:14:26: NN-Type : UNN
+18:14:26:  - number of UNN-activation-function-constraints removed: 0
+18:14:26: Status  : solution found
+18:14:26: Time    : 2 sec
+18:14:26: Problem : MIP
+18:14:26: Rel. Gap: 0.009853066291645724 %
+18:14:26: 
+
+18:14:26: Bidder_1
+18:14:26: -----------------------------------------------
+18:14:26: Argmax bundle ALREADY ELICITED from Bidder_1
+
+18:14:26: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_1
+18:14:26: -----------------------------------------------
+18:14:26: 
+18:14:26: Tighten Bounds with IA
+18:14:26: -----------------------------------------------
+18:14:26: 
+18:14:26: Initialize MIP
+18:14:26: -----------------------------------------------
+18:14:26: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:27: MIP initialized
+18:14:27: Solving MIP
+18:14:27: Attempt no: 1
+18:14:27: Set parameter TimeLimit to value 300
+18:14:27: Set parameter MIPGap to value 0.01
+18:14:27: Set parameter IntFeasTol to value 1e-06
+18:14:27: 
+18:14:27: Solve MIP
+18:14:27: -----------------------------------------------
+18:14:27: MIP warm-start False
+18:14:27: MIP time Limit of 300.0
+18:14:27: MIP relative gap 0.01
+18:14:27: MIP integrality tol 1e-06
+18:14:28: 
+Solve Details
+18:14:28: -----------------------------------------------
+18:14:28: NN-Type : UNN
+18:14:28:  - number of UNN-activation-function-constraints removed: 0
+18:14:28: Status  : solution found
+18:14:28: Time    : 1 sec
+18:14:28: Problem : MIP
+18:14:28: Rel. Gap: 0.0 %
+18:14:28: 
+
+18:14:28: Bidder_2
+18:14:28: -----------------------------------------------
+18:14:28: Argmax bundle ALREADY ELICITED from Bidder_2
+
+18:14:28: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_2
+18:14:28: -----------------------------------------------
+18:14:28: 
+18:14:28: Tighten Bounds with IA
+18:14:28: -----------------------------------------------
+18:14:28: 
+18:14:28: Initialize MIP
+18:14:28: -----------------------------------------------
+18:14:28: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:28: MIP initialized
+18:14:28: Solving MIP
+18:14:28: Attempt no: 1
+18:14:28: Set parameter TimeLimit to value 300
+18:14:28: Set parameter MIPGap to value 0.01
+18:14:28: Set parameter IntFeasTol to value 1e-06
+18:14:28: 
+18:14:28: Solve MIP
+18:14:28: -----------------------------------------------
+18:14:28: MIP warm-start False
+18:14:28: MIP time Limit of 300.0
+18:14:28: MIP relative gap 0.01
+18:14:28: MIP integrality tol 1e-06
+18:14:30: 
+Solve Details
+18:14:30: -----------------------------------------------
+18:14:30: NN-Type : UNN
+18:14:30:  - number of UNN-activation-function-constraints removed: 0
+18:14:30: Status  : solution found
+18:14:30: Time    : 1 sec
+18:14:30: Problem : MIP
+18:14:30: Rel. Gap: 0.0 %
+18:14:30: 
+
+18:14:30: Bidder_3
+18:14:30: -----------------------------------------------
+18:14:30: Argmax bundle ALREADY ELICITED from Bidder_3
+
+18:14:30: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_3
+18:14:30: -----------------------------------------------
+18:14:30: 
+18:14:30: Tighten Bounds with IA
+18:14:30: -----------------------------------------------
+18:14:30: 
+18:14:30: Initialize MIP
+18:14:30: -----------------------------------------------
+18:14:30: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:30: MIP initialized
+18:14:30: Solving MIP
+18:14:30: Attempt no: 1
+18:14:30: Set parameter TimeLimit to value 300
+18:14:30: Set parameter MIPGap to value 0.01
+18:14:30: Set parameter IntFeasTol to value 1e-06
+18:14:30: 
+18:14:30: Solve MIP
+18:14:30: -----------------------------------------------
+18:14:30: MIP warm-start False
+18:14:30: MIP time Limit of 300.0
+18:14:30: MIP relative gap 0.01
+18:14:30: MIP integrality tol 1e-06
+18:14:31: 
+Solve Details
+18:14:31: -----------------------------------------------
+18:14:31: NN-Type : UNN
+18:14:31:  - number of UNN-activation-function-constraints removed: 0
+18:14:31: Status  : solution found
+18:14:31: Time    : 1 sec
+18:14:31: Problem : MIP
+18:14:31: Rel. Gap: 0.007415817344372171 %
+18:14:31: 
+
+18:14:31: Bidder_4
+18:14:31: -----------------------------------------------
+18:14:31: Argmax bundle ALREADY ELICITED from Bidder_4
+
+18:14:31: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_4
+18:14:31: -----------------------------------------------
+18:14:31: 
+18:14:31: Tighten Bounds with IA
+18:14:31: -----------------------------------------------
+18:14:31: 
+18:14:31: Initialize MIP
+18:14:31: -----------------------------------------------
+18:14:32: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:32: MIP initialized
+18:14:32: Solving MIP
+18:14:32: Attempt no: 1
+18:14:32: Set parameter TimeLimit to value 300
+18:14:32: Set parameter MIPGap to value 0.01
+18:14:32: Set parameter IntFeasTol to value 1e-06
+18:14:32: 
+18:14:32: Solve MIP
+18:14:32: -----------------------------------------------
+18:14:32: MIP warm-start False
+18:14:32: MIP time Limit of 300.0
+18:14:32: MIP relative gap 0.01
+18:14:32: MIP integrality tol 1e-06
+18:14:33: 
+Solve Details
+18:14:33: -----------------------------------------------
+18:14:33: NN-Type : UNN
+18:14:33:  - number of UNN-activation-function-constraints removed: 0
+18:14:33: Status  : solution found
+18:14:33: Time    : 1 sec
+18:14:33: Problem : MIP
+18:14:33: Rel. Gap: 0.0 %
+18:14:33: 
+
+18:14:33: Bidder_5
+18:14:33: -----------------------------------------------
+18:14:33: Argmax bundle ALREADY ELICITED from Bidder_5
+
+18:14:33: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_5
+18:14:33: -----------------------------------------------
+18:14:33: 
+18:14:33: Tighten Bounds with IA
+18:14:33: -----------------------------------------------
+18:14:33: 
+18:14:33: Initialize MIP
+18:14:33: -----------------------------------------------
+18:14:33: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:14:33: MIP initialized
+18:14:33: Solving MIP
+18:14:33: Attempt no: 1
+18:14:33: Set parameter TimeLimit to value 300
+18:14:33: Set parameter MIPGap to value 0.01
+18:14:33: Set parameter IntFeasTol to value 1e-06
+18:14:33: 
+18:14:33: Solve MIP
+18:14:33: -----------------------------------------------
+18:14:33: MIP warm-start False
+18:14:33: MIP time Limit of 300.0
+18:14:33: MIP relative gap 0.01
+18:14:33: MIP integrality tol 1e-06
+18:14:35: 
+Solve Details
+18:14:35: -----------------------------------------------
+18:14:35: NN-Type : UNN
+18:14:35:  - number of UNN-activation-function-constraints removed: 0
+18:14:35: Status  : solution found
+18:14:35: Time    : 1 sec
+18:14:35: Problem : MIP
+18:14:35: Rel. Gap: 0.002340122431862573 %
+18:14:35: 
+
+18:14:35: UPDATE ELICITED BIDS: S -> R for Bidder_0
+18:14:35: ---------------------------------------------
+18:14:35: CHECK Uniqueness of updated elicited bids:
+18:14:35: UNIQUE
+
+18:14:35: UPDATE ELICITED BIDS: S -> R for Bidder_1
+18:14:35: ---------------------------------------------
+18:14:35: CHECK Uniqueness of updated elicited bids:
+18:14:35: UNIQUE
+
+18:14:35: UPDATE ELICITED BIDS: S -> R for Bidder_2
+18:14:35: ---------------------------------------------
+18:14:35: CHECK Uniqueness of updated elicited bids:
+18:14:35: UNIQUE
+
+18:14:35: UPDATE ELICITED BIDS: S -> R for Bidder_3
+18:14:35: ---------------------------------------------
+18:14:35: CHECK Uniqueness of updated elicited bids:
+18:14:35: UNIQUE
+
+18:14:35: UPDATE ELICITED BIDS: S -> R for Bidder_4
+18:14:35: ---------------------------------------------
+18:14:35: CHECK Uniqueness of updated elicited bids:
+18:14:35: UNIQUE
+
+18:14:35: UPDATE ELICITED BIDS: S -> R for Bidder_5
+18:14:35: ---------------------------------------------
+18:14:35: CHECK Uniqueness of updated elicited bids:
+18:14:35: UNIQUE
+
+18:14:35: INFO
+18:14:35: -----------------------------------------------
+18:14:35: Seed Auction Instance: 157
+18:14:35: Iteration of MLCA: 4
+18:14:35: Number of Elicited Bids:
+18:14:35: Bidder_0: 52
+18:14:35: Bidder_1: 52
+18:14:35: Bidder_2: 52
+18:14:35: Bidder_3: 52
+18:14:35: Bidder_4: 52
+18:14:35: Bidder_5: 52
+18:14:35: Qinit: 40 | Qround: 4 | Qmax: 100
+18:14:35: Efficiency given elicited bids from iteration 0-3: 0.9884208361060367
+
+18:14:35: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+18:14:35: RESET: Status of Economies
+18:14:35: RESET: NN Models
+18:14:35: RESET: Argmax Allocation
+
+18:14:35: MARGINAL ECONOMIES FOR ALL BIDDERS
+18:14:35: -----------------------------------------------
+
+18:14:35: Bidder_0
+18:14:35: -----------------------------------------------
+18:14:35: Bidder_0 | Marginal Economy -(1)
+18:14:35: -----------------------------------------------
+18:14:35: Status of Economy: False
+
+18:14:35: ESTIMATION STEP
+18:14:35: -----------------------------------------------
+18:14:35: Bidder_0
+18:15:37: Time for Bidder_0: 62 sec
+
+18:15:37: Bidder_2
+18:15:45: Time for Bidder_2: 8 sec
+
+18:15:45: Bidder_3
+18:15:54: Time for Bidder_3: 8 sec
+
+18:15:54: Bidder_4
+18:16:02: Time for Bidder_4: 8 sec
+
+18:16:02: Bidder_5
+18:16:10: Time for Bidder_5: 8 sec
+
+18:16:10: OPTIMIZATION STEP
+18:16:10: -----------------------------------------------
+18:16:10: 
+18:16:10: Tighten Bounds with IA
+18:16:10: -----------------------------------------------
+18:16:10: 
+18:16:10: Initialize MIP
+18:16:10: -----------------------------------------------
+18:16:10: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:16:10: MIP initialized
+18:16:10: Solving MIP
+18:16:10: Attempt no: 1
+18:16:10: Set parameter TimeLimit to value 300
+18:16:10: Set parameter MIPGap to value 0.01
+18:16:10: Set parameter IntFeasTol to value 1e-06
+18:16:10: 
+18:16:10: Solve MIP
+18:16:10: -----------------------------------------------
+18:16:10: MIP warm-start False
+18:16:10: MIP time Limit of 300.0
+18:16:10: MIP relative gap 0.01
+18:16:10: MIP integrality tol 1e-06
+18:16:10: 
+Solve Details
+18:16:10: -----------------------------------------------
+18:16:10: NN-Type : UNN
+18:16:10:  - number of UNN-activation-function-constraints removed: 0
+18:16:10: Status  : solution found
+18:16:10: Time    : 0 sec
+18:16:10: Problem : MIP
+18:16:10: Rel. Gap: 0.0012294342225130238 %
+18:16:10: 
+
+18:16:10: Argmax bundle ALREADY ELICITED from Bidder_0
+
+18:16:10: ADDITIONAL BIDDER SPECIFIC OPTIMIZATION STEP for Bidder_0
+18:16:10: -----------------------------------------------
+18:16:10: 
+18:16:10: Tighten Bounds with IA
+18:16:10: -----------------------------------------------
+18:16:10: 
+18:16:10: Initialize MIP
+18:16:10: -----------------------------------------------
+18:16:10: Warning for adding constraints: zero or small (< 1e-13) coefficients, ignored
+18:16:11: MIP initialized
+18:16:11: Solving MIP
+18:16:11: Attempt no: 1
+18:16:11: Set parameter TimeLimit to value 300
+18:16:11: Set parameter MIPGap to value 0.01
+18:16:11: Set parameter IntFeasTol to value 1e-06
+18:16:11: 
+18:16:11: Solve MIP
+18:16:11: -----------------------------------------------
+18:16:11: MIP warm-start False
+18:16:11: MIP time Limit of 300.0
+18:16:11: MIP relative gap 0.01
+18:16:11: MIP integrality tol 1e-06
+18:16:11: 
+Solve Details
+18:16:11: -----------------------------------------------
+18:16:11: NN-Type : UNN
+18:16:11:  - number of UNN-activation-function-constraints removed: 0
+18:16:11: Status  : solution found
+18:16:11: Time    : 0 sec
+18:16:11: Problem : MIP
+18:16:11: Rel. Gap: 0.009371777399535245 %
+18:16:11: 
+
+18:16:11: Bidder_0 | Marginal Economy -(4)
+18:16:11: -----------------------------------------------
+18:16:11: Status of Economy: False
+
+18:16:11: ESTIMATION STEP
+18:16:11: -----------------------------------------------
+18:16:11: Bidder_0
+18:16:42: START MLCA:
+18:16:42: -----------------------------------------------
+18:16:42: Model: LSVM
+18:16:42: Seed SATS Instance: 157
+18:16:42: Qinit: 40
+18:16:42: Qmax: 100
+18:16:42: Qround: 4
+
+18:16:42: Instantiate SATS Instance
+18:16:43: ####### ATTENTION #######
+18:16:43: isLegacyLSVM: False
+18:16:43: #########################
+
+18:16:43: INITIALIZE BIDS
+18:16:43: -----------------------------------------------
+
+18:16:43: Set parameter Username
+18:16:43: Set parameter LicenseID to value 2780049
+18:16:43: Academic license - for non-commercial use only - expires 2027-02-17
+18:16:44: Read LP format model from file /home/janeet/Code/Auctions/MVNN/sats_export_0095615a77414177bfc945f42f50b1fc.lp
+18:16:44: Reading time = 0.03 seconds
+18:16:44: obj1: 4071 rows, 4872 columns, 58482 nonzeros
+18:16:46: INFO
+18:16:46: -----------------------------------------------
+18:16:46: Seed Auction Instance: 157
+18:16:46: Iteration of MLCA: 1
+18:16:46: Number of Elicited Bids:
+18:16:46: Bidder_0: 40
+18:16:46: Bidder_1: 40
+18:16:46: Bidder_2: 40
+18:16:46: Bidder_3: 40
+18:16:46: Bidder_4: 40
+18:16:46: Bidder_5: 40
+18:16:46: Qinit: 40 | Qround: 4 | Qmax: 100
+18:16:46: Efficiency given elicited bids from iteration 0-0: 0.5040188038644559
+
+18:16:46: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+18:16:46: RESET: Status of Economies
+18:16:46: RESET: NN Models
+18:16:46: RESET: Argmax Allocation
+
+18:16:46: MARGINAL ECONOMIES FOR ALL BIDDERS
+18:16:46: -----------------------------------------------
+
+18:16:46: Bidder_0
+18:16:46: -----------------------------------------------
+18:16:46: Bidder_0 | Marginal Economy -(1)
+18:16:46: -----------------------------------------------
+18:16:46: Status of Economy: False
+
+18:16:46: ESTIMATION STEP
+18:16:46: -----------------------------------------------
+18:16:46: Bidder_0

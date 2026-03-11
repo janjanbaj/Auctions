@@ -5,8 +5,6 @@ import warnings
 import gurobipy as gp
 from gurobipy import GRB
 
-warnings.filterwarnings("ignore")
-
 
 class ConstraintWrapper:
     """

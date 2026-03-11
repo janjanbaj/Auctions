@@ -4,6 +4,7 @@ from datetime import datetime
 
 import numpy as np
 from numpyencoder import NumpyEncoder
+from tqdm import tqdm
 
 from mlca_src.mlca_economies import MLCA_Economies
 from mlca_src.mlca_util import key_to_int, timediff_d_h_m_s
@@ -45,6 +46,9 @@ def mlca_mechanism(
         return_payments = configdict["return_payments"]
         calc_efficiency_per_iteration = configdict["calc_efficiency_per_iteration"]
         isLegacy = configdict["isLegacy"]
+
+    Qmax, Qround, Qinit = 20, 5, 5
+    print(f"Params: {Qmax} | {Qround} | {Qinit}")
 
     logging.warning("START MLCA:")
     logging.warning("-----------------------------------------------")
@@ -114,8 +118,10 @@ def mlca_mechanism(
     # Global while loop: check if for all bidders one addtitional auction round is feasible | Line 4
     Rmax = max(E.get_number_of_elicited_bids().values())
     CHECK = Rmax <= (E.Qmax - E.Qround)
+    pbar = tqdm(total=E.Qmax, desc="Auction Round")
     while CHECK:
         # Increment iteration
+        pbar.update(1)
         E.mlca_iteration += 1
         # log info
         E.get_info()
