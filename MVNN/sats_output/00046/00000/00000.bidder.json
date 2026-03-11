@@ -1,0 +1,179 @@
+{
+  "LSVM_A": 320,
+  "LSVM_B": 10,
+  "proximity": [
+    {
+      "rowPosition": 0,
+      "columnPosition": 0,
+      "uuid": "c07f788d-6c16-4060-afce-28d3d8168eff",
+      "longId": 0,
+      "name": "A",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 1,
+      "uuid": "e1cfdf89-8054-41b2-a565-fdd900b508c7",
+      "longId": 1,
+      "name": "B",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 2,
+      "uuid": "73dce0ed-c583-47e1-8551-5ad5175731a7",
+      "longId": 2,
+      "name": "C",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 3,
+      "uuid": "b9157d9f-29e2-4731-ba59-04d31ddd72ab",
+      "longId": 3,
+      "name": "D",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 4,
+      "uuid": "d72882c7-de5c-451a-b0ae-ec2868b7f32a",
+      "longId": 4,
+      "name": "E",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 5,
+      "uuid": "218b1f77-a331-47a4-9e9c-bdfe0af319ec",
+      "longId": 5,
+      "name": "F",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 0,
+      "uuid": "0bd8f9b3-ea2e-4937-9bc7-49e4a3ff17cd",
+      "longId": 6,
+      "name": "G",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 1,
+      "uuid": "3e5dcfc7-6aad-4b7d-9155-51dc48de9353",
+      "longId": 7,
+      "name": "H",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 2,
+      "uuid": "5faa296a-73b1-4824-bcf3-063078c6e24f",
+      "longId": 8,
+      "name": "I",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 3,
+      "uuid": "dae5c74a-0340-4d1f-a037-25bb63341553",
+      "longId": 9,
+      "name": "J",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 4,
+      "uuid": "91ecb285-d023-4ba4-9bb9-27d7b56c058a",
+      "longId": 10,
+      "name": "K",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 5,
+      "uuid": "08f60d7f-b0aa-41c3-a613-5c1cced7f646",
+      "longId": 11,
+      "name": "L",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 0,
+      "uuid": "a3757256-6f0b-40c5-8db7-bf076124d7b8",
+      "longId": 12,
+      "name": "M",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 1,
+      "uuid": "f9c8a732-9804-4e4e-8276-4342e3e4cd58",
+      "longId": 13,
+      "name": "N",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 2,
+      "uuid": "372839cd-6e89-41bd-9f84-7fb62884258b",
+      "longId": 14,
+      "name": "O",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 3,
+      "uuid": "c968e455-2af8-4d0a-8993-f77bb37e90ab",
+      "longId": 15,
+      "name": "P",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 4,
+      "uuid": "713daa76-b292-4168-9346-17f11ed2c1dd",
+      "longId": 16,
+      "name": "Q",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 5,
+      "uuid": "1df97b59-b7e3-4e5d-97c2-0e83733f8518",
+      "longId": 17,
+      "name": "R",
+      "worldId": 46
+    }
+  ],
+  "values": {
+    "0": 4.927332363658354,
+    "1": 5.983441864113862,
+    "2": 5.366739377832416,
+    "3": 3.4649610453895496,
+    "4": 3.3663840856206093,
+    "5": 6.7134575960475305,
+    "6": 5.941188822722479,
+    "7": 4.904308268935002,
+    "8": 3.2576405651181,
+    "9": 5.225431896997043,
+    "10": 5.798762049984547,
+    "11": 7.202273792163374,
+    "12": 4.404370217661237,
+    "13": 5.472672975826801,
+    "14": 3.5625416434572785,
+    "15": 5.845555593402392,
+    "16": 3.407549363740724,
+    "17": 5.913359994503642
+  },
+  "description": "National Bidder Setup which has its headquarter in P, thus interested in licenses A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R.",
+  "setupType": "National Bidder Setup",
+  "uuid": "86d3295b-9729-4fe0-88c9-f095d6b1d1d0",
+  "population": 0,
+  "id": 0,
+  "worldId": 46,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.lsvm.LSVMBidder"
+}

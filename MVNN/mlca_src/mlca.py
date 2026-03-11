@@ -4,10 +4,10 @@ from datetime import datetime
 
 import numpy as np
 from numpyencoder import NumpyEncoder
-from sats.pysats import PySats
 
 from mlca_src.mlca_economies import MLCA_Economies
 from mlca_src.mlca_util import key_to_int, timediff_d_h_m_s
+from pysatsGurobi.pysats import PySats
 
 
 # %% MLCA MECHANISM

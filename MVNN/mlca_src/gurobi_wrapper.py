@@ -1,7 +1,11 @@
 # mlca_src/gurobi_wrapper.py
 
+import warnings
+
 import gurobipy as gp
 from gurobipy import GRB
+
+warnings.filterwarnings("ignore")
 
 
 class ConstraintWrapper:

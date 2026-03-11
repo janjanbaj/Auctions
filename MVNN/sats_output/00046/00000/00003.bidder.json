@@ -1,0 +1,107 @@
+{
+  "LSVM_A": 160,
+  "LSVM_B": 4,
+  "proximity": [
+    {
+      "rowPosition": 1,
+      "columnPosition": 4,
+      "uuid": "91ecb285-d023-4ba4-9bb9-27d7b56c058a",
+      "longId": 10,
+      "name": "K",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 4,
+      "uuid": "d72882c7-de5c-451a-b0ae-ec2868b7f32a",
+      "longId": 4,
+      "name": "E",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 5,
+      "uuid": "08f60d7f-b0aa-41c3-a613-5c1cced7f646",
+      "longId": 11,
+      "name": "L",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 4,
+      "uuid": "713daa76-b292-4168-9346-17f11ed2c1dd",
+      "longId": 16,
+      "name": "Q",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 3,
+      "uuid": "dae5c74a-0340-4d1f-a037-25bb63341553",
+      "longId": 9,
+      "name": "J",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 5,
+      "uuid": "218b1f77-a331-47a4-9e9c-bdfe0af319ec",
+      "longId": 5,
+      "name": "F",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 0,
+      "columnPosition": 3,
+      "uuid": "b9157d9f-29e2-4731-ba59-04d31ddd72ab",
+      "longId": 3,
+      "name": "D",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 5,
+      "uuid": "1df97b59-b7e3-4e5d-97c2-0e83733f8518",
+      "longId": 17,
+      "name": "R",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 2,
+      "columnPosition": 3,
+      "uuid": "c968e455-2af8-4d0a-8993-f77bb37e90ab",
+      "longId": 15,
+      "name": "P",
+      "worldId": 46
+    },
+    {
+      "rowPosition": 1,
+      "columnPosition": 2,
+      "uuid": "5faa296a-73b1-4824-bcf3-063078c6e24f",
+      "longId": 8,
+      "name": "I",
+      "worldId": 46
+    }
+  ],
+  "values": {
+    "16": 4.923074050802308,
+    "17": 18.60804681134078,
+    "3": 4.139303182554847,
+    "4": 10.293652389830658,
+    "5": 10.250148438364112,
+    "8": 17.78490921028218,
+    "9": 5.2660596456096025,
+    "10": 15.312563127654386,
+    "11": 13.228963434053616,
+    "15": 17.72921676941451
+  },
+  "description": "Regional Bidder Setup which has its headquarter in K, thus interested in licenses K, E, L, Q, J, F, D, R, P, I.",
+  "setupType": "Regional Bidder Setup",
+  "uuid": "85972a81-39e7-4bb7-abac-d4d47387e4f8",
+  "population": 0,
+  "id": 3,
+  "worldId": 46,
+  "strategies": {},
+  "mipInstrumentation": {},
+  "implementation": "org.spectrumauctions.sats.core.model.lsvm.LSVMBidder"
+}
