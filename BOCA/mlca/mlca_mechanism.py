@@ -8,6 +8,7 @@ from datetime import datetime
 import numpy as np
 import torch
 from numpyencoder import NumpyEncoder
+from tqdm import tqdm
 
 # own modules
 from mlca.mlca_economies import MLCA_Economies
@@ -38,7 +39,7 @@ def mechanism(
     res_path=None,
 ):
 
-    print("Hello World")
+    print("Hello World from the mechanism")
     # Save config dict
     if res_path is not None:
         config_dict = dict(locals())
@@ -60,7 +61,6 @@ def mechanism(
             cls=NumpyEncoder,
         )
 
-    print("Hello World")
     start = datetime.now()
     # SEEDING ------------------
     np.random.seed(SATS_auction_instance_seed)
@@ -156,8 +156,10 @@ def mechanism(
     # Global while loop: check if for all bidders one addtitional auction round is feasible | Line 4
     Rmax = max(E.get_number_of_elicited_bids().values())
     CHECK = Rmax <= (E.Qmax - E.Qround)
+    pbar = tqdm(total=E.Qmax, desc="Auction Rounds.")
     while CHECK:
         # Increment iteration
+        pbar.update(1)
         E.mlca_iteration += 1
         # log info
         E.get_info()
@@ -189,7 +191,7 @@ def mechanism(
         logging.info("MARGINAL ECONOMIES FOR ALL BIDDERS")
         logging.info("-----------------------------------------------\n")
 
-        for bidder in E.bidder_names:
+        for bidder in tqdm(E.bidder_names, leave=False):
             logging.info(bidder)
             logging.info("-----------------------------------------------")
             logging.debug("Sampling marginals for %s", bidder)

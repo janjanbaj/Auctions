@@ -1,10 +1,12 @@
+import warnings
+
 from jnius import (
     JavaClass,
-    MetaJavaClass,
     JavaMethod,
     JavaMultipleMethod,
-    cast,
+    MetaJavaClass,
     autoclass,
+    cast,
 )
 
 SizeBasedUniqueRandomXOR = autoclass(
@@ -211,17 +213,20 @@ class SimpleModel(JavaClass):
         imip = mip_wrapper.getMIP()
         imip.setObjectiveMax(True)
 
-        # Gurobi Wrapper : 
-        # Intercept MIP to solve using Gurobi instead of CPLEX.  
+        # Gurobi Wrapper :
+        # Intercept MIP to solve using Gurobi instead of CPLEX.
         import os
         import uuid
+
         import gurobipy as gp
         from gurobipy import GRB
 
         # Export IMIP to an LP file: CPLEX -> IMIP (Still Requires CPLEX) but no license.
-        solver = autoclass('edu.harvard.econcs.jopt.solver.server.cplex.CPlexMIPSolver')()
+        solver = autoclass(
+            "edu.harvard.econcs.jopt.solver.server.cplex.CPlexMIPSolver"
+        )()
         export_lp = os.path.abspath(f"sats_export_{uuid.uuid4().hex}.lp")
-        java_path = autoclass('java.nio.file.Paths').get(export_lp)
+        java_path = autoclass("java.nio.file.Paths").get(export_lp)
         solver.exportToDisk(imip, java_path)
 
         # Solve with Gurobi
@@ -253,40 +258,48 @@ class SimpleModel(JavaClass):
             HashMap = autoclass("java.util.HashMap")
             Double_J = autoclass("java.lang.Double")
             solution_map = HashMap()
-            
+
             # Create a reverse lookup from de-mangled name -> original Java variable Name
             import re
+
             java_keys = set(j_vars_map.keySet())
-            
+
             for g_var in m.getVars():
                 # CPLEX LP exporter replaces brackets with parentheses and appends #NUM
-                clean_name = g_var.varName.split('#')[0]
-                clean_name = clean_name.replace('(', '[').replace(')', ']')
-                
+                clean_name = g_var.varName.split("#")[0]
+                clean_name = clean_name.replace("(", "[").replace(")", "]")
+
                 if clean_name in java_keys:
                     solution_map.put(clean_name, Double_J(float(g_var.X)))
 
-
-            allocation = mip_wrapper.adaptMIPResult(autoclass("edu.harvard.econcs.jopt.solver.mip.PoolSolution")(
-                float(m.ObjVal),
-                0.0,  # Relative/Absolute gap
-                solution_map
-            ))
+            allocation = mip_wrapper.adaptMIPResult(
+                autoclass("edu.harvard.econcs.jopt.solver.mip.PoolSolution")(
+                    float(m.ObjVal),
+                    0.0,  # Relative/Absolute gap
+                    solution_map,
+                )
+            )
 
             for bidder_id, bidder in self.population.items():
                 self.efficient_allocation[bidder_id] = {"good_ids": []}
                 bidder_allocation = allocation.allocationOf(bidder)
-                good_iterator = bidder_allocation.getBundle().getSingleQuantityGoods().iterator()
+                good_iterator = (
+                    bidder_allocation.getBundle().getSingleQuantityGoods().iterator()
+                )
                 while good_iterator.hasNext():
                     self.efficient_allocation[bidder_id]["good_ids"].append(
                         good_iterator.next().getLongId()
                     )
-                self.efficient_allocation[bidder_id]["value"] = bidder_allocation.getValue().doubleValue()
-                
+                self.efficient_allocation[bidder_id]["value"] = (
+                    bidder_allocation.getValue().doubleValue()
+                )
+
             total_value = allocation.getTotalAllocationValue().doubleValue()
 
         else:
-            raise Exception(f"Gurobi failed to find an optimal allocation. Status: {m.Status}")
+            raise Exception(
+                f"Gurobi failed to find an optimal allocation. Status: {m.Status}"
+            )
 
         # Cleanup
         if os.path.exists(export_lp):

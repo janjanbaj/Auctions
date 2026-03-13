@@ -1,0 +1,2908 @@
+2026-03-11 18:47:10: START MLCA:
+2026-03-11 18:47:10: -----------------------------------------------
+2026-03-11 18:47:10: Model: LSVM
+2026-03-11 18:47:10: Seed SATS Instance: 1
+2026-03-11 18:47:10: Qinit: 5
+2026-03-11 18:47:10: Qmax: 20
+2026-03-11 18:47:10: Qround: 4
+2026-03-11 18:47:10: Separate economy training: False
+2026-03-11 18:47:10: Balanced global marginals: True
+2026-03-11 18:47:10: New query option: restricted_MIP
+2026-03-11 18:47:10: Acquisition: uUB_model
+2026-03-11 18:47:10:
+2026-03-11 18:47:10: Instantiate SATS Instance
+2026-03-11 18:47:11: ####### ATTENTION #######
+2026-03-11 18:47:11: isLegacyLSVM: False
+2026-03-11 18:47:11: #########################
+
+2026-03-11 18:47:11: INITIALIZE BIDS
+2026-03-11 18:47:11: -----------------------------------------------
+2026-03-11 18:47:11: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-11 18:47:11: X in (6, 18), y in (6,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-11 18:47:11: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-11 18:47:11: X in (6, 18), y in (6,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-11 18:47:11: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-11 18:47:11: X in (6, 18), y in (6,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-11 18:47:11: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-11 18:47:11: X in (6, 18), y in (6,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-11 18:47:11: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-11 18:47:11: X in (6, 18), y in (6,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-11 18:47:11: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-11 18:47:11: X in (6, 18), y in (6,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-11 18:47:11: Set parameter Username
+2026-03-11 18:47:11: Set parameter LicenseID to value 2780049
+2026-03-11 18:47:11: Academic license - for non-commercial use only - expires 2027-02-17
+2026-03-11 18:47:11: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:47:11:
+2026-03-11 18:47:11: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:47:11: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:47:11:
+2026-03-11 18:47:11: Optimize a model with 24 rows, 36 columns and 354 nonzeros (Max)
+2026-03-11 18:47:11: Model fingerprint: 0x26065fe4
+2026-03-11 18:47:11: Model has 30 linear objective coefficients
+2026-03-11 18:47:11: Variable types: 0 continuous, 36 integer (36 binary)
+2026-03-11 18:47:11: Coefficient statistics:
+2026-03-11 18:47:11:   Matrix range     [1e+00, 1e+00]
+2026-03-11 18:47:11:   Objective range  [5e+00, 5e+02]
+2026-03-11 18:47:11:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:47:11:   RHS range        [1e+00, 1e+00]
+2026-03-11 18:47:11:
+2026-03-11 18:47:11: Found heuristic solution: objective 79.6091766
+2026-03-11 18:47:11: Presolve removed 24 rows and 36 columns
+2026-03-11 18:47:11: Presolve time: 0.00s
+2026-03-11 18:47:11: Presolve: All rows and columns removed
+2026-03-11 18:47:11:
+2026-03-11 18:47:11: Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+2026-03-11 18:47:11: Thread count was 1 (of 4 available processors)
+2026-03-11 18:47:11:
+2026-03-11 18:47:11: Solution count 2: 500 79.6092
+2026-03-11 18:47:11:
+2026-03-11 18:47:11: Optimal solution found (tolerance 1.00e-04)
+2026-03-11 18:47:11: Best objective 5.000000000000e+02, best bound 5.000000000000e+02, gap 0.0000%
+2026-03-11 18:47:11: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-11 18:47:11: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-11 18:47:11: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-11 18:47:11: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-11 18:47:11: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-11 18:47:12: Read LP format model from file /home/janeet/Code/Auctions/BOCA/sats_export_6f6876724992423b8bf8bb0c297190e8.lp
+2026-03-11 18:47:12: Reading time = 0.03 seconds
+2026-03-11 18:47:12: obj1: 4071 rows, 4872 columns, 58482 nonzeros
+2026-03-11 18:47:15: INFO
+2026-03-11 18:47:15: -----------------------------------------------
+2026-03-11 18:47:15: Seed Auction Instance: 1
+2026-03-11 18:47:15: Iteration of MLCA: 1
+2026-03-11 18:47:15: Number of Elicited Bids:
+2026-03-11 18:47:15: Bidder_0: 5
+2026-03-11 18:47:15: Bidder_1: 5
+2026-03-11 18:47:15: Bidder_2: 5
+2026-03-11 18:47:15: Bidder_3: 5
+2026-03-11 18:47:15: Bidder_4: 5
+2026-03-11 18:47:15: Bidder_5: 5
+2026-03-11 18:47:15: Qinit: 5 | Qround: 4 | Qmax: 20
+2026-03-11 18:47:15: Efficiency given elicited bids from iteration 0-0: 0.49942613226039295
+
+2026-03-11 18:47:15: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+2026-03-11 18:47:15: RESET: Status of Economies
+2026-03-11 18:47:15: RESET: NN Models
+2026-03-11 18:47:15: RESET: Argmax Allocation
+2026-03-11 18:47:15: RESET: Allocations and SCWs
+2026-03-11 18:47:15: RESET: Allocation Cache for Reusing
+
+2026-03-11 18:47:15: ESTIMATION STEP: all economies
+2026-03-11 18:47:15: -----------------------------------------------
+2026-03-11 18:48:31: Elapsed Time: 0d 0h:1m:16s
+
+2026-03-11 18:48:31: MARGINAL ECONOMIES FOR ALL BIDDERS
+2026-03-11 18:48:31: -----------------------------------------------
+
+2026-03-11 18:48:31: Bidder_0
+2026-03-11 18:48:31: -----------------------------------------------
+2026-03-11 18:48:31: Global Marginals: ['Marginal Economy -(2)', 'Marginal Economy -(3)', 'Marginal Economy -(5)', 'Marginal Economy -(0)']
+2026-03-11 18:48:31: Calculate next queries for the following sampled marginals:
+2026-03-11 18:48:31: Marginal Economy -(2)
+2026-03-11 18:48:31: Marginal Economy -(3)
+2026-03-11 18:48:31: Marginal Economy -(5)
+2026-03-11 18:48:31:
+2026-03-11 18:48:31: Bidder_0 | Marginal Economy -(2)
+2026-03-11 18:48:31: -----------------------------------------------
+2026-03-11 18:48:31: Status of Economy: False
+
+2026-03-11 18:48:31: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:31: OPTIMIZATION STEP
+2026-03-11 18:48:31: -----------------------------------------------
+2026-03-11 18:48:31:
+2026-03-11 18:48:31: Initialize MIP
+2026-03-11 18:48:31: -----------------------------------------------
+2026-03-11 18:48:32: MIP initialized
+2026-03-11 18:48:32: Solving MIP
+2026-03-11 18:48:32: Attempt no: 1
+2026-03-11 18:48:32: Set parameter LogToConsole to value 0
+2026-03-11 18:48:32: Set parameter TimeLimit to value 600
+2026-03-11 18:48:32: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:32: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:32: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Solve MIP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: MIP warm-start False
+2026-03-11 18:48:32: MIP time Limit of 600.0
+2026-03-11 18:48:32: MIP relative gap 0.005
+2026-03-11 18:48:32: MIP integrality tol 1e-06
+2026-03-11 18:48:32: MIP feasibility tol 1e-09
+2026-03-11 18:48:32: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:32: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Non-default parameters:
+2026-03-11 18:48:32: TimeLimit  600
+2026-03-11 18:48:32: FeasibilityTol  1e-09
+2026-03-11 18:48:32: IntFeasTol  1e-06
+2026-03-11 18:48:32: MIPGap  0.005
+2026-03-11 18:48:32: LogToConsole  0
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Optimize a model with 1094 rows, 891 columns and 10614 nonzeros (Max)
+2026-03-11 18:48:32: Model fingerprint: 0x027c88b3
+2026-03-11 18:48:32: Model has 309 linear objective coefficients
+2026-03-11 18:48:32: Variable types: 432 continuous, 459 integer (459 binary)
+2026-03-11 18:48:32: Coefficient statistics:
+2026-03-11 18:48:32:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:32:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:32:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:32:   RHS range        [1e-04, 1e+00]
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:32: Presolve removed 177 rows and 171 columns
+2026-03-11 18:48:32: Presolve time: 0.06s
+2026-03-11 18:48:32: Presolved: 917 rows, 720 columns, 10839 nonzeros
+2026-03-11 18:48:32: Variable types: 267 continuous, 453 integer (453 binary)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Root relaxation: objective 5.811196e+02, 532 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:32:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:32:
+2026-03-11 18:48:32:      0     0  581.11957    0  170    0.14446  581.11957      -     -    0s
+2026-03-11 18:48:32: H    0     0                     469.5344920  581.11957  23.8%     -    0s
+2026-03-11 18:48:32: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:32:      0     0  541.81372    0   72  497.18447  541.81372  8.98%     -    0s
+2026-03-11 18:48:32: H    0     0                     533.3675206  541.77106  1.58%     -    0s
+2026-03-11 18:48:32:      0     0  540.85701    0   54  533.36752  540.85701  1.40%     -    0s
+2026-03-11 18:48:32:      0     0  540.76795    0   49  533.36752  540.76795  1.39%     -    0s
+2026-03-11 18:48:32:      0     0  537.93334    0   17  533.36752  537.93334  0.86%     -    0s
+2026-03-11 18:48:32:      0     0  537.93334    0   42  533.36752  537.93334  0.86%     -    0s
+2026-03-11 18:48:32:      0     0  537.93334    0   37  533.36752  537.93334  0.86%     -    0s
+2026-03-11 18:48:32: H    0     0                     537.8492573  537.93334  0.02%     -    0s
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Explored 1 nodes (1133 simplex iterations) in 0.23 seconds (0.16 work units)
+2026-03-11 18:48:32: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Solution count 5: 537.849 533.368 497.184 ... 0.144462
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:32: Best objective 5.378492573035e+02, best bound 5.379333441007e+02, gap 0.0156%
+2026-03-11 18:48:32: MIP unsatisfied constraints: []
+2026-03-11 18:48:32:
+Solve Details
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: Problem : MIP
+2026-03-11 18:48:32: Status  : 2
+2026-03-11 18:48:32: Time    : 0 sec
+2026-03-11 18:48:32: Rel. Gap: 0.00015633896679653113 %
+2026-03-11 18:48:32: ARGMAX BUNDLE FROM NORMAL MIP CAN BE USED
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(2):
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:32: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:32: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:32: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:32: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: ADD BUNDLE to current query profile S
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Current query profile for Bidder_0:
+2026-03-11 18:48:32: [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Bidder_0 | Marginal Economy -(3)
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: Status of Economy: False
+
+2026-03-11 18:48:32: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:32: OPTIMIZATION STEP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Initialize MIP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: MIP initialized
+2026-03-11 18:48:32: Solving MIP
+2026-03-11 18:48:32: Attempt no: 1
+2026-03-11 18:48:32: Set parameter LogToConsole to value 0
+2026-03-11 18:48:32: Set parameter TimeLimit to value 600
+2026-03-11 18:48:32: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:32: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:32: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Solve MIP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: MIP warm-start False
+2026-03-11 18:48:32: MIP time Limit of 600.0
+2026-03-11 18:48:32: MIP relative gap 0.005
+2026-03-11 18:48:32: MIP integrality tol 1e-06
+2026-03-11 18:48:32: MIP feasibility tol 1e-09
+2026-03-11 18:48:32: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:32: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Non-default parameters:
+2026-03-11 18:48:32: TimeLimit  600
+2026-03-11 18:48:32: FeasibilityTol  1e-09
+2026-03-11 18:48:32: IntFeasTol  1e-06
+2026-03-11 18:48:32: MIPGap  0.005
+2026-03-11 18:48:32: LogToConsole  0
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Optimize a model with 1002 rows, 855 columns and 9464 nonzeros (Max)
+2026-03-11 18:48:32: Model fingerprint: 0x1292c027
+2026-03-11 18:48:32: Model has 286 linear objective coefficients
+2026-03-11 18:48:32: Variable types: 432 continuous, 423 integer (423 binary)
+2026-03-11 18:48:32: Coefficient statistics:
+2026-03-11 18:48:32:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:32:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:32:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:32:   RHS range        [3e-03, 1e+00]
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:32: Presolve removed 159 rows and 191 columns
+2026-03-11 18:48:32: Presolve time: 0.03s
+2026-03-11 18:48:32: Presolved: 843 rows, 664 columns, 9539 nonzeros
+2026-03-11 18:48:32: Variable types: 246 continuous, 418 integer (418 binary)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Root relaxation: objective 5.731056e+02, 518 iterations, 0.01 seconds (0.00 work units)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:32:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:32:
+2026-03-11 18:48:32:      0     0  573.10563    0  112    0.14446  573.10563      -     -    0s
+2026-03-11 18:48:32: H    0     0                     403.4736436  573.10563  42.0%     -    0s
+2026-03-11 18:48:32: H    0     0                     470.2073022  573.10563  21.9%     -    0s
+2026-03-11 18:48:32: H    0     0                     499.7471655  573.10563  14.7%     -    0s
+2026-03-11 18:48:32:      0     0  542.38979    0   81  499.74717  542.38979  8.53%     -    0s
+2026-03-11 18:48:32: H    0     0                     529.8098096  542.13299  2.33%     -    0s
+2026-03-11 18:48:32:      0     0  541.81957    0  143  529.80981  541.81957  2.27%     -    0s
+2026-03-11 18:48:32:      0     0  541.04844    0  113  529.80981  541.04844  2.12%     -    0s
+2026-03-11 18:48:32:      0     0  541.03752    0  113  529.80981  541.03752  2.12%     -    0s
+2026-03-11 18:48:32:      0     0  538.87980    0   79  529.80981  538.87980  1.71%     -    0s
+2026-03-11 18:48:32:      0     0  538.87980    0   43  529.80981  538.87980  1.71%     -    0s
+2026-03-11 18:48:32:      0     0  538.87980    0   34  529.80981  538.87980  1.71%     -    0s
+2026-03-11 18:48:32: H    0     0                     532.5458252  538.87980  1.19%     -    0s
+2026-03-11 18:48:32: H    0     0                     534.0403307  538.87980  0.91%     -    0s
+2026-03-11 18:48:32:      0     0  537.04408    0   26  534.04033  537.04408  0.56%     -    0s
+2026-03-11 18:48:32:      0     0          -    0       534.04033  536.56840  0.47%     -    0s
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Explored 1 nodes (1261 simplex iterations) in 0.26 seconds (0.17 work units)
+2026-03-11 18:48:32: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Solution count 7: 534.04 532.546 529.81 ... 0.144462
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:32: Best objective 5.340403307234e+02, best bound 5.365684049271e+02, gap 0.4734%
+2026-03-11 18:48:32: MIP unsatisfied constraints: []
+2026-03-11 18:48:32:
+Solve Details
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: Problem : MIP
+2026-03-11 18:48:32: Status  : 2
+2026-03-11 18:48:32: Time    : 0 sec
+2026-03-11 18:48:32: Rel. Gap: 0.004733863826852111 %
+2026-03-11 18:48:32: ARGMAX BUNDLE FROM NORMAL MIP CAN BE USED
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(3):
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: Bidder_0:  [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:32: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:32: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:32: Bidder_4:  [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:32: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: ADD BUNDLE to current query profile S
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Current query profile for Bidder_0:
+2026-03-11 18:48:32: [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:32: [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Bidder_0 | Marginal Economy -(5)
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: Status of Economy: False
+
+2026-03-11 18:48:32: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:32: OPTIMIZATION STEP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Initialize MIP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: MIP initialized
+2026-03-11 18:48:32: Solving MIP
+2026-03-11 18:48:32: Attempt no: 1
+2026-03-11 18:48:32: Set parameter LogToConsole to value 0
+2026-03-11 18:48:32: Set parameter TimeLimit to value 600
+2026-03-11 18:48:32: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:32: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:32: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Solve MIP
+2026-03-11 18:48:32: -----------------------------------------------
+2026-03-11 18:48:32: MIP warm-start False
+2026-03-11 18:48:32: MIP time Limit of 600.0
+2026-03-11 18:48:32: MIP relative gap 0.005
+2026-03-11 18:48:32: MIP integrality tol 1e-06
+2026-03-11 18:48:32: MIP feasibility tol 1e-09
+2026-03-11 18:48:32: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:32: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Non-default parameters:
+2026-03-11 18:48:32: TimeLimit  600
+2026-03-11 18:48:32: FeasibilityTol  1e-09
+2026-03-11 18:48:32: IntFeasTol  1e-06
+2026-03-11 18:48:32: MIPGap  0.005
+2026-03-11 18:48:32: LogToConsole  0
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Optimize a model with 1166 rows, 919 columns and 11506 nonzeros (Max)
+2026-03-11 18:48:32: Model fingerprint: 0x07cb40fc
+2026-03-11 18:48:32: Model has 327 linear objective coefficients
+2026-03-11 18:48:32: Variable types: 432 continuous, 487 integer (487 binary)
+2026-03-11 18:48:32: Coefficient statistics:
+2026-03-11 18:48:32:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:32:   Objective range  [2e-07, 1e+02]
+2026-03-11 18:48:32:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:32:   RHS range        [1e-04, 1e+00]
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:32: Presolve removed 182 rows and 152 columns
+2026-03-11 18:48:32: Presolve time: 0.05s
+2026-03-11 18:48:32: Presolved: 984 rows, 767 columns, 11788 nonzeros
+2026-03-11 18:48:32: Variable types: 285 continuous, 482 integer (482 binary)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32: Root relaxation: objective 5.811196e+02, 569 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:32:
+2026-03-11 18:48:32:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:32:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:32:
+2026-03-11 18:48:32:      0     0  581.11957    0  170    0.14446  581.11957      -     -    0s
+2026-03-11 18:48:32: H    0     0                     380.2702525  581.11957  52.8%     -    0s
+2026-03-11 18:48:32: H    0     0                     476.1610139  581.11957  22.0%     -    0s
+2026-03-11 18:48:32: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:32:      0     0  545.10591    0  128  497.18447  545.10591  9.64%     -    0s
+2026-03-11 18:48:32: H    0     0                     518.4700746  545.03077  5.12%     -    0s
+2026-03-11 18:48:32:      0     0  544.87719    0  152  518.47007  544.87719  5.09%     -    0s
+2026-03-11 18:48:32:      0     0  544.85952    0  151  518.47007  544.85952  5.09%     -    0s
+2026-03-11 18:48:33:      0     0  541.61624    0  108  518.47007  541.61624  4.46%     -    0s
+2026-03-11 18:48:33: H    0     0                     526.0297001  541.60798  2.96%     -    0s
+2026-03-11 18:48:33:      0     0  539.09962    0   65  526.02970  539.09962  2.48%     -    0s
+2026-03-11 18:48:33:      0     0  538.60868    0   87  526.02970  538.60868  2.39%     -    0s
+2026-03-11 18:48:33:      0     0  538.56261    0   90  526.02970  538.56261  2.38%     -    0s
+2026-03-11 18:48:33:      0     0  538.49360    0   89  526.02970  538.49360  2.37%     -    0s
+2026-03-11 18:48:33:      0     0  538.48599    0   91  526.02970  538.48599  2.37%     -    0s
+2026-03-11 18:48:33:      0     0  538.37750    0   76  526.02970  538.37750  2.35%     -    0s
+2026-03-11 18:48:33:      0     0  538.22693    0   71  526.02970  538.22693  2.32%     -    0s
+2026-03-11 18:48:33: H    0     0                     537.8492573  538.22693  0.07%     -    0s
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Cutting planes:
+2026-03-11 18:48:33:   Learned: 3
+2026-03-11 18:48:33:   Gomory: 6
+2026-03-11 18:48:33:   Cover: 113
+2026-03-11 18:48:33:   Implied bound: 16
+2026-03-11 18:48:33:   Clique: 56
+2026-03-11 18:48:33:   MIR: 162
+2026-03-11 18:48:33:   StrongCG: 8
+2026-03-11 18:48:33:   Flow cover: 19
+2026-03-11 18:48:33:   RLT: 6
+2026-03-11 18:48:33:   Relax-and-lift: 14
+2026-03-11 18:48:33:   BQP: 3
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Explored 1 nodes (1143 simplex iterations) in 0.31 seconds (0.21 work units)
+2026-03-11 18:48:33: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Solution count 7: 537.849 526.03 518.47 ... 0.144462
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:33: Best objective 5.378492573035e+02, best bound 5.382269333554e+02, gap 0.0702%
+2026-03-11 18:48:33: MIP unsatisfied constraints: []
+2026-03-11 18:48:33:
+Solve Details
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Problem : MIP
+2026-03-11 18:48:33: Status  : 2
+2026-03-11 18:48:33: Time    : 0 sec
+2026-03-11 18:48:33: Rel. Gap: 0.0007021968455744372 %
+2026-03-11 18:48:33: Bundle ALREADY QUERIED IN THIS ITERATION from Bidder_0
+2026-03-11 18:48:33: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:33: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_0
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Initialize MIP
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: MIP initialized
+2026-03-11 18:48:33: Solving MIP
+2026-03-11 18:48:33: Attempt no: 1
+2026-03-11 18:48:33: Set parameter LogToConsole to value 0
+2026-03-11 18:48:33: Set parameter TimeLimit to value 600
+2026-03-11 18:48:33: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:33: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:33: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Solve MIP
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: MIP warm-start False
+2026-03-11 18:48:33: MIP time Limit of 600.0
+2026-03-11 18:48:33: MIP relative gap 0.005
+2026-03-11 18:48:33: MIP integrality tol 1e-06
+2026-03-11 18:48:33: MIP feasibility tol 1e-09
+2026-03-11 18:48:33: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:33: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Non-default parameters:
+2026-03-11 18:48:33: TimeLimit  600
+2026-03-11 18:48:33: FeasibilityTol  1e-09
+2026-03-11 18:48:33: IntFeasTol  1e-06
+2026-03-11 18:48:33: MIPGap  0.005
+2026-03-11 18:48:33: LogToConsole  0
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Optimize a model with 1174 rows, 919 columns and 11650 nonzeros (Max)
+2026-03-11 18:48:33: Model fingerprint: 0xfc52e214
+2026-03-11 18:48:33: Model has 327 linear objective coefficients
+2026-03-11 18:48:33: Variable types: 432 continuous, 487 integer (487 binary)
+2026-03-11 18:48:33: Coefficient statistics:
+2026-03-11 18:48:33:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:33:   Objective range  [2e-07, 1e+02]
+2026-03-11 18:48:33:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:33:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Found heuristic solution: objective 0.5046574
+2026-03-11 18:48:33: Presolve removed 185 rows and 153 columns
+2026-03-11 18:48:33: Presolve time: 0.07s
+2026-03-11 18:48:33: Presolved: 989 rows, 766 columns, 12010 nonzeros
+2026-03-11 18:48:33: Variable types: 285 continuous, 481 integer (481 binary)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Root relaxation: objective 5.811196e+02, 570 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:33:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:33:
+2026-03-11 18:48:33:      0     0  581.11957    0  171    0.50466  581.11957      -     -    0s
+2026-03-11 18:48:33: H    0     0                     451.6085420  581.11957  28.7%     -    0s
+2026-03-11 18:48:33: H    0     0                     453.9913852  581.11957  28.0%     -    0s
+2026-03-11 18:48:33: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:33:      0     0  544.85955    0  152  497.18447  544.85955  9.59%     -    0s
+2026-03-11 18:48:33: H    0     0                     515.0521543  544.61842  5.74%     -    0s
+2026-03-11 18:48:33:      0     0  544.61225    0  166  515.05215  544.61225  5.74%     -    0s
+2026-03-11 18:48:33:      0     0  544.60955    0  164  515.05215  544.60955  5.74%     -    0s
+2026-03-11 18:48:33:      0     0  541.25748    0  105  515.05215  541.25748  5.09%     -    0s
+2026-03-11 18:48:33:      0     0  538.79806    0   79  515.05215  538.79806  4.61%     -    0s
+2026-03-11 18:48:33:      0     0  538.19050    0   83  515.05215  538.19050  4.49%     -    0s
+2026-03-11 18:48:33:      0     0  538.15191    0   86  515.05215  538.15191  4.48%     -    0s
+2026-03-11 18:48:33:      0     0  538.13928    0   85  515.05215  538.13928  4.48%     -    0s
+2026-03-11 18:48:33:      0     0  538.04158    0    9  515.05215  538.04158  4.46%     -    0s
+2026-03-11 18:48:33: H    0     0                     537.5733267  538.02297  0.08%     -    0s
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Cutting planes:
+2026-03-11 18:48:33:   Learned: 1
+2026-03-11 18:48:33:   Gomory: 7
+2026-03-11 18:48:33:   Cover: 123
+2026-03-11 18:48:33:   Implied bound: 26
+2026-03-11 18:48:33:   Clique: 80
+2026-03-11 18:48:33:   MIR: 165
+2026-03-11 18:48:33:   StrongCG: 6
+2026-03-11 18:48:33:   Flow cover: 28
+2026-03-11 18:48:33:   RLT: 3
+2026-03-11 18:48:33:   Relax-and-lift: 24
+2026-03-11 18:48:33:   BQP: 3
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Explored 1 nodes (1225 simplex iterations) in 0.32 seconds (0.23 work units)
+2026-03-11 18:48:33: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Solution count 6: 537.573 515.052 497.184 ... 0.504657
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:33: Best objective 5.375733267239e+02, best bound 5.380229662523e+02, gap 0.0836%
+2026-03-11 18:48:33: MIP unsatisfied constraints: []
+2026-03-11 18:48:33:
+Solve Details
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Problem : MIP
+2026-03-11 18:48:33: Status  : 2
+2026-03-11 18:48:33: Time    : 0 sec
+2026-03-11 18:48:33: Rel. Gap: 0.0008364245508847507 %
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(5):
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:33: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:33: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:33: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:33: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: ADD BUNDLE to current query profile S
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Current query profile for Bidder_0:
+2026-03-11 18:48:33: [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:33: [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:33: [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Bidder_1
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Global Marginals: ['Marginal Economy -(2)', 'Marginal Economy -(3)', 'Marginal Economy -(5)', 'Marginal Economy -(0)']
+2026-03-11 18:48:33: Calculate next queries for the following sampled marginals:
+2026-03-11 18:48:33: Marginal Economy -(2)
+2026-03-11 18:48:33: Marginal Economy -(5)
+2026-03-11 18:48:33: Marginal Economy -(3)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Bidder_1 | Marginal Economy -(2)
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Status of Economy: True
+
+2026-03-11 18:48:33: Bundle ALREADY ELICITED from Bidder_1
+2026-03-11 18:48:33: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:33: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_1
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Initialize MIP
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: MIP initialized
+2026-03-11 18:48:33: Solving MIP
+2026-03-11 18:48:33: Attempt no: 1
+2026-03-11 18:48:33: Set parameter LogToConsole to value 0
+2026-03-11 18:48:33: Set parameter TimeLimit to value 600
+2026-03-11 18:48:33: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:33: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:33: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Solve MIP
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: MIP warm-start False
+2026-03-11 18:48:33: MIP time Limit of 600.0
+2026-03-11 18:48:33: MIP relative gap 0.005
+2026-03-11 18:48:33: MIP integrality tol 1e-06
+2026-03-11 18:48:33: MIP feasibility tol 1e-09
+2026-03-11 18:48:33: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:33: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Non-default parameters:
+2026-03-11 18:48:33: TimeLimit  600
+2026-03-11 18:48:33: FeasibilityTol  1e-09
+2026-03-11 18:48:33: IntFeasTol  1e-06
+2026-03-11 18:48:33: MIPGap  0.005
+2026-03-11 18:48:33: LogToConsole  0
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Optimize a model with 1100 rows, 891 columns and 10722 nonzeros (Max)
+2026-03-11 18:48:33: Model fingerprint: 0xc7a952da
+2026-03-11 18:48:33: Model has 309 linear objective coefficients
+2026-03-11 18:48:33: Variable types: 432 continuous, 459 integer (459 binary)
+2026-03-11 18:48:33: Coefficient statistics:
+2026-03-11 18:48:33:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:33:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:33:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:33:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Found heuristic solution: objective 11.9501263
+2026-03-11 18:48:33: Presolve removed 177 rows and 171 columns
+2026-03-11 18:48:33: Presolve time: 0.06s
+2026-03-11 18:48:33: Presolved: 923 rows, 720 columns, 10959 nonzeros
+2026-03-11 18:48:33: Variable types: 267 continuous, 453 integer (453 binary)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Root relaxation: objective 5.811196e+02, 540 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:33:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:33:
+2026-03-11 18:48:33:      0     0  581.11957    0  170   11.95013  581.11957  4763%     -    0s
+2026-03-11 18:48:33: H    0     0                     469.5344920  581.11957  23.8%     -    0s
+2026-03-11 18:48:33: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:33:      0     0  538.18814    0  102  497.18447  538.18814  8.25%     -    0s
+2026-03-11 18:48:33: H    0     0                     501.2821513  538.12931  7.35%     -    0s
+2026-03-11 18:48:33:      0     0  537.94317    0  110  501.28215  537.94317  7.31%     -    0s
+2026-03-11 18:48:33:      0     0  537.91346    0  110  501.28215  537.91346  7.31%     -    0s
+2026-03-11 18:48:33:      0     0  537.85740    0  112  501.28215  537.85740  7.30%     -    0s
+2026-03-11 18:48:33:      0     0  537.83376    0  112  501.28215  537.83376  7.29%     -    0s
+2026-03-11 18:48:33:      0     0  535.45597    0  136  501.28215  535.45597  6.82%     -    0s
+2026-03-11 18:48:33: H    0     0                     533.7137190  535.45561  0.33%     -    0s
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Cutting planes:
+2026-03-11 18:48:33:   Learned: 3
+2026-03-11 18:48:33:   Gomory: 12
+2026-03-11 18:48:33:   Cover: 76
+2026-03-11 18:48:33:   Implied bound: 17
+2026-03-11 18:48:33:   Clique: 61
+2026-03-11 18:48:33:   MIR: 116
+2026-03-11 18:48:33:   StrongCG: 5
+2026-03-11 18:48:33:   Flow cover: 15
+2026-03-11 18:48:33:   RLT: 4
+2026-03-11 18:48:33:   Relax-and-lift: 16
+2026-03-11 18:48:33:   BQP: 4
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Explored 1 nodes (1002 simplex iterations) in 0.22 seconds (0.16 work units)
+2026-03-11 18:48:33: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Solution count 5: 533.714 501.282 497.184 ... 11.9501
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:33: Best objective 5.337137189627e+02, best bound 5.354556145924e+02, gap 0.3264%
+2026-03-11 18:48:33: MIP unsatisfied constraints: []
+2026-03-11 18:48:33:
+Solve Details
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Problem : MIP
+2026-03-11 18:48:33: Status  : 2
+2026-03-11 18:48:33: Time    : 0 sec
+2026-03-11 18:48:33: Rel. Gap: 0.003263726540620792 %
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(2):
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:33: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:33: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:33: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:33: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: ADD BUNDLE to current query profile S
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Current query profile for Bidder_1:
+2026-03-11 18:48:33: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Bidder_1 | Marginal Economy -(5)
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33: Status of Economy: True
+
+2026-03-11 18:48:33: Bundle ALREADY ELICITED from Bidder_1
+2026-03-11 18:48:33: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:33: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_1
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:33:
+2026-03-11 18:48:33: Initialize MIP
+2026-03-11 18:48:33: -----------------------------------------------
+2026-03-11 18:48:34: MIP initialized
+2026-03-11 18:48:34: Solving MIP
+2026-03-11 18:48:34: Attempt no: 1
+2026-03-11 18:48:34: Set parameter LogToConsole to value 0
+2026-03-11 18:48:34: Set parameter TimeLimit to value 600
+2026-03-11 18:48:34: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:34: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:34: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Solve MIP
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: MIP warm-start False
+2026-03-11 18:48:34: MIP time Limit of 600.0
+2026-03-11 18:48:34: MIP relative gap 0.005
+2026-03-11 18:48:34: MIP integrality tol 1e-06
+2026-03-11 18:48:34: MIP feasibility tol 1e-09
+2026-03-11 18:48:34: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:34: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Non-default parameters:
+2026-03-11 18:48:34: TimeLimit  600
+2026-03-11 18:48:34: FeasibilityTol  1e-09
+2026-03-11 18:48:34: IntFeasTol  1e-06
+2026-03-11 18:48:34: MIPGap  0.005
+2026-03-11 18:48:34: LogToConsole  0
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Optimize a model with 1173 rows, 919 columns and 11632 nonzeros (Max)
+2026-03-11 18:48:34: Model fingerprint: 0x13617487
+2026-03-11 18:48:34: Model has 327 linear objective coefficients
+2026-03-11 18:48:34: Variable types: 432 continuous, 487 integer (487 binary)
+2026-03-11 18:48:34: Coefficient statistics:
+2026-03-11 18:48:34:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:34:   Objective range  [2e-07, 1e+02]
+2026-03-11 18:48:34:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:34:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Found heuristic solution: objective 11.9501263
+2026-03-11 18:48:34: Presolve removed 183 rows and 152 columns
+2026-03-11 18:48:34: Presolve time: 0.05s
+2026-03-11 18:48:34: Presolved: 990 rows, 767 columns, 11906 nonzeros
+2026-03-11 18:48:34: Variable types: 285 continuous, 482 integer (482 binary)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Root relaxation: objective 5.811196e+02, 569 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:34:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:34:
+2026-03-11 18:48:34:      0     0  581.11957    0  170   11.95013  581.11957  4763%     -    0s
+2026-03-11 18:48:34: H    0     0                     476.1610139  581.11957  22.0%     -    0s
+2026-03-11 18:48:34: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:34:      0     0  542.68076    0  159  497.18447  542.68076  9.15%     -    0s
+2026-03-11 18:48:34: H    0     0                     513.8811391  542.61690  5.59%     -    0s
+2026-03-11 18:48:34:      0     0  542.00814    0  187  513.88114  542.00814  5.47%     -    0s
+2026-03-11 18:48:34:      0     0  541.99183    0  194  513.88114  541.99183  5.47%     -    0s
+2026-03-11 18:48:34:      0     0  539.04559    0  130  513.88114  539.04559  4.90%     -    0s
+2026-03-11 18:48:34: H    0     0                     521.8703118  539.03431  3.29%     -    0s
+2026-03-11 18:48:34:      0     0  535.30845    0  145  521.87031  535.30845  2.57%     -    0s
+2026-03-11 18:48:34:      0     0  534.87906    0  138  521.87031  534.87906  2.49%     -    0s
+2026-03-11 18:48:34:      0     0  534.70943    0  122  521.87031  534.70943  2.46%     -    0s
+2026-03-11 18:48:34:      0     0  534.70904    0  122  521.87031  534.70904  2.46%     -    0s
+2026-03-11 18:48:34:      0     0  534.47915    0  122  521.87031  534.47915  2.42%     -    0s
+2026-03-11 18:48:34:      0     0  534.25085    0  120  521.87031  534.25085  2.37%     -    0s
+2026-03-11 18:48:34: H    0     0                     533.6898690  534.25085  0.11%     -    0s
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Cutting planes:
+2026-03-11 18:48:34:   Learned: 4
+2026-03-11 18:48:34:   Gomory: 5
+2026-03-11 18:48:34:   Cover: 120
+2026-03-11 18:48:34:   Implied bound: 27
+2026-03-11 18:48:34:   Clique: 44
+2026-03-11 18:48:34:   MIR: 181
+2026-03-11 18:48:34:   StrongCG: 6
+2026-03-11 18:48:34:   Flow cover: 27
+2026-03-11 18:48:34:   RLT: 3
+2026-03-11 18:48:34:   Relax-and-lift: 16
+2026-03-11 18:48:34:   BQP: 2
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Explored 1 nodes (1384 simplex iterations) in 0.34 seconds (0.24 work units)
+2026-03-11 18:48:34: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Solution count 6: 533.69 521.87 513.881 ... 11.9501
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:34: Best objective 5.336898689600e+02, best bound 5.342508514404e+02, gap 0.1051%
+2026-03-11 18:48:34: MIP unsatisfied constraints: []
+2026-03-11 18:48:34:
+Solve Details
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Problem : MIP
+2026-03-11 18:48:34: Status  : 2
+2026-03-11 18:48:34: Time    : 0 sec
+2026-03-11 18:48:34: Rel. Gap: 0.0010511394594816862 %
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(5):
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:34: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:34: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:34: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: ADD BUNDLE to current query profile S
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Current query profile for Bidder_1:
+2026-03-11 18:48:34: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Bidder_1 | Marginal Economy -(3)
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Status of Economy: True
+
+2026-03-11 18:48:34: Bundle ALREADY ELICITED from Bidder_1
+2026-03-11 18:48:34: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:34: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_1
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Initialize MIP
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: MIP initialized
+2026-03-11 18:48:34: Solving MIP
+2026-03-11 18:48:34: Attempt no: 1
+2026-03-11 18:48:34: Set parameter LogToConsole to value 0
+2026-03-11 18:48:34: Set parameter TimeLimit to value 600
+2026-03-11 18:48:34: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:34: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:34: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Solve MIP
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: MIP warm-start False
+2026-03-11 18:48:34: MIP time Limit of 600.0
+2026-03-11 18:48:34: MIP relative gap 0.005
+2026-03-11 18:48:34: MIP integrality tol 1e-06
+2026-03-11 18:48:34: MIP feasibility tol 1e-09
+2026-03-11 18:48:34: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:34: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Non-default parameters:
+2026-03-11 18:48:34: TimeLimit  600
+2026-03-11 18:48:34: FeasibilityTol  1e-09
+2026-03-11 18:48:34: IntFeasTol  1e-06
+2026-03-11 18:48:34: MIPGap  0.005
+2026-03-11 18:48:34: LogToConsole  0
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Optimize a model with 1010 rows, 855 columns and 9608 nonzeros (Max)
+2026-03-11 18:48:34: Model fingerprint: 0x9653e5a6
+2026-03-11 18:48:34: Model has 286 linear objective coefficients
+2026-03-11 18:48:34: Variable types: 432 continuous, 423 integer (423 binary)
+2026-03-11 18:48:34: Coefficient statistics:
+2026-03-11 18:48:34:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:34:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:34:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:34:   RHS range        [3e-03, 2e+01]
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Found heuristic solution: objective 11.9501263
+2026-03-11 18:48:34: Presolve removed 160 rows and 191 columns
+2026-03-11 18:48:34: Presolve time: 0.03s
+2026-03-11 18:48:34: Presolved: 850 rows, 664 columns, 9670 nonzeros
+2026-03-11 18:48:34: Variable types: 246 continuous, 418 integer (418 binary)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Root relaxation: objective 5.731056e+02, 519 iterations, 0.01 seconds (0.00 work units)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:34:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:34:
+2026-03-11 18:48:34:      0     0  573.10563    0  112   11.95013  573.10563  4696%     -    0s
+2026-03-11 18:48:34: H    0     0                     418.1366535  573.10563  37.1%     -    0s
+2026-03-11 18:48:34: H    0     0                     470.2073022  573.10563  21.9%     -    0s
+2026-03-11 18:48:34: H    0     0                     499.7471655  573.10563  14.7%     -    0s
+2026-03-11 18:48:34:      0     0  537.57665    0  116  499.74717  537.57665  7.57%     -    0s
+2026-03-11 18:48:34: H    0     0                     508.7567747  537.52469  5.65%     -    0s
+2026-03-11 18:48:34: H    0     0                     523.6666463  537.52469  2.65%     -    0s
+2026-03-11 18:48:34:      0     0  537.27567    0  188  523.66665  537.27567  2.60%     -    0s
+2026-03-11 18:48:34:      0     0  536.42588    0  159  523.66665  536.42588  2.44%     -    0s
+2026-03-11 18:48:34:      0     0  536.42588    0  158  523.66665  536.42588  2.44%     -    0s
+2026-03-11 18:48:34:      0     0  536.35328    0  160  523.66665  536.35328  2.42%     -    0s
+2026-03-11 18:48:34:      0     0  536.33911    0  160  523.66665  536.33911  2.42%     -    0s
+2026-03-11 18:48:34:      0     0  531.08482    0  117  523.66665  531.08482  1.42%     -    0s
+2026-03-11 18:48:34:      0     0  531.04552    0  116  523.66665  531.04552  1.41%     -    0s
+2026-03-11 18:48:34: H    0     0                     526.2134111  531.01978  0.91%     -    0s
+2026-03-11 18:48:34:      0     0  530.22509    0   32  526.21341  530.22509  0.76%     -    0s
+2026-03-11 18:48:34:      0     0  529.73327    0   26  526.21341  529.73327  0.67%     -    0s
+2026-03-11 18:48:34:      0     0  529.57819    0   34  526.21341  529.57819  0.64%     -    0s
+2026-03-11 18:48:34:      0     0  529.57819    0   15  526.21341  529.57819  0.64%     -    0s
+2026-03-11 18:48:34:      0     0  529.57819    0   13  526.21341  529.57819  0.64%     -    0s
+2026-03-11 18:48:34: H    0     0                     529.2987658  529.57819  0.05%     -    0s
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Explored 1 nodes (1176 simplex iterations) in 0.25 seconds (0.16 work units)
+2026-03-11 18:48:34: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Solution count 8: 529.299 526.213 523.667 ... 11.9501
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:34: Best objective 5.292987658197e+02, best bound 5.295781861360e+02, gap 0.0528%
+2026-03-11 18:48:34: MIP unsatisfied constraints: []
+2026-03-11 18:48:34:
+Solve Details
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Problem : MIP
+2026-03-11 18:48:34: Status  : 2
+2026-03-11 18:48:34: Time    : 0 sec
+2026-03-11 18:48:34: Rel. Gap: 0.0005279066085477209 %
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(3):
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Bidder_0:  [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:34: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:34: Bidder_4:  [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:34: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: ADD BUNDLE to current query profile S
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Current query profile for Bidder_1:
+2026-03-11 18:48:34: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34: [0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Bidder_2
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Global Marginals: ['Marginal Economy -(2)', 'Marginal Economy -(3)', 'Marginal Economy -(5)', 'Marginal Economy -(0)']
+2026-03-11 18:48:34: Calculate next queries for the following sampled marginals:
+2026-03-11 18:48:34: Marginal Economy -(3)
+2026-03-11 18:48:34: Marginal Economy -(5)
+2026-03-11 18:48:34: Marginal Economy -(0)
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Bidder_2 | Marginal Economy -(3)
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34: Status of Economy: True
+
+2026-03-11 18:48:34: Bundle ALREADY ELICITED from Bidder_2
+2026-03-11 18:48:34: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:34: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_2
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:34:
+2026-03-11 18:48:34: Initialize MIP
+2026-03-11 18:48:34: -----------------------------------------------
+2026-03-11 18:48:35: MIP initialized
+2026-03-11 18:48:35: Solving MIP
+2026-03-11 18:48:35: Attempt no: 1
+2026-03-11 18:48:35: Set parameter LogToConsole to value 0
+2026-03-11 18:48:35: Set parameter TimeLimit to value 600
+2026-03-11 18:48:35: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:35: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:35: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Solve MIP
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: MIP warm-start False
+2026-03-11 18:48:35: MIP time Limit of 600.0
+2026-03-11 18:48:35: MIP relative gap 0.005
+2026-03-11 18:48:35: MIP integrality tol 1e-06
+2026-03-11 18:48:35: MIP feasibility tol 1e-09
+2026-03-11 18:48:35: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:35: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Non-default parameters:
+2026-03-11 18:48:35: TimeLimit  600
+2026-03-11 18:48:35: FeasibilityTol  1e-09
+2026-03-11 18:48:35: IntFeasTol  1e-06
+2026-03-11 18:48:35: MIPGap  0.005
+2026-03-11 18:48:35: LogToConsole  0
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Optimize a model with 1008 rows, 855 columns and 9572 nonzeros (Max)
+2026-03-11 18:48:35: Model fingerprint: 0xac025def
+2026-03-11 18:48:35: Model has 286 linear objective coefficients
+2026-03-11 18:48:35: Variable types: 432 continuous, 423 integer (423 binary)
+2026-03-11 18:48:35: Coefficient statistics:
+2026-03-11 18:48:35:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:35:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:35:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:35:   RHS range        [3e-03, 2e+01]
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Found heuristic solution: objective 0.2039203
+2026-03-11 18:48:35: Presolve removed 159 rows and 191 columns
+2026-03-11 18:48:35: Presolve time: 0.03s
+2026-03-11 18:48:35: Presolved: 849 rows, 664 columns, 9653 nonzeros
+2026-03-11 18:48:35: Variable types: 246 continuous, 418 integer (418 binary)
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Root relaxation: objective 5.702976e+02, 549 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:35:
+2026-03-11 18:48:35:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:35:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:35:
+2026-03-11 18:48:35:      0     0  570.29764    0  159    0.20392  570.29764      -     -    0s
+2026-03-11 18:48:35: H    0     0                     472.2452503  570.29764  20.8%     -    0s
+2026-03-11 18:48:35: H    0     0                     495.0542343  570.29764  15.2%     -    0s
+2026-03-11 18:48:35:      0     0  542.33305    0   80  495.05423  542.33305  9.55%     -    0s
+2026-03-11 18:48:35: H    0     0                     525.5149247  542.22782  3.18%     -    0s
+2026-03-11 18:48:35:      0     0  541.86033    0  148  525.51492  541.86033  3.11%     -    0s
+2026-03-11 18:48:35:      0     0  541.81460    0  148  525.51492  541.81460  3.10%     -    0s
+2026-03-11 18:48:35:      0     0  539.50826    0   98  525.51492  539.50826  2.66%     -    0s
+2026-03-11 18:48:35:      0     0  537.30099    0  108  525.51492  537.30099  2.24%     -    0s
+2026-03-11 18:48:35:      0     0  536.36516    0  108  525.51492  536.36516  2.06%     -    0s
+2026-03-11 18:48:35:      0     0  536.22662    0  106  525.51492  536.22662  2.04%     -    0s
+2026-03-11 18:48:35:      0     0  535.46807    0   95  525.51492  535.46807  1.89%     -    0s
+2026-03-11 18:48:35:      0     0  535.20959    0  108  525.51492  535.20959  1.84%     -    0s
+2026-03-11 18:48:35:      0     0  535.18025    0   98  525.51492  535.18025  1.84%     -    0s
+2026-03-11 18:48:35:      0     0  535.17824    0   98  525.51492  535.17824  1.84%     -    0s
+2026-03-11 18:48:35:      0     0  531.92056    0    6  525.51492  531.92056  1.22%     -    0s
+2026-03-11 18:48:35:      0     0  531.92056    0   79  525.51492  531.92056  1.22%     -    0s
+2026-03-11 18:48:35:      0     0  531.92056    0   80  525.51492  531.92056  1.22%     -    0s
+2026-03-11 18:48:35: H    0     0                     529.2369449  531.92056  0.51%     -    0s
+2026-03-11 18:48:35: H    0     0                     529.4517570  531.92056  0.47%     -    0s
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Explored 1 nodes (1456 simplex iterations) in 0.30 seconds (0.20 work units)
+2026-03-11 18:48:35: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Solution count 6: 529.452 529.237 525.515 ... 0.20392
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:35: Best objective 5.294517569653e+02, best bound 5.319205625227e+02, gap 0.4663%
+2026-03-11 18:48:35: MIP unsatisfied constraints: []
+2026-03-11 18:48:35:
+Solve Details
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: Problem : MIP
+2026-03-11 18:48:35: Status  : 2
+2026-03-11 18:48:35: Time    : 0 sec
+2026-03-11 18:48:35: Rel. Gap: 0.004662947142765551 %
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(3):
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: Bidder_0:  [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:35: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:35: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:35: Bidder_4:  [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:35: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: ADD BUNDLE to current query profile S
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Current query profile for Bidder_2:
+2026-03-11 18:48:35: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Bidder_2 | Marginal Economy -(5)
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: Status of Economy: True
+
+2026-03-11 18:48:35: Bundle ALREADY ELICITED from Bidder_2
+2026-03-11 18:48:35: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:35: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_2
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Initialize MIP
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: MIP initialized
+2026-03-11 18:48:35: Solving MIP
+2026-03-11 18:48:35: Attempt no: 1
+2026-03-11 18:48:35: Set parameter LogToConsole to value 0
+2026-03-11 18:48:35: Set parameter TimeLimit to value 600
+2026-03-11 18:48:35: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:35: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:35: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Solve MIP
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: MIP warm-start False
+2026-03-11 18:48:35: MIP time Limit of 600.0
+2026-03-11 18:48:35: MIP relative gap 0.005
+2026-03-11 18:48:35: MIP integrality tol 1e-06
+2026-03-11 18:48:35: MIP feasibility tol 1e-09
+2026-03-11 18:48:35: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:35: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Non-default parameters:
+2026-03-11 18:48:35: TimeLimit  600
+2026-03-11 18:48:35: FeasibilityTol  1e-09
+2026-03-11 18:48:35: IntFeasTol  1e-06
+2026-03-11 18:48:35: MIPGap  0.005
+2026-03-11 18:48:35: LogToConsole  0
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Optimize a model with 1173 rows, 919 columns and 11632 nonzeros (Max)
+2026-03-11 18:48:35: Model fingerprint: 0xc0761c52
+2026-03-11 18:48:35: Model has 327 linear objective coefficients
+2026-03-11 18:48:35: Variable types: 432 continuous, 487 integer (487 binary)
+2026-03-11 18:48:35: Coefficient statistics:
+2026-03-11 18:48:35:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:35:   Objective range  [2e-07, 1e+02]
+2026-03-11 18:48:35:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:35:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Found heuristic solution: objective 0.2039203
+2026-03-11 18:48:35: Presolve removed 183 rows and 152 columns
+2026-03-11 18:48:35: Presolve time: 0.05s
+2026-03-11 18:48:35: Presolved: 990 rows, 767 columns, 11907 nonzeros
+2026-03-11 18:48:35: Variable types: 285 continuous, 482 integer (482 binary)
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Root relaxation: objective 5.756455e+02, 634 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:35:
+2026-03-11 18:48:35:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:35:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:35:
+2026-03-11 18:48:35:      0     0  575.64552    0  216    0.20392  575.64552      -     -    0s
+2026-03-11 18:48:35: H    0     0                     443.5449503  575.64552  29.8%     -    0s
+2026-03-11 18:48:35: H    0     0                     490.2724017  575.64552  17.4%     -    0s
+2026-03-11 18:48:35:      0     0  545.76708    0  140  490.27240  545.76708  11.3%     -    0s
+2026-03-11 18:48:35: H    0     0                     518.4700746  545.70908  5.25%     -    0s
+2026-03-11 18:48:35:      0     0  545.25753    0  137  518.47007  545.25753  5.17%     -    0s
+2026-03-11 18:48:35:      0     0  545.25510    0  137  518.47007  545.25510  5.17%     -    0s
+2026-03-11 18:48:35:      0     0  540.90014    0  117  518.47007  540.90014  4.33%     -    0s
+2026-03-11 18:48:35:      0     0  539.31674    0  127  518.47007  539.31674  4.02%     -    0s
+2026-03-11 18:48:35:      0     0  538.11342    0  121  518.47007  538.11342  3.79%     -    0s
+2026-03-11 18:48:35:      0     0  537.71279    0  110  518.47007  537.71279  3.71%     -    0s
+2026-03-11 18:48:35:      0     0  536.61177    0  126  518.47007  536.61177  3.50%     -    0s
+2026-03-11 18:48:35:      0     0  535.76531    0  116  518.47007  535.76531  3.34%     -    0s
+2026-03-11 18:48:35:      0     0  534.99607    0  124  518.47007  534.99607  3.19%     -    0s
+2026-03-11 18:48:35:      0     0  534.35822    0  115  518.47007  534.35822  3.06%     -    0s
+2026-03-11 18:48:35:      0     0  533.91168    0  120  518.47007  533.91168  2.98%     -    0s
+2026-03-11 18:48:35:      0     0  533.25522    0  129  518.47007  533.25522  2.85%     -    0s
+2026-03-11 18:48:35:      0     0  532.70769    0  167  518.47007  532.70769  2.75%     -    0s
+2026-03-11 18:48:35:      0     0  532.55741    0  157  518.47007  532.55741  2.72%     -    0s
+2026-03-11 18:48:35:      0     0  532.54965    0  154  518.47007  532.54965  2.72%     -    0s
+2026-03-11 18:48:35:      0     0  531.87540    0  151  518.47007  531.87540  2.59%     -    0s
+2026-03-11 18:48:35: H    0     0                     531.0427273  531.86046  0.15%     -    0s
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Cutting planes:
+2026-03-11 18:48:35:   Learned: 4
+2026-03-11 18:48:35:   Gomory: 30
+2026-03-11 18:48:35:   Cover: 99
+2026-03-11 18:48:35:   Implied bound: 31
+2026-03-11 18:48:35:   Clique: 54
+2026-03-11 18:48:35:   MIR: 142
+2026-03-11 18:48:35:   StrongCG: 3
+2026-03-11 18:48:35:   Flow cover: 29
+2026-03-11 18:48:35:   RLT: 2
+2026-03-11 18:48:35:   Relax-and-lift: 15
+2026-03-11 18:48:35:   BQP: 3
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Explored 1 nodes (1712 simplex iterations) in 0.38 seconds (0.27 work units)
+2026-03-11 18:48:35: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Solution count 5: 531.043 518.47 490.272 ... 0.20392
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:35: Best objective 5.310427272649e+02, best bound 5.318604551366e+02, gap 0.1540%
+2026-03-11 18:48:35: MIP unsatisfied constraints: []
+2026-03-11 18:48:35:
+Solve Details
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: Problem : MIP
+2026-03-11 18:48:35: Status  : 2
+2026-03-11 18:48:35: Time    : 0 sec
+2026-03-11 18:48:35: Rel. Gap: 0.0015398532540862682 %
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(5):
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:35: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:35: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:35: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:35: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: ADD BUNDLE to current query profile S
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Current query profile for Bidder_2:
+2026-03-11 18:48:35: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:35: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Bidder_2 | Marginal Economy -(0)
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35: Status of Economy: False
+
+2026-03-11 18:48:35: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:35: OPTIMIZATION STEP
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:35:
+2026-03-11 18:48:35: Initialize MIP
+2026-03-11 18:48:35: -----------------------------------------------
+2026-03-11 18:48:36: MIP initialized
+2026-03-11 18:48:36: Solving MIP
+2026-03-11 18:48:36: Attempt no: 1
+2026-03-11 18:48:36: Set parameter LogToConsole to value 0
+2026-03-11 18:48:36: Set parameter TimeLimit to value 600
+2026-03-11 18:48:36: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:36: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:36: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Solve MIP
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: MIP warm-start False
+2026-03-11 18:48:36: MIP time Limit of 600.0
+2026-03-11 18:48:36: MIP relative gap 0.005
+2026-03-11 18:48:36: MIP integrality tol 1e-06
+2026-03-11 18:48:36: MIP feasibility tol 1e-09
+2026-03-11 18:48:36: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:36: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Non-default parameters:
+2026-03-11 18:48:36: TimeLimit  600
+2026-03-11 18:48:36: FeasibilityTol  1e-09
+2026-03-11 18:48:36: IntFeasTol  1e-06
+2026-03-11 18:48:36: MIPGap  0.005
+2026-03-11 18:48:36: LogToConsole  0
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Optimize a model with 1134 rows, 943 columns and 10936 nonzeros (Max)
+2026-03-11 18:48:36: Model fingerprint: 0xd486d4f9
+2026-03-11 18:48:36: Model has 369 linear objective coefficients
+2026-03-11 18:48:36: Variable types: 480 continuous, 463 integer (463 binary)
+2026-03-11 18:48:36: Coefficient statistics:
+2026-03-11 18:48:36:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:36:   Objective range  [7e-08, 4e+01]
+2026-03-11 18:48:36:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:36:   RHS range        [1e-04, 1e+00]
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:36: Presolve removed 190 rows and 209 columns
+2026-03-11 18:48:36: Presolve time: 0.03s
+2026-03-11 18:48:36: Presolved: 944 rows, 734 columns, 10972 nonzeros
+2026-03-11 18:48:36: Variable types: 277 continuous, 457 integer (457 binary)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Root relaxation: objective 3.309500e+02, 536 iterations, 0.00 seconds (0.01 work units)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:36:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:36:
+2026-03-11 18:48:36:      0     0  330.94996    0  176    0.14446  330.94996      -     -    0s
+2026-03-11 18:48:36: H    0     0                     169.3178019  330.94996  95.5%     -    0s
+2026-03-11 18:48:36: H    0     0                     235.3636873  330.94996  40.6%     -    0s
+2026-03-11 18:48:36: H    0     0                     299.0609405  330.94996  10.7%     -    0s
+2026-03-11 18:48:36: H    0     0                     299.2533442  330.94996  10.6%     -    0s
+2026-03-11 18:48:36:      0     0  312.70499    0   57  299.25334  312.70499  4.50%     -    0s
+2026-03-11 18:48:36: H    0     0                     303.5885663  312.68953  3.00%     -    0s
+2026-03-11 18:48:36:      0     0  312.66065    0   57  303.58857  312.66065  2.99%     -    0s
+2026-03-11 18:48:36:      0     0  312.65689    0   55  303.58857  312.65689  2.99%     -    0s
+2026-03-11 18:48:36:      0     0  312.56658    0   42  303.58857  312.56658  2.96%     -    0s
+2026-03-11 18:48:36: H    0     0                     312.5512015  312.56301  0.00%     -    0s
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Cutting planes:
+2026-03-11 18:48:36:   Learned: 2
+2026-03-11 18:48:36:   Gomory: 4
+2026-03-11 18:48:36:   Cover: 126
+2026-03-11 18:48:36:   Implied bound: 59
+2026-03-11 18:48:36:   Clique: 80
+2026-03-11 18:48:36:   MIR: 139
+2026-03-11 18:48:36:   StrongCG: 14
+2026-03-11 18:48:36:   Flow cover: 48
+2026-03-11 18:48:36:   RLT: 9
+2026-03-11 18:48:36:   Relax-and-lift: 15
+2026-03-11 18:48:36:   BQP: 7
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Explored 1 nodes (884 simplex iterations) in 0.15 seconds (0.11 work units)
+2026-03-11 18:48:36: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Solution count 7: 312.551 303.589 299.253 ... 0.144462
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:36: Best objective 3.125512014906e+02, best bound 3.125630096893e+02, gap 0.0038%
+2026-03-11 18:48:36: MIP unsatisfied constraints: []
+2026-03-11 18:48:36:
+Solve Details
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Problem : MIP
+2026-03-11 18:48:36: Status  : 2
+2026-03-11 18:48:36: Time    : 0 sec
+2026-03-11 18:48:36: Rel. Gap: 3.778004564690268e-05 %
+2026-03-11 18:48:36: Bundle ALREADY ELICITED from Bidder_2
+2026-03-11 18:48:36: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:36: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_2
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Initialize MIP
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: MIP initialized
+2026-03-11 18:48:36: Solving MIP
+2026-03-11 18:48:36: Attempt no: 1
+2026-03-11 18:48:36: Set parameter LogToConsole to value 0
+2026-03-11 18:48:36: Set parameter TimeLimit to value 600
+2026-03-11 18:48:36: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:36: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:36: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Solve MIP
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: MIP warm-start False
+2026-03-11 18:48:36: MIP time Limit of 600.0
+2026-03-11 18:48:36: MIP relative gap 0.005
+2026-03-11 18:48:36: MIP integrality tol 1e-06
+2026-03-11 18:48:36: MIP feasibility tol 1e-09
+2026-03-11 18:48:36: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:36: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Non-default parameters:
+2026-03-11 18:48:36: TimeLimit  600
+2026-03-11 18:48:36: FeasibilityTol  1e-09
+2026-03-11 18:48:36: IntFeasTol  1e-06
+2026-03-11 18:48:36: MIPGap  0.005
+2026-03-11 18:48:36: LogToConsole  0
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Optimize a model with 1142 rows, 943 columns and 11080 nonzeros (Max)
+2026-03-11 18:48:36: Model fingerprint: 0xb57f8e6d
+2026-03-11 18:48:36: Model has 369 linear objective coefficients
+2026-03-11 18:48:36: Variable types: 480 continuous, 463 integer (463 binary)
+2026-03-11 18:48:36: Coefficient statistics:
+2026-03-11 18:48:36:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:36:   Objective range  [7e-08, 4e+01]
+2026-03-11 18:48:36:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:36:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Found heuristic solution: objective 0.2039203
+2026-03-11 18:48:36: Presolve removed 194 rows and 209 columns
+2026-03-11 18:48:36: Presolve time: 0.04s
+2026-03-11 18:48:36: Presolved: 948 rows, 734 columns, 11072 nonzeros
+2026-03-11 18:48:36: Variable types: 277 continuous, 457 integer (457 binary)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Root relaxation: objective 3.306134e+02, 528 iterations, 0.00 seconds (0.00 work units)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:36:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:36:
+2026-03-11 18:48:36:      0     0  330.61344    0  177    0.20392  330.61344      -     -    0s
+2026-03-11 18:48:36: H    0     0                     235.6251627  330.61344  40.3%     -    0s
+2026-03-11 18:48:36: H    0     0                     298.0736568  330.61344  10.9%     -    0s
+2026-03-11 18:48:36: H    0     0                     298.2372281  330.61344  10.9%     -    0s
+2026-03-11 18:48:36:      0     0  312.31781    0  118  298.23723  312.31781  4.72%     -    0s
+2026-03-11 18:48:36:      0     0  312.31772    0  118  298.23723  312.31772  4.72%     -    0s
+2026-03-11 18:48:36: H    0     0                     303.0030181  312.31677  3.07%     -    0s
+2026-03-11 18:48:36: H    0     0                     306.6858908  312.31677  1.84%     -    0s
+2026-03-11 18:48:36: H    0     0                     307.5194783  312.31677  1.56%     -    0s
+2026-03-11 18:48:36: H    0     0                     310.1466790  312.31677  0.70%     -    0s
+2026-03-11 18:48:36:      0     0  312.15278    0   68  310.14668  312.15278  0.65%     -    0s
+2026-03-11 18:48:36:      0     0  312.14035    0   68  310.14668  312.14035  0.64%     -    0s
+2026-03-11 18:48:36:      0     0  312.11335    0   49  310.14668  312.11335  0.63%     -    0s
+2026-03-11 18:48:36:      0     0  312.10770    0   74  310.14668  312.10770  0.63%     -    0s
+2026-03-11 18:48:36:      0     0  311.99212    0   40  310.14668  311.99212  0.60%     -    0s
+2026-03-11 18:48:36:      0     0  311.99212    0   24  310.14668  311.99212  0.60%     -    0s
+2026-03-11 18:48:36:      0     0  311.99212    0   23  310.14668  311.99212  0.60%     -    0s
+2026-03-11 18:48:36: H    0     0                     310.1697605  311.99212  0.59%     -    0s
+2026-03-11 18:48:36: H    0     0                     311.2589684  311.99212  0.24%     -    0s
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Explored 1 nodes (1209 simplex iterations) in 0.22 seconds (0.16 work units)
+2026-03-11 18:48:36: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Solution count 10: 311.259 310.17 310.147 ... 0.20392
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:36: Best objective 3.112589684071e+02, best bound 3.119921210431e+02, gap 0.2355%
+2026-03-11 18:48:36: MIP unsatisfied constraints: []
+2026-03-11 18:48:36:
+Solve Details
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Problem : MIP
+2026-03-11 18:48:36: Status  : 2
+2026-03-11 18:48:36: Time    : 0 sec
+2026-03-11 18:48:36: Rel. Gap: 0.00235544260688054 %
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(0):
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:36: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-11 18:48:36: Bidder_3:  [1 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 1 0] | None
+2026-03-11 18:48:36: Bidder_4:  [0 1 1 1 0 1 0 1 0 0 1 1 0 0 1 0 0 1] | None
+2026-03-11 18:48:36: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: ADD BUNDLE to current query profile S
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Current query profile for Bidder_2:
+2026-03-11 18:48:36: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:36: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:36: [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Bidder_3
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Global Marginals: ['Marginal Economy -(2)', 'Marginal Economy -(3)', 'Marginal Economy -(5)', 'Marginal Economy -(0)']
+2026-03-11 18:48:36: Calculate next queries for the following sampled marginals:
+2026-03-11 18:48:36: Marginal Economy -(2)
+2026-03-11 18:48:36: Marginal Economy -(5)
+2026-03-11 18:48:36: Marginal Economy -(0)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Bidder_3 | Marginal Economy -(2)
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Status of Economy: True
+
+2026-03-11 18:48:36: ARGMAX BUNDLE FROM NORMAL MIP CAN BE USED
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(2):
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:36: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:36: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:36: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:36: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: ADD BUNDLE to current query profile S
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Current query profile for Bidder_3:
+2026-03-11 18:48:36: [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Bidder_3 | Marginal Economy -(5)
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: Status of Economy: True
+
+2026-03-11 18:48:36: Bundle ALREADY QUERIED IN THIS ITERATION from Bidder_3
+2026-03-11 18:48:36: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:36: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_3
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Initialize MIP
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: MIP initialized
+2026-03-11 18:48:36: Solving MIP
+2026-03-11 18:48:36: Attempt no: 1
+2026-03-11 18:48:36: Set parameter LogToConsole to value 0
+2026-03-11 18:48:36: Set parameter TimeLimit to value 600
+2026-03-11 18:48:36: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:36: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:36: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Solve MIP
+2026-03-11 18:48:36: -----------------------------------------------
+2026-03-11 18:48:36: MIP warm-start False
+2026-03-11 18:48:36: MIP time Limit of 600.0
+2026-03-11 18:48:36: MIP relative gap 0.005
+2026-03-11 18:48:36: MIP integrality tol 1e-06
+2026-03-11 18:48:36: MIP feasibility tol 1e-09
+2026-03-11 18:48:36: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:36: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Non-default parameters:
+2026-03-11 18:48:36: TimeLimit  600
+2026-03-11 18:48:36: FeasibilityTol  1e-09
+2026-03-11 18:48:36: IntFeasTol  1e-06
+2026-03-11 18:48:36: MIPGap  0.005
+2026-03-11 18:48:36: LogToConsole  0
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Optimize a model with 1173 rows, 919 columns and 11632 nonzeros (Max)
+2026-03-11 18:48:36: Model fingerprint: 0x3a51ce5a
+2026-03-11 18:48:36: Model has 327 linear objective coefficients
+2026-03-11 18:48:36: Variable types: 432 continuous, 487 integer (487 binary)
+2026-03-11 18:48:36: Coefficient statistics:
+2026-03-11 18:48:36:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:36:   Objective range  [2e-07, 1e+02]
+2026-03-11 18:48:36:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:36:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Presolve removed 182 rows and 152 columns
+2026-03-11 18:48:36: Presolve time: 0.05s
+2026-03-11 18:48:36: Presolved: 991 rows, 767 columns, 11928 nonzeros
+2026-03-11 18:48:36: Variable types: 285 continuous, 482 integer (482 binary)
+2026-03-11 18:48:36: Found heuristic solution: objective 38.2827872
+2026-03-11 18:48:36: Found heuristic solution: objective 87.6805405
+2026-03-11 18:48:36: Found heuristic solution: objective 236.4230510
+2026-03-11 18:48:36:
+2026-03-11 18:48:36: Root relaxation: objective 5.810213e+02, 576 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:36:
+2026-03-11 18:48:36:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:36:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:36:
+2026-03-11 18:48:36:      0     0  581.02128    0  168  236.42305  581.02128   146%     -    0s
+2026-03-11 18:48:36: H    0     0                     394.0882229  581.02128  47.4%     -    0s
+2026-03-11 18:48:36: H    0     0                     469.5344920  581.02128  23.7%     -    0s
+2026-03-11 18:48:36: H    0     0                     497.1844744  581.02128  16.9%     -    0s
+2026-03-11 18:48:36:      0     0  544.80351    0  146  497.18447  544.80351  9.58%     -    0s
+2026-03-11 18:48:36: H    0     0                     515.0483532  544.70557  5.76%     -    0s
+2026-03-11 18:48:36:      0     0  544.70557    0  145  515.04835  544.70557  5.76%     -    0s
+2026-03-11 18:48:36:      0     0  541.69911    0  106  515.04835  541.69911  5.17%     -    0s
+2026-03-11 18:48:36: H    0     0                     517.2133082  541.69328  4.73%     -    0s
+2026-03-11 18:48:36:      0     0  538.97229    0   82  517.21331  538.97229  4.21%     -    0s
+2026-03-11 18:48:36:      0     0  538.24731    0   81  517.21331  538.24731  4.07%     -    0s
+2026-03-11 18:48:36:      0     0  538.24243    0   81  517.21331  538.24243  4.07%     -    0s
+2026-03-11 18:48:37:      0     0  538.10642    0  116  517.21331  538.10642  4.04%     -    0s
+2026-03-11 18:48:37: H    0     0                     537.5733267  538.10005  0.10%     -    0s
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Cutting planes:
+2026-03-11 18:48:37:   Gomory: 7
+2026-03-11 18:48:37:   Cover: 116
+2026-03-11 18:48:37:   Implied bound: 41
+2026-03-11 18:48:37:   Clique: 76
+2026-03-11 18:48:37:   MIR: 146
+2026-03-11 18:48:37:   StrongCG: 5
+2026-03-11 18:48:37:   Flow cover: 41
+2026-03-11 18:48:37:   RLT: 3
+2026-03-11 18:48:37:   Relax-and-lift: 14
+2026-03-11 18:48:37:   BQP: 3
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Explored 1 nodes (1252 simplex iterations) in 0.32 seconds (0.22 work units)
+2026-03-11 18:48:37: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Solution count 9: 537.573 517.213 515.048 ... 38.2828
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:37: Best objective 5.375733267241e+02, best bound 5.381000517508e+02, gap 0.0980%
+2026-03-11 18:48:37: MIP unsatisfied constraints: []
+2026-03-11 18:48:37:
+Solve Details
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Problem : MIP
+2026-03-11 18:48:37: Status  : 2
+2026-03-11 18:48:37: Time    : 0 sec
+2026-03-11 18:48:37: Rel. Gap: 0.0009798198693864019 %
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(5):
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:37: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: ADD BUNDLE to current query profile S
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Current query profile for Bidder_3:
+2026-03-11 18:48:37: [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_3 | Marginal Economy -(0)
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Status of Economy: True
+
+2026-03-11 18:48:37: ARGMAX BUNDLE FROM NORMAL MIP CAN BE USED
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(0):
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:37: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_3:  [1 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 1 0] | None
+2026-03-11 18:48:37: Bidder_4:  [0 1 1 1 0 1 0 1 0 0 1 1 0 0 1 0 0 1] | None
+2026-03-11 18:48:37: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: ADD BUNDLE to current query profile S
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Current query profile for Bidder_3:
+2026-03-11 18:48:37: [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: [1 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 1 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_4
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Global Marginals: ['Marginal Economy -(2)', 'Marginal Economy -(3)', 'Marginal Economy -(5)', 'Marginal Economy -(0)']
+2026-03-11 18:48:37: Calculate next queries for the following sampled marginals:
+2026-03-11 18:48:37: Marginal Economy -(3)
+2026-03-11 18:48:37: Marginal Economy -(5)
+2026-03-11 18:48:37: Marginal Economy -(2)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_4 | Marginal Economy -(3)
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Status of Economy: True
+
+2026-03-11 18:48:37: ARGMAX BUNDLE FROM NORMAL MIP CAN BE USED
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(3):
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Bidder_0:  [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:37: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_4:  [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:37: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: ADD BUNDLE to current query profile S
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Current query profile for Bidder_4:
+2026-03-11 18:48:37: [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_4 | Marginal Economy -(5)
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Status of Economy: True
+
+2026-03-11 18:48:37: ARGMAX BUNDLE FROM NORMAL MIP CAN BE USED
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(5):
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:37: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: ADD BUNDLE to current query profile S
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Current query profile for Bidder_4:
+2026-03-11 18:48:37: [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_4 | Marginal Economy -(2)
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Status of Economy: True
+
+2026-03-11 18:48:37: Bundle ALREADY QUERIED IN THIS ITERATION from Bidder_4
+2026-03-11 18:48:37: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:37: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_4
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Initialize MIP
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: MIP initialized
+2026-03-11 18:48:37: Solving MIP
+2026-03-11 18:48:37: Attempt no: 1
+2026-03-11 18:48:37: Set parameter LogToConsole to value 0
+2026-03-11 18:48:37: Set parameter TimeLimit to value 600
+2026-03-11 18:48:37: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:37: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:37: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Solve MIP
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: MIP warm-start False
+2026-03-11 18:48:37: MIP time Limit of 600.0
+2026-03-11 18:48:37: MIP relative gap 0.005
+2026-03-11 18:48:37: MIP integrality tol 1e-06
+2026-03-11 18:48:37: MIP feasibility tol 1e-09
+2026-03-11 18:48:37: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:37: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Non-default parameters:
+2026-03-11 18:48:37: TimeLimit  600
+2026-03-11 18:48:37: FeasibilityTol  1e-09
+2026-03-11 18:48:37: IntFeasTol  1e-06
+2026-03-11 18:48:37: MIPGap  0.005
+2026-03-11 18:48:37: LogToConsole  0
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Optimize a model with 1102 rows, 891 columns and 10758 nonzeros (Max)
+2026-03-11 18:48:37: Model fingerprint: 0x5ea4a278
+2026-03-11 18:48:37: Model has 309 linear objective coefficients
+2026-03-11 18:48:37: Variable types: 432 continuous, 459 integer (459 binary)
+2026-03-11 18:48:37: Coefficient statistics:
+2026-03-11 18:48:37:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:37:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:37:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:37:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:37: Presolve removed 178 rows and 171 columns
+2026-03-11 18:48:37: Presolve time: 0.06s
+2026-03-11 18:48:37: Presolved: 924 rows, 720 columns, 10978 nonzeros
+2026-03-11 18:48:37: Variable types: 267 continuous, 453 integer (453 binary)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Root relaxation: objective 5.798827e+02, 551 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:37:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:37:
+2026-03-11 18:48:37:      0     0  579.88267    0  177    0.14446  579.88267      -     -    0s
+2026-03-11 18:48:37: H    0     0                     473.9352275  579.88267  22.4%     -    0s
+2026-03-11 18:48:37: H    0     0                     496.5179212  579.88267  16.8%     -    0s
+2026-03-11 18:48:37:      0     0  541.40989    0   67  496.51792  541.40989  9.04%     -    0s
+2026-03-11 18:48:37: H    0     0                     533.5244682  541.40218  1.48%     -    0s
+2026-03-11 18:48:37:      0     0  540.37303    0   60  533.52447  540.37303  1.28%     -    0s
+2026-03-11 18:48:37:      0     0  539.95814    0   55  533.52447  539.95814  1.21%     -    0s
+2026-03-11 18:48:37:      0     0  539.81374    0   50  533.52447  539.81374  1.18%     -    0s
+2026-03-11 18:48:37:      0     0  539.79678    0   48  533.52447  539.79678  1.18%     -    0s
+2026-03-11 18:48:37:      0     0  539.79333    0   47  533.52447  539.79333  1.17%     -    0s
+2026-03-11 18:48:37:      0     0  537.35183    0   18  533.52447  537.35183  0.72%     -    0s
+2026-03-11 18:48:37:      0     0  537.35183    0   39  533.52447  537.35183  0.72%     -    0s
+2026-03-11 18:48:37:      0     0  537.35183    0   36  533.52447  537.35183  0.72%     -    0s
+2026-03-11 18:48:37: H    0     0                     533.9730644  537.35183  0.63%     -    0s
+2026-03-11 18:48:37: H    0     0                     537.2882468  537.35183  0.01%     -    0s
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Explored 1 nodes (1203 simplex iterations) in 0.25 seconds (0.18 work units)
+2026-03-11 18:48:37: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Solution count 6: 537.288 533.973 533.524 ... 0.144462
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:37: Best objective 5.372882467955e+02, best bound 5.373518291281e+02, gap 0.0118%
+2026-03-11 18:48:37: MIP unsatisfied constraints: []
+2026-03-11 18:48:37:
+Solve Details
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Problem : MIP
+2026-03-11 18:48:37: Status  : 2
+2026-03-11 18:48:37: Time    : 0 sec
+2026-03-11 18:48:37: Rel. Gap: 0.00011833933271377494 %
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(2):
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:37: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:37: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: ADD BUNDLE to current query profile S
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Current query profile for Bidder_4:
+2026-03-11 18:48:37: [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_5
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Global Marginals: ['Marginal Economy -(2)', 'Marginal Economy -(3)', 'Marginal Economy -(5)', 'Marginal Economy -(0)']
+2026-03-11 18:48:37: Calculate next queries for the following sampled marginals:
+2026-03-11 18:48:37: Marginal Economy -(2)
+2026-03-11 18:48:37: Marginal Economy -(3)
+2026-03-11 18:48:37: Marginal Economy -(0)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_5 | Marginal Economy -(2)
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Status of Economy: True
+
+2026-03-11 18:48:37: Bundle ALREADY ELICITED from Bidder_5
+2026-03-11 18:48:37: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:37: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_5
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Initialize MIP
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: MIP initialized
+2026-03-11 18:48:37: Solving MIP
+2026-03-11 18:48:37: Attempt no: 1
+2026-03-11 18:48:37: Set parameter LogToConsole to value 0
+2026-03-11 18:48:37: Set parameter TimeLimit to value 600
+2026-03-11 18:48:37: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:37: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:37: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Solve MIP
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: MIP warm-start False
+2026-03-11 18:48:37: MIP time Limit of 600.0
+2026-03-11 18:48:37: MIP relative gap 0.005
+2026-03-11 18:48:37: MIP integrality tol 1e-06
+2026-03-11 18:48:37: MIP feasibility tol 1e-09
+2026-03-11 18:48:37: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:37: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Non-default parameters:
+2026-03-11 18:48:37: TimeLimit  600
+2026-03-11 18:48:37: FeasibilityTol  1e-09
+2026-03-11 18:48:37: IntFeasTol  1e-06
+2026-03-11 18:48:37: MIPGap  0.005
+2026-03-11 18:48:37: LogToConsole  0
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Optimize a model with 1100 rows, 891 columns and 10722 nonzeros (Max)
+2026-03-11 18:48:37: Model fingerprint: 0x07213b8f
+2026-03-11 18:48:37: Model has 309 linear objective coefficients
+2026-03-11 18:48:37: Variable types: 432 continuous, 459 integer (459 binary)
+2026-03-11 18:48:37: Coefficient statistics:
+2026-03-11 18:48:37:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:37:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:37:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:37:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Found heuristic solution: objective 0.1782041
+2026-03-11 18:48:37: Presolve removed 177 rows and 171 columns
+2026-03-11 18:48:37: Presolve time: 0.06s
+2026-03-11 18:48:37: Presolved: 923 rows, 720 columns, 10959 nonzeros
+2026-03-11 18:48:37: Variable types: 267 continuous, 453 integer (453 binary)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Root relaxation: objective 5.796898e+02, 566 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:37:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:37:
+2026-03-11 18:48:37:      0     0  579.68981    0  194    0.17820  579.68981      -     -    0s
+2026-03-11 18:48:37: H    0     0                     435.6395370  579.68981  33.1%     -    0s
+2026-03-11 18:48:37: H    0     0                     492.6609154  579.68981  17.7%     -    0s
+2026-03-11 18:48:37:      0     0  540.47479    0  112  492.66092  540.47479  9.71%     -    0s
+2026-03-11 18:48:37: H    0     0                     529.8098096  539.95084  1.91%     -    0s
+2026-03-11 18:48:37:      0     0  536.45601    0   97  529.80981  536.45601  1.25%     -    0s
+2026-03-11 18:48:37:      0     0  536.25978    0   92  529.80981  536.25978  1.22%     -    0s
+2026-03-11 18:48:37:      0     0  535.86202    0   83  529.80981  535.86202  1.14%     -    0s
+2026-03-11 18:48:37:      0     0  535.81802    0   85  529.80981  535.81802  1.13%     -    0s
+2026-03-11 18:48:37:      0     0  533.80382    0   29  529.80981  533.80382  0.75%     -    0s
+2026-03-11 18:48:37:      0     0  533.79794    0   22  529.80981  533.79794  0.75%     -    0s
+2026-03-11 18:48:37: H    0     0                     532.3078324  533.79794  0.28%     -    0s
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Explored 1 nodes (1226 simplex iterations) in 0.25 seconds (0.17 work units)
+2026-03-11 18:48:37: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Solution count 5: 532.308 529.81 492.661 ... 0.178204
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:37: Best objective 5.323078324035e+02, best bound 5.337979365462e+02, gap 0.2799%
+2026-03-11 18:48:37: MIP unsatisfied constraints: []
+2026-03-11 18:48:37:
+Solve Details
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Problem : MIP
+2026-03-11 18:48:37: Status  : 2
+2026-03-11 18:48:37: Time    : 0 sec
+2026-03-11 18:48:37: Rel. Gap: 0.0027993278549913636 %
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(2):
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:37: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:37: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:37: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: ADD BUNDLE to current query profile S
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Current query profile for Bidder_5:
+2026-03-11 18:48:37: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Bidder_5 | Marginal Economy -(3)
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: Status of Economy: True
+
+2026-03-11 18:48:37: Bundle ALREADY ELICITED from Bidder_5
+2026-03-11 18:48:37: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:37: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_5
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Initialize MIP
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: MIP initialized
+2026-03-11 18:48:37: Solving MIP
+2026-03-11 18:48:37: Attempt no: 1
+2026-03-11 18:48:37: Set parameter LogToConsole to value 0
+2026-03-11 18:48:37: Set parameter TimeLimit to value 600
+2026-03-11 18:48:37: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:37: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:37: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Solve MIP
+2026-03-11 18:48:37: -----------------------------------------------
+2026-03-11 18:48:37: MIP warm-start False
+2026-03-11 18:48:37: MIP time Limit of 600.0
+2026-03-11 18:48:37: MIP relative gap 0.005
+2026-03-11 18:48:37: MIP integrality tol 1e-06
+2026-03-11 18:48:37: MIP feasibility tol 1e-09
+2026-03-11 18:48:37: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:37: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Non-default parameters:
+2026-03-11 18:48:37: TimeLimit  600
+2026-03-11 18:48:37: FeasibilityTol  1e-09
+2026-03-11 18:48:37: IntFeasTol  1e-06
+2026-03-11 18:48:37: MIPGap  0.005
+2026-03-11 18:48:37: LogToConsole  0
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Optimize a model with 1009 rows, 855 columns and 9590 nonzeros (Max)
+2026-03-11 18:48:37: Model fingerprint: 0x67e0a840
+2026-03-11 18:48:37: Model has 286 linear objective coefficients
+2026-03-11 18:48:37: Variable types: 432 continuous, 423 integer (423 binary)
+2026-03-11 18:48:37: Coefficient statistics:
+2026-03-11 18:48:37:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:37:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:37:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:37:   RHS range        [3e-03, 2e+01]
+2026-03-11 18:48:37:
+2026-03-11 18:48:37: Found heuristic solution: objective 0.1782041
+2026-03-11 18:48:37: Presolve removed 160 rows and 191 columns
+2026-03-11 18:48:37: Presolve time: 0.03s
+2026-03-11 18:48:37: Presolved: 849 rows, 664 columns, 9652 nonzeros
+2026-03-11 18:48:37: Variable types: 246 continuous, 418 integer (418 binary)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Root relaxation: objective 5.716759e+02, 537 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:38:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:38:
+2026-03-11 18:48:38:      0     0  571.67587    0  136    0.17820  571.67587      -     -    0s
+2026-03-11 18:48:38: H    0     0                     455.0210412  571.67587  25.6%     -    0s
+2026-03-11 18:48:38: H    0     0                     495.2236064  571.67587  15.4%     -    0s
+2026-03-11 18:48:38:      0     0  541.34767    0   87  495.22361  541.34767  9.31%     -    0s
+2026-03-11 18:48:38: H    0     0                     517.9902525  541.31606  4.50%     -    0s
+2026-03-11 18:48:38:      0     0  536.71033    0  157  517.99025  536.71033  3.61%     -    0s
+2026-03-11 18:48:38:      0     0  536.69696    0  157  517.99025  536.69696  3.61%     -    0s
+2026-03-11 18:48:38:      0     0  535.42100    0  108  517.99025  535.42100  3.37%     -    0s
+2026-03-11 18:48:38: H    0     0                     526.2162658  535.41142  1.75%     -    0s
+2026-03-11 18:48:38:      0     0  532.07314    0   66  526.21627  532.07314  1.11%     -    0s
+2026-03-11 18:48:38:      0     0  532.03664    0   53  526.21627  532.03664  1.11%     -    0s
+2026-03-11 18:48:38:      0     0  531.36766    0    9  526.21627  531.36766  0.98%     -    0s
+2026-03-11 18:48:38:      0     0  531.31641    0   49  526.21627  531.31641  0.97%     -    0s
+2026-03-11 18:48:38:      0     0  531.31641    0   49  526.21627  531.31641  0.97%     -    0s
+2026-03-11 18:48:38: H    0     0                     531.0895031  531.31641  0.04%     -    0s
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Explored 1 nodes (1220 simplex iterations) in 0.27 seconds (0.18 work units)
+2026-03-11 18:48:38: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Solution count 6: 531.09 526.216 517.99 ... 0.178204
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:38: Best objective 5.310895030889e+02, best bound 5.313164092368e+02, gap 0.0427%
+2026-03-11 18:48:38: MIP unsatisfied constraints: []
+2026-03-11 18:48:38:
+Solve Details
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Problem : MIP
+2026-03-11 18:48:38: Status  : 2
+2026-03-11 18:48:38: Time    : 0 sec
+2026-03-11 18:48:38: Rel. Gap: 0.0004272465310805357 %
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(3):
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Bidder_0:  [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1] | None
+2026-03-11 18:48:38: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38: Bidder_4:  [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:38: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: ADD BUNDLE to current query profile S
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Current query profile for Bidder_5:
+2026-03-11 18:48:38: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Bidder_5 | Marginal Economy -(0)
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Status of Economy: True
+
+2026-03-11 18:48:38: Bundle ALREADY ELICITED from Bidder_5
+2026-03-11 18:48:38: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:38: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_5
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Initialize MIP
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: MIP initialized
+2026-03-11 18:48:38: Solving MIP
+2026-03-11 18:48:38: Attempt no: 1
+2026-03-11 18:48:38: Set parameter LogToConsole to value 0
+2026-03-11 18:48:38: Set parameter TimeLimit to value 600
+2026-03-11 18:48:38: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:38: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:38: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Solve MIP
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: MIP warm-start False
+2026-03-11 18:48:38: MIP time Limit of 600.0
+2026-03-11 18:48:38: MIP relative gap 0.005
+2026-03-11 18:48:38: MIP integrality tol 1e-06
+2026-03-11 18:48:38: MIP feasibility tol 1e-09
+2026-03-11 18:48:38: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:38: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Non-default parameters:
+2026-03-11 18:48:38: TimeLimit  600
+2026-03-11 18:48:38: FeasibilityTol  1e-09
+2026-03-11 18:48:38: IntFeasTol  1e-06
+2026-03-11 18:48:38: MIPGap  0.005
+2026-03-11 18:48:38: LogToConsole  0
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Optimize a model with 1142 rows, 943 columns and 11080 nonzeros (Max)
+2026-03-11 18:48:38: Model fingerprint: 0xe7fbdd0b
+2026-03-11 18:48:38: Model has 369 linear objective coefficients
+2026-03-11 18:48:38: Variable types: 480 continuous, 463 integer (463 binary)
+2026-03-11 18:48:38: Coefficient statistics:
+2026-03-11 18:48:38:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:38:   Objective range  [7e-08, 4e+01]
+2026-03-11 18:48:38:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:38:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Found heuristic solution: objective 0.1782041
+2026-03-11 18:48:38: Presolve removed 194 rows and 209 columns
+2026-03-11 18:48:38: Presolve time: 0.04s
+2026-03-11 18:48:38: Presolved: 948 rows, 734 columns, 11072 nonzeros
+2026-03-11 18:48:38: Variable types: 277 continuous, 457 integer (457 binary)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Root relaxation: objective 3.305242e+02, 545 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:38:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:38:
+2026-03-11 18:48:38:      0     0  330.52418    0  208    0.17820  330.52418      -     -    0s
+2026-03-11 18:48:38: H    0     0                     188.3597415  330.52418  75.5%     -    0s
+2026-03-11 18:48:38: H    0     0                     235.5722031  330.52418  40.3%     -    0s
+2026-03-11 18:48:38: H    0     0                     298.3235402  330.52418  10.8%     -    0s
+2026-03-11 18:48:38:      0     0  312.66629    0   57  298.32354  312.66629  4.81%     -    0s
+2026-03-11 18:48:38: H    0     0                     303.5885663  312.60461  2.97%     -    0s
+2026-03-11 18:48:38:      0     0  312.60461    0   53  303.58857  312.60461  2.97%     -    0s
+2026-03-11 18:48:38:      0     0  312.60461    0   57  303.58857  312.60461  2.97%     -    0s
+2026-03-11 18:48:38:      0     0  312.12402    0  152  303.58857  312.12402  2.81%     -    0s
+2026-03-11 18:48:38: H    0     0                     311.8478967  312.12205  0.09%     -    0s
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Cutting planes:
+2026-03-11 18:48:38:   Learned: 2
+2026-03-11 18:48:38:   Gomory: 7
+2026-03-11 18:48:38:   Cover: 86
+2026-03-11 18:48:38:   Implied bound: 62
+2026-03-11 18:48:38:   Clique: 68
+2026-03-11 18:48:38:   MIR: 89
+2026-03-11 18:48:38:   StrongCG: 7
+2026-03-11 18:48:38:   Flow cover: 31
+2026-03-11 18:48:38:   RLT: 7
+2026-03-11 18:48:38:   Relax-and-lift: 9
+2026-03-11 18:48:38:   BQP: 8
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Explored 1 nodes (1030 simplex iterations) in 0.18 seconds (0.13 work units)
+2026-03-11 18:48:38: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Solution count 6: 311.848 303.589 298.324 ... 0.178204
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:38: Best objective 3.118478967237e+02, best bound 3.121220471443e+02, gap 0.0879%
+2026-03-11 18:48:38: MIP unsatisfied constraints: []
+2026-03-11 18:48:38:
+Solve Details
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Problem : MIP
+2026-03-11 18:48:38: Status  : 2
+2026-03-11 18:48:38: Time    : 0 sec
+2026-03-11 18:48:38: Rel. Gap: 0.000879115823801171 %
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Marginal Economy -(0):
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:38: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-11 18:48:38: Bidder_3:  [1 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 1 0] | None
+2026-03-11 18:48:38: Bidder_4:  [0 1 1 1 0 1 0 1 0 0 1 1 0 0 1 0 0 1] | None
+2026-03-11 18:48:38: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: ADD BUNDLE to current query profile S
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Current query profile for Bidder_5:
+2026-03-11 18:48:38: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38: [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: MAIN ECONOMY FOR ALL BIDDERS
+2026-03-11 18:48:38: -----------------------------------------------
+
+2026-03-11 18:48:38: Bidder_0
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Main Economy
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: Status of Economy: False
+2026-03-11 18:48:38: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:38: OPTIMIZATION STEP
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Initialize MIP
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: MIP initialized
+2026-03-11 18:48:38: Solving MIP
+2026-03-11 18:48:38: Attempt no: 1
+2026-03-11 18:48:38: Set parameter LogToConsole to value 0
+2026-03-11 18:48:38: Set parameter TimeLimit to value 600
+2026-03-11 18:48:38: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:38: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:38: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Solve MIP
+2026-03-11 18:48:38: -----------------------------------------------
+2026-03-11 18:48:38: MIP warm-start False
+2026-03-11 18:48:38: MIP time Limit of 600.0
+2026-03-11 18:48:38: MIP relative gap 0.005
+2026-03-11 18:48:38: MIP integrality tol 1e-06
+2026-03-11 18:48:38: MIP feasibility tol 1e-09
+2026-03-11 18:48:38: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:38: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Non-default parameters:
+2026-03-11 18:48:38: TimeLimit  600
+2026-03-11 18:48:38: FeasibilityTol  1e-09
+2026-03-11 18:48:38: IntFeasTol  1e-06
+2026-03-11 18:48:38: MIPGap  0.005
+2026-03-11 18:48:38: LogToConsole  0
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Optimize a model with 1326 rows, 1084 columns and 12896 nonzeros (Max)
+2026-03-11 18:48:38: Model fingerprint: 0x7841e2d2
+2026-03-11 18:48:38: Model has 385 linear objective coefficients
+2026-03-11 18:48:38: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:38: Coefficient statistics:
+2026-03-11 18:48:38:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:38:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:38:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:38:   RHS range        [1e-04, 1e+00]
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:38: Presolve removed 211 rows and 209 columns
+2026-03-11 18:48:38: Presolve time: 0.06s
+2026-03-11 18:48:38: Presolved: 1115 rows, 875 columns, 13202 nonzeros
+2026-03-11 18:48:38: Variable types: 325 continuous, 550 integer (550 binary)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Root relaxation: objective 5.811196e+02, 657 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:38:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:38:
+2026-03-11 18:48:38:      0     0  581.11957    0  170    0.14446  581.11957      -     -    0s
+2026-03-11 18:48:38: H    0     0                     198.2215732  581.11957   193%     -    0s
+2026-03-11 18:48:38: H    0     0                     476.1610139  581.11957  22.0%     -    0s
+2026-03-11 18:48:38: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:38:      0     0  545.36926    0  155  497.18447  545.36926  9.69%     -    0s
+2026-03-11 18:48:38: H    0     0                     519.1581463  544.96100  4.97%     -    0s
+2026-03-11 18:48:38: H    0     0                     530.9777034  544.96100  2.63%     -    0s
+2026-03-11 18:48:38:      0     0  544.84094    0  174  530.97770  544.84094  2.61%     -    0s
+2026-03-11 18:48:38:      0     0  544.83777    0  173  530.97770  544.83777  2.61%     -    0s
+2026-03-11 18:48:38:      0     0  541.92583    0   41  530.97770  541.92583  2.06%     -    0s
+2026-03-11 18:48:38: H    0     0                     537.8492573  541.89359  0.75%     -    0s
+2026-03-11 18:48:38:      0     0          -    0       537.84926  540.46480  0.49%     -    0s
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Cutting planes:
+2026-03-11 18:48:38:   Learned: 3
+2026-03-11 18:48:38:   Gomory: 12
+2026-03-11 18:48:38:   Cover: 152
+2026-03-11 18:48:38:   Implied bound: 49
+2026-03-11 18:48:38:   Clique: 61
+2026-03-11 18:48:38:   MIR: 145
+2026-03-11 18:48:38:   StrongCG: 9
+2026-03-11 18:48:38:   Flow cover: 75
+2026-03-11 18:48:38:   RLT: 9
+2026-03-11 18:48:38:   Relax-and-lift: 17
+2026-03-11 18:48:38:   BQP: 4
+2026-03-11 18:48:38:   PSD: 1
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Explored 1 nodes (1113 simplex iterations) in 0.25 seconds (0.18 work units)
+2026-03-11 18:48:38: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Solution count 7: 537.849 530.978 519.158 ... 0.144462
+2026-03-11 18:48:38:
+2026-03-11 18:48:38: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:38: Best objective 5.378492573035e+02, best bound 5.404648049095e+02, gap 0.4863%
+2026-03-11 18:48:38: MIP unsatisfied constraints: []
+2026-03-11 18:48:39:
+Solve Details
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Problem : MIP
+2026-03-11 18:48:39: Status  : 2
+2026-03-11 18:48:39: Time    : 0 sec
+2026-03-11 18:48:39: Rel. Gap: 0.004862975211879675 %
+2026-03-11 18:48:39: Bundle ALREADY QUERIED IN THIS ITERATION from Bidder_0
+2026-03-11 18:48:39: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:39: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_0
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Initialize MIP
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: MIP initialized
+2026-03-11 18:48:39: Solving MIP
+2026-03-11 18:48:39: Attempt no: 1
+2026-03-11 18:48:39: Set parameter LogToConsole to value 0
+2026-03-11 18:48:39: Set parameter TimeLimit to value 600
+2026-03-11 18:48:39: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:39: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:39: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Solve MIP
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: MIP warm-start False
+2026-03-11 18:48:39: MIP time Limit of 600.0
+2026-03-11 18:48:39: MIP relative gap 0.005
+2026-03-11 18:48:39: MIP integrality tol 1e-06
+2026-03-11 18:48:39: MIP feasibility tol 1e-09
+2026-03-11 18:48:39: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:39: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Non-default parameters:
+2026-03-11 18:48:39: TimeLimit  600
+2026-03-11 18:48:39: FeasibilityTol  1e-09
+2026-03-11 18:48:39: IntFeasTol  1e-06
+2026-03-11 18:48:39: MIPGap  0.005
+2026-03-11 18:48:39: LogToConsole  0
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Optimize a model with 1335 rows, 1084 columns and 13058 nonzeros (Max)
+2026-03-11 18:48:39: Model fingerprint: 0x7941c9ba
+2026-03-11 18:48:39: Model has 385 linear objective coefficients
+2026-03-11 18:48:39: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:39: Coefficient statistics:
+2026-03-11 18:48:39:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:39:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:39:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:39:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Found heuristic solution: objective 0.5046574
+2026-03-11 18:48:39: Presolve removed 216 rows and 210 columns
+2026-03-11 18:48:39: Presolve time: 0.08s
+2026-03-11 18:48:39: Presolved: 1119 rows, 874 columns, 13423 nonzeros
+2026-03-11 18:48:39: Variable types: 325 continuous, 549 integer (549 binary)
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Root relaxation: objective 5.811196e+02, 651 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:39:
+2026-03-11 18:48:39:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:39:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:39:
+2026-03-11 18:48:39:      0     0  581.11957    0  171    0.50466  581.11957      -     -    0s
+2026-03-11 18:48:39: H    0     0                     448.2346313  581.11957  29.6%     -    0s
+2026-03-11 18:48:39: H    0     0                     453.9913852  581.11957  28.0%     -    0s
+2026-03-11 18:48:39: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:39:      0     0  545.04323    0  164  497.18447  545.04323  9.63%     -    0s
+2026-03-11 18:48:39: H    0     0                     514.2403618  544.92063  5.97%     -    0s
+2026-03-11 18:48:39:      0     0  544.92063    0  160  514.24036  544.92063  5.97%     -    0s
+2026-03-11 18:48:39:      0     0  544.92063    0  161  514.24036  544.92063  5.97%     -    0s
+2026-03-11 18:48:39:      0     0  541.61291    0  114  514.24036  541.61291  5.32%     -    0s
+2026-03-11 18:48:39: H    0     0                     535.0213418  541.60473  1.23%     -    0s
+2026-03-11 18:48:39:      0     0  538.68755    0   71  535.02134  538.68755  0.69%     -    0s
+2026-03-11 18:48:39:      0     0  538.26189    0   67  535.02134  538.26189  0.61%     -    0s
+2026-03-11 18:48:39:      0     0  537.73232    0   52  535.02134  537.73232  0.51%     -    0s
+2026-03-11 18:48:39:      0     0  537.73232    0   51  535.02134  537.73232  0.51%     -    0s
+2026-03-11 18:48:39:      0     0          -    0       535.02134  537.61217  0.48%     -    0s
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Cutting planes:
+2026-03-11 18:48:39:   Gomory: 14
+2026-03-11 18:48:39:   Cover: 125
+2026-03-11 18:48:39:   Implied bound: 41
+2026-03-11 18:48:39:   Clique: 62
+2026-03-11 18:48:39:   MIR: 177
+2026-03-11 18:48:39:   StrongCG: 14
+2026-03-11 18:48:39:   Flow cover: 40
+2026-03-11 18:48:39:   RLT: 7
+2026-03-11 18:48:39:   Relax-and-lift: 16
+2026-03-11 18:48:39:   BQP: 3
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Explored 1 nodes (1168 simplex iterations) in 0.27 seconds (0.20 work units)
+2026-03-11 18:48:39: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Solution count 6: 535.021 514.24 497.184 ... 0.504657
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:39: Best objective 5.350213418173e+02, best bound 5.376121745793e+02, gap 0.4842%
+2026-03-11 18:48:39: MIP unsatisfied constraints: []
+2026-03-11 18:48:39:
+Solve Details
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Problem : MIP
+2026-03-11 18:48:39: Status  : 2
+2026-03-11 18:48:39: Time    : 0 sec
+2026-03-11 18:48:39: Rel. Gap: 0.00484248488691187 %
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Main Economy:
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:39: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:39: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: ADD BUNDLE to current query profile S
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Current query profile for Bidder_0:
+2026-03-11 18:48:39: [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:39: [1 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:39: [0 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:39: [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Bidder_1
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Main Economy
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Status of Economy: True
+2026-03-11 18:48:39: Bundle ALREADY ELICITED from Bidder_1
+2026-03-11 18:48:39: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:39: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_1
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Initialize MIP
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: MIP initialized
+2026-03-11 18:48:39: Solving MIP
+2026-03-11 18:48:39: Attempt no: 1
+2026-03-11 18:48:39: Set parameter LogToConsole to value 0
+2026-03-11 18:48:39: Set parameter TimeLimit to value 600
+2026-03-11 18:48:39: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:39: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:39: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Solve MIP
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: MIP warm-start False
+2026-03-11 18:48:39: MIP time Limit of 600.0
+2026-03-11 18:48:39: MIP relative gap 0.005
+2026-03-11 18:48:39: MIP integrality tol 1e-06
+2026-03-11 18:48:39: MIP feasibility tol 1e-09
+2026-03-11 18:48:39: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:39: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Non-default parameters:
+2026-03-11 18:48:39: TimeLimit  600
+2026-03-11 18:48:39: FeasibilityTol  1e-09
+2026-03-11 18:48:39: IntFeasTol  1e-06
+2026-03-11 18:48:39: MIPGap  0.005
+2026-03-11 18:48:39: LogToConsole  0
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Optimize a model with 1335 rows, 1084 columns and 13058 nonzeros (Max)
+2026-03-11 18:48:39: Model fingerprint: 0x7ce3733e
+2026-03-11 18:48:39: Model has 385 linear objective coefficients
+2026-03-11 18:48:39: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:39: Coefficient statistics:
+2026-03-11 18:48:39:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:39:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:39:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:39:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Found heuristic solution: objective 11.9501263
+2026-03-11 18:48:39: Presolve removed 217 rows and 209 columns
+2026-03-11 18:48:39: Presolve time: 0.07s
+2026-03-11 18:48:39: Presolved: 1118 rows, 875 columns, 13291 nonzeros
+2026-03-11 18:48:39: Variable types: 325 continuous, 550 integer (550 binary)
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Root relaxation: objective 5.811196e+02, 651 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:39:
+2026-03-11 18:48:39:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:39:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:39:
+2026-03-11 18:48:39:      0     0  581.11957    0  170   11.95013  581.11957  4763%     -    0s
+2026-03-11 18:48:39: H    0     0                     430.0602461  581.11957  35.1%     -    0s
+2026-03-11 18:48:39: H    0     0                     476.1610139  581.11957  22.0%     -    0s
+2026-03-11 18:48:39: H    0     0                     497.1844744  581.11957  16.9%     -    0s
+2026-03-11 18:48:39:      0     0  538.65891    0  139  497.18447  538.65891  8.34%     -    0s
+2026-03-11 18:48:39: H    0     0                     511.1742790  538.24969  5.30%     -    0s
+2026-03-11 18:48:39: H    0     0                     513.9221481  538.24969  4.73%     -    0s
+2026-03-11 18:48:39:      0     0  538.21391    0  148  513.92215  538.21391  4.73%     -    0s
+2026-03-11 18:48:39:      0     0  538.17044    0  146  513.92215  538.17044  4.72%     -    0s
+2026-03-11 18:48:39:      0     0  538.17011    0  148  513.92215  538.17011  4.72%     -    0s
+2026-03-11 18:48:39:      0     0  531.88853    0   89  513.92215  531.88853  3.50%     -    0s
+2026-03-11 18:48:39:      0     0  531.82897    0   88  513.92215  531.82897  3.48%     -    0s
+2026-03-11 18:48:39:      0     0  531.80822    0   89  513.92215  531.80822  3.48%     -    0s
+2026-03-11 18:48:39:      0     0  530.52444    0  120  513.92215  530.52444  3.23%     -    0s
+2026-03-11 18:48:39: H    0     0                     529.8653900  530.48751  0.12%     -    0s
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Cutting planes:
+2026-03-11 18:48:39:   Learned: 3
+2026-03-11 18:48:39:   Gomory: 14
+2026-03-11 18:48:39:   Cover: 117
+2026-03-11 18:48:39:   Implied bound: 62
+2026-03-11 18:48:39:   Clique: 62
+2026-03-11 18:48:39:   MIR: 178
+2026-03-11 18:48:39:   StrongCG: 14
+2026-03-11 18:48:39:   Flow cover: 28
+2026-03-11 18:48:39:   RLT: 6
+2026-03-11 18:48:39:   Relax-and-lift: 18
+2026-03-11 18:48:39:   BQP: 3
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Explored 1 nodes (1291 simplex iterations) in 0.36 seconds (0.26 work units)
+2026-03-11 18:48:39: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Solution count 7: 529.865 513.922 511.174 ... 11.9501
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:39: Best objective 5.298653900157e+02, best bound 5.304875105161e+02, gap 0.1174%
+2026-03-11 18:48:39: MIP unsatisfied constraints: []
+2026-03-11 18:48:39:
+Solve Details
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Problem : MIP
+2026-03-11 18:48:39: Status  : 2
+2026-03-11 18:48:39: Time    : 0 sec
+2026-03-11 18:48:39: Rel. Gap: 0.001174110466777376 %
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Main Economy:
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:39: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:39: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:39: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: ADD BUNDLE to current query profile S
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Current query profile for Bidder_1:
+2026-03-11 18:48:39: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:39: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:39: [0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:39: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Bidder_2
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Main Economy
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39: Status of Economy: True
+2026-03-11 18:48:39: Bundle ALREADY ELICITED from Bidder_2
+2026-03-11 18:48:39: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:39: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_2
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:39:
+2026-03-11 18:48:39: Initialize MIP
+2026-03-11 18:48:39: -----------------------------------------------
+2026-03-11 18:48:40: MIP initialized
+2026-03-11 18:48:40: Solving MIP
+2026-03-11 18:48:40: Attempt no: 1
+2026-03-11 18:48:40: Set parameter LogToConsole to value 0
+2026-03-11 18:48:40: Set parameter TimeLimit to value 600
+2026-03-11 18:48:40: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:40: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:40: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Solve MIP
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: MIP warm-start False
+2026-03-11 18:48:40: MIP time Limit of 600.0
+2026-03-11 18:48:40: MIP relative gap 0.005
+2026-03-11 18:48:40: MIP integrality tol 1e-06
+2026-03-11 18:48:40: MIP feasibility tol 1e-09
+2026-03-11 18:48:40: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:40: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Non-default parameters:
+2026-03-11 18:48:40: TimeLimit  600
+2026-03-11 18:48:40: FeasibilityTol  1e-09
+2026-03-11 18:48:40: IntFeasTol  1e-06
+2026-03-11 18:48:40: MIPGap  0.005
+2026-03-11 18:48:40: LogToConsole  0
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Optimize a model with 1335 rows, 1084 columns and 13058 nonzeros (Max)
+2026-03-11 18:48:40: Model fingerprint: 0x8a49c18a
+2026-03-11 18:48:40: Model has 385 linear objective coefficients
+2026-03-11 18:48:40: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:40: Coefficient statistics:
+2026-03-11 18:48:40:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:40:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:40:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:40:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Found heuristic solution: objective 0.2039203
+2026-03-11 18:48:40: Presolve removed 212 rows and 209 columns
+2026-03-11 18:48:40: Presolve time: 0.06s
+2026-03-11 18:48:40: Presolved: 1123 rows, 875 columns, 13359 nonzeros
+2026-03-11 18:48:40: Variable types: 325 continuous, 550 integer (550 binary)
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Root relaxation: objective 5.745012e+02, 691 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:40:
+2026-03-11 18:48:40:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:40:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:40:
+2026-03-11 18:48:40:      0     0  574.50119    0  222    0.20392  574.50119      -     -    0s
+2026-03-11 18:48:40: H    0     0                     439.8681693  574.50119  30.6%     -    0s
+2026-03-11 18:48:40: H    0     0                     480.1275637  574.50119  19.7%     -    0s
+2026-03-11 18:48:40:      0     0  547.66281    0   99  480.12756  547.66281  14.1%     -    0s
+2026-03-11 18:48:40: H    0     0                     519.1581463  547.13365  5.39%     -    0s
+2026-03-11 18:48:40: H    0     0                     526.0297001  547.13365  4.01%     -    0s
+2026-03-11 18:48:40:      0     0  547.13365    0   98  526.02970  547.13365  4.01%     -    0s
+2026-03-11 18:48:40:      0     0  534.29124    0  126  526.02970  534.29124  1.57%     -    0s
+2026-03-11 18:48:40:      0     0  533.08643    0  124  526.02970  533.08643  1.34%     -    0s
+2026-03-11 18:48:40:      0     0  532.13294    0  116  526.02970  532.13294  1.16%     -    0s
+2026-03-11 18:48:40:      0     0  531.93013    0   95  526.02970  531.93013  1.12%     -    0s
+2026-03-11 18:48:40:      0     0  531.85394    0  119  526.02970  531.85394  1.11%     -    0s
+2026-03-11 18:48:40:      0     0  531.83728    0   90  526.02970  531.83728  1.10%     -    0s
+2026-03-11 18:48:40:      0     0  529.10687    0   73  526.02970  529.10687  0.58%     -    0s
+2026-03-11 18:48:40:      0     0  529.10687    0   62  526.02970  529.10687  0.58%     -    0s
+2026-03-11 18:48:40: H    0     0                     527.0515084  529.10687  0.39%     -    0s
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Explored 1 nodes (1652 simplex iterations) in 0.38 seconds (0.27 work units)
+2026-03-11 18:48:40: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Solution count 7: 527.052 526.03 521.894 ... 0.20392
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:40: Best objective 5.270515084201e+02, best bound 5.291068712606e+02, gap 0.3900%
+2026-03-11 18:48:40: MIP unsatisfied constraints: []
+2026-03-11 18:48:40:
+Solve Details
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: Problem : MIP
+2026-03-11 18:48:40: Status  : 2
+2026-03-11 18:48:40: Time    : 0 sec
+2026-03-11 18:48:40: Rel. Gap: 0.0038997380855854413 %
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Main Economy:
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:40: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:40: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:40: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | None
+2026-03-11 18:48:40: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:40: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: ADD BUNDLE to current query profile S
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Current query profile for Bidder_2:
+2026-03-11 18:48:40: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:40: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:40: [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-11 18:48:40: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Bidder_3
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: Main Economy
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: Status of Economy: True
+2026-03-11 18:48:40: Bundle ALREADY QUERIED IN THIS ITERATION from Bidder_3
+2026-03-11 18:48:40: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:40: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_3
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Initialize MIP
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: MIP initialized
+2026-03-11 18:48:40: Solving MIP
+2026-03-11 18:48:40: Attempt no: 1
+2026-03-11 18:48:40: Set parameter LogToConsole to value 0
+2026-03-11 18:48:40: Set parameter TimeLimit to value 600
+2026-03-11 18:48:40: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:40: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:40: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Solve MIP
+2026-03-11 18:48:40: -----------------------------------------------
+2026-03-11 18:48:40: MIP warm-start False
+2026-03-11 18:48:40: MIP time Limit of 600.0
+2026-03-11 18:48:40: MIP relative gap 0.005
+2026-03-11 18:48:40: MIP integrality tol 1e-06
+2026-03-11 18:48:40: MIP feasibility tol 1e-09
+2026-03-11 18:48:40: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:40: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Non-default parameters:
+2026-03-11 18:48:40: TimeLimit  600
+2026-03-11 18:48:40: FeasibilityTol  1e-09
+2026-03-11 18:48:40: IntFeasTol  1e-06
+2026-03-11 18:48:40: MIPGap  0.005
+2026-03-11 18:48:40: LogToConsole  0
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Optimize a model with 1335 rows, 1084 columns and 13058 nonzeros (Max)
+2026-03-11 18:48:40: Model fingerprint: 0x90792c89
+2026-03-11 18:48:40: Model has 385 linear objective coefficients
+2026-03-11 18:48:40: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:40: Coefficient statistics:
+2026-03-11 18:48:40:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:40:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:40:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:40:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Presolve removed 212 rows and 209 columns
+2026-03-11 18:48:40: Presolve time: 0.06s
+2026-03-11 18:48:40: Presolved: 1123 rows, 875 columns, 13361 nonzeros
+2026-03-11 18:48:40: Variable types: 325 continuous, 550 integer (550 binary)
+2026-03-11 18:48:40: Found heuristic solution: objective 38.3383905
+2026-03-11 18:48:40: Found heuristic solution: objective 75.0003103
+2026-03-11 18:48:40: Found heuristic solution: objective 80.6797481
+2026-03-11 18:48:40: Found heuristic solution: objective 157.5981076
+2026-03-11 18:48:40:
+2026-03-11 18:48:40: Root relaxation: objective 5.799696e+02, 658 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:40:
+2026-03-11 18:48:40:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:40:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:40:
+2026-03-11 18:48:40:      0     0  579.96965    0  172  157.59811  579.96965   268%     -    0s
+2026-03-11 18:48:40: H    0     0                     473.0271755  579.96965  22.6%     -    0s
+2026-03-11 18:48:40: H    0     0                     496.5179212  579.96965  16.8%     -    0s
+2026-03-11 18:48:40:      0     0  544.94659    0  117  496.51792  544.94659  9.75%     -    0s
+2026-03-11 18:48:40: H    0     0                     505.8710868  544.90795  7.72%     -    0s
+2026-03-11 18:48:40:      0     0  544.35986    0  194  505.87109  544.35986  7.61%     -    0s
+2026-03-11 18:48:40:      0     0  544.33421    0  200  505.87109  544.33421  7.60%     -    0s
+2026-03-11 18:48:40:      0     0  544.32459    0  200  505.87109  544.32459  7.60%     -    0s
+2026-03-11 18:48:40:      0     0  541.84104    0   71  505.87109  541.84104  7.11%     -    0s
+2026-03-11 18:48:40: H    0     0                     533.3675206  541.79315  1.58%     -    0s
+2026-03-11 18:48:40:      0     0  539.31042    0  115  533.36752  539.31042  1.11%     -    0s
+2026-03-11 18:48:40:      0     0  539.18397    0   98  533.36752  539.18397  1.09%     -    0s
+2026-03-11 18:48:40:      0     0  538.87971    0   90  533.36752  538.87971  1.03%     -    0s
+2026-03-11 18:48:41:      0     0  538.70770    0   54  533.36752  538.70770  1.00%     -    0s
+2026-03-11 18:48:41:      0     0  538.70552    0   53  533.36752  538.70552  1.00%     -    0s
+2026-03-11 18:48:41:      0     0  537.29628    0   18  533.36752  537.29628  0.74%     -    0s
+2026-03-11 18:48:41:      0     0  537.29628    0   46  533.36752  537.29628  0.74%     -    0s
+2026-03-11 18:48:41: H    0     0                     537.2882468  537.29628  0.00%     -    0s
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Explored 1 nodes (1579 simplex iterations) in 0.39 seconds (0.27 work units)
+2026-03-11 18:48:41: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Solution count 9: 537.288 533.368 505.871 ... 38.3384
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:41: Best objective 5.372882467955e+02, best bound 5.372962769759e+02, gap 0.0015%
+2026-03-11 18:48:41: MIP unsatisfied constraints: []
+2026-03-11 18:48:41:
+Solve Details
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41: Problem : MIP
+2026-03-11 18:48:41: Status  : 2
+2026-03-11 18:48:41: Time    : 0 sec
+2026-03-11 18:48:41: Rel. Gap: 1.49457585480893e-05 %
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Main Economy:
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:41: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:41: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:41: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:41: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:41: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: ADD BUNDLE to current query profile S
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Current query profile for Bidder_3:
+2026-03-11 18:48:41: [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:41: [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:41: [1 0 0 0 1 0 1 0 1 1 0 0 1 1 0 1 1 0]
+2026-03-11 18:48:41: [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Bidder_4
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41: Main Economy
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41: Status of Economy: True
+2026-03-11 18:48:41: Bundle ALREADY QUERIED IN THIS ITERATION from Bidder_4
+2026-03-11 18:48:41: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:41: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_4
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Initialize MIP
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41: MIP initialized
+2026-03-11 18:48:41: Solving MIP
+2026-03-11 18:48:41: Attempt no: 1
+2026-03-11 18:48:41: Set parameter LogToConsole to value 0
+2026-03-11 18:48:41: Set parameter TimeLimit to value 600
+2026-03-11 18:48:41: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:41: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:41: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Solve MIP
+2026-03-11 18:48:41: -----------------------------------------------
+2026-03-11 18:48:41: MIP warm-start False
+2026-03-11 18:48:41: MIP time Limit of 600.0
+2026-03-11 18:48:41: MIP relative gap 0.005
+2026-03-11 18:48:41: MIP integrality tol 1e-06
+2026-03-11 18:48:41: MIP feasibility tol 1e-09
+2026-03-11 18:48:41: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:41: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Non-default parameters:
+2026-03-11 18:48:41: TimeLimit  600
+2026-03-11 18:48:41: FeasibilityTol  1e-09
+2026-03-11 18:48:41: IntFeasTol  1e-06
+2026-03-11 18:48:41: MIPGap  0.005
+2026-03-11 18:48:41: LogToConsole  0
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Optimize a model with 1335 rows, 1084 columns and 13058 nonzeros (Max)
+2026-03-11 18:48:41: Model fingerprint: 0x9f1a67c1
+2026-03-11 18:48:41: Model has 385 linear objective coefficients
+2026-03-11 18:48:41: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:41: Coefficient statistics:
+2026-03-11 18:48:41:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:41:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:41:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:41:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Found heuristic solution: objective 0.1444619
+2026-03-11 18:48:41: Presolve removed 216 rows and 209 columns
+2026-03-11 18:48:41: Presolve time: 0.08s
+2026-03-11 18:48:41: Presolved: 1119 rows, 875 columns, 13312 nonzeros
+2026-03-11 18:48:41: Variable types: 325 continuous, 550 integer (550 binary)
+2026-03-11 18:48:41:
+2026-03-11 18:48:41: Root relaxation: objective 5.793706e+02, 653 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:41:
+2026-03-11 18:48:41:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:41:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:41:
+2026-03-11 18:48:41:      0     0  579.37059    0  177    0.14446  579.37059      -     -    0s
+2026-03-11 18:48:41: H    0     0                     471.5514803  579.37059  22.9%     -    0s
+2026-03-11 18:48:41: H    0     0                     492.6070790  579.37059  17.6%     -    0s
+2026-03-11 18:48:41:      0     0  544.04265    0  124  492.60708  544.04265  10.4%     -    0s
+2026-03-11 18:48:41: H    0     0                     497.6198163  543.85088  9.29%     -    0s
+2026-03-11 18:48:41: H    0     0                     505.7447017  543.85088  7.53%     -    0s
+2026-03-11 18:48:41:      0     0  543.60623    0  144  505.74470  543.60623  7.49%     -    0s
+2026-03-11 18:48:41:      0     0  543.58433    0  160  505.74470  543.58433  7.48%     -    0s
+2026-03-11 18:48:41:      0     0  543.55857    0  159  505.74470  543.55857  7.48%     -    0s
+2026-03-11 18:48:41:      0     0  543.55386    0  159  505.74470  543.55386  7.48%     -    0s
+2026-03-11 18:48:41:      0     0  540.93828    0  134  505.74470  540.93828  6.96%     -    0s
+2026-03-11 18:48:41: H    0     0                     509.7505522  540.93256  6.12%     -    0s
+2026-03-11 18:48:41:      0     0  537.17002    0   83  509.75055  537.17002  5.38%     -    0s
+2026-03-11 18:48:41:      0     0  536.97256    0  107  509.75055  536.97256  5.34%     -    0s
+2026-03-11 18:48:41:      0     0  536.87057    0  128  509.75055  536.87057  5.32%     -    0s
+2026-03-11 18:48:41:      0     0  536.81868    0  108  509.75055  536.81868  5.31%     -    0s
+2026-03-11 18:48:41:      0     0  536.80068    0  108  509.75055  536.80068  5.31%     -    0s
+2026-03-11 18:48:41:      0     0  536.08555    0  103  509.75055  536.08555  5.17%     -    0s
+2026-03-11 18:48:41: H    0     0                     516.4163629  536.06043  3.80%     -    0s
+2026-03-11 18:48:41:      0     0  535.57464    0   96  516.41636  535.57464  3.71%     -    0s
+2026-03-11 18:48:41:      0     0  535.34433    0  102  516.41636  535.34433  3.67%     -    0s
+2026-03-11 18:48:41:      0     0  535.32218    0   94  516.41636  535.32218  3.66%     -    0s
+2026-03-11 18:48:41:      0     0  535.04458    0  104  516.41636  535.04458  3.61%     -    0s
+2026-03-11 18:48:41:      0     0  534.98686    0  113  516.41636  534.98686  3.60%     -    0s
+2026-03-11 18:48:41:      0     0  534.96981    0  112  516.41636  534.96981  3.59%     -    0s
+2026-03-11 18:48:41:      0     0  534.90144    0  103  516.41636  534.90144  3.58%     -    0s
+2026-03-11 18:48:42:      0     0  534.88656    0  103  516.41636  534.88656  3.58%     -    0s
+2026-03-11 18:48:42:      0     0  534.88656    0  103  516.41636  534.88656  3.58%     -    0s
+2026-03-11 18:48:42: H    0     0                     533.5244682  534.86523  0.25%     -    0s
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Cutting planes:
+2026-03-11 18:48:42:   Learned: 1
+2026-03-11 18:48:42:   Gomory: 7
+2026-03-11 18:48:42:   Cover: 126
+2026-03-11 18:48:42:   Implied bound: 58
+2026-03-11 18:48:42:   Clique: 57
+2026-03-11 18:48:42:   MIR: 163
+2026-03-11 18:48:42:   StrongCG: 7
+2026-03-11 18:48:42:   Flow cover: 36
+2026-03-11 18:48:42:   RLT: 2
+2026-03-11 18:48:42:   Relax-and-lift: 18
+2026-03-11 18:48:42:   BQP: 2
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Explored 1 nodes (1610 simplex iterations) in 0.77 seconds (0.49 work units)
+2026-03-11 18:48:42: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Solution count 8: 533.524 516.416 509.751 ... 0.144462
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:42: Best objective 5.335244681773e+02, best bound 5.348652284261e+02, gap 0.2513%
+2026-03-11 18:48:42: MIP unsatisfied constraints: []
+2026-03-11 18:48:42:
+Solve Details
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Problem : MIP
+2026-03-11 18:48:42: Status  : 2
+2026-03-11 18:48:42: Time    : 1 sec
+2026-03-11 18:48:42: Rel. Gap: 0.002513024854020262 %
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Main Economy:
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:42: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | None
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: ADD BUNDLE to current query profile S
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Current query profile for Bidder_4:
+2026-03-11 18:48:42: [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42: [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Bidder_5
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Main Economy
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Status of Economy: True
+2026-03-11 18:48:42: Bundle ALREADY ELICITED from Bidder_5
+2026-03-11 18:48:42: USING ACQUISITION FUNCTION: uUB_model
+2026-03-11 18:48:42: ADDITIONAL BIDDER SPECIFIC **restricted_MIP** for Bidder_5
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Initialize MIP
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: MIP initialized
+2026-03-11 18:48:42: Solving MIP
+2026-03-11 18:48:42: Attempt no: 1
+2026-03-11 18:48:42: Set parameter LogToConsole to value 0
+2026-03-11 18:48:42: Set parameter TimeLimit to value 600
+2026-03-11 18:48:42: Set parameter MIPGap to value 0.005
+2026-03-11 18:48:42: Set parameter IntFeasTol to value 1e-06
+2026-03-11 18:48:42: Set parameter FeasibilityTol to value 1e-09
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Solve MIP
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: MIP warm-start False
+2026-03-11 18:48:42: MIP time Limit of 600.0
+2026-03-11 18:48:42: MIP relative gap 0.005
+2026-03-11 18:48:42: MIP integrality tol 1e-06
+2026-03-11 18:48:42: MIP feasibility tol 1e-09
+2026-03-11 18:48:42: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:42: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Non-default parameters:
+2026-03-11 18:48:42: TimeLimit  600
+2026-03-11 18:48:42: FeasibilityTol  1e-09
+2026-03-11 18:48:42: IntFeasTol  1e-06
+2026-03-11 18:48:42: MIPGap  0.005
+2026-03-11 18:48:42: LogToConsole  0
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Optimize a model with 1335 rows, 1084 columns and 13058 nonzeros (Max)
+2026-03-11 18:48:42: Model fingerprint: 0x23782976
+2026-03-11 18:48:42: Model has 385 linear objective coefficients
+2026-03-11 18:48:42: Variable types: 528 continuous, 556 integer (556 binary)
+2026-03-11 18:48:42: Coefficient statistics:
+2026-03-11 18:48:42:   Matrix range     [1e-13, 1e+00]
+2026-03-11 18:48:42:   Objective range  [7e-08, 1e+02]
+2026-03-11 18:48:42:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:42:   RHS range        [1e-04, 2e+01]
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Found heuristic solution: objective 0.1782041
+2026-03-11 18:48:42: Presolve removed 212 rows and 209 columns
+2026-03-11 18:48:42: Presolve time: 0.06s
+2026-03-11 18:48:42: Presolved: 1123 rows, 875 columns, 13359 nonzeros
+2026-03-11 18:48:42: Variable types: 325 continuous, 550 integer (550 binary)
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Root relaxation: objective 5.796898e+02, 682 iterations, 0.01 seconds (0.01 work units)
+2026-03-11 18:48:42:
+2026-03-11 18:48:42:     Nodes    |    Current Node    |     Objective Bounds      |     Work
+2026-03-11 18:48:42:  Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+2026-03-11 18:48:42:
+2026-03-11 18:48:42:      0     0  579.68981    0  194    0.17820  579.68981      -     -    0s
+2026-03-11 18:48:42: H    0     0                     407.8361912  579.68981  42.1%     -    0s
+2026-03-11 18:48:42: H    0     0                     455.3842275  579.68981  27.3%     -    0s
+2026-03-11 18:48:42: H    0     0                     492.6609154  579.68981  17.7%     -    0s
+2026-03-11 18:48:42:      0     0  539.93744    0  109  492.66092  539.93744  9.60%     -    0s
+2026-03-11 18:48:42: H    0     0                     514.6302976  539.91821  4.91%     -    0s
+2026-03-11 18:48:42:      0     0  539.53427    0  122  514.63030  539.53427  4.84%     -    0s
+2026-03-11 18:48:42:      0     0  539.51853    0  122  514.63030  539.51853  4.84%     -    0s
+2026-03-11 18:48:42:      0     0  532.10369    0  119  514.63030  532.10369  3.40%     -    0s
+2026-03-11 18:48:42:      0     0  531.85058    0  113  514.63030  531.85058  3.35%     -    0s
+2026-03-11 18:48:42:      0     0  531.83676    0  119  514.63030  531.83676  3.34%     -    0s
+2026-03-11 18:48:42:      0     0  530.83732    0  129  514.63030  530.83732  3.15%     -    0s
+2026-03-11 18:48:42: H    0     0                     527.3526815  530.83116  0.66%     -    0s
+2026-03-11 18:48:42:      0     0          -    0       527.35268  529.94905  0.49%     -    0s
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Cutting planes:
+2026-03-11 18:48:42:   Learned: 3
+2026-03-11 18:48:42:   Gomory: 24
+2026-03-11 18:48:42:   Cover: 135
+2026-03-11 18:48:42:   Implied bound: 49
+2026-03-11 18:48:42:   Clique: 65
+2026-03-11 18:48:42:   MIR: 195
+2026-03-11 18:48:42:   StrongCG: 6
+2026-03-11 18:48:42:   Flow cover: 34
+2026-03-11 18:48:42:   RLT: 8
+2026-03-11 18:48:42:   Relax-and-lift: 19
+2026-03-11 18:48:42:   BQP: 5
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Explored 1 nodes (1518 simplex iterations) in 0.36 seconds (0.26 work units)
+2026-03-11 18:48:42: Thread count was 4 (of 4 available processors)
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Solution count 6: 527.353 514.63 492.661 ... 0.178204
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Optimal solution found (tolerance 5.00e-03)
+2026-03-11 18:48:42: Best objective 5.273526814926e+02, best bound 5.299490547572e+02, gap 0.4923%
+2026-03-11 18:48:42: MIP unsatisfied constraints: []
+2026-03-11 18:48:42:
+Solve Details
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Problem : MIP
+2026-03-11 18:48:42: Status  : 2
+2026-03-11 18:48:42: Time    : 0 sec
+2026-03-11 18:48:42: Rel. Gap: 0.0049234096187283 %
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: current ARGMAX ALLOCATION | BIDDER SPECIFIC BUNDLES in Main Economy:
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Bidder_0:  [1 1 1 1 1 1 1 0 0 1 1 1 1 1 1 1 0 1] | [1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 0 1]
+2026-03-11 18:48:42: Bidder_1:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42: Bidder_2:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42: Bidder_3:  [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0] | [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: Bidder_4:  [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: Bidder_5:  [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0] | [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: ADD BUNDLE to current query profile S
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Current query profile for Bidder_5:
+2026-03-11 18:48:42: [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-11 18:48:42: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0]
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: UPDATE ELICITED BIDS: S -> R for Bidder_0
+2026-03-11 18:48:42: ---------------------------------------------
+2026-03-11 18:48:42: CHECK Uniqueness of updated elicited bids:
+2026-03-11 18:48:42: UNIQUE
+
+2026-03-11 18:48:42: UPDATE ELICITED BIDS: S -> R for Bidder_1
+2026-03-11 18:48:42: ---------------------------------------------
+2026-03-11 18:48:42: CHECK Uniqueness of updated elicited bids:
+2026-03-11 18:48:42: UNIQUE
+
+2026-03-11 18:48:42: UPDATE ELICITED BIDS: S -> R for Bidder_2
+2026-03-11 18:48:42: ---------------------------------------------
+2026-03-11 18:48:42: CHECK Uniqueness of updated elicited bids:
+2026-03-11 18:48:42: UNIQUE
+
+2026-03-11 18:48:42: UPDATE ELICITED BIDS: S -> R for Bidder_3
+2026-03-11 18:48:42: ---------------------------------------------
+2026-03-11 18:48:42: CHECK Uniqueness of updated elicited bids:
+2026-03-11 18:48:42: UNIQUE
+
+2026-03-11 18:48:42: UPDATE ELICITED BIDS: S -> R for Bidder_4
+2026-03-11 18:48:42: ---------------------------------------------
+2026-03-11 18:48:42: CHECK Uniqueness of updated elicited bids:
+2026-03-11 18:48:42: UNIQUE
+
+2026-03-11 18:48:42: UPDATE ELICITED BIDS: S -> R for Bidder_5
+2026-03-11 18:48:42: ---------------------------------------------
+2026-03-11 18:48:42: CHECK Uniqueness of updated elicited bids:
+2026-03-11 18:48:42: UNIQUE
+
+2026-03-11 18:48:42: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-11 18:48:42: Thread count: 2 physical cores, 4 logical processors, using up to 4 threads
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Optimize a model with 24 rows, 60 columns and 475 nonzeros (Max)
+2026-03-11 18:48:42: Model fingerprint: 0x680fdb87
+2026-03-11 18:48:42: Model has 44 linear objective coefficients
+2026-03-11 18:48:42: Variable types: 0 continuous, 60 integer (60 binary)
+2026-03-11 18:48:42: Coefficient statistics:
+2026-03-11 18:48:42:   Matrix range     [1e+00, 1e+00]
+2026-03-11 18:48:42:   Objective range  [5e+00, 5e+02]
+2026-03-11 18:48:42:   Bounds range     [1e+00, 1e+00]
+2026-03-11 18:48:42:   RHS range        [1e+00, 1e+00]
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Found heuristic solution: objective 101.3380890
+2026-03-11 18:48:42: Presolve removed 24 rows and 60 columns
+2026-03-11 18:48:42: Presolve time: 0.00s
+2026-03-11 18:48:42: Presolve: All rows and columns removed
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+2026-03-11 18:48:42: Thread count was 1 (of 4 available processors)
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Solution count 2: 500 101.338
+2026-03-11 18:48:42:
+2026-03-11 18:48:42: Optimal solution found (tolerance 1.00e-04)
+2026-03-11 18:48:42: Best objective 5.000000000000e+02, best bound 5.000000000000e+02, gap 0.0000%
+2026-03-11 18:48:42: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-11 18:48:42: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-11 18:48:42: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-11 18:48:42: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-11 18:48:42: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-11 18:48:42: INFO
+2026-03-11 18:48:42: -----------------------------------------------
+2026-03-11 18:48:42: Seed Auction Instance: 1
+2026-03-11 18:48:42: Iteration of MLCA: 2
+2026-03-11 18:48:42: Number of Elicited Bids:
+2026-03-11 18:48:42: Bidder_0: 9
+2026-03-11 18:48:42: Bidder_1: 9
+2026-03-11 18:48:42: Bidder_2: 9
+2026-03-11 18:48:42: Bidder_3: 9
+2026-03-11 18:48:42: Bidder_4: 9
+2026-03-11 18:48:42: Bidder_5: 9
+2026-03-11 18:48:42: Qinit: 5 | Qround: 4 | Qmax: 20
+2026-03-11 18:48:42: Efficiency given elicited bids from iteration 0-1: 0.49942613226039295
+
+2026-03-11 18:48:42: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+2026-03-11 18:48:42: RESET: Status of Economies
+2026-03-11 18:48:42: RESET: NN Models
+2026-03-11 18:48:42: RESET: Argmax Allocation
+2026-03-11 18:48:42: RESET: Allocations and SCWs
+2026-03-11 18:48:42: RESET: Allocation Cache for Reusing
+
+2026-03-11 18:48:42: ESTIMATION STEP: all economies
+2026-03-11 18:48:42: -----------------------------------------------
