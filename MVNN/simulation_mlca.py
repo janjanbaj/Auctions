@@ -135,7 +135,6 @@ if __name__ == "__main__":
         "--seed",
         type=int,
         default=10000,
-        choices=[1, 157, 12314, 44400],
         help="SATS auction instance seed.",
     )
     parser.add_argument(
