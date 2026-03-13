@@ -84,8 +84,10 @@ class MLCA_WDP:
     def log_solve_details(self, solved_mip):
         details = solved_mip.get_solve_details()
         logging.debug("Status  : %s", details.status)
-        logging.debug("Time    : %s sec", round(details.time))
+        logging.debug("Time    : %s sec", details.time)
         logging.debug("Problem : %s", details.problem_type)
+        logging.debug(f"Num of Vars: {details.num_vars}")
+        logging.debug(f"Num of Constraints: {details.num_constrs}")
         logging.debug("Rel. Gap: {} %".format(details.mip_relative_gap))
         logging.debug("N. Iter : %s", details.nb_iterations)
         logging.debug("Hit Lim.: %s", details.has_hit_limit())

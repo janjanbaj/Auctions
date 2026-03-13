@@ -300,8 +300,10 @@ class NN_MIP_TORCH:
                 f" - number of ReLU-constraints removed: {self.removed_activation_cts}"
             )
         logging.info("Status  : %s", details.status)
-        logging.info("Time    : %s sec", round(details.time))
+        logging.info("Time    : %s sec", details.time)
         logging.info("Problem : %s", details.problem_type)
+        logging.info(f"Num of Vars: {details.num_vars}")
+        logging.info(f"Num of Constraints: {details.num_constrs}")
         logging.info("Rel. Gap: {} %".format(details.mip_relative_gap))
         logging.debug("N. Iter : %s", details.nb_iterations)
         logging.debug("Hit Lim.: %s", details.has_hit_limit())

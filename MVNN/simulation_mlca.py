@@ -30,14 +30,12 @@ import sys
 
 def main(domain: str, num_train_data: int, layer_type: str, seed: int):
     logging.basicConfig(
-        level=logging.INFO,
         datefmt="%H:%M:%S",
         format="%(asctime)s: %(message)s",
         handlers=[
             logging.FileHandler(
                 f"{seed}.log",
             ),  # Logs to a file
-            logging.StreamHandler(sys.stdout),  # Logs to stdout
         ],
     )
 

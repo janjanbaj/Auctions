@@ -110,6 +110,8 @@ class MLCA_Economies:
         self.mlca_allocation_efficiency = None  # efficiency of mlca allocation
         self.MIP_parameters = None  # MIP parameters
         self.mlca_iteration = 0  # mlca iteration tracker
+        self.mip_constraints = {}
+        self.mip_variables = {}
         self.revenue = 0  # sum of mlca payments
         self.relative_revenue = None  # relative revenue cp to SATS_auction_instance_scw
         self.number_of_optimization = {"normal": 0, "bidder_specific": 0}
@@ -258,11 +260,11 @@ class MLCA_Economies:
         return efficiency
 
     def set_NN_parameters(self, parameters):
-        logging.debug("Set NN parameters")
+        # logging.debug("Set NN parameters")
         self.NN_parameters = OrderedDict(parameters)
 
     def set_MIP_parameters(self, parameters):
-        logging.debug("Set MIP parameters")
+        # logging.debug("Set MIP parameters")
         self.MIP_parameters = parameters
 
     def set_initial_bids(self, initial_bids=None, fitted_scaler=None, seed=None):

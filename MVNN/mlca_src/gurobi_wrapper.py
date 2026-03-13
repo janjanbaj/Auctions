@@ -128,7 +128,7 @@ class VarWrapper:
 
 
 class SolveDetails:
-    def __init__(self, model):
+    def __init__(self, model: gp.Model):
         self._model = model
         self.status = self._get_status_string()
         try:
@@ -141,6 +141,8 @@ class SolveDetails:
         self.nb_iterations = getattr(model, "IterCount", 0)
         self._time = self.time
         self.problem_type = "MIP"
+        self.num_constrs = len(model.getConstrs())
+        self.num_vars = len(model.getVars())
 
     def _get_status_string(self):
         s = self._model.Status
@@ -227,6 +229,8 @@ class ParametersRoot:
 class Model:
     def __init__(self, name=""):
         self.mdl = gp.Model(name)
+        # Prevent outputs from Gurobi! Noise!!
+        self.mdl.setParam("OutputFlag", 0)
         self.parameters = ParametersRoot(self.mdl)
         self._constraints_list = []
         self._vars_list = []
