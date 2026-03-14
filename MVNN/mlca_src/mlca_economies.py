@@ -619,7 +619,7 @@ class MLCA_Economies:
                     GSVM_specific_constraints=GSVM_specific_constraints,  # NEW
                     national_circle_complement=national_circle_complement,
                 )  # NEW
-            
+
             # Update total counters after formulation
             details = X.Mip.solve_details
             self.total_vars += details.num_vars
@@ -752,7 +752,7 @@ class MLCA_Economies:
         ]  # transform self.elicited_bids into format for WDP class
         wdp = MLCA_WDP(elicited_bundle_value_pairs)
         wdp.initialize_mip(verbose=0)
-        
+
         # Update total counters after formulation
         details = wdp.Mip.solve_details
         self.total_vars += details.num_vars

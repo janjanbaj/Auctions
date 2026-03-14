@@ -1,18 +1,18 @@
 import shlex
 import subprocess
 
+from tqdm import tqdm
+
 seeds = []
 with open("../RNG-SEEDS.txt", "r") as file:
     seeds = list(map(int, file.read().split()))[0:10]
 # Define the list of commands
 commands = [
-    f"python simulation_mlca.py --domain {domain} --qinit 10 --qround 4 --qmax {qmax} --seed {seed}"
+    f"python simulation_mlca.py --domain {domain} --qinit 10 --qround 4 --qmax 10 --seed {seed} --network_type {nt}"
     for seed in seeds
+    for nt in ["MVNN", "NN"]
     for domain in ["GSVM", "LSVM", "MRVM", "SRVM"]
-    for qmax in [10 * i for i in range(1, 11)]
 ]
-print(commands, len(commands))
-exit()
 
 # Note: on Windows, "sleep" and "ls" might not be directly available as executables.
 # You may need to use their Windows equivalents like "timeout" and "dir".
@@ -20,7 +20,8 @@ exit()
 print("Script started.")
 
 # Loop through each command and execute it
-for command in commands:
+for command in tqdm(commands):
+    command = command.split(" ")
     try:
         # subprocess.run waits for the command to finish.
         # 'check=True' will raise an exception if the command fails (exits with a non-zero status).
@@ -32,7 +33,7 @@ for command in commands:
             stderr=subprocess.PIPE,
             text=True,
         )
-        print(f"Successfully executed: {' '.join(command)}")
+        # print(f"Successfully executed: {' '.join(command)}")
         # Optional: print output
         # print("Output:", result.stdout)
     except subprocess.CalledProcessError as e:

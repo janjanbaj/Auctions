@@ -204,7 +204,7 @@ def mlca_mechanism(
             efficiency = E.calculate_efficiency_per_iteration()
             if np.isclose(efficiency, 1.0, rtol=1e-4):
                 logging.info("EARLY STOPPING - 100% efficiency reached.")
-                pbar.update(E.Qmax - pbar.n) # Fill bar on early stop
+                pbar.update(E.Qmax - pbar.n)  # Fill bar on early stop
                 break
 
         pbar.update(E.Qround)

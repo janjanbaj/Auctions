@@ -1,0 +1,568 @@
+21:08:36: START MLCA:
+21:08:36: -----------------------------------------------
+21:08:36: Model: GSVM
+21:08:36: Seed SATS Instance: 75858
+21:08:36: Qinit: 10
+21:08:36: Qmax: 10
+21:08:36: Qround: 4
+
+21:08:36: Instantiate SATS Instance
+21:08:36: ####### ATTENTION #######
+21:08:36: isLegacyGSVM: False
+21:08:36: #########################
+
+21:08:39: SUMMARY
+21:08:39: -----------------------------------------------
+21:08:39: Seed Auction Instance: 75858
+21:08:39: Iteration of MLCA: 0
+21:08:39: Number of Elicited Bids:
+21:08:39: Bidder_0: 10
+21:08:39: Bidder_1: 10
+21:08:39: Bidder_2: 10
+21:08:39: Bidder_3: 10
+21:08:39: Bidder_4: 10
+21:08:39: Bidder_5: 10
+21:08:39: Bidder_6: 10
+21:08:39: Qinit: 10 | Qround: 4 | Qmax: 10
+21:08:39: TOTAL VARIABLES FORMULATED: 616
+21:08:39: TOTAL CONSTRAINTS FORMULATED: 218
+21:08:39: RELATIVE REVENUE: 0.3490115834394112
+21:08:39: NORMAL OPTIMIZATIONS: 0/ BIDDER SPECIFIC: 0
+21:08:39: EFFICIENCY: 44.56 %
+21:08:39: TOTAL TIME ELAPSED: 0d 0h:0m:2s
+21:08:39: MLCA FINISHED
+21:09:37: START MLCA:
+21:09:37: -----------------------------------------------
+21:09:37: Model: GSVM
+21:09:37: Seed SATS Instance: 75858
+21:09:37: Qinit: 10
+21:09:37: Qmax: 10
+21:09:37: Qround: 4
+
+21:09:37: Instantiate SATS Instance
+21:09:38: ####### ATTENTION #######
+21:09:38: isLegacyGSVM: False
+21:09:38: #########################
+
+21:09:40: SUMMARY
+21:09:40: -----------------------------------------------
+21:09:40: Seed Auction Instance: 75858
+21:09:40: Iteration of MLCA: 0
+21:09:40: Number of Elicited Bids:
+21:09:40: Bidder_0: 10
+21:09:40: Bidder_1: 10
+21:09:40: Bidder_2: 10
+21:09:40: Bidder_3: 10
+21:09:40: Bidder_4: 10
+21:09:40: Bidder_5: 10
+21:09:40: Bidder_6: 10
+21:09:40: Qinit: 10 | Qround: 4 | Qmax: 10
+21:09:40: TOTAL VARIABLES FORMULATED: 616
+21:09:40: TOTAL CONSTRAINTS FORMULATED: 218
+21:09:40: RELATIVE REVENUE: 0.3490115834394112
+21:09:40: NORMAL OPTIMIZATIONS: 0/ BIDDER SPECIFIC: 0
+21:09:40: EFFICIENCY: 44.56 %
+21:09:40: TOTAL TIME ELAPSED: 0d 0h:0m:2s
+21:09:40: MLCA FINISHED
+21:09:42: START MLCA:
+21:09:42: -----------------------------------------------
+21:09:42: Model: GSVM
+21:09:42: Seed SATS Instance: 75858
+21:09:42: Qinit: 10
+21:09:42: Qmax: 20
+21:09:42: Qround: 4
+
+21:09:42: Instantiate SATS Instance
+21:09:42: ####### ATTENTION #######
+21:09:42: isLegacyGSVM: False
+21:09:42: #########################
+
+21:09:44: INFO
+21:09:44: -----------------------------------------------
+21:09:44: Seed Auction Instance: 75858
+21:09:44: Iteration of MLCA: 1
+21:09:44: Number of Elicited Bids:
+21:09:44: Bidder_0: 10
+21:09:44: Bidder_1: 10
+21:09:44: Bidder_2: 10
+21:09:44: Bidder_3: 10
+21:09:44: Bidder_4: 10
+21:09:44: Bidder_5: 10
+21:09:44: Bidder_6: 10
+21:09:44: Qinit: 10 | Qround: 4 | Qmax: 20
+21:09:44: Efficiency given elicited bids from iteration 0-0: 0.4455657999287461
+
+21:13:34: START MLCA:
+21:13:34: -----------------------------------------------
+21:13:34: Model: GSVM
+21:13:34: Seed SATS Instance: 75858
+21:13:34: Qinit: 10
+21:13:34: Qmax: 100
+21:13:34: Qround: 4
+
+21:13:34: Instantiate SATS Instance
+21:13:34: ####### ATTENTION #######
+21:13:34: isLegacyGSVM: False
+21:13:34: #########################
+
+21:13:36: INFO
+21:13:36: -----------------------------------------------
+21:13:36: Seed Auction Instance: 75858
+21:13:36: Iteration of MLCA: 1
+21:13:36: Number of Elicited Bids:
+21:13:36: Bidder_0: 10
+21:13:36: Bidder_1: 10
+21:13:36: Bidder_2: 10
+21:13:36: Bidder_3: 10
+21:13:36: Bidder_4: 10
+21:13:36: Bidder_5: 10
+21:13:36: Bidder_6: 10
+21:13:36: Qinit: 10 | Qround: 4 | Qmax: 100
+21:13:36: Efficiency given elicited bids from iteration 0-0: 0.4455657999287461
+
+21:14:39: INFO
+21:14:39: -----------------------------------------------
+21:14:39: Seed Auction Instance: 75858
+21:14:39: Iteration of MLCA: 2
+21:14:39: Number of Elicited Bids:
+21:14:39: Bidder_0: 14
+21:14:39: Bidder_1: 14
+21:14:39: Bidder_2: 14
+21:14:39: Bidder_3: 14
+21:14:39: Bidder_4: 14
+21:14:39: Bidder_5: 14
+21:14:39: Bidder_6: 14
+21:14:39: Qinit: 10 | Qround: 4 | Qmax: 100
+21:14:39: Efficiency given elicited bids from iteration 0-1: 0.7565530475364972
+
+21:15:52: INFO
+21:15:52: -----------------------------------------------
+21:15:52: Seed Auction Instance: 75858
+21:15:52: Iteration of MLCA: 3
+21:15:52: Number of Elicited Bids:
+21:15:52: Bidder_0: 18
+21:15:52: Bidder_1: 18
+21:15:52: Bidder_2: 18
+21:15:52: Bidder_3: 18
+21:15:52: Bidder_4: 18
+21:15:52: Bidder_5: 18
+21:15:52: Bidder_6: 18
+21:15:52: Qinit: 10 | Qround: 4 | Qmax: 100
+21:15:52: Efficiency given elicited bids from iteration 0-2: 0.9618809891782344
+
+21:17:26: SUMMARY
+21:17:26: -----------------------------------------------
+21:17:26: Seed Auction Instance: 75858
+21:17:26: Iteration of MLCA: 3
+21:17:26: Number of Elicited Bids:
+21:17:26: Bidder_0: 22
+21:17:26: Bidder_1: 22
+21:17:26: Bidder_2: 22
+21:17:26: Bidder_3: 22
+21:17:26: Bidder_4: 22
+21:17:26: Bidder_5: 22
+21:17:26: Bidder_6: 22
+21:17:26: Qinit: 10 | Qround: 4 | Qmax: 100
+21:17:26: TOTAL VARIABLES FORMULATED: 115366
+21:17:26: TOTAL CONSTRAINTS FORMULATED: 206665
+21:17:26: RELATIVE REVENUE: 0.5311353329495672
+21:17:26: NORMAL OPTIMIZATIONS: 28/ BIDDER SPECIFIC: 56
+21:17:26: EFFICIENCY: 100.0 %
+21:17:26: TOTAL TIME ELAPSED: 0d 0h:3m:52s
+21:17:26: MLCA FINISHED
+21:17:28: START MLCA:
+21:17:28: -----------------------------------------------
+21:17:28: Model: LSVM
+21:17:28: Seed SATS Instance: 75858
+21:17:28: Qinit: 10
+21:17:28: Qmax: 100
+21:17:28: Qround: 4
+
+21:17:28: Instantiate SATS Instance
+21:17:29: ####### ATTENTION #######
+21:17:29: isLegacyLSVM: False
+21:17:29: #########################
+
+21:17:34: INFO
+21:17:34: -----------------------------------------------
+21:17:34: Seed Auction Instance: 75858
+21:17:34: Iteration of MLCA: 1
+21:17:34: Number of Elicited Bids:
+21:17:34: Bidder_0: 10
+21:17:34: Bidder_1: 10
+21:17:34: Bidder_2: 10
+21:17:34: Bidder_3: 10
+21:17:34: Bidder_4: 10
+21:17:34: Bidder_5: 10
+21:17:34: Qinit: 10 | Qround: 4 | Qmax: 100
+21:17:34: Efficiency given elicited bids from iteration 0-0: 0.43285036885752787
+
+21:20:50: INFO
+21:20:50: -----------------------------------------------
+21:20:50: Seed Auction Instance: 75858
+21:20:50: Iteration of MLCA: 2
+21:20:50: Number of Elicited Bids:
+21:20:50: Bidder_0: 14
+21:20:50: Bidder_1: 14
+21:20:50: Bidder_2: 14
+21:20:50: Bidder_3: 14
+21:20:50: Bidder_4: 14
+21:20:50: Bidder_5: 14
+21:20:50: Qinit: 10 | Qround: 4 | Qmax: 100
+21:20:50: Efficiency given elicited bids from iteration 0-1: 0.6037804849663986
+
+21:24:31: INFO
+21:24:31: -----------------------------------------------
+21:24:31: Seed Auction Instance: 75858
+21:24:31: Iteration of MLCA: 3
+21:24:31: Number of Elicited Bids:
+21:24:31: Bidder_0: 18
+21:24:31: Bidder_1: 18
+21:24:31: Bidder_2: 18
+21:24:31: Bidder_3: 18
+21:24:31: Bidder_4: 18
+21:24:31: Bidder_5: 18
+21:24:31: Qinit: 10 | Qround: 4 | Qmax: 100
+21:24:31: Efficiency given elicited bids from iteration 0-2: 0.9595854287120247
+
+21:28:21: INFO
+21:28:21: -----------------------------------------------
+21:28:21: Seed Auction Instance: 75858
+21:28:21: Iteration of MLCA: 4
+21:28:21: Number of Elicited Bids:
+21:28:21: Bidder_0: 22
+21:28:21: Bidder_1: 22
+21:28:21: Bidder_2: 22
+21:28:21: Bidder_3: 22
+21:28:21: Bidder_4: 22
+21:28:21: Bidder_5: 22
+21:28:21: Qinit: 10 | Qround: 4 | Qmax: 100
+21:28:21: Efficiency given elicited bids from iteration 0-3: 0.9595854287120247
+
+21:33:13: INFO
+21:33:13: -----------------------------------------------
+21:33:13: Seed Auction Instance: 75858
+21:33:13: Iteration of MLCA: 5
+21:33:13: Number of Elicited Bids:
+21:33:13: Bidder_0: 26
+21:33:13: Bidder_1: 26
+21:33:13: Bidder_2: 26
+21:33:13: Bidder_3: 26
+21:33:13: Bidder_4: 26
+21:33:13: Bidder_5: 26
+21:33:13: Qinit: 10 | Qround: 4 | Qmax: 100
+21:33:13: Efficiency given elicited bids from iteration 0-4: 0.9595854287120247
+
+21:38:37: INFO
+21:38:37: -----------------------------------------------
+21:38:37: Seed Auction Instance: 75858
+21:38:37: Iteration of MLCA: 6
+21:38:37: Number of Elicited Bids:
+21:38:37: Bidder_0: 30
+21:38:37: Bidder_1: 30
+21:38:37: Bidder_2: 30
+21:38:37: Bidder_3: 30
+21:38:37: Bidder_4: 30
+21:38:37: Bidder_5: 30
+21:38:37: Qinit: 10 | Qround: 4 | Qmax: 100
+21:38:37: Efficiency given elicited bids from iteration 0-5: 0.9595854287120247
+
+21:41:47: Already elicited bundle returned.
+21:41:47: -----------------------------------------------
+21:41:47: NOT SUCCESSFULLY SOLVED in attempt: 1 
+
+21:41:47: FOR REASON: Already elicited bundle returned.
+21:41:47: <mlca_src.gurobi_wrapper.SolveDetails object at 0x777cdf0a0e10>
+21:44:32: INFO
+21:44:32: -----------------------------------------------
+21:44:32: Seed Auction Instance: 75858
+21:44:32: Iteration of MLCA: 7
+21:44:32: Number of Elicited Bids:
+21:44:32: Bidder_0: 34
+21:44:32: Bidder_1: 34
+21:44:32: Bidder_2: 34
+21:44:32: Bidder_3: 34
+21:44:32: Bidder_4: 34
+21:44:32: Bidder_5: 34
+21:44:32: Qinit: 10 | Qround: 4 | Qmax: 100
+21:44:32: Efficiency given elicited bids from iteration 0-6: 0.9595854287120247
+
+21:50:27: INFO
+21:50:27: -----------------------------------------------
+21:50:27: Seed Auction Instance: 75858
+21:50:27: Iteration of MLCA: 8
+21:50:27: Number of Elicited Bids:
+21:50:27: Bidder_0: 38
+21:50:27: Bidder_1: 38
+21:50:27: Bidder_2: 38
+21:50:27: Bidder_3: 38
+21:50:27: Bidder_4: 38
+21:50:27: Bidder_5: 38
+21:50:27: Qinit: 10 | Qround: 4 | Qmax: 100
+21:50:27: Efficiency given elicited bids from iteration 0-7: 0.9595854287120247
+
+21:56:28: INFO
+21:56:28: -----------------------------------------------
+21:56:28: Seed Auction Instance: 75858
+21:56:28: Iteration of MLCA: 9
+21:56:28: Number of Elicited Bids:
+21:56:28: Bidder_0: 42
+21:56:28: Bidder_1: 42
+21:56:28: Bidder_2: 42
+21:56:28: Bidder_3: 42
+21:56:28: Bidder_4: 42
+21:56:28: Bidder_5: 42
+21:56:28: Qinit: 10 | Qround: 4 | Qmax: 100
+21:56:28: Efficiency given elicited bids from iteration 0-8: 0.9595854287120247
+
+22:02:35: INFO
+22:02:35: -----------------------------------------------
+22:02:35: Seed Auction Instance: 75858
+22:02:35: Iteration of MLCA: 10
+22:02:35: Number of Elicited Bids:
+22:02:35: Bidder_0: 46
+22:02:35: Bidder_1: 46
+22:02:35: Bidder_2: 46
+22:02:35: Bidder_3: 46
+22:02:35: Bidder_4: 46
+22:02:35: Bidder_5: 46
+22:02:35: Qinit: 10 | Qround: 4 | Qmax: 100
+22:02:35: Efficiency given elicited bids from iteration 0-9: 0.9595854287120247
+
+22:07:46: Already elicited bundle returned.
+22:07:46: -----------------------------------------------
+22:07:46: NOT SUCCESSFULLY SOLVED in attempt: 1 
+
+22:07:46: FOR REASON: Already elicited bundle returned.
+22:07:46: <mlca_src.gurobi_wrapper.SolveDetails object at 0x777ce0c4bf90>
+22:09:40: INFO
+22:09:40: -----------------------------------------------
+22:09:40: Seed Auction Instance: 75858
+22:09:40: Iteration of MLCA: 11
+22:09:40: Number of Elicited Bids:
+22:09:40: Bidder_0: 50
+22:09:40: Bidder_1: 50
+22:09:40: Bidder_2: 50
+22:09:40: Bidder_3: 50
+22:09:40: Bidder_4: 50
+22:09:40: Bidder_5: 50
+22:09:40: Qinit: 10 | Qround: 4 | Qmax: 100
+22:09:40: Efficiency given elicited bids from iteration 0-10: 0.9595854287120247
+
+22:13:49: Already elicited bundle returned.
+22:13:49: -----------------------------------------------
+22:13:49: NOT SUCCESSFULLY SOLVED in attempt: 1 
+
+22:13:49: FOR REASON: Already elicited bundle returned.
+22:13:49: <mlca_src.gurobi_wrapper.SolveDetails object at 0x777cdf0bf310>
+22:18:40: INFO
+22:18:40: -----------------------------------------------
+22:18:40: Seed Auction Instance: 75858
+22:18:40: Iteration of MLCA: 12
+22:18:40: Number of Elicited Bids:
+22:18:40: Bidder_0: 54
+22:18:40: Bidder_1: 54
+22:18:40: Bidder_2: 54
+22:18:40: Bidder_3: 54
+22:18:40: Bidder_4: 54
+22:18:40: Bidder_5: 54
+22:18:40: Qinit: 10 | Qround: 4 | Qmax: 100
+22:18:40: Efficiency given elicited bids from iteration 0-11: 0.9595854287120247
+
+22:18:52: START MLCA:
+22:18:52: -----------------------------------------------
+22:18:52: Model: GSVM
+22:18:52: Seed SATS Instance: 75858
+22:18:52: Qinit: 10
+22:18:52: Qmax: 100
+22:18:52: Qround: 4
+
+22:18:52: Instantiate SATS Instance
+22:18:52: ####### ATTENTION #######
+22:18:52: isLegacyGSVM: False
+22:18:52: #########################
+
+22:18:54: INFO
+22:18:54: -----------------------------------------------
+22:18:54: Seed Auction Instance: 75858
+22:18:54: Iteration of MLCA: 1
+22:18:54: Number of Elicited Bids:
+22:18:54: Bidder_0: 10
+22:18:54: Bidder_1: 10
+22:18:54: Bidder_2: 10
+22:18:54: Bidder_3: 10
+22:18:54: Bidder_4: 10
+22:18:54: Bidder_5: 10
+22:18:54: Bidder_6: 10
+22:18:54: Qinit: 10 | Qround: 4 | Qmax: 100
+22:18:54: Efficiency given elicited bids from iteration 0-0: 0.4455657999287461
+
+22:19:52: INFO
+22:19:52: -----------------------------------------------
+22:19:52: Seed Auction Instance: 75858
+22:19:52: Iteration of MLCA: 2
+22:19:52: Number of Elicited Bids:
+22:19:52: Bidder_0: 14
+22:19:52: Bidder_1: 14
+22:19:52: Bidder_2: 14
+22:19:52: Bidder_3: 14
+22:19:52: Bidder_4: 14
+22:19:52: Bidder_5: 14
+22:19:52: Bidder_6: 14
+22:19:52: Qinit: 10 | Qround: 4 | Qmax: 100
+22:19:52: Efficiency given elicited bids from iteration 0-1: 0.7732708745515076
+
+22:20:40: START MLCA:
+22:20:40: -----------------------------------------------
+22:20:40: Model: GSVM
+22:20:40: Seed SATS Instance: 75858
+22:20:40: Qinit: 10
+22:20:40: Qmax: 10
+22:20:40: Qround: 4
+
+22:20:40: Instantiate SATS Instance
+22:20:41: ####### ATTENTION #######
+22:20:41: isLegacyGSVM: False
+22:20:41: #########################
+
+22:20:43: SUMMARY
+22:20:43: -----------------------------------------------
+22:20:43: Seed Auction Instance: 75858
+22:20:43: Iteration of MLCA: 0
+22:20:43: Number of Elicited Bids:
+22:20:43: Bidder_0: 10
+22:20:43: Bidder_1: 10
+22:20:43: Bidder_2: 10
+22:20:43: Bidder_3: 10
+22:20:43: Bidder_4: 10
+22:20:43: Bidder_5: 10
+22:20:43: Bidder_6: 10
+22:20:43: Qinit: 10 | Qround: 4 | Qmax: 10
+22:20:43: TOTAL VARIABLES FORMULATED: 616
+22:20:43: TOTAL CONSTRAINTS FORMULATED: 218
+22:20:43: RELATIVE REVENUE: 0.3490115834394112
+22:20:43: NORMAL OPTIMIZATIONS: 0/ BIDDER SPECIFIC: 0
+22:20:43: EFFICIENCY: 44.56 %
+22:20:43: TOTAL TIME ELAPSED: 0d 0h:0m:2s
+22:20:43: MLCA FINISHED
+22:20:45: START MLCA:
+22:20:45: -----------------------------------------------
+22:20:45: Model: LSVM
+22:20:45: Seed SATS Instance: 75858
+22:20:45: Qinit: 10
+22:20:45: Qmax: 10
+22:20:45: Qround: 4
+
+22:20:45: Instantiate SATS Instance
+22:20:45: ####### ATTENTION #######
+22:20:45: isLegacyLSVM: False
+22:20:45: #########################
+
+22:20:51: SUMMARY
+22:20:51: -----------------------------------------------
+22:20:51: Seed Auction Instance: 75858
+22:20:51: Iteration of MLCA: 0
+22:20:51: Number of Elicited Bids:
+22:20:51: Bidder_0: 10
+22:20:51: Bidder_1: 10
+22:20:51: Bidder_2: 10
+22:20:51: Bidder_3: 10
+22:20:51: Bidder_4: 10
+22:20:51: Bidder_5: 10
+22:20:51: Qinit: 10 | Qround: 4 | Qmax: 10
+22:20:51: TOTAL VARIABLES FORMULATED: 462
+22:20:51: TOTAL CONSTRAINTS FORMULATED: 186
+22:20:51: RELATIVE REVENUE: 0.3509037656007281
+22:20:51: NORMAL OPTIMIZATIONS: 0/ BIDDER SPECIFIC: 0
+22:20:51: EFFICIENCY: 43.29 %
+22:20:51: TOTAL TIME ELAPSED: 0d 0h:0m:6s
+22:20:51: MLCA FINISHED
+22:20:52: START MLCA:
+22:20:52: -----------------------------------------------
+22:20:52: Model: MRVM
+22:20:52: Seed SATS Instance: 75858
+22:20:52: Qinit: 10
+22:20:52: Qmax: 10
+22:20:52: Qround: 4
+
+22:20:52: Instantiate SATS Instance
+22:28:46: START MLCA:
+22:28:46: -----------------------------------------------
+22:28:46: Model: MRVM
+22:28:46: Seed SATS Instance: 75858
+22:28:46: Qinit: 10
+22:28:46: Qmax: 10
+22:28:46: Qround: 4
+
+22:28:46: Instantiate SATS Instance
+22:34:14: START MLCA:
+22:34:14: -----------------------------------------------
+22:34:14: Model: GSVM
+22:34:14: Seed SATS Instance: 75858
+22:34:14: Qinit: 10
+22:34:14: Qmax: 10
+22:34:14: Qround: 4
+
+22:34:14: Instantiate SATS Instance
+22:34:14: ####### ATTENTION #######
+22:34:14: isLegacyGSVM: False
+22:34:14: #########################
+
+22:34:16: SUMMARY
+22:34:16: -----------------------------------------------
+22:34:16: Seed Auction Instance: 75858
+22:34:16: Iteration of MLCA: 0
+22:34:16: Number of Elicited Bids:
+22:34:16: Bidder_0: 10
+22:34:16: Bidder_1: 10
+22:34:16: Bidder_2: 10
+22:34:16: Bidder_3: 10
+22:34:16: Bidder_4: 10
+22:34:16: Bidder_5: 10
+22:34:16: Bidder_6: 10
+22:34:16: Qinit: 10 | Qround: 4 | Qmax: 10
+22:34:16: TOTAL VARIABLES FORMULATED: 616
+22:34:16: TOTAL CONSTRAINTS FORMULATED: 218
+22:34:16: RELATIVE REVENUE: 0.3490115834394112
+22:34:16: NORMAL OPTIMIZATIONS: 0/ BIDDER SPECIFIC: 0
+22:34:16: EFFICIENCY: 44.56 %
+22:34:16: TOTAL TIME ELAPSED: 0d 0h:0m:2s
+22:34:16: MLCA FINISHED
+22:34:29: START MLCA:
+22:34:29: -----------------------------------------------
+22:34:29: Model: SRVM
+22:34:29: Seed SATS Instance: 75858
+22:34:29: Qinit: 10
+22:34:29: Qmax: 10
+22:34:29: Qround: 4
+
+22:34:29: Instantiate SATS Instance
+22:34:31: SUMMARY
+22:34:31: -----------------------------------------------
+22:34:31: Seed Auction Instance: 75858
+22:34:31: Iteration of MLCA: 0
+22:34:31: Number of Elicited Bids:
+22:34:31: Bidder_0: 10
+22:34:31: Bidder_1: 10
+22:34:31: Bidder_2: 10
+22:34:31: Bidder_3: 10
+22:34:31: Bidder_4: 10
+22:34:31: Bidder_5: 10
+22:34:31: Bidder_6: 10
+22:34:31: Qinit: 10 | Qround: 4 | Qmax: 10
+22:34:31: TOTAL VARIABLES FORMULATED: 616
+22:34:31: TOTAL CONSTRAINTS FORMULATED: 317
+22:34:31: RELATIVE REVENUE: 0.5155526431696087
+22:34:31: NORMAL OPTIMIZATIONS: 0/ BIDDER SPECIFIC: 0
+22:34:31: EFFICIENCY: 62.029999999999994 %
+22:34:31: TOTAL TIME ELAPSED: 0d 0h:0m:1s
+22:34:31: MLCA FINISHED
+22:34:41: START MLCA:
+22:34:41: -----------------------------------------------
+22:34:41: Model: MRVM
+22:34:41: Seed SATS Instance: 75858
+22:34:41: Qinit: 10
+22:34:41: Qmax: 10
+22:34:41: Qround: 4
+
+22:34:41: Instantiate SATS Instance

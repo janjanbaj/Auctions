@@ -1,4 +1,5 @@
 from jnius import autoclass, cast
+
 from .simple_model import SimpleModel
 
 LinkedHashMap = autoclass("java.util.LinkedHashMap")
@@ -46,51 +47,124 @@ class GenericModel(SimpleModel):
                 ]
             )
 
-        mip = autoclass(self.mip_path)(self._bidder_list)
-        mip.setDisplayOutput(display_output)
+        mip_wrapper = autoclass(self.mip_path)(self._bidder_list)
+        imip = mip_wrapper.getMIP()
+        imip.setObjectiveMax(True)
 
-        allocation = mip.calculateAllocation()
+        # Gurobi Wrapper :
+        # Intercept MIP to solve using Gurobi instead of CPLEX.
+        import os
+        import uuid
 
+        import gurobipy as gp
+        from gurobipy import GRB
+
+        # Export IMIP to an LP file: CPLEX -> IMIP (Still Requires CPLEX code path for export but no full license)
+        solver = autoclass(
+            "edu.harvard.econcs.jopt.solver.server.cplex.CPlexMIPSolver"
+        )()
+        export_lp = os.path.abspath(f"sats_export_{uuid.uuid4().hex}.lp")
+        java_path = autoclass("java.nio.file.Paths").get(export_lp)
+        solver.exportToDisk(imip, java_path)
+
+        # Solve with Gurobi
+        m = gp.read(export_lp)
+        m.Params.OutputFlag = 1 if display_output else 0
+        m.optimize()
+
+        # Parse allocation
         self.efficient_allocation = {}
 
-        available = self.get_good_ids()
+        if m.Status == GRB.OPTIMAL:
+            # Propose Gurobi's solution back into PySats variables to let Java compute the values
+            j_vars_map = imip.getVars()
+            for vname in j_vars_map.keySet():
+                g_var = m.getVarByName(vname)
+                if g_var:
+                    # Gurobi solution value
+                    val = g_var.X
+                    # Propose it back to the jopt model so the evaluator can read it
+                    jvar = imip.getVar(vname)
+                    # Use integer proposing for binary variables to avoid tolerance issues
+                    imip.proposeValue(jvar, int(round(val)))
 
-        for bidder_id, bidder in self.population.items():
-            self.efficient_allocation[bidder_id] = {}
-            self.efficient_allocation[bidder_id]["good_ids"] = []
-            if allocation.getWinners().contains(bidder):
-                bidder_allocation = allocation.allocationOf(bidder)
-                bundle_entry_iterator = (
-                    bidder_allocation.getBundle().getBundleEntries().iterator()
+            # Now that the solution is loaded back into the Java `imip`,
+            # we can ask SATS to evaluate the allocation natively in Java.
+            # Reverse the LP mangling to populate the solution map
+            HashMap = autoclass("java.util.HashMap")
+            Double_J = autoclass("java.lang.Double")
+            solution_map = HashMap()
+
+            # Create a reverse lookup from de-mangled name -> original Java variable Name
+            import re
+
+            java_keys = set(j_vars_map.keySet())
+
+            for g_var in m.getVars():
+                # CPLEX LP exporter replaces brackets with parentheses and appends #NUM
+                clean_name = g_var.varName.split("#")[0]
+                clean_name = clean_name.replace("(", "[").replace(")", "]")
+
+                if clean_name in java_keys:
+                    solution_map.put(clean_name, Double_J(float(g_var.X)))
+
+            allocation = mip_wrapper.adaptMIPResult(
+                autoclass("edu.harvard.econcs.jopt.solver.mip.PoolSolution")(
+                    float(m.ObjVal),
+                    0.0,  # Relative/Absolute gap
+                    solution_map,
                 )
-                while bundle_entry_iterator.hasNext():
-                    bundle_entry = bundle_entry_iterator.next()
-                    count = bundle_entry.getAmount()
-                    licenses_iterator = (
-                        cast(self.generic_definition_path, bundle_entry.getGood())
-                        .containedGoods()
-                        .iterator()
-                    )
-                    given = 0
-                    while licenses_iterator.hasNext() and given < count:
-                        lic_id = licenses_iterator.next().getLongId()
-                        if lic_id in available:
-                            self.efficient_allocation[bidder_id]["good_ids"].append(
-                                lic_id
-                            )
-                            available.remove(lic_id)
-                            given += 1
-                    assert given == count
-
-            self.efficient_allocation[bidder_id]["value"] = (
-                bidder_allocation.getValue().doubleValue()
-                if allocation.getWinners().contains(bidder)
-                else 0.0
             )
+
+            available = self.get_good_ids()
+
+            for bidder_id, bidder in self.population.items():
+                self.efficient_allocation[bidder_id] = {}
+                self.efficient_allocation[bidder_id]["good_ids"] = []
+                if allocation.getWinners().contains(bidder):
+                    bidder_allocation = allocation.allocationOf(bidder)
+                    bundle_entry_iterator = (
+                        bidder_allocation.getBundle().getBundleEntries().iterator()
+                    )
+                    while bundle_entry_iterator.hasNext():
+                        bundle_entry = bundle_entry_iterator.next()
+                        count = bundle_entry.getAmount()
+                        licenses_iterator = (
+                            cast(self.generic_definition_path, bundle_entry.getGood())
+                            .containedGoods()
+                            .iterator()
+                        )
+                        given = 0
+                        while licenses_iterator.hasNext() and given < count:
+                            lic_id = licenses_iterator.next().getLongId()
+                            if lic_id in available:
+                                self.efficient_allocation[bidder_id]["good_ids"].append(
+                                    lic_id
+                                )
+                                available.remove(lic_id)
+                                given += 1
+                        assert given == count
+
+                self.efficient_allocation[bidder_id]["value"] = (
+                    bidder_allocation.getValue().doubleValue()
+                    if allocation.getWinners().contains(bidder)
+                    else 0.0
+                )
+
+            total_value = allocation.getTotalAllocationValue().doubleValue()
+
+        else:
+            raise Exception(
+                f"Gurobi failed to find an optimal allocation. Status: {m.Status}"
+            )
+
+        # Cleanup
+        if os.path.exists(export_lp):
+            os.remove(export_lp)
 
         return (
             self.efficient_allocation,
-            allocation.getTotalAllocationValue().doubleValue(),
+            total_value,
         )
 
     def get_best_bundles(self, bidder_id, price_vector, max_number_of_bundles):
