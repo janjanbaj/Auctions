@@ -110,6 +110,8 @@ class MLCA_Economies:
         self.mlca_allocation_efficiency = None  # efficiency of mlca allocation
         self.MIP_parameters = None  # MIP parameters
         self.mlca_iteration = 0  # mlca iteration tracker
+        self.total_vars = 0  # total number of variables formulated
+        self.total_constr = 0  # total number of constraints formulated
         self.mip_constraints = {}
         self.mip_variables = {}
         self.revenue = 0  # sum of mlca payments
@@ -231,6 +233,10 @@ class MLCA_Economies:
         logging.warning(
             "Qinit: %s | Qround: %s | Qmax: %s", self.Qinit, self.Qround, self.Qmax
         )
+        if final_summary:
+            logging.warning("TOTAL VARIABLES FORMULATED: %s", self.total_vars)
+            logging.warning("TOTAL CONSTRAINTS FORMULATED: %s", self.total_constr)
+            logging.warning("RELATIVE REVENUE: %s", self.relative_revenue)
         if (not final_summary) and (not len(self.efficiency_per_iteration.keys()) == 0):
             logging.warning(
                 "Efficiency given elicited bids from iteration 0-%s: %s\n",
@@ -613,6 +619,12 @@ class MLCA_Economies:
                     GSVM_specific_constraints=GSVM_specific_constraints,  # NEW
                     national_circle_complement=national_circle_complement,
                 )  # NEW
+            
+            # Update total counters after formulation
+            details = X.Mip.solve_details
+            self.total_vars += details.num_vars
+            self.total_constr += details.num_constrs
+
             try:
                 logging.info("Solving MIP")
                 logging.info("Attempt no: %s", attempt)
@@ -740,6 +752,12 @@ class MLCA_Economies:
         ]  # transform self.elicited_bids into format for WDP class
         wdp = MLCA_WDP(elicited_bundle_value_pairs)
         wdp.initialize_mip(verbose=0)
+        
+        # Update total counters after formulation
+        details = wdp.Mip.solve_details
+        self.total_vars += details.num_vars
+        self.total_constr += details.num_constrs
+
         wdp.solve_mip(verbose)
         # TODO: check solution formater
         objective = wdp.Mip.objective_value

@@ -47,7 +47,6 @@ def mlca_mechanism(
         calc_efficiency_per_iteration = configdict["calc_efficiency_per_iteration"]
         isLegacy = configdict["isLegacy"]
 
-    Qmax, Qround, Qinit = 20, 5, 5
     print(f"Params: {Qmax} | {Qround} | {Qinit}")
 
     logging.warning("START MLCA:")
@@ -115,13 +114,13 @@ def mlca_mechanism(
     if calc_efficiency_per_iteration:
         E.calculate_efficiency_per_iteration()
 
-    # Global while loop: check if for all bidders one addtitional auction round is feasible | Line 4
+    # Qround is the number of bundles (queries) elicited from each bidder in each round.
+    # Global while loop: check if for all bidders one additional auction round is feasible | Line 4
     Rmax = max(E.get_number_of_elicited_bids().values())
     CHECK = Rmax <= (E.Qmax - E.Qround)
-    pbar = tqdm(total=E.Qmax, desc="Auction Round")
+    pbar = tqdm(total=E.Qmax, desc="Elicited Bids", initial=Rmax)
     while CHECK:
         # Increment iteration
-        pbar.update(1)
         E.mlca_iteration += 1
         # log info
         E.get_info()
@@ -205,8 +204,10 @@ def mlca_mechanism(
             efficiency = E.calculate_efficiency_per_iteration()
             if np.isclose(efficiency, 1.0, rtol=1e-4):
                 logging.info("EARLY STOPPING - 100% efficiency reached.")
+                pbar.update(E.Qmax - pbar.n) # Fill bar on early stop
                 break
 
+        pbar.update(E.Qround)
         # TODO:Eff check/break condition as in mlca_mechanism_ft file
         if res_path is not None:
             json.dump(
@@ -248,6 +249,30 @@ def mlca_mechanism(
         logging.info("PAYMENTS")
         logging.info("---------------------------------------------")
         E.calculate_vcg_payments()
+
+    if res_path is not None:
+        json.dump(
+            {
+                "Statistics": {
+                    "Elapsed Times of MIPs": E.elapsed_time_mip,
+                    "NN Losses": E.losses,
+                    "Efficiency per Iteration": E.efficiency_per_iteration,
+                    "Efficient Allocation per Iteration": E.efficient_allocation_per_iteration,
+                    "Relative Revenue": E.relative_revenue,
+                    "mip_statistics": E.mip_log,
+                    "nn_train_logs": E.train_logs,
+                },
+                "MLCA Payments": E.mlca_payments,
+                "MLCA Allocation": E.mlca_allocation,
+                "Elicited Bids": E.elicited_bids,
+            },
+            open(res_path, "w"),
+            indent=4,
+            sort_keys=True,
+            separators=(", ", ": "),
+            ensure_ascii=False,
+            cls=NumpyEncoder,
+        )
 
     end = datetime.now()
     total_time_elapsed = timediff_d_h_m_s(end - start)

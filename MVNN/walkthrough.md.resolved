@@ -1,0 +1,46 @@
+# Walkthrough - MLCA Progress Bar & QRound Clarification
+
+I have improved the `tqdm` progress bar in the MLCA simulation and added documentation for the `Qround` parameter.
+
+## Changes Made
+
+### Improved Progress Bar
+The progress bar in [mlca.py](file:///home/janeet/Code/Auctions/MVNN/mlca_src/mlca.py) now tracks the number of **elicited bids** (total queries) rather than auction rounds. 
+- It initializes with the starting number of bids (`Qinit`).
+- It increments by `Qround` (the number of queries per round) in each iteration.
+- It provides a much more accurate representation of how close the auction is to reaching `Qmax`.
+
+### QRound Documentation
+- Added comments in [mlca.py](file:///home/janeet/Code/Auctions/MVNN/mlca_src/mlca.py) explaining that `Qround` is the number of bundles elicited from each bidder in each round.
+- Updated the CLI help message in [simulation_mlca.py](file:///home/janeet/Code/Auctions/MVNN/simulation_mlca.py) to provide a clear description of `--qround`.
+
+## Verification Results
+
+### Manual Test Run
+I ran a simulation with controlled parameters:
+`python simulation_mlca.py --domain GSVM --qinit 5 --qround 2 --qmax 11 --seed 2003`
+
+**Observation:**
+1. The progress bar started at **5/11** (45%).
+2. After the first round, it updated to **7/11**.
+3. It eventually reached **11/11** (100%) and finished successfully.
+
+```text
+Elicited Bids: 100%|███████████████████████| 11/11 [01:36<00:00, 16.09s/it]
+```
+
+### Null Results in Logs Fix
+I diagnosed and fixed an issue where `MLCA Allocation`, `MLCA Payments`, and `Relative Revenue` were reporting as `null` in the final output.
+- **Root Cause**: The final results were being overwritten by an iteration-level write, and the simulation script was failing to save the final calculations due to a JSON serialization error with numpy arrays.
+- **Fixes**:
+    - Updated [get_info](file:///home/janeet/Code/Auctions/MVNN/mlca_src/mlca_economies.py#220-246) in [MLCA_Economies](file:///home/janeet/Code/Auctions/MVNN/mlca_src/mlca_economies.py#69-842) to report `RELATIVE REVENUE` in the final console summary.
+    - Added a final `json.dump` in [mlca.py](file:///home/janeet/Code/Auctions/MVNN/mlca_src/mlca.py) after all calculations are complete.
+    - Fixed [simulation_mlca.py](file:///home/janeet/Code/Auctions/MVNN/simulation_mlca.py) to use `NumpyEncoder` when saving the final logs.
+- **Result**: Final results are now correctly calculated, displayed in the summary, and saved to `logs.json`.
+
+**Observation:**
+The simulation summary now correctly shows:
+```text
+18:11:05: RELATIVE REVENUE: 0.24468577601072347
+```
+And `logs.json` is correctly updated with non-null values.

@@ -2,6 +2,7 @@ import argparse
 import json
 import logging
 import os
+import json
 from collections import defaultdict
 from functools import partial
 
@@ -28,7 +29,15 @@ INCUMBENTS_to_num_train_data = {
 import sys
 
 
-def main(domain: str, num_train_data: int, layer_type: str, seed: int):
+def main(
+    domain: str,
+    num_train_data: int,
+    layer_type: str,
+    seed: int,
+    qinit: int,
+    qround: int,
+    qmax: int,
+):
     logging.basicConfig(
         datefmt="%H:%M:%S",
         format="%(asctime)s: %(message)s",
@@ -69,11 +78,12 @@ def main(domain: str, num_train_data: int, layer_type: str, seed: int):
 
     scaler = MinMaxScaler(feature_range=(0, 500))
 
-    Qmax, Qround, Qinit = (
-        problem_instance_info[value_model.name.upper()].Qmax,
-        problem_instance_info[value_model.name.upper()].Qround,
-        problem_instance_info[value_model.name.upper()].Qinit,
-    )
+    # Qmax, Qround, Qinit = (
+    #     problem_instance_info[value_model.name.upper()].Qmax,
+    #     problem_instance_info[value_model.name.upper()].Qround,
+    #     problem_instance_info[value_model.name.upper()].Qinit,
+    # )
+    Qmax, Qround, Qinit = qmax, qround, qinit
 
     MIP_parameters = {
         "bigM": 2000000,
@@ -114,6 +124,11 @@ def main(domain: str, num_train_data: int, layer_type: str, seed: int):
 
     _, logs = mlca_func(int(seed))
 
+    from mlca_src.mlca import NumpyEncoder
+    with open(os.path.join(res_path, "logs.json"), "w") as f:
+        json.dump(logs, f, cls=NumpyEncoder)
+
+    
     logging.debug("MLCA Efficiency: {}".format(logs["MLCA Efficiency"]))
     logging.debug(
         "MLCA rel. revenue: {}".format(logs["Statistics"]["Relative Revenue"])
@@ -142,6 +157,24 @@ if __name__ == "__main__":
         choices=["MVNN", "NN"],
         help="Evaluate either MVNN or NN.",
     )
+    parser.add_argument(
+        "--qinit",
+        type=int,
+        default=5,
+        help="SATS Qinit",
+    )
+    parser.add_argument(
+        "--qround",
+        type=int,
+        default=5,
+        help="SATS Qround: the number of bundles (queries) elicited from each bidder in each round.",
+    )
+    parser.add_argument(
+        "--qmax",
+        type=int,
+        default=10,
+        help="SATS Qmax",
+    )
     args = parser.parse_args()
 
     main(
@@ -149,4 +182,7 @@ if __name__ == "__main__":
         num_train_data=INCUMBENTS_to_num_train_data[args.domain][args.network_type],
         layer_type=network_type_to_layer_type[args.network_type],
         seed=args.seed,
+        qinit=args.qinit,
+        qround=args.qround,
+        qmax=args.qmax,
     )

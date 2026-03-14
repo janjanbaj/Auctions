@@ -129,6 +129,7 @@ class VarWrapper:
 
 class SolveDetails:
     def __init__(self, model: gp.Model):
+        model.update()
         self._model = model
         self.status = self._get_status_string()
         try:
@@ -137,7 +138,10 @@ class SolveDetails:
             self.time = 0.0
 
         has_sol = getattr(model, "SolCount", 0) > 0
-        self.mip_relative_gap = model.MIPGap if has_sol else float("inf")
+        try:
+            self.mip_relative_gap = model.MIPGap if has_sol else float("inf")
+        except (AttributeError, gp.GurobiError):
+            self.mip_relative_gap = float("inf")
         self.nb_iterations = getattr(model, "IterCount", 0)
         self._time = self.time
         self.problem_type = "MIP"
