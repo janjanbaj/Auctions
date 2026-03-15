@@ -156,10 +156,8 @@ def mechanism(
     # Global while loop: check if for all bidders one addtitional auction round is feasible | Line 4
     Rmax = max(E.get_number_of_elicited_bids().values())
     CHECK = Rmax <= (E.Qmax - E.Qround)
-    pbar = tqdm(total=E.Qmax, desc="Auction Rounds.")
+    pbar = tqdm(total=E.Qmax, desc="Auction Rounds.", initial=Rmax)
     while CHECK:
-        # Increment iteration
-        pbar.update(1)
         E.mlca_iteration += 1
         # log info
         E.get_info()
@@ -259,6 +257,8 @@ def mechanism(
                 logging.info("EARLY STOPPING - 100% efficiency reached.")
                 break
 
+        # Increment iteration
+        pbar.update(E.Qround)
         # PER ITERATION SAVING OF RESULTS
         if res_path is not None:
             # Calculate timings
