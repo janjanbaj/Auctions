@@ -1,0 +1,2882 @@
+{
+    "MLCA Efficiency": null, 
+    "MLCA Efficiency Marginals": {
+        "Marginal Economy -(0)": null, 
+        "Marginal Economy -(1)": null, 
+        "Marginal Economy -(2)": null, 
+        "Marginal Economy -(3)": null, 
+        "Marginal Economy -(4)": null, 
+        "Marginal Economy -(5)": null
+    }, 
+    "MLCA Efficiency per Iteration": {
+        "0": 0.5457163361111492, 
+        "1": 0.5457163361111492
+    }, 
+    "MLCA Efficiency per Iteration all Economies": {}, 
+    "MLCA Optimal SCW Main": [
+        null
+    ], 
+    "MLCA Optimal SCW Marginals": [
+        {
+            "Marginal Economy -(0)": null, 
+            "Marginal Economy -(1)": null, 
+            "Marginal Economy -(2)": null, 
+            "Marginal Economy -(3)": null, 
+            "Marginal Economy -(4)": null, 
+            "Marginal Economy -(5)": null
+        }
+    ], 
+    "SATS Optimal SCW": 869.8971803440622, 
+    "MLCA Relative Revenue": [
+        null
+    ], 
+    "MLCA Payments": [
+        {
+            "Bidder_0": null, 
+            "Bidder_1": null, 
+            "Bidder_2": null, 
+            "Bidder_3": null, 
+            "Bidder_4": null, 
+            "Bidder_5": null
+        }
+    ], 
+    "Total Time Elapsed": [
+        "0d 0h:3m:13s", 
+        193.075711
+    ], 
+    "Total Time Elapsed Distribution": {
+        "MIP": [
+            "0d 0h:0m:7s", 
+            0.04, 
+            7.219938516616821
+        ], 
+        "ML_TRAIN": [
+            "0d 0h:3m:8s", 
+            0.97, 
+            188.03001
+        ], 
+        "OTHER": [
+            "0d 0h:0m:-2s", 
+            -0.01, 
+            -2.174237516616813
+        ]
+    }, 
+    "MIP Statistics": {
+        "Elapsed Times of MIPs": {
+            "Marginal Economy -(0)": [], 
+            "Marginal Economy -(1)": [
+                0.19591093063354492, 
+                0.3385632038116455, 
+                0.14726495742797852
+            ], 
+            "Marginal Economy -(2)": [
+                0.3385019302368164, 
+                0.3497750759124756, 
+                0.3092350959777832, 
+                0.40847110748291016, 
+                0.3627619743347168
+            ], 
+            "Marginal Economy -(3)": [
+                0.18804097175598145, 
+                0.32535505294799805, 
+                0.44069910049438477, 
+                0.43793797492980957, 
+                0.14144301414489746, 
+                0.1918962001800537
+            ], 
+            "Marginal Economy -(4)": [
+                0.1725759506225586, 
+                0.12641215324401855, 
+                0.2445831298828125, 
+                0.1914980411529541
+            ], 
+            "Marginal Economy -(5)": [], 
+            "Main Economy": [
+                0.19372105598449707, 
+                0.4153919219970703, 
+                0.34289979934692383, 
+                0.46299195289611816, 
+                0.377302885055542, 
+                0.27492594718933105, 
+                0.24177908897399902
+            ]
+        }, 
+        "Optimizations": {
+            "normal": 5, 
+            "bidder_specific_MIP": 20, 
+            "bidder_specific_RS": 0, 
+            "bidder_specific_RS_REUSED": 0, 
+            "bidder_specific_DE": 0, 
+            "bidder_specific_DE_REUSED": 0
+        }, 
+        "mip_statistics": {
+            "n_iter": [
+                783.0, 
+                736.0, 
+                823.0, 
+                782.0, 
+                1200.0, 
+                807.0, 
+                1065.0, 
+                933.0, 
+                738.0, 
+                883.0, 
+                830.0, 
+                1067.0, 
+                805.0, 
+                1214.0, 
+                994.0, 
+                955.0, 
+                1284.0, 
+                1555.0, 
+                926.0, 
+                1022.0, 
+                1028.0, 
+                1033.0, 
+                752.0, 
+                1292.0, 
+                1169.0
+            ], 
+            "rel. gap": [
+                0.004740259589859128, 
+                0.004441178290090954, 
+                0.004568333588537499, 
+                0.004697758506832625, 
+                0.0011939035068667958, 
+                0.004979799527293861, 
+                0.0025822087840033647, 
+                0.0022067977531053944, 
+                0.003699628243085445, 
+                0.004914647544688442, 
+                0.0, 
+                0.0038988504975706073, 
+                0.003898447580538411, 
+                0.00294561936252564, 
+                0.004791475250145417, 
+                0.00495893060985316, 
+                0.004416644518388344, 
+                0.0008581558942997841, 
+                0.00482019160177187, 
+                0.0049989479986524196, 
+                0.00472591164256877, 
+                0.0030808691825234403, 
+                0.00482643889001192, 
+                0.002929693196483217, 
+                0.004862995601597319
+            ], 
+            "hit_limit": [
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false, 
+                false
+            ], 
+            "time": [
+                0.3385019302368164, 
+                0.1725759506225586, 
+                0.19591093063354492, 
+                0.18804097175598145, 
+                0.19372105598449707, 
+                0.12641215324401855, 
+                0.3497750759124756, 
+                0.2445831298828125, 
+                0.3092350959777832, 
+                0.3385632038116455, 
+                0.1914980411529541, 
+                0.32535505294799805, 
+                0.44069910049438477, 
+                0.43793797492980957, 
+                0.4153919219970703, 
+                0.34289979934692383, 
+                0.46299195289611816, 
+                0.377302885055542, 
+                0.14144301414489746, 
+                0.40847110748291016, 
+                0.14726495742797852, 
+                0.3627619743347168, 
+                0.1918962001800537, 
+                0.27492594718933105, 
+                0.24177908897399902
+            ], 
+            "case_counter": [
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }, 
+                {
+                    "Bidder_0": {
+                        "Case1": 0, 
+                        "Case2": 7, 
+                        "Case3": 0, 
+                        "Case4": 30, 
+                        "Case5": 6
+                    }, 
+                    "Bidder_1": {
+                        "Case1": 3, 
+                        "Case2": 36, 
+                        "Case3": 0, 
+                        "Case4": 3, 
+                        "Case5": 18
+                    }, 
+                    "Bidder_2": {
+                        "Case1": 5, 
+                        "Case2": 26, 
+                        "Case3": 0, 
+                        "Case4": 6, 
+                        "Case5": 19
+                    }, 
+                    "Bidder_3": {
+                        "Case1": 4, 
+                        "Case2": 30, 
+                        "Case3": 0, 
+                        "Case4": 5, 
+                        "Case5": 20
+                    }, 
+                    "Bidder_4": {
+                        "Case1": 1, 
+                        "Case2": 34, 
+                        "Case3": 1, 
+                        "Case4": 3, 
+                        "Case5": 10
+                    }, 
+                    "Bidder_5": {
+                        "Case1": 3, 
+                        "Case2": 28, 
+                        "Case3": 0, 
+                        "Case4": 7, 
+                        "Case5": 17
+                    }
+                }
+            ]
+        }
+    }, 
+    "MLCA Sampled Marginals per Iteration": {
+        "1": [
+            "Marginal Economy -(2)", 
+            "Marginal Economy -(4)", 
+            "Marginal Economy -(1)", 
+            "Marginal Economy -(3)"
+        ]
+    }, 
+    "MLCA Sampled Marginals Counter": {
+        "Marginal Economy -(0)": 0, 
+        "Marginal Economy -(1)": 1, 
+        "Marginal Economy -(2)": 1, 
+        "Marginal Economy -(3)": 1, 
+        "Marginal Economy -(4)": 1, 
+        "Marginal Economy -(5)": 0
+    }, 
+    "MLCA Sampled Marginals Bidder Counter": {
+        "Bidder_0": {
+            "Marginal Economy -(0)": 0, 
+            "Marginal Economy -(1)": 0, 
+            "Marginal Economy -(2)": 1, 
+            "Marginal Economy -(3)": 1, 
+            "Marginal Economy -(4)": 1, 
+            "Marginal Economy -(5)": 0
+        }, 
+        "Bidder_1": {
+            "Marginal Economy -(0)": 0, 
+            "Marginal Economy -(1)": 0, 
+            "Marginal Economy -(2)": 1, 
+            "Marginal Economy -(3)": 1, 
+            "Marginal Economy -(4)": 1, 
+            "Marginal Economy -(5)": 0
+        }, 
+        "Bidder_2": {
+            "Marginal Economy -(0)": 0, 
+            "Marginal Economy -(1)": 1, 
+            "Marginal Economy -(2)": 0, 
+            "Marginal Economy -(3)": 1, 
+            "Marginal Economy -(4)": 1, 
+            "Marginal Economy -(5)": 0
+        }, 
+        "Bidder_3": {
+            "Marginal Economy -(0)": 0, 
+            "Marginal Economy -(1)": 1, 
+            "Marginal Economy -(2)": 1, 
+            "Marginal Economy -(3)": 0, 
+            "Marginal Economy -(4)": 1, 
+            "Marginal Economy -(5)": 0
+        }, 
+        "Bidder_4": {
+            "Marginal Economy -(0)": 0, 
+            "Marginal Economy -(1)": 1, 
+            "Marginal Economy -(2)": 1, 
+            "Marginal Economy -(3)": 1, 
+            "Marginal Economy -(4)": 0, 
+            "Marginal Economy -(5)": 0
+        }, 
+        "Bidder_5": {
+            "Marginal Economy -(0)": 0, 
+            "Marginal Economy -(1)": 1, 
+            "Marginal Economy -(2)": 1, 
+            "Marginal Economy -(3)": 1, 
+            "Marginal Economy -(4)": 0, 
+            "Marginal Economy -(5)": 0
+        }
+    }, 
+    "RS New query Statistics": {}, 
+    "DE New query Statistics": {}, 
+    "ML Statistics": {
+        "1": {
+            "Bidder_0": {
+                "train_time_elapsed": 112.245614, 
+                "best_epoch": 7864, 
+                "best_attempt": 1, 
+                "attempts": 1, 
+                "target_max": "500.0", 
+                "bidder_id": "0", 
+                "train metrics": {
+                    "loss": 8.122261974108369e-09, 
+                    "loss_a": 3.55271373174006e-16, 
+                    "loss_b": 2.3281732444702108e-11, 
+                    "loss_c": 8.09898015319277e-09, 
+                    "scaled-r2": 0.9999999999999999, 
+                    "scaled-kendall_tau": 0.9999999999999999, 
+                    "scaled-mae": 1.4901161193847657e-09, 
+                    "scaled-qloss0": 0.0, 
+                    "scaled-qloss0.6": 8.940696716308593e-10, 
+                    "scaled-qloss0.75": 1.1175870895385742e-09, 
+                    "scaled-qloss0.9": 1.341104507446289e-09, 
+                    "scaled-qloss0.95": 1.4156103134155274e-09, 
+                    "scaled-qloss1": 1.4901161193847657e-09, 
+                    "scaled-uUB-r2": 0.9999999999554732, 
+                    "scaled-uUB-mae": 1.4662742614746095e-06, 
+                    "scaled-uUB-qloss0": 0.0, 
+                    "scaled-uUB-qloss0.6": 8.797645568847656e-07, 
+                    "scaled-uUB-qloss0.75": 1.099705696105957e-06, 
+                    "scaled-uUB-qloss0.9": 1.3196468353271485e-06, 
+                    "scaled-uUB-qloss0.95": 1.3929605484008788e-06, 
+                    "scaled-uUB-qloss1": 1.4662742614746095e-06, 
+                    "r2": 0.9999999999999999, 
+                    "kendall_tau": 0.9999999999999999, 
+                    "mae": 7.450580596923828e-07, 
+                    "qloss0": 0.0, 
+                    "qloss0.6": 4.470348358154297e-07, 
+                    "qloss0.75": 5.587935447692871e-07, 
+                    "qloss0.9": 6.705522537231445e-07, 
+                    "qloss0.95": 7.078051567077637e-07, 
+                    "qloss1": 7.450580596923828e-07, 
+                    "uUB-r2": 0.9999999999554732, 
+                    "uUB-mae": 0.0007331371307373047, 
+                    "uUB-qloss0": 0.0, 
+                    "uUB-qloss0.6": 0.0004398822784423828, 
+                    "uUB-qloss0.75": 0.0005498528480529785, 
+                    "uUB-qloss0.9": 0.0006598234176635742, 
+                    "uUB-qloss0.95": 0.0006964802742004395, 
+                    "uUB-qloss1": 0.0007331371307373047
+                }
+            }, 
+            "Bidder_1": {
+                "train_time_elapsed": 96.782169, 
+                "best_epoch": 5086, 
+                "best_attempt": 1, 
+                "attempts": 1, 
+                "target_max": "362.4647216796875", 
+                "bidder_id": "1", 
+                "train metrics": {
+                    "loss": 3.8266682622634107e-07, 
+                    "loss_a": 8.88178432935015e-17, 
+                    "loss_b": 1.6185972007143334e-10, 
+                    "loss_c": 3.825049645911349e-07, 
+                    "scaled-r2": 1.0, 
+                    "scaled-kendall_tau": 0.9999999999999999, 
+                    "scaled-mae": 7.450580596923829e-10, 
+                    "scaled-qloss0": 7.450580596923829e-10, 
+                    "scaled-qloss0.6": 2.9802322387695313e-10, 
+                    "scaled-qloss0.75": 1.8626451492309571e-10, 
+                    "scaled-qloss0.9": 7.450580596923827e-11, 
+                    "scaled-qloss0.95": 3.7252902984619174e-11, 
+                    "scaled-qloss1": 0.0, 
+                    "scaled-uUB-r2": 0.9999999997035982, 
+                    "scaled-uUB-mae": 5.282461643218994e-06, 
+                    "scaled-uUB-qloss0": 0.0, 
+                    "scaled-uUB-qloss0.6": 3.1694769859313963e-06, 
+                    "scaled-uUB-qloss0.75": 3.961846232414246e-06, 
+                    "scaled-uUB-qloss0.9": 4.754215478897095e-06, 
+                    "scaled-uUB-qloss0.95": 5.018338561058044e-06, 
+                    "scaled-uUB-qloss1": 5.282461643218994e-06, 
+                    "r2": 1.0, 
+                    "kendall_tau": 0.9999999999999999, 
+                    "mae": 2.700572622416075e-07, 
+                    "qloss0": 2.700572622416075e-07, 
+                    "qloss0.6": 1.0802290489664303e-07, 
+                    "qloss0.75": 6.751431556040188e-08, 
+                    "qloss0.9": 2.7005726224160747e-08, 
+                    "qloss0.95": 1.3502863112080388e-08, 
+                    "qloss1": 0.0, 
+                    "uUB-r2": 0.9999999997035982, 
+                    "uUB-mae": 0.0019147059892929974, 
+                    "uUB-qloss0": 0.0, 
+                    "uUB-qloss0.6": 0.0011488235935757985, 
+                    "uUB-qloss0.75": 0.001436029491969748, 
+                    "uUB-qloss0.9": 0.0017232353903636976, 
+                    "uUB-qloss0.95": 0.0018189706898283475, 
+                    "uUB-qloss1": 0.0019147059892929974
+                }
+            }, 
+            "Bidder_2": {
+                "train_time_elapsed": 93.462564, 
+                "best_epoch": 5479, 
+                "best_attempt": 1, 
+                "attempts": 1, 
+                "target_max": "300.9971923828125", 
+                "bidder_id": "2", 
+                "train metrics": {
+                    "loss": 4.017616674900637e-07, 
+                    "loss_a": 5.684341970784096e-15, 
+                    "loss_b": 1.0797585048294422e-11, 
+                    "loss_c": 4.0175086724048015e-07, 
+                    "scaled-r2": 0.9999999999999986, 
+                    "scaled-kendall_tau": 0.9999999999999999, 
+                    "scaled-mae": 5.960464477539063e-09, 
+                    "scaled-qloss0": 0.0, 
+                    "scaled-qloss0.6": 3.5762786865234374e-09, 
+                    "scaled-qloss0.75": 4.470348358154297e-09, 
+                    "scaled-qloss0.9": 5.364418029785156e-09, 
+                    "scaled-qloss0.95": 5.6624412536621094e-09, 
+                    "scaled-qloss1": 5.960464477539063e-09, 
+                    "scaled-uUB-r2": 0.9999999999779557, 
+                    "scaled-uUB-mae": 1.4215707778930665e-06, 
+                    "scaled-uUB-qloss0": 0.0, 
+                    "scaled-uUB-qloss0.6": 8.529424667358398e-07, 
+                    "scaled-uUB-qloss0.75": 1.0661780834197998e-06, 
+                    "scaled-uUB-qloss0.9": 1.2794137001037598e-06, 
+                    "scaled-uUB-qloss0.95": 1.350492238998413e-06, 
+                    "scaled-uUB-qloss1": 1.4215707778930665e-06, 
+                    "r2": 0.9999999999999986, 
+                    "kendall_tau": 0.9999999999999999, 
+                    "mae": 1.7940830730367451e-06, 
+                    "qloss0": 0.0, 
+                    "qloss0.6": 1.076449843822047e-06, 
+                    "qloss0.75": 1.3455623047775588e-06, 
+                    "qloss0.9": 1.6146747657330708e-06, 
+                    "qloss0.95": 1.7043789193849079e-06, 
+                    "qloss1": 1.7940830730367451e-06, 
+                    "uUB-r2": 0.9999999999779557, 
+                    "uUB-mae": 0.0004278888129192637, 
+                    "uUB-qloss0": 0.0, 
+                    "uUB-qloss0.6": 0.00025673328775155824, 
+                    "uUB-qloss0.75": 0.0003209166096894478, 
+                    "uUB-qloss0.9": 0.00038509993162733736, 
+                    "uUB-qloss0.95": 0.0004064943722733005, 
+                    "uUB-qloss1": 0.0004278888129192637
+                }
+            }, 
+            "Bidder_3": {
+                "train_time_elapsed": 93.41864, 
+                "best_epoch": 5454, 
+                "best_attempt": 1, 
+                "attempts": 1, 
+                "target_max": "283.2909851074219", 
+                "bidder_id": "3", 
+                "train metrics": {
+                    "loss": 4.844206955567643e-07, 
+                    "loss_a": 1.0551559897088031e-13, 
+                    "loss_b": 1.663598148127221e-09, 
+                    "loss_c": 4.827570023735461e-07, 
+                    "scaled-r2": 0.999999999999973, 
+                    "scaled-kendall_tau": 0.9999999999999999, 
+                    "scaled-mae": 3.725290298461914e-08, 
+                    "scaled-qloss0": 2.9802322387695312e-08, 
+                    "scaled-qloss0.6": 1.6391277313232423e-08, 
+                    "scaled-qloss0.75": 1.30385160446167e-08, 
+                    "scaled-qloss0.9": 9.685754776000977e-09, 
+                    "scaled-qloss0.95": 8.568167686462403e-09, 
+                    "scaled-qloss1": 7.450580596923828e-09, 
+                    "scaled-uUB-r2": 0.999999999911695, 
+                    "scaled-uUB-mae": 2.2038817405700684e-06, 
+                    "scaled-uUB-qloss0": 1.33514404296875e-06, 
+                    "scaled-uUB-qloss0.6": 1.0553002357482911e-06, 
+                    "scaled-uUB-qloss0.75": 9.853392839431763e-07, 
+                    "scaled-uUB-qloss0.9": 9.153783321380616e-07, 
+                    "scaled-uUB-qloss0.95": 8.920580148696899e-07, 
+                    "scaled-uUB-qloss1": 8.687376976013183e-07, 
+                    "r2": 0.999999999999973, 
+                    "kendall_tau": 0.9999999999999999, 
+                    "mae": 1.0553411584623973e-05, 
+                    "qloss0": 8.442729267699178e-06, 
+                    "qloss0.6": 4.643501097234548e-06, 
+                    "qloss0.75": 3.6936940546183905e-06, 
+                    "qloss0.9": 2.7438870120022328e-06, 
+                    "qloss0.95": 2.4272846644635145e-06, 
+                    "qloss1": 2.1106823169247946e-06, 
+                    "uUB-r2": 0.999999999911695, 
+                    "uUB-mae": 0.0006243398293463542, 
+                    "uUB-qloss0": 0.0003782342711929232, 
+                    "uUB-qloss0.6": 0.0002989570433692279, 
+                    "uUB-qloss0.75": 0.0002791377364133041, 
+                    "uUB-qloss0.9": 0.0002593184294573803, 
+                    "uUB-qloss0.95": 0.00025271199380540567, 
+                    "uUB-qloss1": 0.00024610555815343107
+                }
+            }, 
+            "Bidder_4": {
+                "train_time_elapsed": 90.733186, 
+                "best_epoch": 5467, 
+                "best_attempt": 1, 
+                "attempts": 1, 
+                "target_max": "317.3567810058594", 
+                "bidder_id": "4", 
+                "train metrics": {
+                    "loss": 3.4323613817832666e-07, 
+                    "loss_a": 0.0, 
+                    "loss_b": 3.4370728919236315e-12, 
+                    "loss_c": 3.432326991514856e-07, 
+                    "scaled-r2": 1.0, 
+                    "scaled-kendall_tau": 0.9999999999999999, 
+                    "scaled-mae": 0.0, 
+                    "scaled-qloss0": 0.0, 
+                    "scaled-qloss0.6": 0.0, 
+                    "scaled-qloss0.75": 0.0, 
+                    "scaled-qloss0.9": 0.0, 
+                    "scaled-qloss0.95": 0.0, 
+                    "scaled-qloss1": 0.0, 
+                    "scaled-uUB-r2": 0.999999999993253, 
+                    "scaled-uUB-mae": 6.288290023803711e-07, 
+                    "scaled-uUB-qloss0": 0.0, 
+                    "scaled-uUB-qloss0.6": 3.7729740142822266e-07, 
+                    "scaled-uUB-qloss0.75": 4.716217517852783e-07, 
+                    "scaled-uUB-qloss0.9": 5.65946102142334e-07, 
+                    "scaled-uUB-qloss0.95": 5.973875522613526e-07, 
+                    "scaled-uUB-qloss1": 6.288290023803711e-07, 
+                    "r2": 1.0, 
+                    "kendall_tau": 0.9999999999999999, 
+                    "mae": 0.0, 
+                    "qloss0": 0.0, 
+                    "qloss0.6": 0.0, 
+                    "qloss0.75": 0.0, 
+                    "qloss0.9": 0.0, 
+                    "qloss0.95": 0.0, 
+                    "qloss1": 0.0, 
+                    "uUB-r2": 0.999999999993253, 
+                    "uUB-mae": 0.00019956314799856044, 
+                    "uUB-qloss0": 0.0, 
+                    "uUB-qloss0.6": 0.00011973788879913628, 
+                    "uUB-qloss0.75": 0.00014967236099892035, 
+                    "uUB-qloss0.9": 0.0001796068331987044, 
+                    "uUB-qloss0.95": 0.0001895849905986324, 
+                    "uUB-qloss1": 0.00019956314799856044
+                }
+            }, 
+            "Bidder_5": {
+                "train_time_elapsed": 91.29619, 
+                "best_epoch": 5086, 
+                "best_attempt": 1, 
+                "attempts": 1, 
+                "target_max": "284.8472595214844", 
+                "bidder_id": "5", 
+                "train metrics": {
+                    "loss": 9.95755158328393e-07, 
+                    "loss_a": 5.684341970784096e-15, 
+                    "loss_b": 2.279780877967319e-11, 
+                    "loss_c": 9.95732307274011e-07, 
+                    "scaled-r2": 0.9999999999999989, 
+                    "scaled-kendall_tau": 0.9999999999999999, 
+                    "scaled-mae": 5.960464477539063e-09, 
+                    "scaled-qloss0": 5.960464477539063e-09, 
+                    "scaled-qloss0.6": 2.384185791015625e-09, 
+                    "scaled-qloss0.75": 1.4901161193847657e-09, 
+                    "scaled-qloss0.9": 5.960464477539062e-10, 
+                    "scaled-qloss0.95": 2.980232238769534e-10, 
+                    "scaled-qloss1": 0.0, 
+                    "scaled-uUB-r2": 0.9999999999651709, 
+                    "scaled-uUB-mae": 1.8343329429626464e-06, 
+                    "scaled-uUB-qloss0": 0.0, 
+                    "scaled-uUB-qloss0.6": 1.1005997657775877e-06, 
+                    "scaled-uUB-qloss0.75": 1.375749707221985e-06, 
+                    "scaled-uUB-qloss0.9": 1.650899648666382e-06, 
+                    "scaled-uUB-qloss0.95": 1.7426162958145138e-06, 
+                    "scaled-uUB-qloss1": 1.8343329429626464e-06, 
+                    "r2": 0.9999999999999989, 
+                    "kendall_tau": 0.9999999999999999, 
+                    "mae": 1.6978219719021581e-06, 
+                    "qloss0": 1.6978219719021581e-06, 
+                    "qloss0.6": 6.791287887608632e-07, 
+                    "qloss0.75": 4.2445549297553953e-07, 
+                    "qloss0.9": 1.6978219719021576e-07, 
+                    "qloss0.95": 8.489109859510798e-08, 
+                    "qloss1": 0.0, 
+                    "uUB-r2": 0.9999999999651709, 
+                    "uUB-mae": 0.0005225047118528892, 
+                    "uUB-qloss0": 0.0, 
+                    "uUB-qloss0.6": 0.0003135028271117335, 
+                    "uUB-qloss0.75": 0.00039187853388966687, 
+                    "uUB-qloss0.9": 0.00047025424066760024, 
+                    "uUB-qloss0.95": 0.0004963794762602447, 
+                    "uUB-qloss1": 0.0005225047118528892
+                }
+            }
+        }
+    }, 
+    "MLCA Allocation": [
+        null
+    ], 
+    "SATS Efficient Allocation": {
+        "0": {
+            "good_ids": [], 
+            "value": 0.0
+        }, 
+        "1": {
+            "good_ids": [
+                3, 
+                4, 
+                5, 
+                8, 
+                9, 
+                10, 
+                11, 
+                15, 
+                16, 
+                17
+            ], 
+            "value": 344.1364179291484
+        }, 
+        "2": {
+            "good_ids": [
+                2
+            ], 
+            "value": 16.614928456667734
+        }, 
+        "3": {
+            "good_ids": [
+                14
+            ], 
+            "value": 7.136089414671991
+        }, 
+        "4": {
+            "good_ids": [
+                2, 
+                3, 
+                4, 
+                5, 
+                8, 
+                9, 
+                10
+            ], 
+            "value": 262.1104329522825
+        }, 
+        "5": {
+            "good_ids": [
+                0, 
+                1, 
+                6, 
+                7, 
+                12, 
+                13
+            ], 
+            "value": 239.89931159129165
+        }
+    }, 
+    "MLCA Allocation per Iteration": {
+        "0": {
+            "Bidder_0": {
+                "good_ids": [
+                    0, 
+                    1, 
+                    2, 
+                    3, 
+                    4, 
+                    5, 
+                    6, 
+                    7, 
+                    8, 
+                    9, 
+                    10, 
+                    11, 
+                    12, 
+                    13, 
+                    14, 
+                    15, 
+                    16, 
+                    17
+                ], 
+                "value": 474.71710205078125
+            }, 
+            "Bidder_1": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_2": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_3": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_4": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_5": {
+                "good_ids": [], 
+                "value": 0
+            }
+        }, 
+        "1": {
+            "Bidder_0": {
+                "good_ids": [
+                    0, 
+                    1, 
+                    2, 
+                    3, 
+                    4, 
+                    5, 
+                    6, 
+                    7, 
+                    8, 
+                    9, 
+                    10, 
+                    11, 
+                    12, 
+                    13, 
+                    14, 
+                    15, 
+                    16, 
+                    17
+                ], 
+                "value": 474.71710205078125
+            }, 
+            "Bidder_1": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_2": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_3": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_4": {
+                "good_ids": [], 
+                "value": 0
+            }, 
+            "Bidder_5": {
+                "good_ids": [], 
+                "value": 0
+            }
+        }
+    }, 
+    "MLCA Elicited Bids": {
+        "Bidder_0": [
+            [
+                [
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ]
+            ], 
+            [
+                500.0, 
+                50.646217346191406, 
+                130.40834045410156, 
+                0.0, 
+                59.672489166259766, 
+                37.14456953513113, 
+                43.1115751830249, 
+                33.087231766437824, 
+                27.727261594601078
+            ]
+        ], 
+        "Bidder_1": [
+            [
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1
+                ]
+            ], 
+            [
+                0.0, 
+                15.88332748413086, 
+                362.4647216796875, 
+                42.02193069458008, 
+                129.06480407714844, 
+                91.04422208079501, 
+                91.04422208079501, 
+                129.0648039618187, 
+                72.01197337282721
+            ]
+        ], 
+        "Bidder_2": [
+            [
+                [
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0
+                ]
+            ], 
+            [
+                49.364707946777344, 
+                0.0, 
+                300.9971923828125, 
+                162.92442321777344, 
+                81.46685791015625, 
+                0.0, 
+                16.21448351009305, 
+                8.624455415005334, 
+                6.497416038871603
+            ]
+        ], 
+        "Bidder_3": [
+            [
+                [
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ]
+            ], 
+            [
+                28.30830955505371, 
+                283.2909851074219, 
+                82.7918930053711, 
+                0.0, 
+                109.46808624267578, 
+                0.0, 
+                13.094879404410907, 
+                41.86649413187979, 
+                0.0
+            ]
+        ], 
+        "Bidder_4": [
+            [
+                [
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ]
+            ], 
+            [
+                56.95059585571289, 
+                43.69350051879883, 
+                55.17549133300781, 
+                0.0, 
+                317.3567810058594, 
+                12.29576639340086, 
+                0.0, 
+                0.0, 
+                12.29576639340086
+            ]
+        ], 
+        "Bidder_5": [
+            [
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1, 
+                    1
+                ], 
+                [
+                    1, 
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    1, 
+                    0, 
+                    0
+                ], 
+                [
+                    1, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    0, 
+                    1, 
+                    0, 
+                    0
+                ]
+            ], 
+            [
+                252.6760711669922, 
+                35.351436614990234, 
+                284.8472595214844, 
+                90.76868438720703, 
+                0.0, 
+                134.6389191316937, 
+                134.6389191316937, 
+                134.6389191316937, 
+                79.50110681756044
+            ]
+        ]
+    }
+}

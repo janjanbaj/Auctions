@@ -3,7 +3,10 @@ import json
 import logging
 import os
 import random
+from collections import OrderedDict
 from datetime import datetime
+
+from joblib import Parallel, delayed
 
 import numpy as np
 import torch
@@ -185,63 +188,43 @@ def mechanism(
         if not separate_economy_training:
             E.estimation_step()
 
-        # Marginal Economies: | Line 6-12
-        logging.info("MARGINAL ECONOMIES FOR ALL BIDDERS")
-        logging.info("-----------------------------------------------\n")
+        # Parallelized Marginal and Main Economy queries
+        # ----------------------------------------------------------------------------
+        
+        # 1. Collect all sampled economies for all bidders
+        bidder_to_marginals = OrderedDict()
+        all_sampled_economies = set()
+        for bidder in E.bidder_names:
+            sampled_marginals = E.sample_marginal_economies_for_bidder(active_bidder=bidder)
+            bidder_to_marginals[bidder] = sampled_marginals
+            all_sampled_economies.update(sampled_marginals)
+        
+        # 2. Identify and Solve "Main" optimizations for all unique sampled economies + Main Economy
+        unique_economies = list(all_sampled_economies) + ["Main Economy"]
+        logging.info("PHASE 1: PARALLEL MAIN OPTIMIZATIONS for unique economies")
+        E.solve_optimizations_parallel([(econ, None) for econ in unique_economies], model_type=acquisition)
+        
+        # 3. PHASE 2: Parallelize per-bidder query finalization
+        # This handles intra-round collisions sequentially per bidder, but in parallel across bidders.
+        logging.info("PHASE 2: PARALLEL PER-BIDDER QUERY FINALIZATION")
+        # Use a list for jobs to ensure deterministic order if needed, though Parallel doesn't strictly need it.
+        bidder_tasks = []
+        for bidder in E.bidder_names:
+            economies_for_bidder = bidder_to_marginals[bidder] + ["Main Economy"]
+            bidder_tasks.append((bidder, economies_for_bidder))
+        
+        # We use the same backend="threading" to allow access to shared E state easily
+        # Results are ignored as finalize_bidder_queries updates E state directly
+        Parallel(n_jobs=-1, backend="threading")(
+            delayed(E.finalize_bidder_queries)(bidder, econs, acquisition)
+            for bidder, econs in bidder_tasks
+        )
 
-        for bidder in tqdm(E.bidder_names, leave=False):
-            logging.info(bidder)
-            logging.info("-----------------------------------------------")
-            logging.debug("Sampling marginals for %s", bidder)
-            sampled_marginal_economies = E.sample_marginal_economies_for_bidder(
-                active_bidder=bidder
-            )
-            if E.balanced_global_marginals:
-                logging.info(
-                    f"Global Marginals: {E.sampled_marginals_per_iteration[E.mlca_iteration]}"
-                )
-            # sampled_marginal_economies.sort()
-            logging.info("Calculate next queries for the following sampled marginals:")
-            for marginal_economy in sampled_marginal_economies:
-                logging.info(marginal_economy)
-            logging.info("")
-
-            for marginal_economy in sampled_marginal_economies:
-                logging.debug("")
-                logging.info(bidder + " | " + marginal_economy)
-                logging.info("-----------------------------------------------")
-                logging.info(
-                    "Status of Economy: %s\n", E.economy_status[marginal_economy]
-                )
-                q_i = E.next_queries(economy_key=marginal_economy, active_bidder=bidder)
-                E.update_current_query_profile(bidder=bidder, bundle_to_add=q_i)
-                logging.info("")
-                logging.info("Current query profile for %s:", bidder)
+        for bidder in E.bidder_names:
+            logging.info("Current query profile for %s:", bidder)
+            if E.current_query_profile[bidder] is not None:
                 for k in range(E.current_query_profile[bidder].shape[0]):
                     logging.info(E.current_query_profile[bidder][k, :])
-                logging.info("")
-
-        # For increasing speed clear tf models of marginal economies
-        if separate_economy_training:
-            logging.info("RESET: NN Models of marginal Economies")
-            E.reset_NN_models()
-
-        # Main Economy: | Line 13-14
-        logging.info("MAIN ECONOMY FOR ALL BIDDERS")
-        logging.info("-----------------------------------------------\n")
-        for bidder in E.bidder_names:
-            logging.info(bidder)
-            logging.info("-----------------------------------------------")
-            economy_key = "Main Economy"
-            logging.info(economy_key)
-            logging.info("-----------------------------------------------")
-            logging.info("Status of Economy: %s", E.economy_status[economy_key])
-            q_i = E.next_queries(economy_key=economy_key, active_bidder=bidder)
-            E.update_current_query_profile(bidder=bidder, bundle_to_add=q_i)
-            logging.info("")
-            logging.info("Current query profile for %s:", bidder)
-            for k in range(E.current_query_profile[bidder].shape[0]):
-                logging.info(E.current_query_profile[bidder][k, :])
             logging.info("")
 
         # Update Elicited Bids With Current Query Profile and check uniqueness | Line 15-16

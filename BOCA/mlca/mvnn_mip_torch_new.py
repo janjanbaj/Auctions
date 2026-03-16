@@ -35,6 +35,7 @@ class MVNN_MIP_TORCH_NEW:
         self.sorted_bidders.sort()
         self.N = len(models)  # number of bidders
         self.Mip = gp.Model(name="MVNN_MIP_NEW")  # docplex instance
+        self.Mip.setParam("Threads", 1)  # Set Threads to 1 for better parallelization
 
         self.z = {}  # continous MIP variable
         self.alpha = {}  # binary MIP variable

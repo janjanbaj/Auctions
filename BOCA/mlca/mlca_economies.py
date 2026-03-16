@@ -896,23 +896,26 @@ class MLCA_Economies:
     def update_current_query_profile(self, bidder, bundle_to_add):
         """
         Adds bundle bundle_to_add to current query profile S
-        Remark: bundle_to_add is expected to be a new bundle -> error will  be thrown if invalid dim or alrteady elicited
+        Remark: bundle_to_add is expected to be a new bundle -> return False if invalid dim or already elicited
         """
 
         # DIM Check
         if bundle_to_add.shape != (self.M,):
-            raise RuntimeError("No valid bundle dim -> CANNOT ADD BUNDLE.")
+            logging.debug("No valid bundle dim -> CANNOT ADD BUNDLE.")
+            return False
         # NEW CHECK
         if self.check_bundle_contained(bundle=bundle_to_add, bidder=bidder):
-            raise RuntimeError("Bundle already elicited -> CANNOT ADD BUNDLE.")
-        logging.info("")
-        logging.info("ADD BUNDLE to current query profile S")
+            logging.info("Bundle already elicited for %s -> CANNOT ADD BUNDLE.", bidder)
+            return False
+        
+        logging.info("ADD BUNDLE to current query profile S for %s", bidder)
         if self.current_query_profile[bidder] is None:
             self.current_query_profile[bidder] = bundle_to_add.reshape(1, -1)
         else:
             self.current_query_profile[bidder] = np.append(
                 self.current_query_profile[bidder], bundle_to_add.reshape(1, -1), axis=0
             )
+        return True
 
     def value_queries(self, bidder_id, bundles, return_on_original_scale=False):
         """
@@ -2179,24 +2182,17 @@ class MLCA_Economies:
 
         return MODELS
 
-    def optimization_step(
+    def _worker_optimization_step(
         self, economy_key, model_type, bidder_specific_constraints=None
     ):
-
+        """Worker function for solving a single optimization step in parallel."""
         # Extract pytorch models
         MODELS = self.get_ML_models(economy_key, model_type=model_type)
-
-        if bidder_specific_constraints is None:
-            logging.info("OPTIMIZATION STEP")
-        else:
-            logging.info(
-                f"ADDITIONAL BIDDER SPECIFIC **{self.new_query_option}** for {list(bidder_specific_constraints.keys())[0]}"
-            )
-        logging.info("-----------------------------------------------")
-
         attempts = self.MIP_parameters["attempts_DNN_WDP"]
 
-        # NEW GSVM specific constraints
+        # GSVM specific constraints
+        GSVM_specific_constraints = False
+        national_circle_complement = None
         if (
             self.SATS_auction_instance.get_model_name() == "GSVM"
             and not self.SATS_auction_instance.isLegacy
@@ -2205,39 +2201,21 @@ class MLCA_Economies:
             national_circle_complement = list(
                 self.good_ids - set(self.SATS_auction_instance.get_goods_of_interest(6))
             )
-            logging.info("########## ATTENTION ##########")
-            logging.info("GSVM specific constraints: %s", GSVM_specific_constraints)
-            logging.info("###############################\n")
-        else:
-            GSVM_specific_constraints = False
-            national_circle_complement = None
 
         for attempt in range(1, attempts + 1):
-            # counter
-            if bidder_specific_constraints:
-                self.number_of_optimization["bidder_specific_MIP"] += 1
-            else:
-                self.number_of_optimization["normal"] += 1
-
-            logging.debug("Initialize MIP")
-
-            # NEW MVNN-MIP
             MIP = MVNN_MIP_TORCH_NEW(MODELS)
             MIP.initialize_mip(
                 verbose=False,
                 bidder_specific_constraints=bidder_specific_constraints,
-                GSVM_specific_constraints=GSVM_specific_constraints,  # NEW
+                GSVM_specific_constraints=GSVM_specific_constraints,
                 national_circle_complement=national_circle_complement,
-            )  # NEW
+            )
 
             try:
-                logging.info("Solving MIP")
-                logging.info("Attempt no: %s", attempt)
                 if (
                     self.MIP_parameters["warm_start"]
                     and self.warm_start_sol[economy_key] is not None
                 ):
-                    logging.debug("Using warm start")
                     sol, log = MIP.solve_mip(
                         log_output=False,
                         time_limit=self.MIP_parameters["time_limit"],
@@ -2246,7 +2224,6 @@ class MLCA_Economies:
                         feasibility_tol=self.MIP_parameters["feasibility_tol"],
                         mip_start=self.warm_start_sol[economy_key],
                     )
-                    self.warm_start_sol[economy_key] = sol
                 else:
                     sol, log = MIP.solve_mip(
                         log_output=False,
@@ -2255,64 +2232,118 @@ class MLCA_Economies:
                         integrality_tol=self.MIP_parameters["integrality_tol"],
                         feasibility_tol=self.MIP_parameters["feasibility_tol"],
                     )
-                    self.warm_start_sol[economy_key] = sol
 
-                for key, value in log.items():
-                    self.mip_logs[key].append(value)
+                # Return result for application in main process
+                return {
+                    "economy_key": economy_key,
+                    "bidder_specific_constraints": bidder_specific_constraints,
+                    "x_star": MIP.x_star,
+                    "soltime": MIP.soltime,
+                    "warm_start_sol": sol,
+                    "log": log,
+                    "error": None,
+                }
 
-                if bidder_specific_constraints is None:
-                    logging.debug("SET ARGMAX ALLOCATION FOR ALL BIDDERS")
-                    b = 0
-                    for bidder in self.argmax_allocation[economy_key].keys():
-                        self.argmax_allocation[economy_key][bidder][0] = MIP.x_star[
-                            b, :
-                        ]
-                        b = b + 1
-                else:
-                    logging.debug(
-                        f"SET ARGMAX ALLOCATION ONLY BIDDER SPECIFIC for {list(bidder_specific_constraints.keys())[0]}"
-                    )
-                    for bidder in bidder_specific_constraints.keys():
-                        b = MIP.get_bidder_key_position(
-                            bidder_key=bidder
-                        )  # transform bidder_key into bidder position in MIP
-                        self.argmax_allocation[economy_key][bidder][1] = MIP.x_star[
-                            b, :
-                        ]  # now on position 1!
-
-                self.elapsed_time_mip[economy_key].append(MIP.soltime)
-                break
-
-            except Exception:
-                logging.warning("-----------------------------------------------")
-                logging.warning("NOT SUCCESSFULLY SOLVED in attempt: %s \n", attempt)
-                logging.warning(MIP.Mip.solve_details)
+            except Exception as e:
                 if attempt == attempts:
-                    MIP.Mip.export_as_lp(
-                        basename="UnsolvedMip_iter{}_{}".format(
-                            self.mlca_iteration, economy_key
-                        ),
-                        path=os.getcwd(),
-                        hide_user_names=False,
-                    )
-                    sys.exit(
-                        "STOP, not solved succesfully in {} attempts\n".format(attempt)
-                    )
+                    return {"economy_key": economy_key, "error": str(e)}
+                continue
+        return {"economy_key": economy_key, "error": "Max attempts reached"}
 
-                logging.debug("REFITTING:")
+    def _apply_optimization_result(self, result):
+        """Applies the result of a parallel optimization to the local state."""
+        if result["error"]:
+            logging.error(
+                f"Parallel optimization failed for {result['economy_key']}: {result['error']}"
+            )
+            return
 
-                # self.separate_economy_training=True -> only refit for this economy
-                if self.separate_economy_training:
-                    self.estimation_step_economy(economy_key=economy_key)
+        economy_key = result["economy_key"]
+        bidder_specific_constraints = result["bidder_specific_constraints"]
+        x_star = result["x_star"]
 
-                # self.separate_economy_training=False -> Re-fit all irrespective of economies
+        if bidder_specific_constraints:
+            self.number_of_optimization["bidder_specific_MIP"] += 1
+            for bidder in bidder_specific_constraints.keys():
+                sorted_bidders = list(self.economies_names[economy_key])
+                sorted_bidders.sort()
+                b = sorted_bidders.index(bidder)
+                self.argmax_allocation[economy_key][bidder][1] = x_star[b, :]
+        else:
+            self.number_of_optimization["normal"] += 1
+            b = 0
+            for bidder in self.argmax_allocation[economy_key].keys():
+                self.argmax_allocation[economy_key][bidder][0] = x_star[b, :]
+                b += 1
+
+        self.warm_start_sol[economy_key] = result["warm_start_sol"]
+        for key, value in result["log"].items():
+            self.mip_logs[key].append(value)
+        self.elapsed_time_mip[economy_key].append(result["soltime"])
+
+    def solve_optimizations_parallel(self, configs, model_type):
+        """Solves multiple optimizations in parallel and updates state."""
+        if not configs:
+            return
+
+        logging.info(f"Solving {len(configs)} optimizations in parallel")
+        results = Parallel(n_jobs=-1, backend="threading")(
+            delayed(self._worker_optimization_step)(cfg[0], model_type, cfg[1])
+            for cfg in configs
+        )
+
+        for res in results:
+            self._apply_optimization_result(res)
+
+    def optimization_step(
+        self, economy_key, model_type, bidder_specific_constraints=None
+    ):
+        result = self._worker_optimization_step(
+            economy_key, model_type, bidder_specific_constraints
+        )
+        if result["error"]:
+            sys.exit(f"Optimization failed: {result['error']}")
+        self._apply_optimization_result(result)
+
+    def finalize_bidder_queries(self, bidder, economy_keys, model_type):
+        """
+        Finalizes the query profile for a single bidder across multiple economies.
+        Handles intra-round bundle collisions by performing restricted solves sequentially if needed.
+        This method is intended to be run in parallel across bidders.
+        """
+        logging.info(f"Finalizing queries for {bidder}")
+        for econ_key in economy_keys:
+            # First check if the "Main" optimization (no bidder-specific constraints) was unique
+            bundle = self.argmax_allocation[econ_key][bidder][0]
+            
+            # If bundle is already in R (elicited) or S (queried in this round), we need a restricted solve
+            if self.check_bundle_contained(bundle=bundle, bidder=bidder, log_level="DEBUG"):
+                logging.info(f"Collision detected for {bidder} in {econ_key}. Solving restricted MIP.")
+                
+                # Combine Ri and Si
+                if self.current_query_profile[bidder] is not None:
+                    Ri_union_Si = np.append(self.elicited_bids[bidder][0], self.current_query_profile[bidder], axis=0)
                 else:
-                    self.estimation_step()
-
-                MODELS = self.get_ML_models(economy_key, model_type=model_type)
-
-        del MIP
-        del MODELS
+                    Ri_union_Si = self.elicited_bids[bidder][0]
+                
+                # Solve restricted MIP for this bidder and economy
+                constraints = {bidder: Ri_union_Si}
+                # We use optimization_step here which updates argmax_allocation[econ_key][bidder][1]
+                self.optimization_step(econ_key, model_type, bidder_specific_constraints=constraints)
+                
+                # Get the restricted bundle
+                q_i = self.argmax_allocation[econ_key][bidder][1]
+            else:
+                q_i = bundle
+            
+            # Add to profile
+            added = self.update_current_query_profile(bidder, q_i)
+            if not added:
+                # This should ideally not happen if the restricted MIP solve is correct
+                logging.warning(f"Failed to add unique bundle for {bidder} in {econ_key} despite restricted solve.")
+            
+            self.economy_status[econ_key] = True
+        return True
 
     def calculate_mlca_allocation(self, economy="Main Economy"):
         """
@@ -2396,24 +2427,47 @@ class MLCA_Economies:
             logging.debug("Efficiency of allocation: %s", efficiency)
         return efficiency
 
+    def _worker_calculate_vcg_allocation(self, economy):
+        """Worker function for parallel VCG calculation."""
+        alloc, obj = self.calculate_mlca_allocation(economy=economy)
+        return economy, alloc, obj
+
     def calculate_vcg_payments(self, forced_recalc=False):
 
         logging.debug("Calculate payments")
         # (i) solve marginal MIPs
+        economies_to_solve = []
         for economy in list(self.economies_names.keys()):
             if not forced_recalc:
                 if economy == "Main Economy" and self.mlca_allocation is None:
-                    self.calculate_mlca_allocation()
+                    economies_to_solve.append(economy)
                 elif (
                     economy in self.mlca_marginal_allocations.keys()
                     and self.mlca_marginal_allocations[economy] is None
                 ):
-                    self.calculate_mlca_allocation(economy=economy)
+                    economies_to_solve.append(economy)
                 else:
                     logging.debug("Allocation for %s already calculated", economy)
             else:
                 logging.debug("Forced recalculation of %s", economy)
-                self.calculate_mlca_allocation(economy=economy)  # Recalc economy
+                economies_to_solve.append(economy)
+
+        if economies_to_solve:
+            logging.info("Solving %s economies in parallel", len(economies_to_solve))
+            results = Parallel(n_jobs=-1, backend="threading")(
+                delayed(self._worker_calculate_vcg_allocation)(economy)
+                for economy in economies_to_solve
+            )
+            for economy, alloc, obj in results:
+                if economy == "Main Economy":
+                    self.mlca_allocation = alloc
+                    self.mlca_scw = obj
+                if economy in self.mlca_marginal_allocations.keys():
+                    self.mlca_marginal_allocations[economy] = alloc
+                    self.mlca_marginal_scws[economy] = obj
+                    self.mlca_efficiency_marginals[economy] = (
+                        obj / self.SATS_auction_instance_scw
+                    )
 
         # (ii) calculate VCG terms for this economy
         for bidder in self.bidder_names:

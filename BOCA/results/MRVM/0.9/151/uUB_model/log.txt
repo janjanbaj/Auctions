@@ -1,0 +1,104 @@
+2026-03-16 23:19:01: START MLCA:
+2026-03-16 23:19:01: -----------------------------------------------
+2026-03-16 23:19:01: Model: MRVM
+2026-03-16 23:19:01: Seed SATS Instance: 151
+2026-03-16 23:19:01: Qinit: 4
+2026-03-16 23:19:01: Qmax: 10
+2026-03-16 23:19:01: Qround: 4
+2026-03-16 23:19:01: Separate economy training: False
+2026-03-16 23:19:01: Balanced global marginals: True
+2026-03-16 23:19:01: New query option: restricted_MIP
+2026-03-16 23:19:01: Acquisition: uUB_model
+2026-03-16 23:19:01: 
+2026-03-16 23:19:01: Instantiate SATS Instance
+2026-03-16 23:19:02: INITIALIZE BIDS
+2026-03-16 23:19:02: -----------------------------------------------
+2026-03-16 23:19:02: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:02: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-16 23:19:03: X in (5, 98), y in (5,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-16 23:19:03: Set parameter Username
+2026-03-16 23:19:03: Set parameter LicenseID to value 2780049
+2026-03-16 23:19:03: Academic license - for non-commercial use only - expires 2027-02-17
+2026-03-16 23:19:03: Set parameter Threads to value 1
+2026-03-16 23:19:03: Gurobi Optimizer version 13.0.1 build v13.0.1rc0 (linux64 - "Ubuntu 24.04.4 LTS")
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: CPU model: Intel(R) Xeon(R) Platinum 8276 CPU @ 2.20GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+2026-03-16 23:19:03: Thread count: 2 physical cores, 4 logical processors, using up to 1 threads
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: Non-default parameters:
+2026-03-16 23:19:03: Threads  1
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: Optimize a model with 108 rows, 50 columns and 2450 nonzeros (Max)
+2026-03-16 23:19:03: Model fingerprint: 0xa2cfec9f
+2026-03-16 23:19:03: Model has 40 linear objective coefficients
+2026-03-16 23:19:03: Variable types: 0 continuous, 50 integer (50 binary)
+2026-03-16 23:19:03: Coefficient statistics:
+2026-03-16 23:19:03:   Matrix range     [1e+00, 1e+00]
+2026-03-16 23:19:03:   Objective range  [3e+00, 5e+02]
+2026-03-16 23:19:03:   Bounds range     [1e+00, 1e+00]
+2026-03-16 23:19:03:   RHS range        [1e+00, 1e+00]
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: Found heuristic solution: objective 5.9734988
+2026-03-16 23:19:03: Presolve removed 108 rows and 50 columns
+2026-03-16 23:19:03: Presolve time: 0.00s
+2026-03-16 23:19:03: Presolve: All rows and columns removed
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: Explored 0 nodes (0 simplex iterations) in 0.00 seconds (0.00 work units)
+2026-03-16 23:19:03: Thread count was 1 (of 4 available processors)
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: Solution count 2: 500 5.9735 
+2026-03-16 23:19:03: 
+2026-03-16 23:19:03: Optimal solution found (tolerance 1.00e-04)
+2026-03-16 23:19:03: Best objective 5.000000000000e+02, best bound 5.000000000000e+02, gap 0.0000%
+2026-03-16 23:19:03: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-16 23:19:03: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-16 23:19:03: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-16 23:19:03: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-16 23:19:03: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-16 23:19:03: Read LP format model from file /home/janeet/Code/Auctions/BOCA/sats_export_f5eb11f6355d4d21b28da62aefdd50cb.lp
+2026-03-16 23:19:03: Reading time = 0.02 seconds
+2026-03-16 23:19:03: obj1: 4944 rows, 4133 columns, 13274 nonzeros
+2026-03-16 23:20:09: INFO
+2026-03-16 23:20:09: -----------------------------------------------
+2026-03-16 23:20:09: Seed Auction Instance: 151
+2026-03-16 23:20:09: Iteration of MLCA: 1
+2026-03-16 23:20:09: Number of Elicited Bids:
+2026-03-16 23:20:09: Bidder_0: 4
+2026-03-16 23:20:09: Bidder_1: 4
+2026-03-16 23:20:09: Bidder_2: 4
+2026-03-16 23:20:09: Bidder_3: 4
+2026-03-16 23:20:09: Bidder_4: 4
+2026-03-16 23:20:09: Bidder_5: 4
+2026-03-16 23:20:09: Bidder_6: 4
+2026-03-16 23:20:09: Bidder_7: 4
+2026-03-16 23:20:09: Bidder_8: 4
+2026-03-16 23:20:09: Bidder_9: 4
+2026-03-16 23:20:09: Qinit: 4 | Qround: 4 | Qmax: 10
+2026-03-16 23:20:09: Efficiency given elicited bids from iteration 0-0: 0.5983078352916453
+
+2026-03-16 23:20:09: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+2026-03-16 23:20:09: RESET: Status of Economies
+2026-03-16 23:20:09: RESET: NN Models
+2026-03-16 23:20:09: RESET: Argmax Allocation
+2026-03-16 23:20:09: RESET: Allocations and SCWs
+2026-03-16 23:20:09: RESET: Allocation Cache for Reusing
+
+2026-03-16 23:20:09: ESTIMATION STEP: all economies
+2026-03-16 23:20:09: -----------------------------------------------
