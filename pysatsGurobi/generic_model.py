@@ -1,4 +1,10 @@
 from jnius import autoclass, cast
+import json
+import os
+import uuid
+import gurobipy as gp
+from gurobipy import GRB
+import re
 
 from .simple_model import SimpleModel
 
@@ -47,17 +53,24 @@ class GenericModel(SimpleModel):
                 ]
             )
 
+        # Check Cache
+        cache_path = self._get_cache_path()
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, 'r') as f:
+                    cached_data = json.load(f)
+                # JSON keys are strings, convert bidder_id back to int if helpful
+                self.efficient_allocation = {int(k): v for k, v in cached_data["allocation"].items()}
+                return self.efficient_allocation, cached_data["total_value"]
+            except Exception as e:
+                print(f"Failed to load cache from {cache_path}: {e}")
+
         mip_wrapper = autoclass(self.mip_path)(self._bidder_list)
         imip = mip_wrapper.getMIP()
         imip.setObjectiveMax(True)
 
         # Gurobi Wrapper :
         # Intercept MIP to solve using Gurobi instead of CPLEX.
-        import os
-        import uuid
-
-        import gurobipy as gp
-        from gurobipy import GRB
 
         # Export IMIP to an LP file: CPLEX -> IMIP (Still Requires CPLEX code path for export but no full license)
         solver = autoclass(
@@ -96,7 +109,6 @@ class GenericModel(SimpleModel):
             solution_map = HashMap()
 
             # Create a reverse lookup from de-mangled name -> original Java variable Name
-            import re
 
             java_keys = set(j_vars_map.keySet())
 
@@ -161,6 +173,16 @@ class GenericModel(SimpleModel):
         # Cleanup
         if os.path.exists(export_lp):
             os.remove(export_lp)
+
+        # Save to Cache
+        try:
+            with open(cache_path, 'w') as f:
+                json.dump({
+                    "allocation": self.efficient_allocation,
+                    "total_value": total_value
+                }, f)
+        except Exception as e:
+            print(f"Failed to save cache to {cache_path}: {e}")
 
         return (
             self.efficient_allocation,

@@ -1,4 +1,11 @@
 import warnings
+import os
+import json
+import hashlib
+import uuid
+import gurobipy as gp
+from gurobipy import GRB
+import re
 
 from jnius import (
     JavaClass,
@@ -44,6 +51,7 @@ class SimpleModel(JavaClass):
 
         self.population = {}
         self.goods = {}
+        self.seed = seed
         self.mip_path = mip_path
         self.efficient_allocation = None
         # The following sets the instance handler to InMemory (i.e., no files are stored), if store_files is false
@@ -200,6 +208,27 @@ class SimpleModel(JavaClass):
             bids.append(bid)
         return bids
 
+    def _get_cache_path(self):
+        # Generate a unique hash for the model parameters
+        params = {
+            "model_name": self.get_model_name(),
+            "seed": self.seed,
+            "mip_path": self.mip_path,
+        }
+        # Add model-specific parameters if any
+        for attr in ["number_of_national_bidders", "number_of_regional_bidders", "number_of_local_bidders", "isLegacy"]:
+            if hasattr(self, attr):
+                params[attr] = getattr(self, attr)
+        
+        param_str = json.dumps(params, sort_keys=True)
+        param_hash = hashlib.md5(param_str.encode()).hexdigest()
+        
+        cache_dir = os.path.join(os.path.dirname(__file__), "cache")
+        if not os.path.exists(cache_dir):
+            os.makedirs(cache_dir, exist_ok=True)
+            
+        return os.path.join(cache_dir, f"{self.get_model_name()}_{param_hash}.json")
+
     def get_efficient_allocation(self, display_output=False):
         if self.efficient_allocation:
             return self.efficient_allocation, sum(
@@ -209,17 +238,24 @@ class SimpleModel(JavaClass):
                 ]
             )
 
+        # Check Cache
+        cache_path = self._get_cache_path()
+        if os.path.exists(cache_path):
+            try:
+                with open(cache_path, 'r') as f:
+                    cached_data = json.load(f)
+                # JSON keys are strings, convert bidder_id back to int if helpful
+                self.efficient_allocation = {int(k): v for k, v in cached_data["allocation"].items()}
+                return self.efficient_allocation, cached_data["total_value"]
+            except Exception as e:
+                print(f"Failed to load cache from {cache_path}: {e}")
+
         mip_wrapper = autoclass(self.mip_path)(self._bidder_list)
         imip = mip_wrapper.getMIP()
         imip.setObjectiveMax(True)
 
         # Gurobi Wrapper :
         # Intercept MIP to solve using Gurobi instead of CPLEX.
-        import os
-        import uuid
-
-        import gurobipy as gp
-        from gurobipy import GRB
 
         # Export IMIP to an LP file: CPLEX -> IMIP (Still Requires CPLEX) but no license.
         solver = autoclass(
@@ -260,7 +296,6 @@ class SimpleModel(JavaClass):
             solution_map = HashMap()
 
             # Create a reverse lookup from de-mangled name -> original Java variable Name
-            import re
 
             java_keys = set(j_vars_map.keySet())
 
@@ -304,6 +339,16 @@ class SimpleModel(JavaClass):
         # Cleanup
         if os.path.exists(export_lp):
             os.remove(export_lp)
+
+        # Save to Cache
+        try:
+            with open(cache_path, 'w') as f:
+                json.dump({
+                    "allocation": self.efficient_allocation,
+                    "total_value": total_value
+                }, f)
+        except Exception as e:
+            print(f"Failed to save cache to {cache_path}: {e}")
 
         return (
             self.efficient_allocation,

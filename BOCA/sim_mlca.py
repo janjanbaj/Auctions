@@ -73,8 +73,8 @@ def main(domain: str, q: float, seed: int, acquisition: str):
     # --------------------------------------
 
     # 5. SET BOCA PARAMETERS:
-    Qinit = 5  # number of initial queries sampled uniformly at random
-    Qmax = 20  # number of queries asked in total (i.e., query budget)
+    Qinit = 40  # number of initial queries sampled uniformly at random
+    Qmax = 100  # number of queries asked in total (i.e., query budget)
     Qround = 4  # number of queries asked in each MLCA round (Qround-1 marginal economy queries and 1 main economy query)
     separate_economy_training = (
         False  # MVNNs trained seperately for each economy (default=True)
@@ -132,7 +132,7 @@ def main(domain: str, q: float, seed: int, acquisition: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="MLCA")
-    parser.add_argument("--domain", type=str, choices=["LSVM", "SRVM", "MRVM"])
+    parser.add_argument("--domain", type=str, choices=["LSVM", "SRVM", "MRVM", "GSVM"])
     parser.add_argument("--q", type=float, choices=[0.6, 0.75, 0.9, 0.95])
     parser.add_argument("--seed", type=int)
     parser.add_argument("--acquisition", type=str, choices=["uUB_model", "mean_model"])
