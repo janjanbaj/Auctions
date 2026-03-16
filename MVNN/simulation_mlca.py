@@ -43,7 +43,7 @@ def main(
         format="%(asctime)s: %(message)s",
         handlers=[
             logging.FileHandler(
-                f"{seed}.log",
+                f"{seed}-{layer_type}.log",
             ),  # Logs to a file
         ],
     )
