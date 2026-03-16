@@ -8,10 +8,10 @@ with open("../RNG-SEEDS.txt", "r") as file:
     seeds = list(map(int, file.read().split()))[0:10]
 # Define the list of commands
 commands = [
-    f"python simulation_mlca.py --domain {domain} --qinit 10 --qround 4 --qmax 100 --seed {seed} --network_type {nt}"
+    f"python simulation_mlca.py --domain {domain} --qinit 40 --qround 4 --qmax 100 --seed {seed} --network_type {nt}"
     for seed in seeds
     for nt in ["MVNN", "NN"]
-    for domain in ["GSVM", "LSVM"] 
+    for domain in ["LSVM", "SRVM", "MRVM"]
 ]
 
 # Note: on Windows, "sleep" and "ls" might not be directly available as executables.
