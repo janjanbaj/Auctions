@@ -18,12 +18,14 @@ from sklearn.preprocessing import MinMaxScaler
 
 network_type_to_layer_type = {"MVNN": "CALayerReLUProjected", "NN": "PlainNN"}
 
+
 INCUMBENTS_to_num_train_data = {
-    "GSVM": {"MVNN": 10, "NN": 20},
-    "LSVM": {"MVNN": 10, "NN": 10},
-    "MRVM": {"MVNN": 10, "NN": 30},
-    "SRVM": {"MVNN": 10, "NN": 10},
+    'GSVM': {'MVNN': 50, 'NN': 20},
+    'LSVM': {'MVNN': 50, 'NN': 100},
+    'MRVM': {'MVNN': 10, 'NN': 300},
+    'SRVM': {'MVNN': 100, 'NN': 100}
 }
+
 
 
 import sys
@@ -43,7 +45,7 @@ def main(
         format="%(asctime)s: %(message)s",
         handlers=[
             logging.FileHandler(
-                f"{seed}.log",
+                f"{domain}-{seed}-{layer_type}.log",
             ),  # Logs to a file
         ],
     )

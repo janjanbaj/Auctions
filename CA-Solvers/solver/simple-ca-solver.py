@@ -42,7 +42,7 @@ add_constraints(problem, non_overlaping_constraints)
 print(problem)
 print(f"Length of constraints: {len(non_overlaping_constraints)}")
 
-problem.solve()
+problem.solve(GUROBI())
 
 for v in problem.variables():
     if v.varValue == 1:
