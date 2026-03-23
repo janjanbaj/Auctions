@@ -1,0 +1,1993 @@
+2026-03-22 21:51:17: START MLCA:
+2026-03-22 21:51:17: -----------------------------------------------
+2026-03-22 21:51:17: Model: LSVM
+2026-03-22 21:51:17: Seed SATS Instance: 9447
+2026-03-22 21:51:17: Qinit: 40
+2026-03-22 21:51:17: Qmax: 100
+2026-03-22 21:51:17: Qround: 4
+2026-03-22 21:51:17: Separate economy training: False
+2026-03-22 21:51:17: Balanced global marginals: True
+2026-03-22 21:51:17: New query option: restricted_MIP
+2026-03-22 21:51:17: Acquisition: uUB_model
+2026-03-22 21:51:17: 
+2026-03-22 21:51:17: Instantiate SATS Instance
+2026-03-22 21:51:18: ####### ATTENTION #######
+2026-03-22 21:51:18: isLegacyLSVM: False
+2026-03-22 21:51:18: #########################
+
+2026-03-22 21:51:18: INITIALIZE BIDS
+2026-03-22 21:51:18: -----------------------------------------------
+2026-03-22 21:51:18: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-22 21:51:18: X in (41, 18), y in (41,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-22 21:51:18: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-22 21:51:18: X in (41, 18), y in (41,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-22 21:51:18: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-22 21:51:18: X in (41, 18), y in (41,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-22 21:51:18: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-22 21:51:18: X in (41, 18), y in (41,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-22 21:51:18: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-22 21:51:18: X in (41, 18), y in (41,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-22 21:51:18: INIT BUNDLE-VALUE PAIRS ARE UNIQUE
+2026-03-22 21:51:18: X in (41, 18), y in (41,) (incl. empty-bundle) with include_full_bundle:True.
+2026-03-22 21:51:18: Set parameter Username
+2026-03-22 21:51:18: Set parameter LicenseID to value 2780049
+2026-03-22 21:51:18: Academic license - for non-commercial use only - expires 2027-02-17
+2026-03-22 21:51:18: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-22 21:51:18: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-22 21:51:18: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-22 21:51:18: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 21:51:18: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 21:51:18: INFO
+2026-03-22 21:51:18: -----------------------------------------------
+2026-03-22 21:51:18: Seed Auction Instance: 9447
+2026-03-22 21:51:18: Iteration of MLCA: 1
+2026-03-22 21:51:18: Number of Elicited Bids:
+2026-03-22 21:51:18: Bidder_0: 40
+2026-03-22 21:51:18: Bidder_1: 40
+2026-03-22 21:51:18: Bidder_2: 40
+2026-03-22 21:51:18: Bidder_3: 40
+2026-03-22 21:51:18: Bidder_4: 40
+2026-03-22 21:51:18: Bidder_5: 40
+2026-03-22 21:51:18: Qinit: 40 | Qround: 4 | Qmax: 100
+2026-03-22 21:51:18: Efficiency given elicited bids from iteration 0-0: 0.797312713751865
+
+2026-03-22 21:51:18: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+2026-03-22 21:51:18: RESET: Status of Economies
+2026-03-22 21:51:18: RESET: NN Models
+2026-03-22 21:51:18: RESET: Argmax Allocation
+2026-03-22 21:51:18: RESET: Allocations and SCWs
+2026-03-22 21:51:18: RESET: Allocation Cache for Reusing
+
+2026-03-22 21:51:18: ESTIMATION STEP: all economies
+2026-03-22 21:51:18: -----------------------------------------------
+2026-03-22 21:54:37: Elapsed Time: 0d 0h:3m:18s
+
+2026-03-22 21:54:37: PHASE 1: PARALLEL MAIN OPTIMIZATIONS for unique economies
+2026-03-22 21:54:37: Solving 5 optimizations in parallel
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: Initialize MIP
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: Initialize MIP
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: Initialize MIP
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: Initialize MIP
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: MIP initialized
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: Solve MIP
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: MIP warm-start False
+2026-03-22 21:54:37: MIP time Limit of 600.0
+2026-03-22 21:54:37: MIP relative gap 0.005
+2026-03-22 21:54:37: MIP integrality tol 1e-06
+2026-03-22 21:54:37: MIP feasibility tol 1e-09
+2026-03-22 21:54:37: MIP initialized
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: Solve MIP
+2026-03-22 21:54:37: MIP initialized
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: MIP initialized
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: MIP warm-start False
+2026-03-22 21:54:37: Solve MIP
+2026-03-22 21:54:37: 
+2026-03-22 21:54:37: MIP time Limit of 600.0
+2026-03-22 21:54:37: Solve MIP
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: MIP relative gap 0.005
+2026-03-22 21:54:37: MIP warm-start False
+2026-03-22 21:54:37: -----------------------------------------------
+2026-03-22 21:54:37: MIP integrality tol 1e-06
+2026-03-22 21:54:37: MIP warm-start False
+2026-03-22 21:54:37: MIP time Limit of 600.0
+2026-03-22 21:54:37: MIP feasibility tol 1e-09
+2026-03-22 21:54:37: MIP relative gap 0.005
+2026-03-22 21:54:37: MIP time Limit of 600.0
+2026-03-22 21:54:37: MIP relative gap 0.005
+2026-03-22 21:54:37: MIP integrality tol 1e-06
+2026-03-22 21:54:37: MIP feasibility tol 1e-09
+2026-03-22 21:54:37: MIP integrality tol 1e-06
+2026-03-22 21:54:37: MIP feasibility tol 1e-09
+2026-03-22 21:55:05: MIP unsatisfied constraints: []
+2026-03-22 21:55:05: 
+Solve Details
+2026-03-22 21:55:05: -----------------------------------------------
+2026-03-22 21:55:05: Problem : MIP
+2026-03-22 21:55:05: Status  : 2
+2026-03-22 21:55:05: Time    : 27 sec
+2026-03-22 21:55:05: Rel. Gap: 0.00337591566439835 %
+2026-03-22 21:55:05: 
+2026-03-22 21:55:05: Initialize MIP
+2026-03-22 21:55:05: -----------------------------------------------
+2026-03-22 21:55:05: MIP initialized
+2026-03-22 21:55:05: 
+2026-03-22 21:55:05: Solve MIP
+2026-03-22 21:55:05: -----------------------------------------------
+2026-03-22 21:55:05: MIP warm-start False
+2026-03-22 21:55:05: MIP time Limit of 600.0
+2026-03-22 21:55:05: MIP relative gap 0.005
+2026-03-22 21:55:05: MIP integrality tol 1e-06
+2026-03-22 21:55:05: MIP feasibility tol 1e-09
+2026-03-22 21:55:51: MIP unsatisfied constraints: []
+2026-03-22 21:55:51: 
+Solve Details
+2026-03-22 21:55:51: -----------------------------------------------
+2026-03-22 21:55:51: Problem : MIP
+2026-03-22 21:55:51: Status  : 2
+2026-03-22 21:55:51: Time    : 73 sec
+2026-03-22 21:55:51: Rel. Gap: 0.004981024442181383 %
+2026-03-22 21:55:56: MIP unsatisfied constraints: []
+2026-03-22 21:55:56: 
+Solve Details
+2026-03-22 21:55:56: -----------------------------------------------
+2026-03-22 21:55:56: Problem : MIP
+2026-03-22 21:55:56: Status  : 2
+2026-03-22 21:55:56: Time    : 79 sec
+2026-03-22 21:55:56: Rel. Gap: 0.0049676508751984785 %
+2026-03-22 21:56:12: MIP unsatisfied constraints: []
+2026-03-22 21:56:12: 
+Solve Details
+2026-03-22 21:56:12: -----------------------------------------------
+2026-03-22 21:56:12: Problem : MIP
+2026-03-22 21:56:12: Status  : 2
+2026-03-22 21:56:12: Time    : 94 sec
+2026-03-22 21:56:12: Rel. Gap: 0.004629627364586935 %
+2026-03-22 21:56:47: MIP unsatisfied constraints: []
+2026-03-22 21:56:47: 
+Solve Details
+2026-03-22 21:56:47: -----------------------------------------------
+2026-03-22 21:56:47: Problem : MIP
+2026-03-22 21:56:47: Status  : 2
+2026-03-22 21:56:47: Time    : 102 sec
+2026-03-22 21:56:47: Rel. Gap: 0.004140697176114623 %
+2026-03-22 21:56:47: PHASE 2: PARALLEL PER-BIDDER QUERY FINALIZATION
+2026-03-22 21:56:47: Finalizing queries for Bidder_0
+2026-03-22 21:56:47: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 21:56:47: Collision detected for Bidder_0 in Marginal Economy -(3). Solving restricted MIP.
+2026-03-22 21:56:47: 
+2026-03-22 21:56:47: Initialize MIP
+2026-03-22 21:56:47: -----------------------------------------------
+2026-03-22 21:56:47: Finalizing queries for Bidder_1
+2026-03-22 21:56:47: Finalizing queries for Bidder_2
+2026-03-22 21:56:47: Finalizing queries for Bidder_3
+2026-03-22 21:56:47: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 21:56:47: Collision detected for Bidder_2 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 21:56:47: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 21:56:47: Collision detected for Bidder_1 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 21:56:47: 
+2026-03-22 21:56:47: Collision detected for Bidder_3 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 21:56:47: 
+2026-03-22 21:56:47: Initialize MIP
+2026-03-22 21:56:47: 
+2026-03-22 21:56:47: Initialize MIP
+2026-03-22 21:56:47: -----------------------------------------------
+2026-03-22 21:56:47: Initialize MIP
+2026-03-22 21:56:47: -----------------------------------------------
+2026-03-22 21:56:47: -----------------------------------------------
+2026-03-22 21:56:47: MIP initialized
+2026-03-22 21:56:47: 
+2026-03-22 21:56:47: Solve MIP
+2026-03-22 21:56:47: -----------------------------------------------
+2026-03-22 21:56:47: MIP warm-start False
+2026-03-22 21:56:47: MIP time Limit of 600.0
+2026-03-22 21:56:47: MIP relative gap 0.005
+2026-03-22 21:56:47: MIP integrality tol 1e-06
+2026-03-22 21:56:47: MIP feasibility tol 1e-09
+2026-03-22 21:56:48: MIP initialized
+2026-03-22 21:56:48: 
+2026-03-22 21:56:48: Solve MIP
+2026-03-22 21:56:48: -----------------------------------------------
+2026-03-22 21:56:48: MIP warm-start False
+2026-03-22 21:56:48: MIP time Limit of 600.0
+2026-03-22 21:56:48: MIP relative gap 0.005
+2026-03-22 21:56:48: MIP integrality tol 1e-06
+2026-03-22 21:56:48: MIP feasibility tol 1e-09
+2026-03-22 21:56:48: MIP initialized
+2026-03-22 21:56:48: 
+2026-03-22 21:56:48: Solve MIP
+2026-03-22 21:56:48: -----------------------------------------------
+2026-03-22 21:56:48: MIP warm-start False
+2026-03-22 21:56:48: MIP time Limit of 600.0
+2026-03-22 21:56:48: MIP relative gap 0.005
+2026-03-22 21:56:48: MIP integrality tol 1e-06
+2026-03-22 21:56:48: MIP feasibility tol 1e-09
+2026-03-22 21:56:48: MIP initialized
+2026-03-22 21:56:48: 
+2026-03-22 21:56:48: Solve MIP
+2026-03-22 21:56:48: -----------------------------------------------
+2026-03-22 21:56:48: MIP warm-start False
+2026-03-22 21:56:48: MIP time Limit of 600.0
+2026-03-22 21:56:48: MIP relative gap 0.005
+2026-03-22 21:56:48: MIP integrality tol 1e-06
+2026-03-22 21:56:48: MIP feasibility tol 1e-09
+2026-03-22 21:57:32: MIP unsatisfied constraints: []
+2026-03-22 21:57:32: 
+Solve Details
+2026-03-22 21:57:32: -----------------------------------------------
+2026-03-22 21:57:32: Problem : MIP
+2026-03-22 21:57:32: Status  : 2
+2026-03-22 21:57:32: Time    : 44 sec
+2026-03-22 21:57:32: Rel. Gap: 0.0022763206535235765 %
+2026-03-22 21:57:32: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 21:57:32: Collision detected for Bidder_0 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 21:57:32: 
+2026-03-22 21:57:32: Initialize MIP
+2026-03-22 21:57:32: -----------------------------------------------
+2026-03-22 21:57:32: MIP initialized
+2026-03-22 21:57:32: 
+2026-03-22 21:57:32: Solve MIP
+2026-03-22 21:57:32: -----------------------------------------------
+2026-03-22 21:57:32: MIP warm-start False
+2026-03-22 21:57:32: MIP time Limit of 600.0
+2026-03-22 21:57:32: MIP relative gap 0.005
+2026-03-22 21:57:32: MIP integrality tol 1e-06
+2026-03-22 21:57:32: MIP feasibility tol 1e-09
+2026-03-22 21:58:03: MIP unsatisfied constraints: []
+2026-03-22 21:58:03: 
+Solve Details
+2026-03-22 21:58:03: -----------------------------------------------
+2026-03-22 21:58:03: Problem : MIP
+2026-03-22 21:58:03: Status  : 2
+2026-03-22 21:58:03: Time    : 75 sec
+2026-03-22 21:58:03: Rel. Gap: 0.004776331700181716 %
+2026-03-22 21:58:03: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 21:58:03: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 21:58:03: Collision detected for Bidder_1 in Main Economy. Solving restricted MIP.
+2026-03-22 21:58:03: 
+2026-03-22 21:58:03: Initialize MIP
+2026-03-22 21:58:03: -----------------------------------------------
+2026-03-22 21:58:03: MIP initialized
+2026-03-22 21:58:03: 
+2026-03-22 21:58:03: Solve MIP
+2026-03-22 21:58:03: -----------------------------------------------
+2026-03-22 21:58:03: MIP warm-start False
+2026-03-22 21:58:03: MIP time Limit of 600.0
+2026-03-22 21:58:03: MIP relative gap 0.005
+2026-03-22 21:58:03: MIP integrality tol 1e-06
+2026-03-22 21:58:03: MIP feasibility tol 1e-09
+2026-03-22 21:58:27: MIP unsatisfied constraints: []
+2026-03-22 21:58:27: 
+Solve Details
+2026-03-22 21:58:27: -----------------------------------------------
+2026-03-22 21:58:27: Problem : MIP
+2026-03-22 21:58:27: Status  : 2
+2026-03-22 21:58:27: Time    : 99 sec
+2026-03-22 21:58:27: Rel. Gap: 0.00496772500257231 %
+2026-03-22 21:58:27: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 21:58:27: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 21:58:27: Collision detected for Bidder_3 in Main Economy. Solving restricted MIP.
+2026-03-22 21:58:27: 
+2026-03-22 21:58:27: Initialize MIP
+2026-03-22 21:58:27: -----------------------------------------------
+2026-03-22 21:58:27: MIP initialized
+2026-03-22 21:58:27: 
+2026-03-22 21:58:27: Solve MIP
+2026-03-22 21:58:27: -----------------------------------------------
+2026-03-22 21:58:27: MIP warm-start False
+2026-03-22 21:58:27: MIP time Limit of 600.0
+2026-03-22 21:58:27: MIP relative gap 0.005
+2026-03-22 21:58:27: MIP integrality tol 1e-06
+2026-03-22 21:58:27: MIP feasibility tol 1e-09
+2026-03-22 21:58:30: MIP unsatisfied constraints: []
+2026-03-22 21:58:30: 
+Solve Details
+2026-03-22 21:58:30: -----------------------------------------------
+2026-03-22 21:58:30: Problem : MIP
+2026-03-22 21:58:30: Status  : 2
+2026-03-22 21:58:30: Time    : 102 sec
+2026-03-22 21:58:30: Rel. Gap: 0.00451464665704202 %
+2026-03-22 21:58:30: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 21:58:30: Collision detected for Bidder_2 in Marginal Economy -(3). Solving restricted MIP.
+2026-03-22 21:58:30: 
+2026-03-22 21:58:30: Initialize MIP
+2026-03-22 21:58:30: -----------------------------------------------
+2026-03-22 21:58:30: MIP initialized
+2026-03-22 21:58:30: 
+2026-03-22 21:58:30: Solve MIP
+2026-03-22 21:58:30: -----------------------------------------------
+2026-03-22 21:58:30: MIP warm-start False
+2026-03-22 21:58:30: MIP time Limit of 600.0
+2026-03-22 21:58:30: MIP relative gap 0.005
+2026-03-22 21:58:30: MIP integrality tol 1e-06
+2026-03-22 21:58:30: MIP feasibility tol 1e-09
+2026-03-22 21:59:09: MIP unsatisfied constraints: []
+2026-03-22 21:59:09: 
+Solve Details
+2026-03-22 21:59:09: -----------------------------------------------
+2026-03-22 21:59:09: Problem : MIP
+2026-03-22 21:59:09: Status  : 2
+2026-03-22 21:59:09: Time    : 39 sec
+2026-03-22 21:59:09: Rel. Gap: 0.00472162780286975 %
+2026-03-22 21:59:09: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 21:59:09: Collision detected for Bidder_2 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 21:59:09: 
+2026-03-22 21:59:09: Initialize MIP
+2026-03-22 21:59:09: -----------------------------------------------
+2026-03-22 21:59:09: MIP initialized
+2026-03-22 21:59:09: 
+2026-03-22 21:59:09: Solve MIP
+2026-03-22 21:59:09: -----------------------------------------------
+2026-03-22 21:59:09: MIP warm-start False
+2026-03-22 21:59:09: MIP time Limit of 600.0
+2026-03-22 21:59:09: MIP relative gap 0.005
+2026-03-22 21:59:09: MIP integrality tol 1e-06
+2026-03-22 21:59:09: MIP feasibility tol 1e-09
+2026-03-22 21:59:20: MIP unsatisfied constraints: []
+2026-03-22 21:59:20: 
+Solve Details
+2026-03-22 21:59:20: -----------------------------------------------
+2026-03-22 21:59:20: Problem : MIP
+2026-03-22 21:59:20: Status  : 2
+2026-03-22 21:59:20: Time    : 108 sec
+2026-03-22 21:59:20: Rel. Gap: 0.004994418297644124 %
+2026-03-22 21:59:20: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 21:59:20: Collision detected for Bidder_0 in Main Economy. Solving restricted MIP.
+2026-03-22 21:59:20: 
+2026-03-22 21:59:20: Initialize MIP
+2026-03-22 21:59:20: -----------------------------------------------
+2026-03-22 21:59:20: MIP initialized
+2026-03-22 21:59:20: 
+2026-03-22 21:59:20: Solve MIP
+2026-03-22 21:59:20: -----------------------------------------------
+2026-03-22 21:59:20: MIP warm-start False
+2026-03-22 21:59:20: MIP time Limit of 600.0
+2026-03-22 21:59:20: MIP relative gap 0.005
+2026-03-22 21:59:20: MIP integrality tol 1e-06
+2026-03-22 21:59:20: MIP feasibility tol 1e-09
+2026-03-22 22:00:22: MIP unsatisfied constraints: []
+2026-03-22 22:00:22: 
+Solve Details
+2026-03-22 22:00:22: -----------------------------------------------
+2026-03-22 22:00:22: Problem : MIP
+2026-03-22 22:00:22: Status  : 2
+2026-03-22 22:00:22: Time    : 73 sec
+2026-03-22 22:00:22: Rel. Gap: 0.0021580100208507505 %
+2026-03-22 22:00:22: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:00:22: Collision detected for Bidder_2 in Main Economy. Solving restricted MIP.
+2026-03-22 22:00:22: 
+2026-03-22 22:00:22: Initialize MIP
+2026-03-22 22:00:22: -----------------------------------------------
+2026-03-22 22:00:22: MIP initialized
+2026-03-22 22:00:22: 
+2026-03-22 22:00:22: Solve MIP
+2026-03-22 22:00:22: -----------------------------------------------
+2026-03-22 22:00:22: MIP warm-start False
+2026-03-22 22:00:22: MIP time Limit of 600.0
+2026-03-22 22:00:22: MIP relative gap 0.005
+2026-03-22 22:00:22: MIP integrality tol 1e-06
+2026-03-22 22:00:22: MIP feasibility tol 1e-09
+2026-03-22 22:00:42: MIP unsatisfied constraints: []
+2026-03-22 22:00:42: 
+Solve Details
+2026-03-22 22:00:42: -----------------------------------------------
+2026-03-22 22:00:42: Problem : MIP
+2026-03-22 22:00:42: Status  : 2
+2026-03-22 22:00:42: Time    : 159 sec
+2026-03-22 22:00:42: Rel. Gap: 0.0049448845262762215 %
+2026-03-22 22:00:42: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:00:42: Finalizing queries for Bidder_4
+2026-03-22 22:00:42: Collision detected for Bidder_4 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 22:00:42: 
+2026-03-22 22:00:42: Initialize MIP
+2026-03-22 22:00:42: -----------------------------------------------
+2026-03-22 22:00:43: MIP initialized
+2026-03-22 22:00:43: 
+2026-03-22 22:00:43: Solve MIP
+2026-03-22 22:00:43: -----------------------------------------------
+2026-03-22 22:00:43: MIP warm-start False
+2026-03-22 22:00:43: MIP time Limit of 600.0
+2026-03-22 22:00:43: MIP relative gap 0.005
+2026-03-22 22:00:43: MIP integrality tol 1e-06
+2026-03-22 22:00:43: MIP feasibility tol 1e-09
+2026-03-22 22:01:08: MIP unsatisfied constraints: []
+2026-03-22 22:01:08: 
+Solve Details
+2026-03-22 22:01:08: -----------------------------------------------
+2026-03-22 22:01:08: Problem : MIP
+2026-03-22 22:01:08: Status  : 2
+2026-03-22 22:01:08: Time    : 161 sec
+2026-03-22 22:01:08: Rel. Gap: 0.004961426978674776 %
+2026-03-22 22:01:08: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:01:08: Finalizing queries for Bidder_5
+2026-03-22 22:01:08: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:01:08: Collision detected for Bidder_5 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 22:01:08: 
+2026-03-22 22:01:08: Initialize MIP
+2026-03-22 22:01:08: -----------------------------------------------
+2026-03-22 22:01:08: MIP initialized
+2026-03-22 22:01:08: 
+2026-03-22 22:01:08: Solve MIP
+2026-03-22 22:01:08: -----------------------------------------------
+2026-03-22 22:01:08: MIP warm-start False
+2026-03-22 22:01:08: MIP time Limit of 600.0
+2026-03-22 22:01:08: MIP relative gap 0.005
+2026-03-22 22:01:08: MIP integrality tol 1e-06
+2026-03-22 22:01:08: MIP feasibility tol 1e-09
+2026-03-22 22:02:11: MIP unsatisfied constraints: []
+2026-03-22 22:02:11: 
+Solve Details
+2026-03-22 22:02:11: -----------------------------------------------
+2026-03-22 22:02:11: Problem : MIP
+2026-03-22 22:02:11: Status  : 2
+2026-03-22 22:02:11: Time    : 89 sec
+2026-03-22 22:02:11: Rel. Gap: 0.004736569597223696 %
+2026-03-22 22:02:11: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:02:11: Collision detected for Bidder_4 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 22:02:11: 
+2026-03-22 22:02:11: Initialize MIP
+2026-03-22 22:02:11: -----------------------------------------------
+2026-03-22 22:02:12: MIP initialized
+2026-03-22 22:02:12: 
+2026-03-22 22:02:12: Solve MIP
+2026-03-22 22:02:12: -----------------------------------------------
+2026-03-22 22:02:12: MIP warm-start False
+2026-03-22 22:02:12: MIP time Limit of 600.0
+2026-03-22 22:02:12: MIP relative gap 0.005
+2026-03-22 22:02:12: MIP integrality tol 1e-06
+2026-03-22 22:02:12: MIP feasibility tol 1e-09
+2026-03-22 22:02:40: MIP unsatisfied constraints: []
+2026-03-22 22:02:40: 
+Solve Details
+2026-03-22 22:02:40: -----------------------------------------------
+2026-03-22 22:02:40: Problem : MIP
+2026-03-22 22:02:40: Status  : 2
+2026-03-22 22:02:40: Time    : 138 sec
+2026-03-22 22:02:40: Rel. Gap: 0.004988997729939236 %
+2026-03-22 22:02:40: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:02:55: MIP unsatisfied constraints: []
+2026-03-22 22:02:55: 
+Solve Details
+2026-03-22 22:02:55: -----------------------------------------------
+2026-03-22 22:02:55: Problem : MIP
+2026-03-22 22:02:55: Status  : 2
+2026-03-22 22:02:55: Time    : 216 sec
+2026-03-22 22:02:55: Rel. Gap: 0.004858831480721439 %
+2026-03-22 22:02:55: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:03:44: MIP unsatisfied constraints: []
+2026-03-22 22:03:44: 
+Solve Details
+2026-03-22 22:03:44: -----------------------------------------------
+2026-03-22 22:03:44: Problem : MIP
+2026-03-22 22:03:44: Status  : 2
+2026-03-22 22:03:44: Time    : 93 sec
+2026-03-22 22:03:44: Rel. Gap: 0.004620017782894408 %
+2026-03-22 22:03:44: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:03:44: Collision detected for Bidder_4 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 22:03:44: 
+2026-03-22 22:03:44: Initialize MIP
+2026-03-22 22:03:44: -----------------------------------------------
+2026-03-22 22:03:45: MIP initialized
+2026-03-22 22:03:45: 
+2026-03-22 22:03:45: Solve MIP
+2026-03-22 22:03:45: -----------------------------------------------
+2026-03-22 22:03:45: MIP warm-start False
+2026-03-22 22:03:45: MIP time Limit of 600.0
+2026-03-22 22:03:45: MIP relative gap 0.005
+2026-03-22 22:03:45: MIP integrality tol 1e-06
+2026-03-22 22:03:45: MIP feasibility tol 1e-09
+2026-03-22 22:03:54: MIP unsatisfied constraints: []
+2026-03-22 22:03:54: 
+Solve Details
+2026-03-22 22:03:54: -----------------------------------------------
+2026-03-22 22:03:54: Problem : MIP
+2026-03-22 22:03:54: Status  : 2
+2026-03-22 22:03:54: Time    : 165 sec
+2026-03-22 22:03:54: Rel. Gap: 0.004974282695585135 %
+2026-03-22 22:03:54: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:03:54: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:03:54: Collision detected for Bidder_5 in Main Economy. Solving restricted MIP.
+2026-03-22 22:03:54: 
+2026-03-22 22:03:54: Initialize MIP
+2026-03-22 22:03:54: -----------------------------------------------
+2026-03-22 22:03:54: MIP initialized
+2026-03-22 22:03:54: 
+2026-03-22 22:03:54: Solve MIP
+2026-03-22 22:03:54: -----------------------------------------------
+2026-03-22 22:03:54: MIP warm-start False
+2026-03-22 22:03:54: MIP time Limit of 600.0
+2026-03-22 22:03:54: MIP relative gap 0.005
+2026-03-22 22:03:54: MIP integrality tol 1e-06
+2026-03-22 22:03:54: MIP feasibility tol 1e-09
+2026-03-22 22:06:31: MIP unsatisfied constraints: []
+2026-03-22 22:06:31: 
+Solve Details
+2026-03-22 22:06:31: -----------------------------------------------
+2026-03-22 22:06:31: Problem : MIP
+2026-03-22 22:06:31: Status  : 2
+2026-03-22 22:06:31: Time    : 166 sec
+2026-03-22 22:06:31: Rel. Gap: 0.004922916555654226 %
+2026-03-22 22:06:31: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:06:31: Collision detected for Bidder_4 in Main Economy. Solving restricted MIP.
+2026-03-22 22:06:31: 
+2026-03-22 22:06:31: Initialize MIP
+2026-03-22 22:06:31: -----------------------------------------------
+2026-03-22 22:06:31: MIP initialized
+2026-03-22 22:06:31: 
+2026-03-22 22:06:31: Solve MIP
+2026-03-22 22:06:31: -----------------------------------------------
+2026-03-22 22:06:31: MIP warm-start False
+2026-03-22 22:06:31: MIP time Limit of 600.0
+2026-03-22 22:06:31: MIP relative gap 0.005
+2026-03-22 22:06:31: MIP integrality tol 1e-06
+2026-03-22 22:06:31: MIP feasibility tol 1e-09
+2026-03-22 22:06:43: MIP unsatisfied constraints: []
+2026-03-22 22:06:43: 
+Solve Details
+2026-03-22 22:06:43: -----------------------------------------------
+2026-03-22 22:06:43: Problem : MIP
+2026-03-22 22:06:43: Status  : 2
+2026-03-22 22:06:43: Time    : 169 sec
+2026-03-22 22:06:43: Rel. Gap: 0.004935794477483794 %
+2026-03-22 22:06:43: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:10:48: MIP unsatisfied constraints: []
+2026-03-22 22:10:48: 
+Solve Details
+2026-03-22 22:10:48: -----------------------------------------------
+2026-03-22 22:10:48: Problem : MIP
+2026-03-22 22:10:48: Status  : 2
+2026-03-22 22:10:48: Time    : 257 sec
+2026-03-22 22:10:48: Rel. Gap: 0.004930302235798614 %
+2026-03-22 22:10:48: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:10:48: Current query profile for Bidder_0:
+2026-03-22 22:10:48: [0 0 0 1 1 1 1 1 0 1 1 0 0 0 0 1 1 1]
+2026-03-22 22:10:48: [0 0 0 1 1 1 1 1 0 1 1 1 0 0 0 1 1 1]
+2026-03-22 22:10:48: [1 0 0 1 1 1 1 1 0 1 1 0 0 0 0 1 1 1]
+2026-03-22 22:10:48: [0 1 0 1 1 1 1 1 0 1 1 0 0 0 0 0 1 1]
+2026-03-22 22:10:48: 
+2026-03-22 22:10:48: Current query profile for Bidder_1:
+2026-03-22 22:10:48: [0 0 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0]
+2026-03-22 22:10:48: [0 0 1 0 0 0 0 0 1 0 0 0 1 1 1 1 0 0]
+2026-03-22 22:10:48: [0 0 1 0 0 0 1 1 1 1 0 0 1 1 1 0 0 0]
+2026-03-22 22:10:48: [1 0 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0]
+2026-03-22 22:10:48: 
+2026-03-22 22:10:48: Current query profile for Bidder_2:
+2026-03-22 22:10:48: [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+2026-03-22 22:10:48: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+2026-03-22 22:10:48: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: 
+2026-03-22 22:10:48: Current query profile for Bidder_3:
+2026-03-22 22:10:48: [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+2026-03-22 22:10:48: [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: [0 0 0 1 1 1 0 0 0 0 1 1 0 0 0 1 1 1]
+2026-03-22 22:10:48: [1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+2026-03-22 22:10:48: 
+2026-03-22 22:10:48: Current query profile for Bidder_4:
+2026-03-22 22:10:48: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+2026-03-22 22:10:48: [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0]
+2026-03-22 22:10:48: [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: 
+2026-03-22 22:10:48: Current query profile for Bidder_5:
+2026-03-22 22:10:48: [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: [1 1 1 0 0 0 0 0 1 0 0 0 1 1 1 0 0 0]
+2026-03-22 22:10:48: [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:10:48: 
+2026-03-22 22:10:48: UPDATE ELICITED BIDS: S -> R for Bidder_0
+2026-03-22 22:10:48: ---------------------------------------------
+2026-03-22 22:10:48: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:10:48: UNIQUE
+
+2026-03-22 22:10:48: UPDATE ELICITED BIDS: S -> R for Bidder_1
+2026-03-22 22:10:48: ---------------------------------------------
+2026-03-22 22:10:48: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:10:48: UNIQUE
+
+2026-03-22 22:10:48: UPDATE ELICITED BIDS: S -> R for Bidder_2
+2026-03-22 22:10:48: ---------------------------------------------
+2026-03-22 22:10:48: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:10:48: UNIQUE
+
+2026-03-22 22:10:48: UPDATE ELICITED BIDS: S -> R for Bidder_3
+2026-03-22 22:10:48: ---------------------------------------------
+2026-03-22 22:10:48: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:10:48: UNIQUE
+
+2026-03-22 22:10:48: UPDATE ELICITED BIDS: S -> R for Bidder_4
+2026-03-22 22:10:48: ---------------------------------------------
+2026-03-22 22:10:48: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:10:48: UNIQUE
+
+2026-03-22 22:10:48: UPDATE ELICITED BIDS: S -> R for Bidder_5
+2026-03-22 22:10:48: ---------------------------------------------
+2026-03-22 22:10:48: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:10:48: UNIQUE
+
+2026-03-22 22:10:48: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-22 22:10:48: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-22 22:10:48: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-22 22:10:48: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 22:10:48: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 22:10:48: INFO
+2026-03-22 22:10:48: -----------------------------------------------
+2026-03-22 22:10:48: Seed Auction Instance: 9447
+2026-03-22 22:10:48: Iteration of MLCA: 2
+2026-03-22 22:10:48: Number of Elicited Bids:
+2026-03-22 22:10:48: Bidder_0: 44
+2026-03-22 22:10:48: Bidder_1: 44
+2026-03-22 22:10:48: Bidder_2: 44
+2026-03-22 22:10:48: Bidder_3: 44
+2026-03-22 22:10:48: Bidder_4: 44
+2026-03-22 22:10:48: Bidder_5: 44
+2026-03-22 22:10:48: Qinit: 40 | Qround: 4 | Qmax: 100
+2026-03-22 22:10:48: Efficiency given elicited bids from iteration 0-1: 0.9759994172350516
+
+2026-03-22 22:10:48: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+2026-03-22 22:10:48: RESET: Status of Economies
+2026-03-22 22:10:48: RESET: NN Models
+2026-03-22 22:10:48: RESET: Argmax Allocation
+2026-03-22 22:10:48: RESET: Allocations and SCWs
+2026-03-22 22:10:48: RESET: Allocation Cache for Reusing
+
+2026-03-22 22:10:48: ESTIMATION STEP: all economies
+2026-03-22 22:10:48: -----------------------------------------------
+2026-03-22 22:14:04: Elapsed Time: 0d 0h:3m:16s
+
+2026-03-22 22:14:04: PHASE 1: PARALLEL MAIN OPTIMIZATIONS for unique economies
+2026-03-22 22:14:04: Solving 5 optimizations in parallel
+2026-03-22 22:14:04: 
+2026-03-22 22:14:04: Initialize MIP
+2026-03-22 22:14:04: -----------------------------------------------
+2026-03-22 22:14:04: 
+2026-03-22 22:14:04: Initialize MIP
+2026-03-22 22:14:04: -----------------------------------------------
+2026-03-22 22:14:04: 
+2026-03-22 22:14:04: Initialize MIP
+2026-03-22 22:14:04: -----------------------------------------------
+2026-03-22 22:14:04: 
+2026-03-22 22:14:04: Initialize MIP
+2026-03-22 22:14:04: -----------------------------------------------
+2026-03-22 22:14:05: MIP initialized
+2026-03-22 22:14:05: 
+2026-03-22 22:14:05: Solve MIP
+2026-03-22 22:14:05: -----------------------------------------------
+2026-03-22 22:14:05: MIP warm-start False
+2026-03-22 22:14:05: MIP time Limit of 600.0
+2026-03-22 22:14:05: MIP relative gap 0.005
+2026-03-22 22:14:05: MIP integrality tol 1e-06
+2026-03-22 22:14:05: MIP feasibility tol 1e-09
+2026-03-22 22:14:05: MIP initialized
+2026-03-22 22:14:05: 
+2026-03-22 22:14:05: Solve MIP
+2026-03-22 22:14:05: -----------------------------------------------
+2026-03-22 22:14:05: MIP warm-start False
+2026-03-22 22:14:05: MIP time Limit of 600.0
+2026-03-22 22:14:05: MIP relative gap 0.005
+2026-03-22 22:14:05: MIP integrality tol 1e-06
+2026-03-22 22:14:05: MIP feasibility tol 1e-09
+2026-03-22 22:14:05: MIP initialized
+2026-03-22 22:14:05: 
+2026-03-22 22:14:05: Solve MIP
+2026-03-22 22:14:05: -----------------------------------------------
+2026-03-22 22:14:05: MIP warm-start False
+2026-03-22 22:14:05: MIP time Limit of 600.0
+2026-03-22 22:14:05: MIP relative gap 0.005
+2026-03-22 22:14:05: MIP integrality tol 1e-06
+2026-03-22 22:14:05: MIP feasibility tol 1e-09
+2026-03-22 22:14:05: MIP initialized
+2026-03-22 22:14:05: 
+2026-03-22 22:14:05: Solve MIP
+2026-03-22 22:14:05: -----------------------------------------------
+2026-03-22 22:14:05: MIP warm-start False
+2026-03-22 22:14:05: MIP time Limit of 600.0
+2026-03-22 22:14:05: MIP relative gap 0.005
+2026-03-22 22:14:05: MIP integrality tol 1e-06
+2026-03-22 22:14:05: MIP feasibility tol 1e-09
+2026-03-22 22:15:07: MIP unsatisfied constraints: []
+2026-03-22 22:15:07: 
+Solve Details
+2026-03-22 22:15:07: -----------------------------------------------
+2026-03-22 22:15:07: Problem : MIP
+2026-03-22 22:15:07: Status  : 2
+2026-03-22 22:15:07: Time    : 62 sec
+2026-03-22 22:15:07: Rel. Gap: 0.003354066439250521 %
+2026-03-22 22:15:07: 
+2026-03-22 22:15:07: Initialize MIP
+2026-03-22 22:15:07: -----------------------------------------------
+2026-03-22 22:15:07: MIP initialized
+2026-03-22 22:15:07: 
+2026-03-22 22:15:07: Solve MIP
+2026-03-22 22:15:07: -----------------------------------------------
+2026-03-22 22:15:07: MIP warm-start False
+2026-03-22 22:15:07: MIP time Limit of 600.0
+2026-03-22 22:15:07: MIP relative gap 0.005
+2026-03-22 22:15:07: MIP integrality tol 1e-06
+2026-03-22 22:15:07: MIP feasibility tol 1e-09
+2026-03-22 22:15:18: MIP unsatisfied constraints: []
+2026-03-22 22:15:18: 
+Solve Details
+2026-03-22 22:15:18: -----------------------------------------------
+2026-03-22 22:15:18: Problem : MIP
+2026-03-22 22:15:18: Status  : 2
+2026-03-22 22:15:18: Time    : 73 sec
+2026-03-22 22:15:18: Rel. Gap: 0.0027623987333682846 %
+2026-03-22 22:15:25: MIP unsatisfied constraints: []
+2026-03-22 22:15:25: 
+Solve Details
+2026-03-22 22:15:25: -----------------------------------------------
+2026-03-22 22:15:25: Problem : MIP
+2026-03-22 22:15:25: Status  : 2
+2026-03-22 22:15:25: Time    : 81 sec
+2026-03-22 22:15:25: Rel. Gap: 0.0038563313967443498 %
+2026-03-22 22:18:41: MIP unsatisfied constraints: []
+2026-03-22 22:18:41: 
+Solve Details
+2026-03-22 22:18:41: -----------------------------------------------
+2026-03-22 22:18:41: Problem : MIP
+2026-03-22 22:18:41: Status  : 2
+2026-03-22 22:18:41: Time    : 214 sec
+2026-03-22 22:18:41: Rel. Gap: 0.004984023849033921 %
+2026-03-22 22:20:02: MIP unsatisfied constraints: []
+2026-03-22 22:20:02: 
+Solve Details
+2026-03-22 22:20:02: -----------------------------------------------
+2026-03-22 22:20:02: Problem : MIP
+2026-03-22 22:20:02: Status  : 2
+2026-03-22 22:20:02: Time    : 357 sec
+2026-03-22 22:20:02: Rel. Gap: 0.004553106736183823 %
+2026-03-22 22:20:02: PHASE 2: PARALLEL PER-BIDDER QUERY FINALIZATION
+2026-03-22 22:20:02: Finalizing queries for Bidder_0
+2026-03-22 22:20:02: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:20:02: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:20:02: Collision detected for Bidder_0 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 22:20:02: 
+2026-03-22 22:20:02: Initialize MIP
+2026-03-22 22:20:02: Finalizing queries for Bidder_1
+2026-03-22 22:20:02: -----------------------------------------------
+2026-03-22 22:20:02: Finalizing queries for Bidder_2
+2026-03-22 22:20:02: Finalizing queries for Bidder_3
+2026-03-22 22:20:02: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:20:02: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:20:02: Collision detected for Bidder_1 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 22:20:02: 
+2026-03-22 22:20:02: Collision detected for Bidder_2 in Marginal Economy -(5). Solving restricted MIP.
+2026-03-22 22:20:02: 
+2026-03-22 22:20:02: Initialize MIP
+2026-03-22 22:20:02: -----------------------------------------------
+2026-03-22 22:20:02: Collision detected for Bidder_3 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 22:20:02: Initialize MIP
+2026-03-22 22:20:02: -----------------------------------------------
+2026-03-22 22:20:02: 
+2026-03-22 22:20:02: Initialize MIP
+2026-03-22 22:20:02: -----------------------------------------------
+2026-03-22 22:20:03: MIP initialized
+2026-03-22 22:20:03: 
+2026-03-22 22:20:03: Solve MIP
+2026-03-22 22:20:03: -----------------------------------------------
+2026-03-22 22:20:03: MIP warm-start False
+2026-03-22 22:20:03: MIP time Limit of 600.0
+2026-03-22 22:20:03: MIP relative gap 0.005
+2026-03-22 22:20:03: MIP integrality tol 1e-06
+2026-03-22 22:20:03: MIP feasibility tol 1e-09
+2026-03-22 22:20:03: MIP initialized
+2026-03-22 22:20:03: 
+2026-03-22 22:20:03: Solve MIP
+2026-03-22 22:20:03: MIP initialized
+2026-03-22 22:20:03: 
+2026-03-22 22:20:03: MIP initialized
+2026-03-22 22:20:03: Solve MIP
+2026-03-22 22:20:03: -----------------------------------------------
+2026-03-22 22:20:03: 
+2026-03-22 22:20:03: MIP warm-start False
+2026-03-22 22:20:03: MIP time Limit of 600.0
+2026-03-22 22:20:03: Solve MIP
+2026-03-22 22:20:03: MIP relative gap 0.005
+2026-03-22 22:20:03: -----------------------------------------------
+2026-03-22 22:20:03: -----------------------------------------------
+2026-03-22 22:20:03: MIP warm-start False
+2026-03-22 22:20:03: MIP time Limit of 600.0
+2026-03-22 22:20:03: MIP warm-start False
+2026-03-22 22:20:03: MIP relative gap 0.005
+2026-03-22 22:20:03: MIP integrality tol 1e-06
+2026-03-22 22:20:03: MIP time Limit of 600.0
+2026-03-22 22:20:03: MIP feasibility tol 1e-09
+2026-03-22 22:20:03: MIP integrality tol 1e-06
+2026-03-22 22:20:03: MIP relative gap 0.005
+2026-03-22 22:20:03: MIP feasibility tol 1e-09
+2026-03-22 22:20:03: MIP integrality tol 1e-06
+2026-03-22 22:20:03: MIP feasibility tol 1e-09
+2026-03-22 22:21:14: MIP unsatisfied constraints: []
+2026-03-22 22:21:14: 
+Solve Details
+2026-03-22 22:21:14: -----------------------------------------------
+2026-03-22 22:21:14: Problem : MIP
+2026-03-22 22:21:14: Status  : 2
+2026-03-22 22:21:14: Time    : 71 sec
+2026-03-22 22:21:14: Rel. Gap: 0.004974588809377074 %
+2026-03-22 22:21:14: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:21:14: Collision detected for Bidder_2 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 22:21:14: 
+2026-03-22 22:21:14: Initialize MIP
+2026-03-22 22:21:14: -----------------------------------------------
+2026-03-22 22:21:14: MIP initialized
+2026-03-22 22:21:14: 
+2026-03-22 22:21:14: Solve MIP
+2026-03-22 22:21:14: -----------------------------------------------
+2026-03-22 22:21:14: MIP warm-start False
+2026-03-22 22:21:14: MIP time Limit of 600.0
+2026-03-22 22:21:14: MIP relative gap 0.005
+2026-03-22 22:21:14: MIP integrality tol 1e-06
+2026-03-22 22:21:14: MIP feasibility tol 1e-09
+2026-03-22 22:21:17: MIP unsatisfied constraints: []
+2026-03-22 22:21:17: 
+Solve Details
+2026-03-22 22:21:17: -----------------------------------------------
+2026-03-22 22:21:17: Problem : MIP
+2026-03-22 22:21:17: Status  : 2
+2026-03-22 22:21:17: Time    : 74 sec
+2026-03-22 22:21:17: Rel. Gap: 0.0029813514231247927 %
+2026-03-22 22:21:17: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:21:17: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:21:17: Collision detected for Bidder_1 in Marginal Economy -(3). Solving restricted MIP.
+2026-03-22 22:21:17: 
+2026-03-22 22:21:17: Initialize MIP
+2026-03-22 22:21:17: -----------------------------------------------
+2026-03-22 22:21:17: MIP initialized
+2026-03-22 22:21:17: 
+2026-03-22 22:21:17: Solve MIP
+2026-03-22 22:21:17: -----------------------------------------------
+2026-03-22 22:21:17: MIP warm-start False
+2026-03-22 22:21:17: MIP time Limit of 600.0
+2026-03-22 22:21:17: MIP relative gap 0.005
+2026-03-22 22:21:17: MIP integrality tol 1e-06
+2026-03-22 22:21:17: MIP feasibility tol 1e-09
+2026-03-22 22:21:51: MIP unsatisfied constraints: []
+2026-03-22 22:21:51: 
+Solve Details
+2026-03-22 22:21:51: -----------------------------------------------
+2026-03-22 22:21:51: Problem : MIP
+2026-03-22 22:21:51: Status  : 2
+2026-03-22 22:21:51: Time    : 108 sec
+2026-03-22 22:21:51: Rel. Gap: 0.0037615475773548337 %
+2026-03-22 22:21:51: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:21:51: Collision detected for Bidder_0 in Main Economy. Solving restricted MIP.
+2026-03-22 22:21:51: 
+2026-03-22 22:21:51: Initialize MIP
+2026-03-22 22:21:51: -----------------------------------------------
+2026-03-22 22:21:51: MIP initialized
+2026-03-22 22:21:51: 
+2026-03-22 22:21:51: Solve MIP
+2026-03-22 22:21:51: -----------------------------------------------
+2026-03-22 22:21:51: MIP warm-start False
+2026-03-22 22:21:51: MIP time Limit of 600.0
+2026-03-22 22:21:51: MIP relative gap 0.005
+2026-03-22 22:21:51: MIP integrality tol 1e-06
+2026-03-22 22:21:51: MIP feasibility tol 1e-09
+2026-03-22 22:22:13: MIP unsatisfied constraints: []
+2026-03-22 22:22:13: 
+Solve Details
+2026-03-22 22:22:13: -----------------------------------------------
+2026-03-22 22:22:13: Problem : MIP
+2026-03-22 22:22:13: Status  : 2
+2026-03-22 22:22:13: Time    : 59 sec
+2026-03-22 22:22:13: Rel. Gap: 0.004195129345405831 %
+2026-03-22 22:22:13: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:22:13: Collision detected for Bidder_2 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 22:22:13: 
+2026-03-22 22:22:13: Initialize MIP
+2026-03-22 22:22:13: -----------------------------------------------
+2026-03-22 22:22:13: MIP initialized
+2026-03-22 22:22:13: 
+2026-03-22 22:22:13: Solve MIP
+2026-03-22 22:22:13: -----------------------------------------------
+2026-03-22 22:22:13: MIP warm-start False
+2026-03-22 22:22:13: MIP time Limit of 600.0
+2026-03-22 22:22:13: MIP relative gap 0.005
+2026-03-22 22:22:13: MIP integrality tol 1e-06
+2026-03-22 22:22:13: MIP feasibility tol 1e-09
+2026-03-22 22:23:11: MIP unsatisfied constraints: []
+2026-03-22 22:23:11: 
+Solve Details
+2026-03-22 22:23:11: -----------------------------------------------
+2026-03-22 22:23:11: Problem : MIP
+2026-03-22 22:23:11: Status  : 2
+2026-03-22 22:23:11: Time    : 189 sec
+2026-03-22 22:23:11: Rel. Gap: 0.004509436438365273 %
+2026-03-22 22:23:11: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:23:11: Collision detected for Bidder_3 in Main Economy. Solving restricted MIP.
+2026-03-22 22:23:11: 
+2026-03-22 22:23:11: Initialize MIP
+2026-03-22 22:23:11: -----------------------------------------------
+2026-03-22 22:23:12: MIP initialized
+2026-03-22 22:23:12: 
+2026-03-22 22:23:12: Solve MIP
+2026-03-22 22:23:12: -----------------------------------------------
+2026-03-22 22:23:12: MIP warm-start False
+2026-03-22 22:23:12: MIP time Limit of 600.0
+2026-03-22 22:23:12: MIP relative gap 0.005
+2026-03-22 22:23:12: MIP integrality tol 1e-06
+2026-03-22 22:23:12: MIP feasibility tol 1e-09
+2026-03-22 22:23:28: MIP unsatisfied constraints: []
+2026-03-22 22:23:28: 
+Solve Details
+2026-03-22 22:23:28: -----------------------------------------------
+2026-03-22 22:23:28: Problem : MIP
+2026-03-22 22:23:28: Status  : 2
+2026-03-22 22:23:28: Time    : 75 sec
+2026-03-22 22:23:28: Rel. Gap: 0.003376411315279222 %
+2026-03-22 22:23:28: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:23:28: Collision detected for Bidder_2 in Main Economy. Solving restricted MIP.
+2026-03-22 22:23:28: 
+2026-03-22 22:23:28: Initialize MIP
+2026-03-22 22:23:28: -----------------------------------------------
+2026-03-22 22:23:29: MIP initialized
+2026-03-22 22:23:29: 
+2026-03-22 22:23:29: Solve MIP
+2026-03-22 22:23:29: -----------------------------------------------
+2026-03-22 22:23:29: MIP warm-start False
+2026-03-22 22:23:29: MIP time Limit of 600.0
+2026-03-22 22:23:29: MIP relative gap 0.005
+2026-03-22 22:23:29: MIP integrality tol 1e-06
+2026-03-22 22:23:29: MIP feasibility tol 1e-09
+2026-03-22 22:26:17: MIP unsatisfied constraints: []
+2026-03-22 22:26:17: 
+Solve Details
+2026-03-22 22:26:17: -----------------------------------------------
+2026-03-22 22:26:17: Problem : MIP
+2026-03-22 22:26:17: Status  : 2
+2026-03-22 22:26:17: Time    : 300 sec
+2026-03-22 22:26:17: Rel. Gap: 0.0043290634039417925 %
+2026-03-22 22:26:17: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:26:17: Collision detected for Bidder_1 in Main Economy. Solving restricted MIP.
+2026-03-22 22:26:17: 
+2026-03-22 22:26:17: Initialize MIP
+2026-03-22 22:26:17: -----------------------------------------------
+2026-03-22 22:26:18: MIP initialized
+2026-03-22 22:26:18: 
+2026-03-22 22:26:18: Solve MIP
+2026-03-22 22:26:18: -----------------------------------------------
+2026-03-22 22:26:18: MIP warm-start False
+2026-03-22 22:26:18: MIP time Limit of 600.0
+2026-03-22 22:26:18: MIP relative gap 0.005
+2026-03-22 22:26:18: MIP integrality tol 1e-06
+2026-03-22 22:26:18: MIP feasibility tol 1e-09
+2026-03-22 22:27:13: MIP unsatisfied constraints: []
+2026-03-22 22:27:13: 
+Solve Details
+2026-03-22 22:27:13: -----------------------------------------------
+2026-03-22 22:27:13: Problem : MIP
+2026-03-22 22:27:13: Status  : 2
+2026-03-22 22:27:13: Time    : 321 sec
+2026-03-22 22:27:13: Rel. Gap: 0.00491431793450107 %
+2026-03-22 22:27:13: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:27:13: Finalizing queries for Bidder_4
+2026-03-22 22:27:13: Collision detected for Bidder_4 in Marginal Economy -(5). Solving restricted MIP.
+2026-03-22 22:27:13: 
+2026-03-22 22:27:13: Initialize MIP
+2026-03-22 22:27:13: -----------------------------------------------
+2026-03-22 22:27:13: MIP initialized
+2026-03-22 22:27:13: 
+2026-03-22 22:27:13: Solve MIP
+2026-03-22 22:27:13: -----------------------------------------------
+2026-03-22 22:27:13: MIP warm-start False
+2026-03-22 22:27:13: MIP time Limit of 600.0
+2026-03-22 22:27:13: MIP relative gap 0.005
+2026-03-22 22:27:13: MIP integrality tol 1e-06
+2026-03-22 22:27:13: MIP feasibility tol 1e-09
+2026-03-22 22:28:59: MIP unsatisfied constraints: []
+2026-03-22 22:28:59: 
+Solve Details
+2026-03-22 22:28:59: -----------------------------------------------
+2026-03-22 22:28:59: Problem : MIP
+2026-03-22 22:28:59: Status  : 2
+2026-03-22 22:28:59: Time    : 106 sec
+2026-03-22 22:28:59: Rel. Gap: 0.0 %
+2026-03-22 22:28:59: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:28:59: Collision detected for Bidder_4 in Marginal Economy -(3). Solving restricted MIP.
+2026-03-22 22:28:59: 
+2026-03-22 22:28:59: Initialize MIP
+2026-03-22 22:28:59: -----------------------------------------------
+2026-03-22 22:28:59: MIP initialized
+2026-03-22 22:28:59: 
+2026-03-22 22:28:59: Solve MIP
+2026-03-22 22:28:59: -----------------------------------------------
+2026-03-22 22:28:59: MIP warm-start False
+2026-03-22 22:28:59: MIP time Limit of 600.0
+2026-03-22 22:28:59: MIP relative gap 0.005
+2026-03-22 22:28:59: MIP integrality tol 1e-06
+2026-03-22 22:28:59: MIP feasibility tol 1e-09
+2026-03-22 22:29:22: MIP unsatisfied constraints: []
+2026-03-22 22:29:22: 
+Solve Details
+2026-03-22 22:29:22: -----------------------------------------------
+2026-03-22 22:29:22: Problem : MIP
+2026-03-22 22:29:22: Status  : 2
+2026-03-22 22:29:22: Time    : 370 sec
+2026-03-22 22:29:22: Rel. Gap: 0.004939198382243205 %
+2026-03-22 22:29:22: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:29:22: Finalizing queries for Bidder_5
+2026-03-22 22:29:22: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:29:22: Collision detected for Bidder_5 in Marginal Economy -(3). Solving restricted MIP.
+2026-03-22 22:29:22: 
+2026-03-22 22:29:22: Initialize MIP
+2026-03-22 22:29:22: -----------------------------------------------
+2026-03-22 22:29:22: MIP initialized
+2026-03-22 22:29:22: 
+2026-03-22 22:29:22: Solve MIP
+2026-03-22 22:29:22: -----------------------------------------------
+2026-03-22 22:29:22: MIP warm-start False
+2026-03-22 22:29:22: MIP time Limit of 600.0
+2026-03-22 22:29:22: MIP relative gap 0.005
+2026-03-22 22:29:22: MIP integrality tol 1e-06
+2026-03-22 22:29:22: MIP feasibility tol 1e-09
+2026-03-22 22:29:53: MIP unsatisfied constraints: []
+2026-03-22 22:29:53: 
+Solve Details
+2026-03-22 22:29:53: -----------------------------------------------
+2026-03-22 22:29:53: Problem : MIP
+2026-03-22 22:29:53: Status  : 2
+2026-03-22 22:29:53: Time    : 384 sec
+2026-03-22 22:29:53: Rel. Gap: 0.004817419435111965 %
+2026-03-22 22:29:53: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:32:24: MIP unsatisfied constraints: []
+2026-03-22 22:32:24: 
+Solve Details
+2026-03-22 22:32:24: -----------------------------------------------
+2026-03-22 22:32:24: Problem : MIP
+2026-03-22 22:32:24: Status  : 2
+2026-03-22 22:32:24: Time    : 367 sec
+2026-03-22 22:32:24: Rel. Gap: 0.004902906498960054 %
+2026-03-22 22:32:24: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:33:18: MIP unsatisfied constraints: []
+2026-03-22 22:33:18: 
+Solve Details
+2026-03-22 22:33:18: -----------------------------------------------
+2026-03-22 22:33:18: Problem : MIP
+2026-03-22 22:33:18: Status  : 2
+2026-03-22 22:33:18: Time    : 236 sec
+2026-03-22 22:33:18: Rel. Gap: 0.004892599428113312 %
+2026-03-22 22:33:18: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:33:18: Collision detected for Bidder_5 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 22:33:18: 
+2026-03-22 22:33:18: Initialize MIP
+2026-03-22 22:33:18: -----------------------------------------------
+2026-03-22 22:33:18: MIP initialized
+2026-03-22 22:33:18: 
+2026-03-22 22:33:18: Solve MIP
+2026-03-22 22:33:18: -----------------------------------------------
+2026-03-22 22:33:18: MIP warm-start False
+2026-03-22 22:33:18: MIP time Limit of 600.0
+2026-03-22 22:33:18: MIP relative gap 0.005
+2026-03-22 22:33:18: MIP integrality tol 1e-06
+2026-03-22 22:33:18: MIP feasibility tol 1e-09
+2026-03-22 22:34:03: MIP unsatisfied constraints: []
+2026-03-22 22:34:03: 
+Solve Details
+2026-03-22 22:34:03: -----------------------------------------------
+2026-03-22 22:34:03: Problem : MIP
+2026-03-22 22:34:03: Status  : 2
+2026-03-22 22:34:03: Time    : 304 sec
+2026-03-22 22:34:03: Rel. Gap: 0.004577704926786481 %
+2026-03-22 22:34:03: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:34:03: Collision detected for Bidder_4 in Marginal Economy -(1). Solving restricted MIP.
+2026-03-22 22:34:03: 
+2026-03-22 22:34:03: Initialize MIP
+2026-03-22 22:34:03: -----------------------------------------------
+2026-03-22 22:34:03: MIP initialized
+2026-03-22 22:34:03: 
+2026-03-22 22:34:03: Solve MIP
+2026-03-22 22:34:03: -----------------------------------------------
+2026-03-22 22:34:03: MIP warm-start False
+2026-03-22 22:34:03: MIP time Limit of 600.0
+2026-03-22 22:34:03: MIP relative gap 0.005
+2026-03-22 22:34:03: MIP integrality tol 1e-06
+2026-03-22 22:34:03: MIP feasibility tol 1e-09
+2026-03-22 22:34:46: MIP unsatisfied constraints: []
+2026-03-22 22:34:46: 
+Solve Details
+2026-03-22 22:34:46: -----------------------------------------------
+2026-03-22 22:34:46: Problem : MIP
+2026-03-22 22:34:46: Status  : 2
+2026-03-22 22:34:46: Time    : 87 sec
+2026-03-22 22:34:46: Rel. Gap: 0.0 %
+2026-03-22 22:34:46: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:34:46: Collision detected for Bidder_5 in Main Economy. Solving restricted MIP.
+2026-03-22 22:34:46: 
+2026-03-22 22:34:46: Initialize MIP
+2026-03-22 22:34:46: -----------------------------------------------
+2026-03-22 22:34:46: MIP initialized
+2026-03-22 22:34:46: 
+2026-03-22 22:34:46: Solve MIP
+2026-03-22 22:34:46: -----------------------------------------------
+2026-03-22 22:34:46: MIP warm-start False
+2026-03-22 22:34:46: MIP time Limit of 600.0
+2026-03-22 22:34:46: MIP relative gap 0.005
+2026-03-22 22:34:46: MIP integrality tol 1e-06
+2026-03-22 22:34:46: MIP feasibility tol 1e-09
+2026-03-22 22:36:13: MIP unsatisfied constraints: []
+2026-03-22 22:36:13: 
+Solve Details
+2026-03-22 22:36:13: -----------------------------------------------
+2026-03-22 22:36:13: Problem : MIP
+2026-03-22 22:36:13: Status  : 2
+2026-03-22 22:36:13: Time    : 130 sec
+2026-03-22 22:36:13: Rel. Gap: 0.003730170178628924 %
+2026-03-22 22:36:13: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:36:13: Collision detected for Bidder_4 in Main Economy. Solving restricted MIP.
+2026-03-22 22:36:13: 
+2026-03-22 22:36:13: Initialize MIP
+2026-03-22 22:36:13: -----------------------------------------------
+2026-03-22 22:36:14: MIP initialized
+2026-03-22 22:36:14: 
+2026-03-22 22:36:14: Solve MIP
+2026-03-22 22:36:14: -----------------------------------------------
+2026-03-22 22:36:14: MIP warm-start False
+2026-03-22 22:36:14: MIP time Limit of 600.0
+2026-03-22 22:36:14: MIP relative gap 0.005
+2026-03-22 22:36:14: MIP integrality tol 1e-06
+2026-03-22 22:36:14: MIP feasibility tol 1e-09
+2026-03-22 22:40:02: MIP unsatisfied constraints: []
+2026-03-22 22:40:02: 
+Solve Details
+2026-03-22 22:40:02: -----------------------------------------------
+2026-03-22 22:40:02: Problem : MIP
+2026-03-22 22:40:02: Status  : 2
+2026-03-22 22:40:02: Time    : 316 sec
+2026-03-22 22:40:02: Rel. Gap: 0.004990097878032346 %
+2026-03-22 22:40:02: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:41:34: MIP unsatisfied constraints: []
+2026-03-22 22:41:34: 
+Solve Details
+2026-03-22 22:41:34: -----------------------------------------------
+2026-03-22 22:41:34: Problem : MIP
+2026-03-22 22:41:34: Status  : 2
+2026-03-22 22:41:34: Time    : 321 sec
+2026-03-22 22:41:34: Rel. Gap: 0.00434947580047173 %
+2026-03-22 22:41:34: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:41:34: Current query profile for Bidder_0:
+2026-03-22 22:41:34: [1 0 1 0 0 0 1 1 1 1 0 0 1 0 1 1 0 1]
+2026-03-22 22:41:34: [0 0 1 0 0 0 1 1 1 1 0 1 1 0 1 1 0 1]
+2026-03-22 22:41:34: [0 0 1 0 0 0 1 1 1 1 0 0 1 1 1 1 0 1]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1]
+2026-03-22 22:41:34: 
+2026-03-22 22:41:34: Current query profile for Bidder_1:
+2026-03-22 22:41:34: [0 0 1 0 0 0 0 0 1 1 0 0 1 1 1 1 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-22 22:41:34: [0 0 1 0 0 0 0 1 1 1 0 0 1 1 1 1 0 0]
+2026-03-22 22:41:34: 
+2026-03-22 22:41:34: Current query profile for Bidder_2:
+2026-03-22 22:41:34: [0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0]
+2026-03-22 22:41:34: 
+2026-03-22 22:41:34: Current query profile for Bidder_3:
+2026-03-22 22:41:34: [0 0 0 1 1 1 0 0 0 0 1 0 0 0 0 0 1 0]
+2026-03-22 22:41:34: [0 0 0 1 1 1 0 0 0 0 1 1 0 0 0 0 1 0]
+2026-03-22 22:41:34: [1 0 0 1 1 1 0 0 0 0 1 0 0 0 0 0 1 0]
+2026-03-22 22:41:34: [0 0 0 1 1 1 1 0 0 0 1 0 0 0 0 0 1 0]
+2026-03-22 22:41:34: 
+2026-03-22 22:41:34: Current query profile for Bidder_4:
+2026-03-22 22:41:34: [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: [0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 22:41:34: 
+2026-03-22 22:41:34: Current query profile for Bidder_5:
+2026-03-22 22:41:34: [1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: [0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0]
+2026-03-22 22:41:34: 
+2026-03-22 22:41:34: UPDATE ELICITED BIDS: S -> R for Bidder_0
+2026-03-22 22:41:34: ---------------------------------------------
+2026-03-22 22:41:34: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:41:34: UNIQUE
+
+2026-03-22 22:41:34: UPDATE ELICITED BIDS: S -> R for Bidder_1
+2026-03-22 22:41:34: ---------------------------------------------
+2026-03-22 22:41:34: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:41:34: UNIQUE
+
+2026-03-22 22:41:34: UPDATE ELICITED BIDS: S -> R for Bidder_2
+2026-03-22 22:41:34: ---------------------------------------------
+2026-03-22 22:41:34: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:41:34: UNIQUE
+
+2026-03-22 22:41:34: UPDATE ELICITED BIDS: S -> R for Bidder_3
+2026-03-22 22:41:34: ---------------------------------------------
+2026-03-22 22:41:34: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:41:34: UNIQUE
+
+2026-03-22 22:41:34: UPDATE ELICITED BIDS: S -> R for Bidder_4
+2026-03-22 22:41:34: ---------------------------------------------
+2026-03-22 22:41:34: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:41:34: UNIQUE
+
+2026-03-22 22:41:34: UPDATE ELICITED BIDS: S -> R for Bidder_5
+2026-03-22 22:41:34: ---------------------------------------------
+2026-03-22 22:41:34: CHECK Uniqueness of updated elicited bids:
+2026-03-22 22:41:34: UNIQUE
+
+2026-03-22 22:41:35: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-22 22:41:35: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-22 22:41:35: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-22 22:41:35: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 22:41:35: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 22:41:35: INFO
+2026-03-22 22:41:35: -----------------------------------------------
+2026-03-22 22:41:35: Seed Auction Instance: 9447
+2026-03-22 22:41:35: Iteration of MLCA: 3
+2026-03-22 22:41:35: Number of Elicited Bids:
+2026-03-22 22:41:35: Bidder_0: 48
+2026-03-22 22:41:35: Bidder_1: 48
+2026-03-22 22:41:35: Bidder_2: 48
+2026-03-22 22:41:35: Bidder_3: 48
+2026-03-22 22:41:35: Bidder_4: 48
+2026-03-22 22:41:35: Bidder_5: 48
+2026-03-22 22:41:35: Qinit: 40 | Qround: 4 | Qmax: 100
+2026-03-22 22:41:35: Efficiency given elicited bids from iteration 0-2: 0.9759994172350516
+
+2026-03-22 22:41:35: RESET: Auction Round Query Profile S=(S_1,...,S_n)
+2026-03-22 22:41:35: RESET: Status of Economies
+2026-03-22 22:41:35: RESET: NN Models
+2026-03-22 22:41:35: RESET: Argmax Allocation
+2026-03-22 22:41:35: RESET: Allocations and SCWs
+2026-03-22 22:41:35: RESET: Allocation Cache for Reusing
+
+2026-03-22 22:41:35: ESTIMATION STEP: all economies
+2026-03-22 22:41:35: -----------------------------------------------
+2026-03-22 22:44:53: Elapsed Time: 0d 0h:3m:17s
+
+2026-03-22 22:44:53: PHASE 1: PARALLEL MAIN OPTIMIZATIONS for unique economies
+2026-03-22 22:44:53: Solving 5 optimizations in parallel
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Initialize MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Initialize MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Initialize MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Initialize MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: MIP initialized
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Solve MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: MIP initialized
+2026-03-22 22:44:53: MIP warm-start False
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: MIP time Limit of 600.0
+2026-03-22 22:44:53: MIP relative gap 0.005
+2026-03-22 22:44:53: MIP integrality tol 1e-06
+2026-03-22 22:44:53: MIP initialized
+2026-03-22 22:44:53: Solve MIP
+2026-03-22 22:44:53: MIP feasibility tol 1e-09
+2026-03-22 22:44:53: MIP initialized
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Solve MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: MIP warm-start False
+2026-03-22 22:44:53: MIP time Limit of 600.0
+2026-03-22 22:44:53: MIP relative gap 0.005
+2026-03-22 22:44:53: MIP integrality tol 1e-06
+2026-03-22 22:44:53: MIP feasibility tol 1e-09
+2026-03-22 22:44:53: 
+2026-03-22 22:44:53: Solve MIP
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: MIP warm-start False
+2026-03-22 22:44:53: MIP time Limit of 600.0
+2026-03-22 22:44:53: MIP relative gap 0.005
+2026-03-22 22:44:53: MIP integrality tol 1e-06
+2026-03-22 22:44:53: MIP feasibility tol 1e-09
+2026-03-22 22:44:53: -----------------------------------------------
+2026-03-22 22:44:53: MIP warm-start False
+2026-03-22 22:44:53: MIP time Limit of 600.0
+2026-03-22 22:44:53: MIP relative gap 0.005
+2026-03-22 22:44:53: MIP integrality tol 1e-06
+2026-03-22 22:44:53: MIP feasibility tol 1e-09
+2026-03-22 22:45:30: MIP unsatisfied constraints: []
+2026-03-22 22:45:30: 
+Solve Details
+2026-03-22 22:45:30: -----------------------------------------------
+2026-03-22 22:45:30: Problem : MIP
+2026-03-22 22:45:30: Status  : 2
+2026-03-22 22:45:30: Time    : 37 sec
+2026-03-22 22:45:30: Rel. Gap: 0.0 %
+2026-03-22 22:45:30: 
+2026-03-22 22:45:30: Initialize MIP
+2026-03-22 22:45:30: -----------------------------------------------
+2026-03-22 22:45:30: MIP initialized
+2026-03-22 22:45:30: 
+2026-03-22 22:45:30: Solve MIP
+2026-03-22 22:45:30: -----------------------------------------------
+2026-03-22 22:45:30: MIP warm-start False
+2026-03-22 22:45:30: MIP time Limit of 600.0
+2026-03-22 22:45:30: MIP relative gap 0.005
+2026-03-22 22:45:30: MIP integrality tol 1e-06
+2026-03-22 22:45:30: MIP feasibility tol 1e-09
+2026-03-22 22:45:33: MIP unsatisfied constraints: []
+2026-03-22 22:45:33: 
+Solve Details
+2026-03-22 22:45:33: -----------------------------------------------
+2026-03-22 22:45:33: Problem : MIP
+2026-03-22 22:45:33: Status  : 2
+2026-03-22 22:45:33: Time    : 40 sec
+2026-03-22 22:45:33: Rel. Gap: 0.0048760562785548685 %
+2026-03-22 22:45:40: MIP unsatisfied constraints: []
+2026-03-22 22:45:40: 
+Solve Details
+2026-03-22 22:45:40: -----------------------------------------------
+2026-03-22 22:45:40: Problem : MIP
+2026-03-22 22:45:40: Status  : 2
+2026-03-22 22:45:40: Time    : 47 sec
+2026-03-22 22:45:40: Rel. Gap: 0.0 %
+2026-03-22 22:46:44: MIP unsatisfied constraints: []
+2026-03-22 22:46:44: 
+Solve Details
+2026-03-22 22:46:44: -----------------------------------------------
+2026-03-22 22:46:44: Problem : MIP
+2026-03-22 22:46:44: Status  : 2
+2026-03-22 22:46:44: Time    : 111 sec
+2026-03-22 22:46:44: Rel. Gap: 0.0044900261541479915 %
+2026-03-22 22:50:58: MIP unsatisfied constraints: []
+2026-03-22 22:50:58: 
+Solve Details
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: Problem : MIP
+2026-03-22 22:50:58: Status  : 2
+2026-03-22 22:50:58: Time    : 327 sec
+2026-03-22 22:50:58: Rel. Gap: 0.004996098955654167 %
+2026-03-22 22:50:58: PHASE 2: PARALLEL PER-BIDDER QUERY FINALIZATION
+2026-03-22 22:50:58: Finalizing queries for Bidder_0
+2026-03-22 22:50:58: Finalizing queries for Bidder_1
+2026-03-22 22:50:58: Finalizing queries for Bidder_2
+2026-03-22 22:50:58: Finalizing queries for Bidder_3
+2026-03-22 22:50:58: Collision detected for Bidder_0 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 22:50:58: Collision detected for Bidder_1 in Marginal Economy -(5). Solving restricted MIP.
+2026-03-22 22:50:58: Collision detected for Bidder_2 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 22:50:58: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: Initialize MIP
+2026-03-22 22:50:58: Collision detected for Bidder_3 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 22:50:58: Initialize MIP
+2026-03-22 22:50:58: Initialize MIP
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: Initialize MIP
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: MIP initialized
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: Solve MIP
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: MIP warm-start False
+2026-03-22 22:50:58: MIP time Limit of 600.0
+2026-03-22 22:50:58: MIP relative gap 0.005
+2026-03-22 22:50:58: MIP integrality tol 1e-06
+2026-03-22 22:50:58: MIP feasibility tol 1e-09
+2026-03-22 22:50:58: MIP initialized
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: Solve MIP
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: MIP warm-start False
+2026-03-22 22:50:58: MIP time Limit of 600.0
+2026-03-22 22:50:58: MIP relative gap 0.005
+2026-03-22 22:50:58: MIP integrality tol 1e-06
+2026-03-22 22:50:58: MIP feasibility tol 1e-09
+2026-03-22 22:50:58: MIP initialized
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: Solve MIP
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: MIP warm-start False
+2026-03-22 22:50:58: MIP time Limit of 600.0
+2026-03-22 22:50:58: MIP relative gap 0.005
+2026-03-22 22:50:58: MIP integrality tol 1e-06
+2026-03-22 22:50:58: MIP feasibility tol 1e-09
+2026-03-22 22:50:58: MIP initialized
+2026-03-22 22:50:58: 
+2026-03-22 22:50:58: Solve MIP
+2026-03-22 22:50:58: -----------------------------------------------
+2026-03-22 22:50:58: MIP warm-start False
+2026-03-22 22:50:58: MIP time Limit of 600.0
+2026-03-22 22:50:58: MIP relative gap 0.005
+2026-03-22 22:50:58: MIP integrality tol 1e-06
+2026-03-22 22:50:58: MIP feasibility tol 1e-09
+2026-03-22 22:51:43: MIP unsatisfied constraints: []
+2026-03-22 22:51:43: 
+Solve Details
+2026-03-22 22:51:43: -----------------------------------------------
+2026-03-22 22:51:43: Problem : MIP
+2026-03-22 22:51:43: Status  : 2
+2026-03-22 22:51:43: Time    : 44 sec
+2026-03-22 22:51:43: Rel. Gap: 0.004803893654809283 %
+2026-03-22 22:51:43: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:51:43: Collision detected for Bidder_1 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 22:51:43: 
+2026-03-22 22:51:43: Initialize MIP
+2026-03-22 22:51:43: -----------------------------------------------
+2026-03-22 22:51:43: MIP initialized
+2026-03-22 22:51:43: 
+2026-03-22 22:51:43: Solve MIP
+2026-03-22 22:51:43: -----------------------------------------------
+2026-03-22 22:51:43: MIP warm-start False
+2026-03-22 22:51:43: MIP time Limit of 600.0
+2026-03-22 22:51:43: MIP relative gap 0.005
+2026-03-22 22:51:43: MIP integrality tol 1e-06
+2026-03-22 22:51:43: MIP feasibility tol 1e-09
+2026-03-22 22:51:51: MIP unsatisfied constraints: []
+2026-03-22 22:51:51: 
+Solve Details
+2026-03-22 22:51:51: -----------------------------------------------
+2026-03-22 22:51:51: Problem : MIP
+2026-03-22 22:51:51: Status  : 2
+2026-03-22 22:51:51: Time    : 53 sec
+2026-03-22 22:51:51: Rel. Gap: 0.00484374512635106 %
+2026-03-22 22:51:51: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:51:51: Collision detected for Bidder_3 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 22:51:51: 
+2026-03-22 22:51:51: Initialize MIP
+2026-03-22 22:51:51: -----------------------------------------------
+2026-03-22 22:51:51: MIP initialized
+2026-03-22 22:51:51: 
+2026-03-22 22:51:51: Solve MIP
+2026-03-22 22:51:51: -----------------------------------------------
+2026-03-22 22:51:51: MIP warm-start False
+2026-03-22 22:51:51: MIP time Limit of 600.0
+2026-03-22 22:51:51: MIP relative gap 0.005
+2026-03-22 22:51:51: MIP integrality tol 1e-06
+2026-03-22 22:51:51: MIP feasibility tol 1e-09
+2026-03-22 22:52:03: MIP unsatisfied constraints: []
+2026-03-22 22:52:03: 
+Solve Details
+2026-03-22 22:52:03: -----------------------------------------------
+2026-03-22 22:52:03: Problem : MIP
+2026-03-22 22:52:03: Status  : 2
+2026-03-22 22:52:03: Time    : 65 sec
+2026-03-22 22:52:03: Rel. Gap: 0.004923757066016084 %
+2026-03-22 22:52:03: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:52:03: Collision detected for Bidder_2 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 22:52:03: 
+2026-03-22 22:52:03: Initialize MIP
+2026-03-22 22:52:03: -----------------------------------------------
+2026-03-22 22:52:03: MIP initialized
+2026-03-22 22:52:03: 
+2026-03-22 22:52:03: Solve MIP
+2026-03-22 22:52:03: -----------------------------------------------
+2026-03-22 22:52:03: MIP warm-start False
+2026-03-22 22:52:03: MIP time Limit of 600.0
+2026-03-22 22:52:03: MIP relative gap 0.005
+2026-03-22 22:52:03: MIP integrality tol 1e-06
+2026-03-22 22:52:03: MIP feasibility tol 1e-09
+2026-03-22 22:52:23: MIP unsatisfied constraints: []
+2026-03-22 22:52:23: 
+Solve Details
+2026-03-22 22:52:23: -----------------------------------------------
+2026-03-22 22:52:23: Problem : MIP
+2026-03-22 22:52:23: Status  : 2
+2026-03-22 22:52:23: Time    : 40 sec
+2026-03-22 22:52:23: Rel. Gap: 0.004999000404338333 %
+2026-03-22 22:52:23: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:52:23: Collision detected for Bidder_1 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 22:52:23: 
+2026-03-22 22:52:23: Initialize MIP
+2026-03-22 22:52:23: -----------------------------------------------
+2026-03-22 22:52:23: MIP initialized
+2026-03-22 22:52:23: 
+2026-03-22 22:52:23: Solve MIP
+2026-03-22 22:52:23: -----------------------------------------------
+2026-03-22 22:52:23: MIP warm-start False
+2026-03-22 22:52:23: MIP time Limit of 600.0
+2026-03-22 22:52:23: MIP relative gap 0.005
+2026-03-22 22:52:23: MIP integrality tol 1e-06
+2026-03-22 22:52:23: MIP feasibility tol 1e-09
+2026-03-22 22:52:36: MIP unsatisfied constraints: []
+2026-03-22 22:52:36: 
+Solve Details
+2026-03-22 22:52:36: -----------------------------------------------
+2026-03-22 22:52:36: Problem : MIP
+2026-03-22 22:52:36: Status  : 2
+2026-03-22 22:52:36: Time    : 98 sec
+2026-03-22 22:52:36: Rel. Gap: 0.003991890595328649 %
+2026-03-22 22:52:36: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:52:36: Collision detected for Bidder_0 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 22:52:36: 
+2026-03-22 22:52:36: Initialize MIP
+2026-03-22 22:52:36: -----------------------------------------------
+2026-03-22 22:52:36: MIP initialized
+2026-03-22 22:52:36: 
+2026-03-22 22:52:36: Solve MIP
+2026-03-22 22:52:36: -----------------------------------------------
+2026-03-22 22:52:36: MIP warm-start False
+2026-03-22 22:52:36: MIP time Limit of 600.0
+2026-03-22 22:52:36: MIP relative gap 0.005
+2026-03-22 22:52:36: MIP integrality tol 1e-06
+2026-03-22 22:52:36: MIP feasibility tol 1e-09
+2026-03-22 22:53:07: MIP unsatisfied constraints: []
+2026-03-22 22:53:07: 
+Solve Details
+2026-03-22 22:53:07: -----------------------------------------------
+2026-03-22 22:53:07: Problem : MIP
+2026-03-22 22:53:07: Status  : 2
+2026-03-22 22:53:07: Time    : 64 sec
+2026-03-22 22:53:07: Rel. Gap: 0.0040667417689990775 %
+2026-03-22 22:53:07: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:53:07: Collision detected for Bidder_2 in Marginal Economy -(5). Solving restricted MIP.
+2026-03-22 22:53:07: 
+2026-03-22 22:53:07: Initialize MIP
+2026-03-22 22:53:07: -----------------------------------------------
+2026-03-22 22:53:07: MIP initialized
+2026-03-22 22:53:07: 
+2026-03-22 22:53:07: Solve MIP
+2026-03-22 22:53:07: -----------------------------------------------
+2026-03-22 22:53:07: MIP warm-start False
+2026-03-22 22:53:07: MIP time Limit of 600.0
+2026-03-22 22:53:07: MIP relative gap 0.005
+2026-03-22 22:53:07: MIP integrality tol 1e-06
+2026-03-22 22:53:07: MIP feasibility tol 1e-09
+2026-03-22 22:53:15: MIP unsatisfied constraints: []
+2026-03-22 22:53:15: 
+Solve Details
+2026-03-22 22:53:15: -----------------------------------------------
+2026-03-22 22:53:15: Problem : MIP
+2026-03-22 22:53:15: Status  : 2
+2026-03-22 22:53:15: Time    : 84 sec
+2026-03-22 22:53:15: Rel. Gap: 0.004473667502054512 %
+2026-03-22 22:53:15: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:53:15: Collision detected for Bidder_3 in Main Economy. Solving restricted MIP.
+2026-03-22 22:53:15: 
+2026-03-22 22:53:15: Initialize MIP
+2026-03-22 22:53:15: -----------------------------------------------
+2026-03-22 22:53:15: MIP initialized
+2026-03-22 22:53:15: 
+2026-03-22 22:53:15: Solve MIP
+2026-03-22 22:53:15: -----------------------------------------------
+2026-03-22 22:53:15: MIP warm-start False
+2026-03-22 22:53:15: MIP time Limit of 600.0
+2026-03-22 22:53:15: MIP relative gap 0.005
+2026-03-22 22:53:15: MIP integrality tol 1e-06
+2026-03-22 22:53:15: MIP feasibility tol 1e-09
+2026-03-22 22:53:22: MIP unsatisfied constraints: []
+2026-03-22 22:53:22: 
+Solve Details
+2026-03-22 22:53:22: -----------------------------------------------
+2026-03-22 22:53:22: Problem : MIP
+2026-03-22 22:53:22: Status  : 2
+2026-03-22 22:53:22: Time    : 46 sec
+2026-03-22 22:53:22: Rel. Gap: 0.004977304405546607 %
+2026-03-22 22:53:22: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:53:22: Collision detected for Bidder_0 in Marginal Economy -(5). Solving restricted MIP.
+2026-03-22 22:53:22: 
+2026-03-22 22:53:22: Initialize MIP
+2026-03-22 22:53:22: -----------------------------------------------
+2026-03-22 22:53:22: MIP initialized
+2026-03-22 22:53:22: 
+2026-03-22 22:53:22: Solve MIP
+2026-03-22 22:53:22: -----------------------------------------------
+2026-03-22 22:53:22: MIP warm-start False
+2026-03-22 22:53:22: MIP time Limit of 600.0
+2026-03-22 22:53:22: MIP relative gap 0.005
+2026-03-22 22:53:22: MIP integrality tol 1e-06
+2026-03-22 22:53:22: MIP feasibility tol 1e-09
+2026-03-22 22:53:39: MIP unsatisfied constraints: []
+2026-03-22 22:53:39: 
+Solve Details
+2026-03-22 22:53:39: -----------------------------------------------
+2026-03-22 22:53:39: Problem : MIP
+2026-03-22 22:53:39: Status  : 2
+2026-03-22 22:53:39: Time    : 77 sec
+2026-03-22 22:53:39: Rel. Gap: 0.004832694157209022 %
+2026-03-22 22:53:39: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:53:39: Collision detected for Bidder_1 in Main Economy. Solving restricted MIP.
+2026-03-22 22:53:39: 
+2026-03-22 22:53:39: Initialize MIP
+2026-03-22 22:53:39: -----------------------------------------------
+2026-03-22 22:53:40: MIP initialized
+2026-03-22 22:53:40: 
+2026-03-22 22:53:40: Solve MIP
+2026-03-22 22:53:40: -----------------------------------------------
+2026-03-22 22:53:40: MIP warm-start False
+2026-03-22 22:53:40: MIP time Limit of 600.0
+2026-03-22 22:53:40: MIP relative gap 0.005
+2026-03-22 22:53:40: MIP integrality tol 1e-06
+2026-03-22 22:53:40: MIP feasibility tol 1e-09
+2026-03-22 22:53:49: MIP unsatisfied constraints: []
+2026-03-22 22:53:49: 
+Solve Details
+2026-03-22 22:53:49: -----------------------------------------------
+2026-03-22 22:53:49: Problem : MIP
+2026-03-22 22:53:49: Status  : 2
+2026-03-22 22:53:49: Time    : 42 sec
+2026-03-22 22:53:49: Rel. Gap: 0.0041247993549216825 %
+2026-03-22 22:53:49: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:53:49: Collision detected for Bidder_2 in Main Economy. Solving restricted MIP.
+2026-03-22 22:53:49: 
+2026-03-22 22:53:49: Initialize MIP
+2026-03-22 22:53:49: -----------------------------------------------
+2026-03-22 22:53:49: MIP initialized
+2026-03-22 22:53:49: 
+2026-03-22 22:53:49: Solve MIP
+2026-03-22 22:53:49: -----------------------------------------------
+2026-03-22 22:53:49: MIP warm-start False
+2026-03-22 22:53:49: MIP time Limit of 600.0
+2026-03-22 22:53:49: MIP relative gap 0.005
+2026-03-22 22:53:49: MIP integrality tol 1e-06
+2026-03-22 22:53:49: MIP feasibility tol 1e-09
+2026-03-22 22:54:27: MIP unsatisfied constraints: []
+2026-03-22 22:54:27: 
+Solve Details
+2026-03-22 22:54:27: -----------------------------------------------
+2026-03-22 22:54:27: Problem : MIP
+2026-03-22 22:54:27: Status  : 2
+2026-03-22 22:54:27: Time    : 65 sec
+2026-03-22 22:54:27: Rel. Gap: 0.004989310989607903 %
+2026-03-22 22:54:27: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 22:54:27: Collision detected for Bidder_0 in Main Economy. Solving restricted MIP.
+2026-03-22 22:54:27: 
+2026-03-22 22:54:27: Initialize MIP
+2026-03-22 22:54:27: -----------------------------------------------
+2026-03-22 22:54:28: MIP initialized
+2026-03-22 22:54:28: 
+2026-03-22 22:54:28: Solve MIP
+2026-03-22 22:54:28: -----------------------------------------------
+2026-03-22 22:54:28: MIP warm-start False
+2026-03-22 22:54:28: MIP time Limit of 600.0
+2026-03-22 22:54:28: MIP relative gap 0.005
+2026-03-22 22:54:28: MIP integrality tol 1e-06
+2026-03-22 22:54:28: MIP feasibility tol 1e-09
+2026-03-22 22:57:43: MIP unsatisfied constraints: []
+2026-03-22 22:57:43: 
+Solve Details
+2026-03-22 22:57:43: -----------------------------------------------
+2026-03-22 22:57:43: Problem : MIP
+2026-03-22 22:57:43: Status  : 2
+2026-03-22 22:57:43: Time    : 268 sec
+2026-03-22 22:57:43: Rel. Gap: 0.0031559634938302175 %
+2026-03-22 22:57:43: ADD BUNDLE to current query profile S for Bidder_3
+2026-03-22 22:57:43: Finalizing queries for Bidder_4
+2026-03-22 22:57:43: Collision detected for Bidder_4 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 22:57:43: 
+2026-03-22 22:57:43: Initialize MIP
+2026-03-22 22:57:43: -----------------------------------------------
+2026-03-22 22:57:44: MIP initialized
+2026-03-22 22:57:44: 
+2026-03-22 22:57:44: Solve MIP
+2026-03-22 22:57:44: -----------------------------------------------
+2026-03-22 22:57:44: MIP warm-start False
+2026-03-22 22:57:44: MIP time Limit of 600.0
+2026-03-22 22:57:44: MIP relative gap 0.005
+2026-03-22 22:57:44: MIP integrality tol 1e-06
+2026-03-22 22:57:44: MIP feasibility tol 1e-09
+2026-03-22 22:57:44: MIP unsatisfied constraints: []
+2026-03-22 22:57:44: 
+Solve Details
+2026-03-22 22:57:44: -----------------------------------------------
+2026-03-22 22:57:44: Problem : MIP
+2026-03-22 22:57:44: Status  : 2
+2026-03-22 22:57:44: Time    : 245 sec
+2026-03-22 22:57:44: Rel. Gap: 0.004482751239198841 %
+2026-03-22 22:57:44: ADD BUNDLE to current query profile S for Bidder_1
+2026-03-22 22:57:44: Finalizing queries for Bidder_5
+2026-03-22 22:57:44: Collision detected for Bidder_5 in Marginal Economy -(2). Solving restricted MIP.
+2026-03-22 22:57:44: 
+2026-03-22 22:57:44: Initialize MIP
+2026-03-22 22:57:44: -----------------------------------------------
+2026-03-22 22:57:44: MIP initialized
+2026-03-22 22:57:44: 
+2026-03-22 22:57:44: Solve MIP
+2026-03-22 22:57:44: -----------------------------------------------
+2026-03-22 22:57:44: MIP warm-start False
+2026-03-22 22:57:44: MIP time Limit of 600.0
+2026-03-22 22:57:44: MIP relative gap 0.005
+2026-03-22 22:57:44: MIP integrality tol 1e-06
+2026-03-22 22:57:44: MIP feasibility tol 1e-09
+2026-03-22 22:58:41: MIP unsatisfied constraints: []
+2026-03-22 22:58:41: 
+Solve Details
+2026-03-22 22:58:41: -----------------------------------------------
+2026-03-22 22:58:41: Problem : MIP
+2026-03-22 22:58:41: Status  : 2
+2026-03-22 22:58:41: Time    : 292 sec
+2026-03-22 22:58:41: Rel. Gap: 0.004277509715148327 %
+2026-03-22 22:58:41: ADD BUNDLE to current query profile S for Bidder_2
+2026-03-22 22:59:46: MIP unsatisfied constraints: []
+2026-03-22 22:59:46: 
+Solve Details
+2026-03-22 22:59:46: -----------------------------------------------
+2026-03-22 22:59:46: Problem : MIP
+2026-03-22 22:59:46: Status  : 2
+2026-03-22 22:59:46: Time    : 122 sec
+2026-03-22 22:59:46: Rel. Gap: 0.004803167361048139 %
+2026-03-22 22:59:46: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 22:59:46: Collision detected for Bidder_4 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 22:59:46: 
+2026-03-22 22:59:46: Initialize MIP
+2026-03-22 22:59:46: -----------------------------------------------
+2026-03-22 22:59:46: MIP initialized
+2026-03-22 22:59:46: 
+2026-03-22 22:59:46: Solve MIP
+2026-03-22 22:59:46: -----------------------------------------------
+2026-03-22 22:59:46: MIP warm-start False
+2026-03-22 22:59:46: MIP time Limit of 600.0
+2026-03-22 22:59:46: MIP relative gap 0.005
+2026-03-22 22:59:46: MIP integrality tol 1e-06
+2026-03-22 22:59:46: MIP feasibility tol 1e-09
+2026-03-22 22:59:58: MIP unsatisfied constraints: []
+2026-03-22 22:59:58: 
+Solve Details
+2026-03-22 22:59:58: -----------------------------------------------
+2026-03-22 22:59:58: Problem : MIP
+2026-03-22 22:59:58: Status  : 2
+2026-03-22 22:59:58: Time    : 134 sec
+2026-03-22 22:59:58: Rel. Gap: 0.004994500500113369 %
+2026-03-22 22:59:58: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 22:59:58: Collision detected for Bidder_5 in Marginal Economy -(0). Solving restricted MIP.
+2026-03-22 22:59:58: 
+2026-03-22 22:59:58: Initialize MIP
+2026-03-22 22:59:58: -----------------------------------------------
+2026-03-22 22:59:58: MIP initialized
+2026-03-22 22:59:58: 
+2026-03-22 22:59:58: Solve MIP
+2026-03-22 22:59:58: -----------------------------------------------
+2026-03-22 22:59:58: MIP warm-start False
+2026-03-22 22:59:58: MIP time Limit of 600.0
+2026-03-22 22:59:58: MIP relative gap 0.005
+2026-03-22 22:59:58: MIP integrality tol 1e-06
+2026-03-22 22:59:58: MIP feasibility tol 1e-09
+2026-03-22 23:00:47: MIP unsatisfied constraints: []
+2026-03-22 23:00:47: 
+Solve Details
+2026-03-22 23:00:47: -----------------------------------------------
+2026-03-22 23:00:47: Problem : MIP
+2026-03-22 23:00:47: Status  : 2
+2026-03-22 23:00:47: Time    : 61 sec
+2026-03-22 23:00:47: Rel. Gap: 0.004373281984729144 %
+2026-03-22 23:00:47: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 23:00:47: Collision detected for Bidder_4 in Marginal Economy -(5). Solving restricted MIP.
+2026-03-22 23:00:47: 
+2026-03-22 23:00:47: Initialize MIP
+2026-03-22 23:00:47: -----------------------------------------------
+2026-03-22 23:00:47: MIP initialized
+2026-03-22 23:00:47: 
+2026-03-22 23:00:47: Solve MIP
+2026-03-22 23:00:47: -----------------------------------------------
+2026-03-22 23:00:47: MIP warm-start False
+2026-03-22 23:00:47: MIP time Limit of 600.0
+2026-03-22 23:00:47: MIP relative gap 0.005
+2026-03-22 23:00:47: MIP integrality tol 1e-06
+2026-03-22 23:00:47: MIP feasibility tol 1e-09
+2026-03-22 23:01:25: MIP unsatisfied constraints: []
+2026-03-22 23:01:25: 
+Solve Details
+2026-03-22 23:01:25: -----------------------------------------------
+2026-03-22 23:01:25: Problem : MIP
+2026-03-22 23:01:25: Status  : 2
+2026-03-22 23:01:25: Time    : 417 sec
+2026-03-22 23:01:25: Rel. Gap: 0.004765522305207288 %
+2026-03-22 23:01:25: ADD BUNDLE to current query profile S for Bidder_0
+2026-03-22 23:01:54: MIP unsatisfied constraints: []
+2026-03-22 23:01:54: 
+Solve Details
+2026-03-22 23:01:54: -----------------------------------------------
+2026-03-22 23:01:54: Problem : MIP
+2026-03-22 23:01:54: Status  : 2
+2026-03-22 23:01:54: Time    : 116 sec
+2026-03-22 23:01:54: Rel. Gap: 0.004828949427805601 %
+2026-03-22 23:01:54: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 23:01:54: Collision detected for Bidder_5 in Marginal Economy -(4). Solving restricted MIP.
+2026-03-22 23:01:54: 
+2026-03-22 23:01:54: Initialize MIP
+2026-03-22 23:01:54: -----------------------------------------------
+2026-03-22 23:01:54: MIP initialized
+2026-03-22 23:01:54: 
+2026-03-22 23:01:54: Solve MIP
+2026-03-22 23:01:54: -----------------------------------------------
+2026-03-22 23:01:54: MIP warm-start False
+2026-03-22 23:01:54: MIP time Limit of 600.0
+2026-03-22 23:01:54: MIP relative gap 0.005
+2026-03-22 23:01:54: MIP integrality tol 1e-06
+2026-03-22 23:01:54: MIP feasibility tol 1e-09
+2026-03-22 23:02:03: MIP unsatisfied constraints: []
+2026-03-22 23:02:03: 
+Solve Details
+2026-03-22 23:02:03: -----------------------------------------------
+2026-03-22 23:02:03: Problem : MIP
+2026-03-22 23:02:03: Status  : 2
+2026-03-22 23:02:03: Time    : 76 sec
+2026-03-22 23:02:03: Rel. Gap: 0.004934940693625814 %
+2026-03-22 23:02:03: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 23:02:03: Collision detected for Bidder_4 in Main Economy. Solving restricted MIP.
+2026-03-22 23:02:03: 
+2026-03-22 23:02:03: Initialize MIP
+2026-03-22 23:02:03: -----------------------------------------------
+2026-03-22 23:02:03: MIP initialized
+2026-03-22 23:02:03: 
+2026-03-22 23:02:03: Solve MIP
+2026-03-22 23:02:03: -----------------------------------------------
+2026-03-22 23:02:03: MIP warm-start False
+2026-03-22 23:02:03: MIP time Limit of 600.0
+2026-03-22 23:02:03: MIP relative gap 0.005
+2026-03-22 23:02:03: MIP integrality tol 1e-06
+2026-03-22 23:02:03: MIP feasibility tol 1e-09
+2026-03-22 23:02:47: MIP unsatisfied constraints: []
+2026-03-22 23:02:47: 
+Solve Details
+2026-03-22 23:02:47: -----------------------------------------------
+2026-03-22 23:02:47: Problem : MIP
+2026-03-22 23:02:47: Status  : 2
+2026-03-22 23:02:47: Time    : 53 sec
+2026-03-22 23:02:47: Rel. Gap: 0.004364097833898422 %
+2026-03-22 23:02:47: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 23:02:47: Collision detected for Bidder_5 in Main Economy. Solving restricted MIP.
+2026-03-22 23:02:47: 
+2026-03-22 23:02:47: Initialize MIP
+2026-03-22 23:02:47: -----------------------------------------------
+2026-03-22 23:02:47: MIP initialized
+2026-03-22 23:02:47: 
+2026-03-22 23:02:47: Solve MIP
+2026-03-22 23:02:47: -----------------------------------------------
+2026-03-22 23:02:47: MIP warm-start False
+2026-03-22 23:02:47: MIP time Limit of 600.0
+2026-03-22 23:02:47: MIP relative gap 0.005
+2026-03-22 23:02:47: MIP integrality tol 1e-06
+2026-03-22 23:02:47: MIP feasibility tol 1e-09
+2026-03-22 23:05:59: MIP unsatisfied constraints: []
+2026-03-22 23:05:59: 
+Solve Details
+2026-03-22 23:05:59: -----------------------------------------------
+2026-03-22 23:05:59: Problem : MIP
+2026-03-22 23:05:59: Status  : 2
+2026-03-22 23:05:59: Time    : 236 sec
+2026-03-22 23:05:59: Rel. Gap: 0.003908224421701218 %
+2026-03-22 23:05:59: ADD BUNDLE to current query profile S for Bidder_4
+2026-03-22 23:12:28: MIP unsatisfied constraints: []
+2026-03-22 23:12:28: 
+Solve Details
+2026-03-22 23:12:28: -----------------------------------------------
+2026-03-22 23:12:28: Problem : MIP
+2026-03-22 23:12:28: Status  : 2
+2026-03-22 23:12:28: Time    : 581 sec
+2026-03-22 23:12:28: Rel. Gap: 0.004977191210931847 %
+2026-03-22 23:12:28: ADD BUNDLE to current query profile S for Bidder_5
+2026-03-22 23:12:28: Current query profile for Bidder_0:
+2026-03-22 23:12:28: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1]
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: Current query profile for Bidder_1:
+2026-03-22 23:12:28: [1 0 1 0 0 0 0 1 1 1 0 0 1 1 1 1 0 0]
+2026-03-22 23:12:28: [0 0 1 0 0 0 1 1 1 1 0 0 1 1 1 1 0 0]
+2026-03-22 23:12:28: [0 0 1 0 0 0 0 1 1 1 0 0 1 1 1 0 0 0]
+2026-03-22 23:12:28: [0 0 1 0 0 0 0 1 1 0 0 0 1 1 1 1 0 0]
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: Current query profile for Bidder_2:
+2026-03-22 23:12:28: [0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0]
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: Current query profile for Bidder_3:
+2026-03-22 23:12:28: [0 0 0 1 1 1 0 0 0 0 1 1 0 0 0 0 1 1]
+2026-03-22 23:12:28: [0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0 1 1]
+2026-03-22 23:12:28: [0 1 0 1 1 1 0 0 0 0 1 1 0 0 0 0 1 1]
+2026-03-22 23:12:28: [0 0 0 1 1 1 0 0 0 0 1 1 0 0 0 1 1 0]
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: Current query profile for Bidder_4:
+2026-03-22 23:12:28: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0]
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: Current query profile for Bidder_5:
+2026-03-22 23:12:28: [1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0]
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: UPDATE ELICITED BIDS: S -> R for Bidder_0
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: CHECK Uniqueness of updated elicited bids:
+2026-03-22 23:12:28: UNIQUE
+
+2026-03-22 23:12:28: UPDATE ELICITED BIDS: S -> R for Bidder_1
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: CHECK Uniqueness of updated elicited bids:
+2026-03-22 23:12:28: UNIQUE
+
+2026-03-22 23:12:28: UPDATE ELICITED BIDS: S -> R for Bidder_2
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: CHECK Uniqueness of updated elicited bids:
+2026-03-22 23:12:28: UNIQUE
+
+2026-03-22 23:12:28: UPDATE ELICITED BIDS: S -> R for Bidder_3
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: CHECK Uniqueness of updated elicited bids:
+2026-03-22 23:12:28: UNIQUE
+
+2026-03-22 23:12:28: UPDATE ELICITED BIDS: S -> R for Bidder_4
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: CHECK Uniqueness of updated elicited bids:
+2026-03-22 23:12:28: UNIQUE
+
+2026-03-22 23:12:28: UPDATE ELICITED BIDS: S -> R for Bidder_5
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: CHECK Uniqueness of updated elicited bids:
+2026-03-22 23:12:28: UNIQUE
+
+2026-03-22 23:12:28: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-22 23:12:28: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-22 23:12:28: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-22 23:12:28: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 23:12:28: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 23:12:28: EARLY STOPPING - 100% efficiency reached.
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: CALCULATE ALLOCATION
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: RESET: Allocations and SCWs
+
+2026-03-22 23:12:28: Calculate MLCA allocation: Main Economy
+2026-03-22 23:12:28: JAVA LIBRARY PATH: /opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux
+2026-03-22 23:12:28: PYTHON LD_LIBRARY_PATH: :/opt/gurobi1301/linux64/lib:/opt/gurobi1301/linux64/lib
+2026-03-22 23:12:28: PYTHON PATH: /home/janeet/.pyenv/versions/3.10.14/bin:/home/janeet/.pyenv/libexec:/home/janeet/.pyenv/plugins/python-build/bin:/home/janeet/.pyenv/plugins/pyenv-virtualenv/bin:/home/janeet/.pyenv/plugins/pyenv-update/bin:/home/janeet/.pyenv/plugins/pyenv-doctor/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.pyenv/shims:/home/janeet/.pyenv/bin:/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux/:/home/janeet/.sdkman/candidates/java/current/bin:/home/janeet/.pyenv/bin:/home/janeet/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/gurobi1301/linux64/bin:/opt/gurobi1301/linux64/bin
+2026-03-22 23:12:28: Failed to explicitly load cplex2212: JVM exception occurred: no cplex2212 in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 23:12:28: Failed to explicitly load cplex: JVM exception occurred: no cplex in java.library.path: [/opt/ibm/ILOG/CPLEX_Studio_Community2212/cplex/bin/x86-64_linux] java.lang.UnsatisfiedLinkError
+2026-03-22 23:12:28: 
+2026-03-22 23:12:28: CALCULATE PAYMENTS
+2026-03-22 23:12:28: ---------------------------------------------
+2026-03-22 23:12:28: Solving 6 economies in parallel
+2026-03-22 23:12:28: Calculate MLCA allocation: Marginal Economy -(0)
+2026-03-22 23:12:28: Calculate MLCA allocation: Marginal Economy -(1)
+2026-03-22 23:12:28: Calculate MLCA allocation: Marginal Economy -(2)
+2026-03-22 23:12:28: Calculate MLCA allocation: Marginal Economy -(3)
+2026-03-22 23:12:28: Calculate MLCA allocation: Marginal Economy -(4)
+2026-03-22 23:12:28: Calculate MLCA allocation: Marginal Economy -(5)
+2026-03-22 23:12:28: Payment Bidder_0: 567.8526075234881 - 567.852607523488  =  0.0
+2026-03-22 23:12:28: Payment Bidder_1: 497.66568445825436 - 259.2642128744251  =  238.4
+2026-03-22 23:12:28: Payment Bidder_2: 567.8526075234881 - 567.852607523488  =  0.0
+2026-03-22 23:12:28: Payment Bidder_3: 452.75610351562494 - 358.3774949238026  =  94.38
+2026-03-22 23:12:28: Payment Bidder_4: 567.8526075234881 - 567.852607523488  =  0.0
+2026-03-22 23:12:28: Payment Bidder_5: 549.2118391937936 - 518.0635072487485  =  31.15
+2026-03-22 23:12:28: Revenue: 363.92999999999995 | 64.08881374819553% of SCW in efficient allocation
+
+2026-03-22 23:12:28: SUMMARY
+2026-03-22 23:12:28: -----------------------------------------------
+2026-03-22 23:12:28: Seed Auction Instance: 9447
+2026-03-22 23:12:28: Iteration of MLCA: 3
+2026-03-22 23:12:28: Number of Elicited Bids:
+2026-03-22 23:12:28: Bidder_0: 52
+2026-03-22 23:12:28: Bidder_1: 52
+2026-03-22 23:12:28: Bidder_2: 52
+2026-03-22 23:12:28: Bidder_3: 52
+2026-03-22 23:12:28: Bidder_4: 52
+2026-03-22 23:12:28: Bidder_5: 52
+2026-03-22 23:12:28: Qinit: 40 | Qround: 4 | Qmax: 100
+2026-03-22 23:12:28: EFFICIENCY: 100.0 %
+2026-03-22 23:12:28: TOTAL TIME ELAPSED: 0d 1h:21m:11s
+2026-03-22 23:12:28: MIP TIME: 0d 3h:2m:54s (225.0%) | ML TRAIN TIME: 0d 0h:9m:52s (12.0%) | OTHER TIME: 0d -1h:9m:-36s (-137.0%)
+2026-03-22 23:12:28: NORMAL OPTIMIZATIONS: 15/ BIDDER SPECIFIC MIP: 58
+2026-03-22 23:12:28: TOTAL LP VARIABLES: 63000 | TOTAL LP CONSTRAINTS: 73633
+2026-03-22 23:12:28: MIP avg REL.GAP: 0.00422444455134893 | MIP HIT TIME LIMIT: 0/73
+2026-03-22 23:12:28: MLCA FINISHED

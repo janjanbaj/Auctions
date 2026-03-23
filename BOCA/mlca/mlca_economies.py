@@ -263,6 +263,9 @@ class MLCA_Economies:
         self.balanced_global_marginals = balanced_global_marginals
         self.parallelize_training = parallelize_training
 
+        self.total_lp_vars = 0
+        self.total_lp_constrs = 0
+
         self.start_time = start_time
         self.end_time = None
 
@@ -453,6 +456,8 @@ class MLCA_Economies:
             "Elapsed Times of MIPs": self.elapsed_time_mip,
             "Optimizations": self.number_of_optimization,
             "mip_statistics": self.mip_logs,
+            "total_vars": self.total_lp_vars,
+            "total_constrs": self.total_lp_constrs,
         }
 
         save_dict["MLCA Sampled Marginals per Iteration"] = (
@@ -525,6 +530,9 @@ class MLCA_Economies:
                 logging.warning(
                     f"NORMAL OPTIMIZATIONS: {self.number_of_optimization['normal']}/ BIDDER SPECIFIC MIP: {self.number_of_optimization['bidder_specific_MIP']}"
                 )
+            logging.warning(
+                f"TOTAL LP VARIABLES: {self.total_lp_vars} | TOTAL LP CONSTRAINTS: {self.total_lp_constrs}"
+            )
             logging.warning(
                 f"MIP avg REL.GAP: {np.mean(self.mip_logs['rel. gap'])} | MIP HIT TIME LIMIT: {int(sum(self.mip_logs['hit_limit']))}/{len(self.mip_logs['hit_limit'])}"
             )
@@ -2241,6 +2249,8 @@ class MLCA_Economies:
                     "soltime": MIP.soltime,
                     "warm_start_sol": sol,
                     "log": log,
+                    "num_vars": MIP.Mip.NumVars,
+                    "num_constrs": MIP.Mip.NumConstrs,
                     "error": None,
                 }
 
@@ -2277,6 +2287,9 @@ class MLCA_Economies:
                 b += 1
 
         self.warm_start_sol[economy_key] = result["warm_start_sol"]
+        self.total_lp_vars += result.get("num_vars", 0)
+        self.total_lp_constrs += result.get("num_constrs", 0)
+
         for key, value in result["log"].items():
             self.mip_logs[key].append(value)
         self.elapsed_time_mip[economy_key].append(result["soltime"])
@@ -2372,6 +2385,7 @@ class MLCA_Economies:
             self.mlca_efficiency_marginals[economy] = (
                 objective / self.SATS_auction_instance_scw
             )
+        return allocation, objective
 
     def solve_WDP(self, elicited_bids, verbose=0):
         """
@@ -2390,6 +2404,9 @@ class MLCA_Economies:
         wdp = MLCA_WDP(elicited_bundle_value_pairs)
         wdp.initialize_mip(verbose=0)
         wdp.solve_mip(verbose)
+
+        self.total_lp_vars += wdp.Mip.NumVars
+        self.total_lp_constrs += wdp.Mip.NumConstrs
 
         objective = wdp.Mip.ObjVal
         allocation = format_solution_mip_new(

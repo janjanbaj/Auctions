@@ -6,7 +6,6 @@
     "Qround": 4, 
     "separate_economy_training": false, 
     "new_query_option": "restricted_MIP", 
-    "acquisition": "uUB_model", 
     "balanced_global_marginals": true, 
     "parallelize_training": true, 
     "local_scaling_factor": 1.0, 
@@ -946,5 +945,6 @@
     ], 
     "calc_efficiency_per_iteration": true, 
     "isLegacy": false, 
-    "res_path": "/home/janeet/Code/Auctions/BOCA/results/LSVM/0.9/75858/uUB_model"
+    "res_path": "/home/janeet/Code/Auctions/BOCA/results/LSVM/0.9/75858/uUB_model", 
+    "acquisition": "uUB_model"
 }

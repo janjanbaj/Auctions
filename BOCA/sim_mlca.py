@@ -74,8 +74,8 @@ def main(domain: str, q: float, seed: int, acquisition: str):
 
     # 5. SET BOCA PARAMETERS:
     Qinit = 40  # number of initial queries sampled uniformly at random
-    Qmax = 100  # number of queries asked in total (i.e., query budget)
-    Qround = 4  # number of queries asked in each MLCA round (Qround-1 marginal economy queries and 1 main economy query)
+    Qmax = 100  # number of queries asked in total (i.e., query budget)    Qround = 4  # number of queries asked in each MLCA round (Qround-1 marginal economy queries and 1 main economy query)
+    Qround = 4
     separate_economy_training = (
         False  # MVNNs trained seperately for each economy (default=True)
     )

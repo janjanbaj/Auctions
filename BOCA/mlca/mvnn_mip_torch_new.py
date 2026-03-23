@@ -35,6 +35,8 @@ class MVNN_MIP_TORCH_NEW:
         self.sorted_bidders.sort()
         self.N = len(models)  # number of bidders
         self.Mip = gp.Model(name="MVNN_MIP_NEW")  # docplex instance
+        self.Mip.setParam("OutputFlag", 0)  # Suppress Gurobi output
+        self.Mip.setParam("LogFile", "")  # Suppress Gurobi log file
         self.Mip.setParam("Threads", 1)  # Set Threads to 1 for better parallelization
 
         self.z = {}  # continous MIP variable
@@ -102,7 +104,7 @@ class MVNN_MIP_TORCH_NEW:
                   feasibility_tol=None,
                   mip_start=None):
         # add a warm start
-        self.Mip.Params.LogToConsole = 1 if log_output else 0
+        self.Mip.Params.OutputFlag = 1 if log_output else 0
         if mip_start is not None:
             for v in self.Mip.getVars():
                 if v.VarName in mip_start:

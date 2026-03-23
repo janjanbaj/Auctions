@@ -21,7 +21,6 @@ print("Script started.")
 
 # Loop through each command and execute it
 for command in tqdm(commands):
-    print(command)
     command = command.split(" ")
     try:
         # subprocess.run waits for the command to finish.

@@ -38,6 +38,8 @@ class MLCA_WDP:
         self.N = len(bids)  # number of bidders
         self.M = bids[0].shape[1] - 1  # number of items
         self.Mip = gp.Model(name="WDP")  # gurobi model
+        self.Mip.setParam("OutputFlag", 0)  # Suppress Gurobi output
+        self.Mip.setParam("LogFile", "")  # Suppress Gurobi log file
         self.Mip.setParam("Threads", 1)  # Set Threads to 1 for better parallelization
         self.K = [x.shape[0] for x in bids]  # number of elicited bids per bidder
         self.z = {}  # decision variables. z(i,k) = 1 <=> bidder i gets the kth bundle out of 1,...,K[i] from his set of bundle-value pairs
