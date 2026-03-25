@@ -37,8 +37,6 @@ def main(domain: str, q: float, seed: int, acquisition: str):
         return
 
     os.makedirs(res_path, exist_ok=True)
-    print(f"{res_path} NOT COMPLETE!")
-    return 
 
     print("First steps")
     # --------------------------------------
