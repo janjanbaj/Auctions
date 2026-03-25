@@ -32,7 +32,7 @@ def main(domain: str, q: float, seed: int, acquisition: str):
     res_path = os.path.join(
         os.getcwd(), "results", domain, str(q), str(seed), acquisition
     )
-    if os.path.exists(res_path + "/result.json"):
+    if os.path.exists(res_path + "/results.json"):
         print(f"{res_path} COMPLETED!")
         return
 
