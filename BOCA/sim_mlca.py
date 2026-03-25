@@ -32,8 +32,14 @@ def main(domain: str, q: float, seed: int, acquisition: str):
     res_path = os.path.join(
         os.getcwd(), "results", domain, str(q), str(seed), acquisition
     )
+    if os.path.exists(res_path + "/result.json"):
+        print(f"{res_path} COMPLETED!")
+        return
 
-    os.makedirs(res_path, exist_ok=False)
+    os.makedirs(res_path, exist_ok=True)
+    print(f"{res_path} NOT COMPLETE!")
+    return 
+
     print("First steps")
     # --------------------------------------
 

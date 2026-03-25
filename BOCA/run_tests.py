@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 seeds = []
 with open("../RNG-SEEDS.txt", "r") as file:
-    seeds = list(map(int, file.read().split()))[0:10]
+    seeds = list(map(int, file.read().split()))[10:20]
 # Define the list of commands
 
 commands = [
@@ -19,8 +19,11 @@ commands = [
 
 print("Script started.")
 
+pbar = tqdm(commands[0:30])
+            
 # Loop through each command and execute it
 for command in tqdm(commands):
+    pbar.set_description(command)
     command = command.split(" ")
     try:
         # subprocess.run waits for the command to finish.
